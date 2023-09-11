@@ -1,0 +1,41 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.005.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <ns:GetTx>
+        
+  <!--(ns:MsgId , ns:CreDtTm? , ns:ReqTp)-->
+        
+  <ns:MsgHdr>
+   <ns:MsgId>9nJaGwYf5Fz2vDBUduoMGg6iaJaJLSrUssY</ns:MsgId>
+   <ns:ReqTp>
+    <ns:Prtry>
+     <ns:Id>ICSC</ns:Id>
+    </ns:Prtry>
+   </ns:ReqTp>
+  </ns:MsgHdr>
+  <ns:TxQryDef>
+   <ns:TxCrit>
+    <ns:NewCrit>
+                    
+     <!--(ns:PmtTo* , ns:PmtFr* , ns:PmtSch?)-->
+                    
+     <ns:SchCrit>
+      <ns:PmtFr>
+       <ns:MmbId>
+                                
+        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                
+        <ns:FinInstnId>
+         <ns:ClrSysMmbId>
+          <ns:ClrSysId>
+           <ns:Cd>KRBOK</ns:Cd>
+          </ns:ClrSysId>
+          <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+         </ns:ClrSysMmbId>
+        </ns:FinInstnId>
+       </ns:MmbId>
+      </ns:PmtFr>
+     </ns:SchCrit>
+    </ns:NewCrit>
+   </ns:TxCrit>
+  </ns:TxQryDef>
+ </ns:GetTx>
+</ns:Document>

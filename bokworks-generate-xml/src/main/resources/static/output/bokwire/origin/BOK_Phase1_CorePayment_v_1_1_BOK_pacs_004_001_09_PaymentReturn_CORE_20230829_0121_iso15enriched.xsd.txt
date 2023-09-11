@@ -1,0 +1,144 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.004.001.09" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:PmtRtr>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:NbOfTxs>1</ns:NbOfTxs>
+            <ns:SttlmInf>
+                <ns:SttlmMtd>CLRG</ns:SttlmMtd>
+                <ns:ClrSys>
+                    <ns:Cd>BOK</ns:Cd>
+                </ns:ClrSys>
+            </ns:SttlmInf>
+        </ns:GrpHdr>
+              
+        <!--(ns:RtrId , ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId? , ns:OrgnlTxId? , ns:OrgnlUETR , ns:OrgnlClrSysRef , ns:RtrdIntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:SttlmPrty , ns:SttlmTmIndctn? , ns:RtrdInstdAmt? , ns:XchgRate? , ns:ChrgBr? , ns:ChrgsInf* , ns:ClrSysRef? , ns:InstgAgt , ns:InstdAgt , ns:RtrChain , ns:RtrRsnInf , ns:OrgnlTxRef?)-->
+              
+        <ns:TxInf>
+            <ns:RtrId>00000000000000000000000000000000000</ns:RtrId>
+                     
+            <!--(ns:OrgnlMsgId , ns:OrgnlMsgNmId , ns:OrgnlCreDtTm?)-->
+                     
+            <ns:OrgnlGrpInf>
+                <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+                <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
+            </ns:OrgnlGrpInf>
+            <ns:OrgnlUETR>35da9578-1286-416d-86c6-66327c61fcc8</ns:OrgnlUETR>
+            <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
+            <ns:RtrdIntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:RtrdIntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:SttlmPrty>HIGH</ns:SttlmPrty>
+            <ns:InstgAgt>
+                            
+                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:InstgAgt>
+            <ns:InstdAgt>
+                            
+                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:InstdAgt>
+                     
+            <!--(ns:UltmtDbtr? , ns:Dbtr , ns:InitgPty? , ns:DbtrAgt? , ns:CdtrAgt? , ns:Cdtr , ns:UltmtCdtr?)-->
+                     
+            <ns:RtrChain>
+                            
+                <!--(ns:Pty | ns:Agt)-->
+                            
+                <ns:Dbtr>
+                                   
+                    <!--(ns:Nm , ns:PstlAdr , ns:Id? , ns:CtryOfRes?)-->
+                                   
+                    <ns:Pty>
+                        <ns:Nm>000000000000000000000000000000</ns:Nm>
+                                          
+                        <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:PstBx? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:Ctry , ns:AdrLine[0,3])-->
+                                          
+                        <ns:PstlAdr>
+                            <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                            <ns:Ctry>LM</ns:Ctry>
+                        </ns:PstlAdr>
+                    </ns:Pty>
+                    <ns:Agt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>KRBOK</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                        </ns:FinInstnId>
+                        <ns:BrnchId>
+                            <ns:Id>00000000000000000000000000000000000</ns:Id>
+                            <ns:Nm>000000000000000000000000000000</ns:Nm>
+                        </ns:BrnchId>
+                    </ns:Agt>
+                </ns:Dbtr>
+                            
+                <!--(ns:Pty | ns:Agt)-->
+                            
+                <ns:Cdtr>
+                                   
+                    <!--(ns:Nm , ns:PstlAdr , ns:Id? , ns:CtryOfRes?)-->
+                                   
+                    <ns:Pty>
+                        <ns:Nm>000000000000000000000000000000</ns:Nm>
+                                          
+                        <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:PstBx? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:Ctry , ns:AdrLine[0,3])-->
+                                          
+                        <ns:PstlAdr>
+                            <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                            <ns:Ctry>ZL</ns:Ctry>
+                            <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
+                        </ns:PstlAdr>
+                    </ns:Pty>
+                    <ns:Agt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>KRBOK</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                        </ns:FinInstnId>
+                        <ns:BrnchId>
+                            <ns:Id>00000000000000000000000000000000000</ns:Id>
+                            <ns:Nm>000000000000000000000000000000</ns:Nm>
+                        </ns:BrnchId>
+                    </ns:Agt>
+                </ns:Cdtr>
+            </ns:RtrChain>
+                     
+            <!--(ns:Orgtr? , ns:Rsn , ns:AddtlInf)-->
+                     
+            <ns:RtrRsnInf>
+                <ns:Rsn>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:Rsn>
+                <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
+            </ns:RtrRsnInf>
+        </ns:TxInf>
+    </ns:PmtRtr>
+</ns:Document>

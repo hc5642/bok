@@ -1,0 +1,53 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.007.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:ModfyTx>
+              
+        <!--(ns:MsgId , ns:CreDtTm?)-->
+              
+        <ns:MsgHdr>
+            <ns:MsgId>wCNuidcrHsSL87TRrK452j2nlCtnRAMxiJM</ns:MsgId>
+        </ns:MsgHdr>
+        <ns:Mod>
+            <ns:PmtId>
+                            
+                <!--(ns:TxId? , ns:UETR , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt)-->
+                            
+                <ns:LngBizId>
+                    <ns:UETR>447bf308-1beb-4545-ae2a-477011edfde9</ns:UETR>
+                    <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
+                    <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+                    <ns:InstgAgt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>KRBOK</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                        </ns:FinInstnId>
+                    </ns:InstgAgt>
+                    <ns:InstdAgt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>KRBOK</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                        </ns:FinInstnId>
+                    </ns:InstdAgt>
+                </ns:LngBizId>
+            </ns:PmtId>
+            <ns:NewPmtValSet>
+                <ns:Prty>
+                    <ns:Prtry>WgAdlfNaZkC2hffpr2rgQqeWEpnYy5i3GFX</ns:Prtry>
+                </ns:Prty>
+            </ns:NewPmtValSet>
+        </ns:Mod>
+    </ns:ModfyTx>
+</ns:Document>

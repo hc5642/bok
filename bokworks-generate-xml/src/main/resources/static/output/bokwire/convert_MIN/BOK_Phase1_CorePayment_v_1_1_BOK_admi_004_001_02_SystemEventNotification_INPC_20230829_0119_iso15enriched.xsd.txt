@@ -1,0 +1,38 @@
+<ns:AppHdr xmlns:ns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:Fr>
+        <ns:FIId>
+            <ns:FinInstnId>
+                <ns:ClrSysMmbId>
+                    <ns:ClrSysId>
+                        <ns:Cd>KRBOK</ns:Cd>
+                    </ns:ClrSysId>
+                    <ns:MmbId>1016</ns:MmbId>
+                </ns:ClrSysMmbId>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:Fr>
+    <ns:To>
+        <ns:FIId>
+            <ns:FinInstnId>
+                <ns:ClrSysMmbId>
+                    <ns:ClrSysId>
+                        <ns:Cd>KRBOK</ns:Cd>
+                    </ns:ClrSysId>
+                    <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
+                </ns:ClrSysMmbId>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:To>
+    <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
+    <ns:MsgDefIdr>admi.004.001.02</ns:MsgDefIdr>
+    <ns:BizSvc>bok.rtgs.01</ns:BizSvc>
+    <ns:CreDt>2023-09-11T14:42:22</ns:CreDt>
+</ns:AppHdr>
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:SysEvtNtfctn>
+        <ns:EvtInf>
+            <ns:EvtCd>INPC</ns:EvtCd>
+            <ns:EvtParam>00000000000000000000000000000000000</ns:EvtParam>
+        </ns:EvtInf>
+    </ns:SysEvtNtfctn>
+</ns:Document>

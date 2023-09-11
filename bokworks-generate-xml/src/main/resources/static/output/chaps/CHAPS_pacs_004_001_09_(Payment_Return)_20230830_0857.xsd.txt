@@ -1,0 +1,95 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.004.001.09" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:PmtRtr>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+            <ns:NbOfTxs>1</ns:NbOfTxs>
+            <ns:SttlmInf>
+                <ns:SttlmMtd>CLRG</ns:SttlmMtd>
+                <ns:ClrSys>
+                    <ns:Cd>STG</ns:Cd>
+                </ns:ClrSys>
+            </ns:SttlmInf>
+        </ns:GrpHdr>
+              
+        <!--(ns:RtrId , ns:OrgnlGrpInf? , ns:OrgnlInstrId? , ns:OrgnlEndToEndId , ns:OrgnlTxId? , ns:OrgnlUETR , ns:OrgnlIntrBkSttlmAmt? , ns:OrgnlIntrBkSttlmDt? , ns:RtrdIntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:SttlmPrty? , ns:RtrdInstdAmt? , ns:XchgRate? , ns:ChrgBr , ns:ChrgsInf* , ns:InstgAgt , ns:InstdAgt , ns:RtrChain , ns:RtrRsnInf , ns:OrgnlTxRef?)-->
+              
+        <ns:TxInf>
+            <ns:RtrId>0000000000000000</ns:RtrId>
+            <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
+            <ns:OrgnlUETR>b8f365c6-d495-4c1c-8666-d1e8cdc713c8</ns:OrgnlUETR>
+            <ns:RtrdIntrBkSttlmAmt Ccy="GBP">1.02167</ns:RtrdIntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:ChrgBr>CRED</ns:ChrgBr>
+            <ns:ChrgsInf>
+                <ns:Amt Ccy="Ccy1">1.01463</ns:Amt>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                                   
+                    <ns:FinInstnId/>
+                </ns:Agt>
+            </ns:ChrgsInf>
+            <ns:InstgAgt>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>JFH3JNAZ(8AG)</ns:BICFI>
+                </ns:FinInstnId>
+            </ns:InstgAgt>
+            <ns:InstdAgt>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>6Q5CLQ1H(HJG)</ns:BICFI>
+                </ns:FinInstnId>
+            </ns:InstdAgt>
+                     
+            <!--(ns:UltmtDbtr? , ns:Dbtr , ns:InitgPty? , ns:DbtrAgt? , ns:PrvsInstgAgt1? , ns:PrvsInstgAgt2? , ns:PrvsInstgAgt3? , ns:IntrmyAgt1? , ns:IntrmyAgt2? , ns:IntrmyAgt3? , ns:CdtrAgt? , ns:Cdtr , ns:UltmtCdtr?)-->
+                     
+            <ns:RtrChain>
+                            
+                <!--((ns:Pty | ns:Agt))-->
+                            
+                <ns:Dbtr>
+                                   
+                    <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                                   
+                    <ns:Pty/>
+                    <ns:Agt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                                          
+                        <ns:FinInstnId/>
+                    </ns:Agt>
+                </ns:Dbtr>
+                            
+                <!--((ns:Pty | ns:Agt))-->
+                            
+                <ns:Cdtr>
+                    <ns:Agt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                                          
+                        <ns:FinInstnId/>
+                    </ns:Agt>
+                                   
+                    <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                                   
+                    <ns:Pty/>
+                </ns:Cdtr>
+            </ns:RtrChain>
+                     
+            <!--(ns:Orgtr? , ns:Rsn , ns:AddtlInf[0,2])-->
+                     
+            <ns:RtrRsnInf>
+                <ns:Rsn>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:Rsn>
+                <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
+            </ns:RtrRsnInf>
+        </ns:TxInf>
+    </ns:PmtRtr>
+</ns:Document>

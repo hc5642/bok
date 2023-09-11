@@ -1,0 +1,26 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrAcctRpt>
+        <ns:GrpHdr>
+            <ns:MsgId>ACTR</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:MsgPgntn>
+                <ns:PgNb>30</ns:PgNb>
+                <ns:LastPgInd>true</ns:LastPgInd>
+            </ns:MsgPgntn>
+        </ns:GrpHdr>
+              
+        <!--(ns:Id , ns:CreDtTm , ns:Acct , ns:TxsSummry? , ns:Ntry*)-->
+              
+        <ns:Rpt>
+            <ns:Id>EDAY</ns:Id>
+            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>071051788</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+            </ns:Acct>
+        </ns:Rpt>
+    </ns:BkToCstmrAcctRpt>
+</ns:Document>

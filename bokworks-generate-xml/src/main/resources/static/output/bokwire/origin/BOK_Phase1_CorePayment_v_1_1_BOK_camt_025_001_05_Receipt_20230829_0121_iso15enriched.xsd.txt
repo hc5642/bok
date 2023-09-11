@@ -1,0 +1,47 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.025.001.05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:Rct>
+              
+        <!--(ns:MsgId , ns:CreDtTm? , ns:ReqTp)-->
+              
+        <ns:MsgHdr>
+            <ns:MsgId>pK3F6aMpbpNNubQlHic7Drgh0YFz06xOcbo</ns:MsgId>
+            <ns:ReqTp>
+                <ns:Prtry>
+                    <ns:Id>uFxgoHxAbQEm4ztympVCKzDfxPXjtPveBZJ</ns:Id>
+                </ns:Prtry>
+            </ns:ReqTp>
+        </ns:MsgHdr>
+        <ns:RctDtls>
+            <ns:OrgnlMsgId>
+                <ns:MsgId>UnkvJf9BYKOFCBPScKspKrFaCR1oEXg0fhA</ns:MsgId>
+                <ns:MsgNmId>sNgq8vLezaT2sW9XYZ9MVelbFWTDGBRTBz0</ns:MsgNmId>
+            </ns:OrgnlMsgId>
+            <ns:OrgnlPmtId>
+                            
+                <!--(ns:TxId? , ns:UETR , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt)-->
+                            
+                <ns:LngBizId>
+                    <ns:UETR>679da989-54b7-4a00-b70b-82e10ef457f5</ns:UETR>
+                    <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
+                    <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+                    <ns:InstgAgt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId/>
+                    </ns:InstgAgt>
+                    <ns:InstdAgt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId/>
+                    </ns:InstdAgt>
+                </ns:LngBizId>
+            </ns:OrgnlPmtId>
+            <ns:ReqHdlg>
+                <ns:StsCd>RJCT</ns:StsCd>
+                <ns:Desc>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Desc>
+            </ns:ReqHdlg>
+        </ns:RctDtls>
+    </ns:Rct>
+</ns:Document>

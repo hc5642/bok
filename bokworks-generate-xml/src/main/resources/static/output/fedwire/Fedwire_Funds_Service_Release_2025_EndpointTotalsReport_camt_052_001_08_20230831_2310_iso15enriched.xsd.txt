@@ -1,0 +1,80 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrAcctRpt>
+              
+        <!--(ns:MsgId , ns:CreDtTm , ns:MsgPgntn , ns:OrgnlBizQry?)-->
+              
+        <ns:GrpHdr>
+            <ns:MsgId>ETOT</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:MsgPgntn>
+                <ns:PgNb>09349</ns:PgNb>
+                <ns:LastPgInd>true</ns:LastPgInd>
+            </ns:MsgPgntn>
+        </ns:GrpHdr>
+        <ns:Rpt>
+            <ns:Id>IDAY</ns:Id>
+            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>00000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+            </ns:Acct>
+                     
+            <!--(ns:TtlCdtNtries , ns:TtlDbtNtries , ns:TtlNtriesPerBkTxCd[5,5])-->
+                     
+            <ns:TxsSummry>
+                <ns:TtlCdtNtries>
+                    <ns:NbOfNtries>80</ns:NbOfNtries>
+                    <ns:Sum>1.3032009233113413E</ns:Sum>
+                </ns:TtlCdtNtries>
+                <ns:TtlDbtNtries>
+                    <ns:NbOfNtries>82</ns:NbOfNtries>
+                    <ns:Sum>7.548719627470469E3</ns:Sum>
+                </ns:TtlDbtNtries>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:NbOfNtries>92064</ns:NbOfNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>INPR</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:NbOfNtries>15949</ns:NbOfNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>RJCT</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:NbOfNtries>657566</ns:NbOfNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>ICPT</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:NbOfNtries>008668270817768</ns:NbOfNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>RCVD</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:NbOfNtries>7914491472467</ns:NbOfNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>SENT</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+            </ns:TxsSummry>
+            <ns:AddtlRptInf>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlRptInf>
+        </ns:Rpt>
+    </ns:BkToCstmrAcctRpt>
+</ns:Document>

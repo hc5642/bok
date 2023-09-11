@@ -1,0 +1,38 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:FIToFIPmtStsRpt>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+        </ns:GrpHdr>
+              
+        <!--(ns:OrgnlGrpInf , ns:OrgnlInstrId , ns:OrgnlEndToEndId , ns:OrgnlUETR , ns:TxSts , ns:StsRsnInf? , ns:FctvIntrBkSttlmDt? , ns:ClrSysRef? , ns:InstgAgt , ns:InstdAgt)-->
+              
+        <ns:TxInfAndSts>
+            <ns:OrgnlGrpInf>
+                <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+                <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
+                <ns:OrgnlCreDtTm>2023-09-11T13:31:48</ns:OrgnlCreDtTm>
+            </ns:OrgnlGrpInf>
+            <ns:OrgnlInstrId>00000000000000000000000000000000000</ns:OrgnlInstrId>
+            <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
+            <ns:OrgnlUETR>e1846ac1-7fe1-4f27-95f5-65ed7923fe27</ns:OrgnlUETR>
+            <ns:TxSts>RJCT</ns:TxSts>
+            <ns:InstgAgt>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>VCVPTHBK(BKL</ns:BICFI>
+                </ns:FinInstnId>
+            </ns:InstgAgt>
+            <ns:InstdAgt>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>WQU2WVY6(DWZ</ns:BICFI>
+                </ns:FinInstnId>
+            </ns:InstdAgt>
+        </ns:TxInfAndSts>
+    </ns:FIToFIPmtStsRpt>
+</ns:Document>

@@ -1,0 +1,89 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:acmt.024.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+       
+    <!--(ns:Assgnmt , ns:Rpt+)-->
+       
+    <ns:IdVrfctnRpt>
+        <ns:Assgnmt>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T14:42:22</ns:CreDtTm>
+            <ns:Assgnr>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Assgnr>
+            <ns:Assgne>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Assgne>
+        </ns:Assgnmt>
+              
+        <!--(ns:OrgnlId , ns:Vrfctn , ns:Rsn? , ns:OrgnlPtyAndAcctId , ns:UpdtdPtyAndAcctId?)-->
+              
+        <ns:Rpt>
+            <ns:OrgnlId>00000000000000000000000000000000000</ns:OrgnlId>
+            <ns:Vrfctn>false</ns:Vrfctn>
+                     
+            <!--(ns:Pty? , ns:Acct , ns:Agt)-->
+                     
+            <ns:OrgnlPtyAndAcctId>
+                            
+                <!--(ns:Id , ns:Tp? , ns:Ccy? , ns:Nm? , ns:Prxy?)-->
+                            
+                <ns:Acct>
+                    <ns:Id>
+                                          
+                        <!--(ns:Id , ns:SchmeNm , ns:Issr?)-->
+                                          
+                        <ns:Othr>
+                            <ns:Id>0000000000000000000000000000000000</ns:Id>
+                                                 
+                            <!--(ns:Cd | ns:Prtry)-->
+                                                 
+                            <ns:SchmeNm>
+                                <ns:Cd>0000</ns:Cd>
+                                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                            </ns:SchmeNm>
+                        </ns:Othr>
+                    </ns:Id>
+                </ns:Acct>
+                            
+                <!--(ns:FinInstnId , ns:BrnchId?)-->
+                            
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:OrgnlPtyAndAcctId>
+        </ns:Rpt>
+    </ns:IdVrfctnRpt>
+</ns:Document>

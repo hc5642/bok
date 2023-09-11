@@ -1,0 +1,56 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.006.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:RtrTx>
+              
+        <!--(ns:MsgId , ns:CreDtTm? , ns:MsgPgntn? , ns:OrgnlBizQry , ns:ReqTp)-->
+              
+        <ns:MsgHdr>
+            <ns:MsgId>MJynGWkUfLRswM2PKCmKYZL0U0MQCHEQlYe</ns:MsgId>
+            <ns:OrgnlBizQry>
+                <ns:MsgId>VsuRC55knnXJf74Am4NKL8jZdBgNvTf5Nhs</ns:MsgId>
+            </ns:OrgnlBizQry>
+            <ns:ReqTp>
+                <ns:Prtry>
+                    <ns:Id>IRPQ</ns:Id>
+                </ns:Prtry>
+            </ns:ReqTp>
+        </ns:MsgHdr>
+        <ns:RptOrErr>
+                     
+            <!--(ns:TxRpt+)-->
+                     
+            <ns:BizRpt>
+                <ns:TxRpt>
+                    <ns:PmtId>
+                        <ns:PrtryId>0000000000000000000000000000000000000000000000000000000000000000000000</ns:PrtryId>
+                    </ns:PmtId>
+                    <ns:TxOrErr>
+                                          
+                        <!--(ns:PmtTo? , ns:PmtFr? , ns:CdtDbtInd? , ns:Pmt)-->
+                                          
+                        <ns:Tx>
+                                                 
+                            <!--(ns:MsgId? , ns:Sts , ns:IntrBkSttlmAmt? , ns:PmtMtd? , ns:TxId? , ns:IntrBkSttlmDt? , ns:EndToEndId?)-->
+                                                 
+                            <ns:Pmt>
+                                                        
+                                <!--(ns:Cd , ns:DtTm , ns:Rsn*)-->
+                                                        
+                                <ns:Sts>
+                                    <ns:Cd>
+                                        <ns:Prtry>tuUssaVZSyD03tvVMiuXjuNTVt9Ct9Yj2uF</ns:Prtry>
+                                    </ns:Cd>
+                                    <ns:DtTm>
+                                        <ns:DtTm>2023-09-11T14:42:23</ns:DtTm>
+                                    </ns:DtTm>
+                                    <ns:Rsn>
+                                        <ns:Prtry>2Yv050YHJnhZCjsyn9WsTf4foecxSbfCEBj</ns:Prtry>
+                                    </ns:Rsn>
+                                </ns:Sts>
+                            </ns:Pmt>
+                        </ns:Tx>
+                    </ns:TxOrErr>
+                </ns:TxRpt>
+            </ns:BizRpt>
+        </ns:RptOrErr>
+    </ns:RtrTx>
+</ns:Document>

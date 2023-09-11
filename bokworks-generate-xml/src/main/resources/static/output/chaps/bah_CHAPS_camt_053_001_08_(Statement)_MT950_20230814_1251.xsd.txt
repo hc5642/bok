@@ -1,0 +1,28 @@
+
+<!--(ns:CharSet? , ns:Fr , ns:To , ns:BizMsgIdr , ns:MsgDefIdr , ns:BizSvc , ns:MktPrctc? , ns:CreDt , ns:CpyDplct? , ns:PssblDplct? , ns:Prty? , ns:Rltd?)-->
+<ns:AppHdr xmlns:ns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:Fr>
+        <ns:FIId>
+                     
+            <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI?)-->
+                     
+            <ns:FinInstnId>
+                <ns:BICFI>NN9XHER9(T38)</ns:BICFI>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:Fr>
+    <ns:To>
+        <ns:FIId>
+                     
+            <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI?)-->
+                     
+            <ns:FinInstnId>
+                <ns:BICFI>PD3WMUH2(MHA)</ns:BICFI>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:To>
+    <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
+    <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
+    <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
+    <ns:CreDt>2023-09-11T13:31:48</ns:CreDt>
+</ns:AppHdr>

@@ -1,0 +1,78 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrStmt>
+        <ns:GrpHdr>
+            <ns:MsgId>ujIgdGjygzDZpbZm0fydNs6rTki6pF3hC6G</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:MsgPgntn>
+                <ns:PgNb>56717</ns:PgNb>
+                <ns:LastPgInd>false</ns:LastPgInd>
+            </ns:MsgPgntn>
+        </ns:GrpHdr>
+              
+        <!--(ns:Id , ns:RptgSrc , ns:Acct , ns:Bal , ns:TxsSummry? , ns:Ntry*)-->
+              
+        <ns:Stmt>
+            <ns:Id>P8SfxolEzZgdjcm7l15sKgVnezlhaYBsjvU</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Tp>
+                    <ns:Prtry>SACC_1062</ns:Prtry>
+                </ns:Tp>
+                <ns:Ccy>FLD</ns:Ccy>
+            </ns:Acct>
+            <ns:Bal>
+                            
+                <!--(ns:CdOrPrtry , ns:SubTp?)-->
+                            
+                <ns:Tp>
+                    <ns:CdOrPrtry>
+                        <ns:Cd>CLBD</ns:Cd>
+                    </ns:CdOrPrtry>
+                </ns:Tp>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                <ns:Dt>
+                    <ns:Dt>2023-09-11</ns:Dt>
+                </ns:Dt>
+            </ns:Bal>
+                     
+            <!--(ns:Amt , ns:CdtDbtInd , ns:Sts , ns:BookgDt , ns:BkTxCd , ns:NtryDtls+ , ns:AddtlNtryInf?)-->
+                     
+            <ns:Ntry>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                <ns:Sts>
+                    <ns:Cd>BOOK</ns:Cd>
+                </ns:Sts>
+                <ns:BookgDt>
+                    <ns:DtTm>2023-09-11T14:42:23</ns:DtTm>
+                </ns:BookgDt>
+                <ns:BkTxCd>
+                    <ns:Prtry>
+                        <ns:Cd>DSR007</ns:Cd>
+                    </ns:Prtry>
+                </ns:BkTxCd>
+                <ns:NtryDtls>
+                    <ns:TxDtls>
+                                          
+                        <!--(ns:MsgId , ns:InstrId? , ns:EndToEndId , ns:UETR , ns:TxId? , ns:ClrSysRef)-->
+                                          
+                        <ns:Refs>
+                            <ns:MsgId>fvV8zGVpxKJnr7HTMRGupy8g952anBbEgGv</ns:MsgId>
+                            <ns:EndToEndId>fifJMxu9jU3VsTfoT8tV24BfBQW5OiMUUM7</ns:EndToEndId>
+                            <ns:UETR>c84314e7-e812-4437-930a-1c849902c0fe</ns:UETR>
+                            <ns:ClrSysRef>lQwX8o192lYIjpK4ZuuIGXSnQKbxPy37ZF5</ns:ClrSysRef>
+                        </ns:Refs>
+                    </ns:TxDtls>
+                </ns:NtryDtls>
+            </ns:Ntry>
+        </ns:Stmt>
+    </ns:BkToCstmrStmt>
+</ns:Document>

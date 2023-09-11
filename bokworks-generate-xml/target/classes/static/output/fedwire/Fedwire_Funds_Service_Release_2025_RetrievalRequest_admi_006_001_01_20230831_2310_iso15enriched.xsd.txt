@@ -1,0 +1,29 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:admi.006.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:RsndReq>
+              
+        <!--(ns:MsgId , ns:CreDtTm? , ns:ReqTp)-->
+              
+        <ns:MsgHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:ReqTp>
+                <ns:Prtry>
+                    <ns:Id>R</ns:Id>
+                </ns:Prtry>
+            </ns:ReqTp>
+        </ns:MsgHdr>
+              
+        <!--(ns:BizDt , ns:SeqRg? , ns:OrgnlMsgNmId? , ns:FileRef? , ns:Rcpt)-->
+              
+        <ns:RsndSchCrit>
+            <ns:BizDt>2023-09-11</ns:BizDt>
+            <ns:Rcpt>
+                <ns:Id>
+                    <ns:PrtryId>
+                        <ns:Id>00000000</ns:Id>
+                        <ns:Issr>NA</ns:Issr>
+                    </ns:PrtryId>
+                </ns:Id>
+            </ns:Rcpt>
+        </ns:RsndSchCrit>
+    </ns:RsndReq>
+</ns:Document>

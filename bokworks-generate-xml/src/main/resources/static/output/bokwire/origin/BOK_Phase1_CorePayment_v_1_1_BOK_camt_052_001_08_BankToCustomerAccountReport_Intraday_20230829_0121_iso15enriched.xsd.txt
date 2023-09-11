@@ -1,0 +1,52 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrAcctRpt>
+        <ns:GrpHdr>
+            <ns:MsgId>fxg3YZvHtNiDtwhOWnBOL2wfdbS6JC1ViwK</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:MsgPgntn>
+                <ns:PgNb>1</ns:PgNb>
+                <ns:LastPgInd>true</ns:LastPgInd>
+            </ns:MsgPgntn>
+                     
+            <!--(ns:MsgId , ns:MsgNmId? , ns:CreDtTm)-->
+                     
+            <ns:OrgnlBizQry>
+                <ns:MsgId>FMvyjfMdrEus7XqpkYlUBtcZ5P6rqXeDd8m</ns:MsgId>
+                <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            </ns:OrgnlBizQry>
+            <ns:AddtlInf>nzJk1tDfKukDDvb7wYRX0PIEImlnwlbTNVsON8K2z6N6RSQZMns3fxKdoNV81yHQJujMeWfwUP90eJA1mheqnh1f9VBgLXBsS5qqIavvvCtDHuDZVRjjZBAUsog99k5EMBH3MExcNGFyvHMJJAHSSM0D5PTWf67o8jH6smPpEOY4taCtzNDaFeDdhHEwGf0MehxYlyXcOKjdYW5xob48l9pvGiKAMxiDDQabReZnxd6qTRjcWjJN7k1vAUwdP2vLntldNksNLMnWyxYaq6wP8mLjhEoFokkS5Dqk62evoGfnviNwlWt6mRFbxU6B8FylpXKxj3Tek0jgvdzI5iPGs8cl8lDvuRl6ZsvgNT5uzkX42ssoAxLQQVrmycwAN9pPj0y9N6qrRvcC2zBh8dwkFwGLYtVXkTAd12ELssahCGxqHM2x5bKUZ5pw8xS8451mtfxfnjv3n0wbKJhCplv3V18PneCLNU5ivDwUlESqkYXmd5DwGDyQ</ns:AddtlInf>
+        </ns:GrpHdr>
+        <ns:Rpt>
+            <ns:Id>pIu0xVo6tKfj1p7K9qCmQXcOwZoN0K7BLQC</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Tp>
+                    <ns:Prtry>ODFT_1062</ns:Prtry>
+                </ns:Tp>
+                <ns:Ccy>EQE</ns:Ccy>
+            </ns:Acct>
+            <ns:Bal>
+                <ns:Tp>
+                    <ns:CdOrPrtry>
+                        <ns:Cd>CLBD</ns:Cd>
+                    </ns:CdOrPrtry>
+                    <ns:SubTp>
+                        <ns:Cd>INTM</ns:Cd>
+                    </ns:SubTp>
+                </ns:Tp>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                <ns:Dt>
+                    <ns:DtTm>2023-09-11T14:42:23</ns:DtTm>
+                </ns:Dt>
+            </ns:Bal>
+        </ns:Rpt>
+    </ns:BkToCstmrAcctRpt>
+</ns:Document>

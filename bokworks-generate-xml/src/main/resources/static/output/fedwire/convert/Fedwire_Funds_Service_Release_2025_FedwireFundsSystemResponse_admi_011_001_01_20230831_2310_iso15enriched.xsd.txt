@@ -1,0 +1,10 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:admi.011.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:SysEvtAck>
+        <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+        <ns:AckDtls>
+            <ns:EvtCd>PING</ns:EvtCd>
+            <ns:EvtParam>00000000</ns:EvtParam>
+            <ns:EvtTm>2023-09-11T11:07:06</ns:EvtTm>
+        </ns:AckDtls>
+    </ns:SysEvtAck>
+</ns:Document>

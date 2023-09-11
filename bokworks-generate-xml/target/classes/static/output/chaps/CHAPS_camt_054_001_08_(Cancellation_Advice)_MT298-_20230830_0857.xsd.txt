@@ -1,0 +1,44 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrDbtCdtNtfctn>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+        </ns:GrpHdr>
+        <ns:Ntfctn>
+            <ns:Id>0000000000000000</ns:Id>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>44256525</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+            </ns:Acct>
+            <ns:Ntry>
+                <ns:NtryRef>0000000000000000</ns:NtryRef>
+                <ns:Amt Ccy="Ccy1">5.26838</ns:Amt>
+                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                <ns:Sts>
+                    <ns:Cd>INFO</ns:Cd>
+                </ns:Sts>
+                <ns:ValDt>
+                    <ns:Dt>2023-09-11</ns:Dt>
+                </ns:ValDt>
+                <ns:BkTxCd>
+                    <ns:Prtry>
+                        <ns:Cd>00000000000000000000000000000000000</ns:Cd>
+                    </ns:Prtry>
+                </ns:BkTxCd>
+                <ns:NtryDtls>
+                    <ns:TxDtls>
+                                          
+                        <!--(ns:InstrId , ns:UETR?)-->
+                                          
+                        <ns:Refs>
+                            <ns:InstrId>0000000000000000</ns:InstrId>
+                        </ns:Refs>
+                    </ns:TxDtls>
+                </ns:NtryDtls>
+            </ns:Ntry>
+        </ns:Ntfctn>
+    </ns:BkToCstmrDbtCdtNtfctn>
+</ns:Document>

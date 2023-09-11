@@ -1,0 +1,53 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrAcctRpt>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:AddtlInf>g8GxuMiNVxu7lqfD4qCx8IEEJbk4Ibje92lCq6tCcHGA5UIHSiTAAh9VoGAq64qbE9lq6zGXcHsmeE8cnSvT7CfyFe6iDXPVOpykB7rUF6RCtR5jFPZ6gf7Bwd3bs4ghWTOBKuQAu8tuUv1h1wbtrnFnxcIYTnFMGgTKIpZVkufZjMdwPBcWO7Pq6cnDw2XCX0ibIe9lZRqIpIXi63856XzIzp8N0bLvb39ZSJBMwqINgBGp6nExITN4QmJhu6lLCSBDrB8F2srjtqJvR9b19gZgos4Knk3nFr97ZVBktcapenYZoSc20f1oH4ZMQh80Krrm4j3bGWYl0iN8Ta2VoChrARxZTXuZC5QdDislP9xIj1myV4yMMMbLuEypSY9stzVjgYHg6UQpYW0Ee2BJiDhgHUL3QIWxJ8eQTfSAtqfBCiXPEIiSnE5GNZbPYU6gmp10lif4VMQOuD9iRBZW5f4ISS6l9cNVIBZuxjNCISLIBeg1Ureb</ns:AddtlInf>
+        </ns:GrpHdr>
+        <ns:Rpt>
+            <ns:Id>00000000000000000000000000000000000</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                                   
+                    <!--(ns:Id , ns:Issr?)-->
+                                   
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Tp>
+                    <ns:Prtry>SACC_1062</ns:Prtry>
+                </ns:Tp>
+                <ns:Ccy>DVO</ns:Ccy>
+            </ns:Acct>
+                     
+            <!--(ns:TtlNtriesPerBkTxCd+)-->
+                     
+            <ns:TxsSummry>
+                            
+                <!--(ns:CdtNtries , ns:DbtNtries , ns:BkTxCd , ns:Dt?)-->
+                            
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:CdtNtries>
+                        <ns:NbOfNtries>832348316</ns:NbOfNtries>
+                        <ns:Sum>-922337203685477580</ns:Sum>
+                    </ns:CdtNtries>
+                    <ns:DbtNtries>
+                        <ns:NbOfNtries>84479658</ns:NbOfNtries>
+                        <ns:Sum>-922337203685477580</ns:Sum>
+                    </ns:DbtNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>DSS001</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+            </ns:TxsSummry>
+            <ns:AddtlRptInf>P0K2TtElgJw9ae88bmdhZPTVfwkCELeIz9P3r9vcUs4b4m2Ug5UBP3HauEhoA7Anqc7M0F7goiJcdD7zsJhrPw4Vryro71OZZniM8AAYSryMVsizhJ8ADKZmkjqs3uBKMvcI7Fls11DjT3fXp3reZYgEJS2k83KfkH0cVbT4xCGonp24mRkfL72ekk0tSL9tJe1Da8OHrRI3uAoIptAlNacl2nedoLekInjO8lBwRHnkSAqsxzZGjkw6aY2uUTuLXsgxJzhKbyLp919rLOTfbXr9lvN5d8uD3Y26sm4Q6KxdG11rq8HUb07ofuDWexSPVVCFehVI0lGFvVIhRDQTxc1K1Iyf1l5gm17yLiUb15OehlFEiLm9A06MRRv51vWqvpxi2WFJxDDmpWVYG5Ri6Xwj2S309zJ9bZEOLNuroV80nBM4U7F9g7p028OkrAyElove19JWHXfX1nGJjDFOBPWN48uc7E0hjtZPyBAWUHPz9zTR5vQN</ns:AddtlRptInf>
+        </ns:Rpt>
+    </ns:BkToCstmrAcctRpt>
+</ns:Document>

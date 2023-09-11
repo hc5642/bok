@@ -1,0 +1,9 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:SysEvtNtfctn>
+        <ns:EvtInf>
+            <ns:EvtCd>CLSD</ns:EvtCd>
+            <ns:EvtParam>2023-09-11</ns:EvtParam>
+            <ns:EvtTm>2023-09-11T13:34:51</ns:EvtTm>
+        </ns:EvtInf>
+    </ns:SysEvtNtfctn>
+</ns:Document>

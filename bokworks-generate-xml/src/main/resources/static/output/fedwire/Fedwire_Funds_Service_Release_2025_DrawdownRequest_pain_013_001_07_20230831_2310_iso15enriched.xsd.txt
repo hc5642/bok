@@ -1,0 +1,82 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pain.013.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:CdtrPmtActvtnReq>
+        <ns:GrpHdr>
+            <ns:MsgId>0000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:NbOfTxs>1</ns:NbOfTxs>
+                     
+            <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                     
+            <ns:InitgPty/>
+        </ns:GrpHdr>
+              
+        <!--(ns:PmtInfId , ns:PmtMtd , ns:ReqdExctnDt , ns:Dbtr , ns:DbtrAcct? , ns:DbtrAgt , ns:CdtTrfTx)-->
+              
+        <ns:PmtInf>
+            <ns:PmtInfId>00000000000000000000000000000000000</ns:PmtInfId>
+            <ns:PmtMtd>TRF</ns:PmtMtd>
+            <ns:ReqdExctnDt>
+                <ns:Dt>2023-09-11</ns:Dt>
+            </ns:ReqdExctnDt>
+                     
+            <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                     
+            <ns:Dbtr/>
+            <ns:DbtrAgt>
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>USABA</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>906410184</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:DbtrAgt>
+                     
+            <!--(ns:PmtId , ns:PmtTpInf , ns:Amt , ns:ChrgBr , ns:UltmtDbtr? , ns:CdtrAgt , ns:Cdtr , ns:CdtrAcct? , ns:UltmtCdtr? , ns:Purp? , ns:RltdRmtInf? , ns:RmtInf?)-->
+                     
+            <ns:CdtTrfTx>
+                            
+                <!--(ns:InstrId? , ns:EndToEndId , ns:UETR)-->
+                            
+                <ns:PmtId>
+                    <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
+                    <ns:UETR>a61ac619-0dea-4015-82f6-0c432d68fc7c</ns:UETR>
+                </ns:PmtId>
+                            
+                <!--(ns:InstrPrty? , ns:SvcLvl[0,3] , ns:LclInstrm , ns:CtgyPurp?)-->
+                            
+                <ns:PmtTpInf>
+                                   
+                    <!--(ns:Cd | ns:Prtry)-->
+                                   
+                    <ns:SvcLvl>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                        <ns:Cd>0000</ns:Cd>
+                    </ns:SvcLvl>
+                    <ns:LclInstrm>
+                        <ns:Prtry>DRRB</ns:Prtry>
+                    </ns:LclInstrm>
+                </ns:PmtTpInf>
+                <ns:Amt>
+                    <ns:InstdAmt Ccy="USD">2.60</ns:InstdAmt>
+                </ns:Amt>
+                <ns:ChrgBr>SLEV</ns:ChrgBr>
+                <ns:CdtrAgt>
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>USABA</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>095714788</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:CdtrAgt>
+                            
+                <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                            
+                <ns:Cdtr/>
+            </ns:CdtTrfTx>
+        </ns:PmtInf>
+    </ns:CdtrPmtActvtnReq>
+</ns:Document>

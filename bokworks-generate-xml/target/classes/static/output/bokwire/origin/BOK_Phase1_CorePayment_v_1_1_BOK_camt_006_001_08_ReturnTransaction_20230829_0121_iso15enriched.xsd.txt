@@ -1,0 +1,53 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.006.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <ns:RtrTx>
+        
+  <!--(ns:MsgId , ns:CreDtTm? , ns:MsgPgntn? , ns:OrgnlBizQry , ns:ReqTp)-->
+        
+  <ns:MsgHdr>
+   <ns:MsgId>kc2hb9jOR2o4tgaRy28jyWvD37dKm4gWBOS</ns:MsgId>
+   <ns:OrgnlBizQry>
+    <ns:MsgId>vDhnyvXJWwl4qkoEs4RmPhySzYNYVFezont</ns:MsgId>
+   </ns:OrgnlBizQry>
+   <ns:ReqTp>
+    <ns:Prtry>
+     <ns:Id>IRPQ</ns:Id>
+    </ns:Prtry>
+   </ns:ReqTp>
+  </ns:MsgHdr>
+  <ns:RptOrErr>
+            
+   <!--(ns:TxRpt+)-->
+            
+   <ns:BizRpt>
+    <ns:TxRpt>
+     <ns:PmtId>
+      <ns:PrtryId>0000000000000000000000000000000000000000000000000000000000000000000000</ns:PrtryId>
+     </ns:PmtId>
+     <ns:TxOrErr>
+                        
+      <!--(ns:PmtTo? , ns:PmtFr? , ns:CdtDbtInd? , ns:Pmt)-->
+                        
+      <ns:Tx>
+                            
+       <!--(ns:MsgId? , ns:Sts , ns:IntrBkSttlmAmt? , ns:PmtMtd? , ns:TxId? , ns:IntrBkSttlmDt? , ns:EndToEndId?)-->
+                            
+       <ns:Pmt>
+                                
+        <!--(ns:Cd , ns:DtTm , ns:Rsn*)-->
+                                
+        <ns:Sts>
+         <ns:Cd>
+          <ns:Prtry>t05BEYDuc1gl6ng34uKJxCCRrEGe1TOtYuN</ns:Prtry>
+         </ns:Cd>
+         <ns:DtTm>
+          <ns:DtTm>2023-09-11T14:41:54</ns:DtTm>
+         </ns:DtTm>
+        </ns:Sts>
+       </ns:Pmt>
+      </ns:Tx>
+     </ns:TxOrErr>
+    </ns:TxRpt>
+   </ns:BizRpt>
+  </ns:RptOrErr>
+ </ns:RtrTx>
+</ns:Document>

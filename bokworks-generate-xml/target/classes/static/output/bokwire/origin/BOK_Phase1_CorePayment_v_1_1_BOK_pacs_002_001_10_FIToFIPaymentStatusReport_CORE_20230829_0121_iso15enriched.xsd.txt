@@ -1,0 +1,70 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <ns:FIToFIPmtStsRpt>
+  <ns:GrpHdr>
+   <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+   <ns:CreDtTm>2023-09-11T14:41:55</ns:CreDtTm>
+  </ns:GrpHdr>
+        
+  <!--(ns:StsId? , ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId , ns:OrgnlTxId? , ns:OrgnlUETR , ns:TxSts , ns:StsRsnInf+ , ns:ChrgsInf* , ns:FctvIntrBkSttlmDt? , ns:ClrSysRef , ns:InstgAgt , ns:InstdAgt , ns:OrgnlTxRef?)-->
+        
+  <ns:TxInfAndSts>
+            
+   <!--(ns:OrgnlMsgId , ns:OrgnlMsgNmId , ns:OrgnlCreDtTm?)-->
+            
+   <ns:OrgnlGrpInf>
+    <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+    <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
+   </ns:OrgnlGrpInf>
+   <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
+   <ns:OrgnlUETR>e302304c-c7d5-4d6b-abd2-b267e7063fdb</ns:OrgnlUETR>
+   <ns:TxSts>ACSC</ns:TxSts>
+            
+   <!--(ns:Rsn? , ns:AddtlInf*)-->
+            
+   <ns:StsRsnInf/>
+   <ns:ChrgsInf>
+    <ns:Amt Ccy="Ccy1">8.67057</ns:Amt>
+    <ns:Agt>
+                    
+     <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                    
+     <ns:FinInstnId>
+      <ns:ClrSysMmbId>
+       <ns:ClrSysId>
+        <ns:Cd>KRBOK</ns:Cd>
+       </ns:ClrSysId>
+       <ns:MmbId>1016</ns:MmbId>
+      </ns:ClrSysMmbId>
+     </ns:FinInstnId>
+    </ns:Agt>
+   </ns:ChrgsInf>
+   <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
+   <ns:InstgAgt>
+                
+    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                
+    <ns:FinInstnId>
+     <ns:ClrSysMmbId>
+      <ns:ClrSysId>
+       <ns:Cd>KRBOK</ns:Cd>
+      </ns:ClrSysId>
+      <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+     </ns:ClrSysMmbId>
+    </ns:FinInstnId>
+   </ns:InstgAgt>
+   <ns:InstdAgt>
+                
+    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                
+    <ns:FinInstnId>
+     <ns:ClrSysMmbId>
+      <ns:ClrSysId>
+       <ns:Cd>KRBOK</ns:Cd>
+      </ns:ClrSysId>
+      <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+     </ns:ClrSysMmbId>
+    </ns:FinInstnId>
+   </ns:InstdAgt>
+  </ns:TxInfAndSts>
+ </ns:FIToFIPmtStsRpt>
+</ns:Document>

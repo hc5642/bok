@@ -1,0 +1,64 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.056.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <ns:FIToFIPmtCxlReq>
+  <ns:Assgnmt>
+   <ns:Id>00000000000000000000000000000000000</ns:Id>
+   <ns:Assgnr>
+    <ns:Agt>
+                    
+     <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                    
+     <ns:FinInstnId>
+      <ns:ClrSysMmbId>
+       <ns:ClrSysId>
+        <ns:Cd>KRBOK</ns:Cd>
+       </ns:ClrSysId>
+       <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+      </ns:ClrSysMmbId>
+     </ns:FinInstnId>
+    </ns:Agt>
+   </ns:Assgnr>
+   <ns:Assgne>
+    <ns:Agt>
+                    
+     <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                    
+     <ns:FinInstnId>
+      <ns:ClrSysMmbId>
+       <ns:ClrSysId>
+        <ns:Cd>KRBOK</ns:Cd>
+       </ns:ClrSysId>
+       <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+      </ns:ClrSysMmbId>
+     </ns:FinInstnId>
+    </ns:Agt>
+   </ns:Assgne>
+   <ns:CreDtTm>2023-09-11T14:41:55</ns:CreDtTm>
+  </ns:Assgnmt>
+  <ns:Undrlyg>
+            
+   <!--(ns:CxlId? , ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId? , ns:OrgnlTxId? , ns:OrgnlUETR , ns:OrgnlClrSysRef , ns:OrgnlIntrBkSttlmAmt , ns:OrgnlIntrBkSttlmDt , ns:CxlRsnInf)-->
+            
+   <ns:TxInf>
+                
+    <!--(ns:OrgnlMsgId , ns:OrgnlMsgNmId , ns:OrgnlCreDtTm?)-->
+                
+    <ns:OrgnlGrpInf>
+     <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+     <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
+    </ns:OrgnlGrpInf>
+    <ns:OrgnlUETR>28790d2f-a956-451c-9f07-f6259dfb9671</ns:OrgnlUETR>
+    <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
+    <ns:OrgnlIntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:OrgnlIntrBkSttlmAmt>
+    <ns:OrgnlIntrBkSttlmDt>2023-09-11</ns:OrgnlIntrBkSttlmDt>
+                
+    <!--(ns:Orgtr? , ns:Rsn , ns:AddtlInf[0,2])-->
+                
+    <ns:CxlRsnInf>
+     <ns:Rsn>
+      <ns:Cd>0000</ns:Cd>
+     </ns:Rsn>
+    </ns:CxlRsnInf>
+   </ns:TxInf>
+  </ns:Undrlyg>
+ </ns:FIToFIPmtCxlReq>
+</ns:Document>

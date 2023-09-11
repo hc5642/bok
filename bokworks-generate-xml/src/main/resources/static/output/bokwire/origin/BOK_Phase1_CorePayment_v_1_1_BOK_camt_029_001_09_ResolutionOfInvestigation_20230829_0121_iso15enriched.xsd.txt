@@ -1,0 +1,57 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.029.001.09" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:RsltnOfInvstgtn>
+        <ns:Assgnmt>
+            <ns:Id>00000000000000000000000000000000000</ns:Id>
+            <ns:Assgnr>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Assgnr>
+            <ns:Assgne>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Assgne>
+            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+        </ns:Assgnmt>
+        <ns:Sts>
+            <ns:Conf>RJCR</ns:Conf>
+        </ns:Sts>
+        <ns:CxlDtls>
+                     
+            <!--(ns:CxlStsId? , ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId? , ns:OrgnlTxId? , ns:OrgnlClrSysRef , ns:OrgnlUETR , ns:CxlStsRsnInf*)-->
+                     
+            <ns:TxInfAndSts>
+                            
+                <!--(ns:OrgnlMsgId , ns:OrgnlMsgNmId , ns:OrgnlCreDtTm?)-->
+                            
+                <ns:OrgnlGrpInf>
+                    <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+                    <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
+                </ns:OrgnlGrpInf>
+                <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
+                <ns:OrgnlUETR>ee0728b9-73b0-4fb0-8c5b-f96b29a183c3</ns:OrgnlUETR>
+            </ns:TxInfAndSts>
+        </ns:CxlDtls>
+    </ns:RsltnOfInvstgtn>
+</ns:Document>
