@@ -33,6 +33,7 @@ import jlibs.xml.xsd.XSParser;
 import net.moznion.random.string.RandomStringGenerator;
 
 /**
+ * CHAPS 예시
  * XSD 파일을 읽어들여 최대길이 샘플 XML을 생성하는 프로그램
  * @date	2023. 9. 7.
  * @author 	ohhyonchul
