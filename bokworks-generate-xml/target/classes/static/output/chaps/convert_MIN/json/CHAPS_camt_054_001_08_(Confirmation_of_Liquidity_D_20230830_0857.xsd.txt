@@ -4,13 +4,13 @@
         "BkToCstmrDbtCdtNtfctn": {
             "Ntfctn": {
                 "Id": "0000000000000000",
-                "Acct": {"Id": {"Othr": {"Id": 87305344}}},
+                "Acct": {"Id": {"Othr": {"Id": 94417595}}},
                 "Ntry": {
                     "BkTxCd": {"Prtry": {"Cd": "0000"}},
                     "NtryRef": "0000000000000000",
                     "Amt": {
                         "Ccy": "Ccy1",
-                        "content": 1.02241
+                        "content": 1.47168
                     },
                     "Sts": {"Cd": "BOOK"},
                     "ValDt": {"Dt": "2023-09-12"},
@@ -20,7 +20,7 @@
                 "AddtlNtfctnInf": "0000000000000000"
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:58:43",
+                "CreDtTm": "2023-09-12T16:08:38",
                 "MsgId": "00000000000000000000000000000000000"
             }
         },
@@ -28,12 +28,12 @@
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
-        "Fr": {"FIId": {"FinInstnId": {"BICFI": "ZS6JKOUK(GPK)"}}},
+        "Fr": {"FIId": {"FinInstnId": {"BICFI": "G1JURCGB(0V6"}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"BICFI": "DLI0DXSR(FKL)"}}},
+        "To": {"FIId": {"FinInstnId": {"BICFI": "EQUQUGN4(KR5"}}},
         "MsgDefIdr": "00000000000000000000000000000000000",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "00000000000000000000000000000000000",
-        "CreDt": "2023-09-12T14:58:43"
+        "CreDt": "2023-09-12T16:08:38"
     }
 }

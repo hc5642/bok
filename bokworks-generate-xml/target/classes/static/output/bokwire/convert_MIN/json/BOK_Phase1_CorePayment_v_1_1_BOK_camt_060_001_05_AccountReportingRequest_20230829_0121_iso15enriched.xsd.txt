@@ -10,12 +10,12 @@
                 },
                 "AcctOwnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "KRBOK"},
-                    "MmbId": "V70WAsjPW0eUWZs8VL4fcK3fo6yR"
+                    "MmbId": "6Yu4H7puHl2eSMcQvajyeJbBszQX"
                 }}}},
                 "ReqdMsgNmId": "camt.052.001.08"
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:53:16",
+                "CreDtTm": "2023-09-12T15:44:35",
                 "MsgId": "00000000000000000000000000000000000"
             }
         }
@@ -34,6 +34,14 @@
         "MsgDefIdr": "camt.060.001.05",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.01",
-        "CreDt": "2023-09-12T14:53:16"
+        "Rltd": {
+            "Fr": {"FIId": {"FinInstnId": ""}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": ""}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "CreDt": "2023-09-12T15:44:35"
+        },
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

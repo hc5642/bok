@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>IX3UMV45D</ns:MmbId>
+                    <ns:MmbId>0IN91XSZD</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,19 +12,19 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>L5LPG1JPV</ns:MmbId>
+                    <ns:MmbId>8LZO1CZRJ</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>k84</ns:MsgDefIdr>
+    <ns:MsgDefIdr>B65</ns:MsgDefIdr>
     <ns:BizSvc>TEST</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T14:59:33</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:46</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:DRAFT1camt.111.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:InvstgtnRspn>
@@ -44,19 +44,19 @@
                     <ns:OrgnlGrpInf>
                         <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
                         <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
-                        <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+                        <ns:OrgnlCreDtTm>2023-09-12T16:42:46</ns:OrgnlCreDtTm>
                     </ns:OrgnlGrpInf>
-                    <ns:OrgnlUETR>083080a8-b812-4d97-897e-e47b1267a3c4</ns:OrgnlUETR>
+                    <ns:OrgnlUETR>e49e25a0-5f1d-4035-a7bc-4702b0b5842b</ns:OrgnlUETR>
                 </ns:IntrBk>
                 <ns:Initn>
                     <ns:OrgnlGrpInf>
                         <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
-                        <ns:OrgnlMsgNmId>L08</ns:OrgnlMsgNmId>
-                        <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+                        <ns:OrgnlMsgNmId>j58</ns:OrgnlMsgNmId>
+                        <ns:OrgnlCreDtTm>2023-09-12T16:42:46</ns:OrgnlCreDtTm>
                     </ns:OrgnlGrpInf>
-                    <ns:OrgnlUETR>7bc79f92-9777-4c76-833e-ae175bee0c49</ns:OrgnlUETR>
+                    <ns:OrgnlUETR>d13a54e8-539e-47c7-a264-428e164c9065</ns:OrgnlUETR>
                     <ns:ReqdExctnDt>
-                        <ns:DtTm>2023-09-12T14:59:33</ns:DtTm>
+                        <ns:DtTm>2023-09-12T16:42:46</ns:DtTm>
                         <ns:Dt>2023-09-12</ns:Dt>
                     </ns:ReqdExctnDt>
                 </ns:Initn>
@@ -68,7 +68,7 @@
                             <ns:ClrSysId>
                                 <ns:Cd>USABA</ns:Cd>
                             </ns:ClrSysId>
-                            <ns:MmbId>018768130</ns:MmbId>
+                            <ns:MmbId>037207404</ns:MmbId>
                         </ns:ClrSysMmbId>
                     </ns:FinInstnId>
                 </ns:Agt>
@@ -80,7 +80,7 @@
                             <ns:ClrSysId>
                                 <ns:Cd>USABA</ns:Cd>
                             </ns:ClrSysId>
-                            <ns:MmbId>275963215</ns:MmbId>
+                            <ns:MmbId>948814449</ns:MmbId>
                         </ns:ClrSysMmbId>
                     </ns:FinInstnId>
                 </ns:Agt>

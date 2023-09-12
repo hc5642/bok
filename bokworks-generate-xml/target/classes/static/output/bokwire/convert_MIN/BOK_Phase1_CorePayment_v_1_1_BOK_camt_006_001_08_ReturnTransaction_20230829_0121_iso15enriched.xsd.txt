@@ -26,18 +26,18 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.006.001.08</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:14:00</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.006.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:RtrTx>
         <ns:MsgHdr>
-            <ns:MsgId>xfqIbtEqx9QA99gP7NKnRQFRlcjVorpMqc6</ns:MsgId>
+            <ns:MsgId>rxGcKq58FR7JfUBHJSGD3cAIaNoUMsbq4L3</ns:MsgId>
             <ns:OrgnlBizQry>
-                <ns:MsgId>GPSR60cu7lisFtXrEOhBsJPsITIgcb3TBPv</ns:MsgId>
+                <ns:MsgId>JX6Fje7iGFC8BJV4ka8ID848XzRKkTSL4kI</ns:MsgId>
             </ns:OrgnlBizQry>
             <ns:ReqTp>
                 <ns:Prtry>
-                    <ns:Id>IPIQ</ns:Id>
+                    <ns:Id>ICSC</ns:Id>
                 </ns:Prtry>
             </ns:ReqTp>
         </ns:MsgHdr>
@@ -52,10 +52,10 @@
                             <ns:Pmt>
                                 <ns:Sts>
                                     <ns:Cd>
-                                        <ns:Prtry>ib2yYM0NqyqWMwXFB7OTG2PdbZdL4qFKnqo</ns:Prtry>
+                                        <ns:Prtry>WKdPcUlF5wDgr6JfZ1ko4VAYXaT3Prothtm</ns:Prtry>
                                     </ns:Cd>
                                     <ns:DtTm>
-                                        <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
+                                        <ns:DtTm>2023-09-12T17:14:00</ns:DtTm>
                                     </ns:DtTm>
                                 </ns:Sts>
                             </ns:Pmt>

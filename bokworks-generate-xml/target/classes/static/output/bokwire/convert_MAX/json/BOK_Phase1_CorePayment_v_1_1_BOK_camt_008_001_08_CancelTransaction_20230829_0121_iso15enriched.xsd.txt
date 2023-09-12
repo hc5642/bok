@@ -9,36 +9,36 @@
                     "Id": {
                         "PrvtId": {
                             "Othr": {
-                                "Issr": "W8epSLym3kS1Pcv9DAH5mGKOBsXz9mjIsZ6",
-                                "Id": "ZjfIfiZOwAjSTPE4SDeBAhR23dgCDq3wrno",
+                                "Issr": "aEZUGFQz2PLgk4i1nNHepQudoOa4wImg8Ua",
+                                "Id": "iLRLHi0SKk7GosJXTS6K1MeyWWhd2MK9JKR",
                                 "SchmeNm": {
                                     "Cd": "0000",
-                                    "Prtry": "oYO0Sd7FpesARVpFKJp7M01ucbn7D2Qw6m2"
+                                    "Prtry": "iwmYEzSiIaprqDdX3ytgsUzzmhANqULNunL"
                                 }
                             },
                             "DtAndPlcOfBirth": {
-                                "CtryOfBirth": "ZU",
-                                "PrvcOfBirth": "LyeYIwihR4NjAea017Wcyl7WlKMCM0dZWV4",
-                                "CityOfBirth": "FVh7JqhaYYPgQEKXtlUf8Vl6DzMxKQ55YLG",
+                                "CtryOfBirth": "IP",
+                                "PrvcOfBirth": "ryXJWCKMLlHiXda728XIXU9kD23FcwTaPuG",
+                                "CityOfBirth": "5apg2vhwWvPQglZM2k4m68VoFndsihMjfCg",
                                 "BirthDt": "2023-09-12"
                             }
                         },
                         "OrgId": {
                             "Othr": {
-                                "Issr": "FGekFijJGdATNsu9w1niBpIq1Il32bgSFTc",
-                                "Id": "Di2hOQAkJ0ecY2po42YmlbSujwSkcMcwr0X",
+                                "Issr": "7vbsVbPXPY4NDwzbtH59Y2LgwLrS931OFFS",
+                                "Id": "DTZvHupUzv3cOIIPF4QMsBbLOzLGmtEXLYt",
                                 "SchmeNm": {
                                     "Cd": "0000",
-                                    "Prtry": "dDx3qjn0d3iFsOMXjahAIrwHylp0leDOPwj"
+                                    "Prtry": "ufWWIEAnPh69xdIqXGWr6qEwrPUOgtcwGuL"
                                 }
                             },
-                            "AnyBIC": "PM6PBX1Q(6O2)",
-                            "LEI": "P9VVHSBQSOPWB2VDI863"
+                            "AnyBIC": "J2UWMCM0(9MG",
+                            "LEI": "LSST2C2KO4NXOJ5OS375"
                         }
                     },
                     "Nm": "000000000000000000000000000000",
                     "PstlAdr": {
-                        "Ctry": "GU",
+                        "Ctry": "DJ",
                         "Flr": "0000000000000000000000000000000000000000000000000000000000000000000000",
                         "Room": "0000000000000000000000000000000000000000000000000000000000000000000000",
                         "StrtNm": "0000000000000000000000000000000000000000000000000000000000000000000000",
@@ -50,35 +50,35 @@
                         "TwnNm": "00000000000000000000000000000000000",
                         "BldgNb": "0000000000000000"
                     },
-                    "CtryOfRes": "AY"
+                    "CtryOfRes": "MA"
                 },
                 "Rsn": {
                     "Cd": "0000",
-                    "Prtry": "tcMGlPHAiclmolffMPN2qNsjSXTZSHHKTql"
+                    "Prtry": "NfjkA4h2EI7JwcZkX6tt4NsAaKoNJ8yUAuM"
                 }
             },
             "MsgHdr": {
-                "CreDtTm": "2023-09-12T13:13:20",
-                "MsgId": "06FhP4JtdEAQ0GjiPCFawXYQtpgZiYgfkx5"
+                "CreDtTm": "2023-09-12T15:44:41",
+                "MsgId": "WGzIhbh7bCUoO7r8tu5KW8hDrZcT9npFPns"
             },
             "PmtId": {"LngBizId": {
-                "TxId": "fi010QlvHefQoe1vi2dbKBT3zzbc5Umf38y",
-                "UETR": "ecbc8a48-28a9-4778-b9d1-67aa089e9d84",
+                "TxId": "aQTBwQhJ17dcBr5LE4V33IcJxdIiKTA0Fc1",
+                "UETR": "ac9a61f1-396a-412b-bb99-be45edbc4585",
                 "InstdAgt": {"FinInstnId": {
-                    "BICFI": "HZRIKEH5(X9X)",
+                    "BICFI": "RXWQBB2J(MCC",
                     "ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": "0000000000000000000000000000"
                     },
-                    "LEI": "GYQK1GO7F1T2LI64JC92"
+                    "LEI": "WIXQIW13JIPDM4D91L33"
                 }},
                 "InstgAgt": {"FinInstnId": {
-                    "BICFI": "S8I4DBQG(FAP",
+                    "BICFI": "JC6PKT0O(I44",
                     "ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": "0000000000000000000000000000"
                     },
-                    "LEI": "WYSTIJWJ01RIT95Y4U10"
+                    "LEI": "VC5TOB3Z8MAR3CSE4D07"
                 }},
                 "IntrBkSttlmAmt": {
                     "Ccy": "KRW",
@@ -92,21 +92,21 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
         "CharSet": "CharSet1",
         "Fr": {"FIId": {"FinInstnId": {
-            "BICFI": "MGZUNQUA(R29",
+            "BICFI": "GEC4GVLB(U7L",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": "00000000000000000000000000000000000"
             },
-            "LEI": "S8ZD00A2FPF8YBQGWZ64"
+            "LEI": "1HU6K2UDHQ3RSJVBKG78"
         }}},
         "BizMsgIdr": "00000000000000000000000000000000000",
         "To": {"FIId": {"FinInstnId": {
-            "BICFI": "6TVXNN1V(UOF)",
+            "BICFI": "AS85EAHM(ZUO",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": 1016
             },
-            "LEI": "6YB7CKQUNBZ53P5HK584"
+            "LEI": "TKTLPBNLKX1U193Q4D82"
         }}},
         "MsgDefIdr": "camt.008.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
@@ -115,27 +115,27 @@
         "Rltd": {
             "CharSet": "CharSet2",
             "Fr": {"FIId": {"FinInstnId": {
-                "BICFI": "WRBSNYYL(3VT",
+                "BICFI": "PZHLGH3G(F2I",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "0SXSHMQ31U8GCPFSYF60"
+                "LEI": "Y7JLZZ60G0S17G76Q570"
             }}},
             "BizMsgIdr": "00000000000000000000000000000000000",
             "To": {"FIId": {"FinInstnId": {
-                "BICFI": "181QWOK4(L8B)",
+                "BICFI": "SBC2AU8D(HEO)",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "6GYBY5D0PFP159L7LN24"
+                "LEI": "TVKUINFO8WUQYCYWN076"
             }}},
             "MsgDefIdr": "00000000000000000000000000000000000",
             "BizSvc": "00000000000000000000000000000000000",
             "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
-            "CreDt": "2023-09-12T13:13:20"
+            "CreDt": "2023-09-12T15:44:41"
         },
-        "CreDt": "2023-09-12T13:13:20"
+        "CreDt": "2023-09-12T15:44:41"
     }
 }

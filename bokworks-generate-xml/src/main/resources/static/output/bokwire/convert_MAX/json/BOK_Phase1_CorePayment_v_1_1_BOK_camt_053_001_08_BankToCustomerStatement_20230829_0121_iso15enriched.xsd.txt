@@ -3,53 +3,53 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.053.001.08",
         "BkToCstmrStmt": {
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T13:13:20",
+                "CreDtTm": "2023-09-12T15:44:41",
                 "MsgPgntn": {
-                    "PgNb": "040",
+                    "PgNb": 892,
                     "LastPgInd": true
                 },
-                "MsgId": "GAeWY7192n3hijVhdIYGUCfz5cpy7y0TINU"
+                "MsgId": "oH4Lz8Viha6deTDoknYjbqZxeIQaJPJ5p73"
             },
             "Stmt": {
-                "Id": "yzXQEgehUZGnEP2ioZCkGR1i0KaqmJLpBgS",
+                "Id": "IZWgmUtBNbWxqcPosxItPnknJi8amYAv0cf",
                 "Acct": {
-                    "Ccy": "ZNB",
-                    "Tp": {"Prtry": "SACC_1062"},
+                    "Ccy": "VHT",
+                    "Tp": {"Prtry": "CACC_1062"},
                     "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
                 },
                 "Ntry": {
-                    "BkTxCd": {"Prtry": {"Cd": "DSR008"}},
-                    "AddtlNtryInf": "3q7xLvCp50MYoYYc8z592aD1U1rZa4pWVnrZ5P3sty9PWaUdE01Y4XyJkROqmvN3Gyq3JI",
+                    "BkTxCd": {"Prtry": {"Cd": "DSR007"}},
+                    "AddtlNtryInf": "lviY7qDyef06FEwNxjDB6yNvoMUqxz4ZqSTgsuQtXNWF2nGYbFRO1eWjYhUhpg95ziTXr3",
                     "Amt": {
                         "Ccy": "KRW",
                         "content": -922337203685477580
                     },
                     "Sts": {"Cd": "BOOK"},
-                    "CdtDbtInd": "CRDT",
-                    "BookgDt": {"DtTm": "2023-09-12T13:13:20"},
+                    "CdtDbtInd": "DBIT",
+                    "BookgDt": {"DtTm": "2023-09-12T15:44:41"},
                     "NtryDtls": {"TxDtls": {"Refs": {
-                        "UETR": "3fad7c00-db0d-4bcf-90da-15dcc9194449",
-                        "TxId": "7F5Q9wGPD0AWI3u6DJIqDvHzBzWBSzPuGuD",
-                        "InstrId": "ug6uVP8fxfUvl9pJM1G8XyKDGqgcvCiOq6w",
-                        "EndToEndId": "io5eZMazZMODiQcF1uxVYfajZyPiafHxljL",
-                        "MsgId": "fj2KNXUNrxonnK3r1IBFY9F0me0B9aAo5Ax",
-                        "ClrSysRef": "8R0T6AZavxPaqRJdenbu1NiTREjFNnTTB95"
+                        "UETR": "7c2f055e-d4a6-46cf-8b5a-218713a167f5",
+                        "TxId": "rlFyeyebIIPNPoWGzEyeQmxWgpQr9eTGiQY",
+                        "InstrId": "v8eBsoCeDZGiNEjxLhXZCHWNJII37ow5aIv",
+                        "EndToEndId": "EJWSzF6ILiCArJmnAVuWZNajaZHlMqjMaVC",
+                        "MsgId": "iqLCKm2VMO29XP0LdLn1r8uKKT5cI6WPMYK",
+                        "ClrSysRef": "8eV56Yl1uAfVWqyIVdiwFBXvzTEm5rl5U5Y"
                     }}}
                 },
                 "TxsSummry": {"TtlNtriesPerBkTxCd": {
-                    "BkTxCd": {"Prtry": {"Cd": "DSR008"}},
+                    "BkTxCd": {"Prtry": {"Cd": "DSR005"}},
                     "CdtNtries": {
-                        "NbOfNtries": 615638,
+                        "NbOfNtries": 8,
                         "Sum": -922337203685477580
                     },
                     "DbtNtries": {
-                        "NbOfNtries": 5439,
+                        "NbOfNtries": 23132,
                         "Sum": -922337203685477580
                     }
                 }},
                 "Bal": {
                     "Tp": {
-                        "CdOrPrtry": {"Cd": "OPBD"},
+                        "CdOrPrtry": {"Cd": "CLBD"},
                         "SubTp": {"Cd": "INTM"}
                     },
                     "Amt": {
@@ -57,7 +57,7 @@
                         "content": -922337203685477580
                     },
                     "Dt": {"Dt": "2023-09-12"},
-                    "CdtDbtInd": "CRDT"
+                    "CdtDbtInd": "DBIT"
                 },
                 "RptgSrc": {"Prtry": "LVPS"}
             }
@@ -67,21 +67,21 @@
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
         "Fr": {"FIId": {"FinInstnId": {
-            "BICFI": "XXZWXA30(JIX",
+            "BICFI": "V3QRJVN8(KHX",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": 1016
             },
-            "LEI": "J2WR4OLIGKQE7TXQYJ59"
+            "LEI": "XNE3VRLXI9OQ6ZOT7F89"
         }}},
         "BizMsgIdr": "00000000000000000000000000000000000",
         "To": {"FIId": {"FinInstnId": {
-            "BICFI": "87A5NXB9(B17",
+            "BICFI": "KR76SNI7(UQK",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": "00000000000000000000000000000000000"
             },
-            "LEI": "M200Y7D816ER7NHGJ826"
+            "LEI": "C4TSBCWBJZGY9F7GCL23"
         }}},
         "MsgDefIdr": "camt.053.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
@@ -90,27 +90,27 @@
         "Rltd": {
             "CharSet": "CharSet1",
             "Fr": {"FIId": {"FinInstnId": {
-                "BICFI": "4Z2XBXH0(02O)",
+                "BICFI": "4D8BVWBN(ZW2)",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "45TTK3DQIELIR9Q6IH73"
+                "LEI": "KHDRJ90TM4ZQ4BQLFV91"
             }}},
             "BizMsgIdr": "00000000000000000000000000000000000",
             "To": {"FIId": {"FinInstnId": {
-                "BICFI": "Z4WCCZ6H(PXO",
+                "BICFI": "7HXFUHIR(K7W",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "9O9LW61MTYMGVWQIPG11"
+                "LEI": "TUG3KUREY875WU7NI779"
             }}},
             "MsgDefIdr": "00000000000000000000000000000000000",
             "BizSvc": "00000000000000000000000000000000000",
             "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
-            "CreDt": "2023-09-12T13:13:20"
+            "CreDt": "2023-09-12T15:44:41"
         },
-        "CreDt": "2023-09-12T13:13:20"
+        "CreDt": "2023-09-12T15:44:41"
     }
 }

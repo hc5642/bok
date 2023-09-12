@@ -5,13 +5,13 @@
             "TxInfAndSts": {
                 "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "USABA"},
-                    "MmbId": 368623312
+                    "MmbId": 330949205
                 }}},
-                "OrgnlUETR": "d78ccad0-eb85-436f-a0c1-f850c6d58f6f",
+                "OrgnlUETR": "51759139-bbc6-4314-8266-2dbc6acb6b86",
                 "OrgnlGrpInf": {
                     "OrgnlMsgId": "0000000000000000000000",
-                    "OrgnlMsgNmId": "s10",
-                    "OrgnlCreDtTm": "2023-09-12T14:59:33"
+                    "OrgnlMsgNmId": "u36",
+                    "OrgnlCreDtTm": "2023-09-12T15:59:01"
                 },
                 "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "USABA"},
@@ -20,7 +20,7 @@
                 "TxSts": "0000"
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:59:33",
+                "CreDtTm": "2023-09-12T15:59:01",
                 "MsgId": "00000000000000000000000000000000000"
             }
         },
@@ -28,16 +28,16 @@
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
-        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "3YRHICDVY"}}}},
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "WTG6W12PQ"}}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "9H6YT5FJ3"}}}},
-        "MsgDefIdr": 507,
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "VH1RCKR90"}}}},
+        "MsgDefIdr": "C43",
         "MktPrctc": {
             "Id": "000000000000000000",
             "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "BizSvc": "TEST",
-        "CreDt": "2023-09-12T14:59:33"
+        "BizSvc": "PROD",
+        "CreDt": "2023-09-12T15:59:01"
     }
 }

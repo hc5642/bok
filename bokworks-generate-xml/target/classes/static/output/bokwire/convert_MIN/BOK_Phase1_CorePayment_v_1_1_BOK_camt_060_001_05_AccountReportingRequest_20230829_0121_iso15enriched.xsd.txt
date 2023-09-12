@@ -26,13 +26,13 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.060.001.05</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.01</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:14:01</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.060.001.05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:AcctRptgReq>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:01</ns:CreDtTm>
         </ns:GrpHdr>
         <ns:RptgReq>
             <ns:ReqdMsgNmId>camt.052.001.08</ns:ReqdMsgNmId>
@@ -53,7 +53,7 @@
                             <ns:ClrSysId>
                                 <ns:Cd>KRBOK</ns:Cd>
                             </ns:ClrSysId>
-                            <ns:MmbId>V70WAsjPW0eUWZs8VL4fcK3fo6yR</ns:MmbId>
+                            <ns:MmbId>wilBTYe5nJ9F0YyUkqf9cR1SYt59</ns:MmbId>
                         </ns:ClrSysMmbId>
                     </ns:FinInstnId>
                 </ns:Agt>

@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>CW7VLU20V</ns:MmbId>
+                    <ns:MmbId>VOF3X6QXU</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,28 +12,28 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>CLEQRXM8V</ns:MmbId>
+                    <ns:MmbId>E7MX5PORK</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>U62</ns:MsgDefIdr>
+    <ns:MsgDefIdr>981</ns:MsgDefIdr>
     <ns:BizSvc>PROD</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T13:44:48</ns:CreDt>
-    <ns:BizPrcgDt>2023-09-12T13:44:48</ns:BizPrcgDt>
+    <ns:CreDt>2023-09-12T16:42:54</ns:CreDt>
+    <ns:BizPrcgDt>2023-09-12T16:42:54</ns:BizPrcgDt>
     <ns:CpyDplct>DUPL</ns:CpyDplct>
-    <ns:PssblDplct>false</ns:PssblDplct>
+    <ns:PssblDplct>true</ns:PssblDplct>
     <ns:Rltd>
         <ns:Fr>
             <ns:FIId>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
-                        <ns:MmbId>5CAK08AAW</ns:MmbId>
+                        <ns:MmbId>OK29E6VWJ</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:FIId>
@@ -42,20 +42,20 @@
             <ns:FIId>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
-                        <ns:MmbId>R50BUFGSZ</ns:MmbId>
+                        <ns:MmbId>82J961IX8</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:To>
         <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>U12</ns:MsgDefIdr>
+        <ns:MsgDefIdr>L62</ns:MsgDefIdr>
         <ns:BizSvc>TEST</ns:BizSvc>
         <ns:MktPrctc>
             <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
             <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
         </ns:MktPrctc>
-        <ns:CreDt>2023-09-12T13:44:48</ns:CreDt>
-        <ns:BizPrcgDt>2023-09-12T13:44:48</ns:BizPrcgDt>
+        <ns:CreDt>2023-09-12T16:42:54</ns:CreDt>
+        <ns:BizPrcgDt>2023-09-12T16:42:54</ns:BizPrcgDt>
         <ns:PssblDplct>false</ns:PssblDplct>
     </ns:Rltd>
 </ns:AppHdr>
@@ -63,15 +63,15 @@
     <ns:AcctRptgReq>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T13:44:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T16:42:54</ns:CreDtTm>
         </ns:GrpHdr>
         <ns:RptgReq>
-            <ns:Id>DTLR</ns:Id>
-            <ns:ReqdMsgNmId>n65</ns:ReqdMsgNmId>
+            <ns:Id>ABAR</ns:Id>
+            <ns:ReqdMsgNmId>j01</ns:ReqdMsgNmId>
             <ns:Acct>
                 <ns:Id>
                     <ns:Othr>
-                        <ns:Id>573027184</ns:Id>
+                        <ns:Id>706977774</ns:Id>
                     </ns:Othr>
                 </ns:Id>
                 <ns:Tp>
@@ -85,7 +85,7 @@
                             <ns:ClrSysId>
                                 <ns:Cd>USABA</ns:Cd>
                             </ns:ClrSysId>
-                            <ns:MmbId>470299099</ns:MmbId>
+                            <ns:MmbId>636154728</ns:MmbId>
                         </ns:ClrSysMmbId>
                         <ns:Othr>
                             <ns:Id>00000000</ns:Id>
@@ -95,8 +95,8 @@
             </ns:AcctOwnr>
             <ns:RptgSeq>
                 <ns:FrToSeq>
-                    <ns:FrSeq>956989.9709684831</ns:FrSeq>
-                    <ns:ToSeq>566667.1827053878</ns:ToSeq>
+                    <ns:FrSeq>610524.5289958708</ns:FrSeq>
+                    <ns:ToSeq>736946.2983560141</ns:ToSeq>
                 </ns:FrToSeq>
             </ns:RptgSeq>
         </ns:RptgReq>

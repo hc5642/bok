@@ -21,6 +21,6 @@
         "MsgDefIdr": "admi.004.001.02",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.01",
-        "CreDt": "2023-09-12T14:53:16"
+        "CreDt": "2023-09-12T15:44:34"
     }
 }

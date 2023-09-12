@@ -26,17 +26,17 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.007.001.08</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:14:00</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.007.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:ModfyTx>
         <ns:MsgHdr>
-            <ns:MsgId>fxaFUeq3WiQlQMIRjCCFoKfPTs59bl8BKAu</ns:MsgId>
+            <ns:MsgId>J3TX1zk9xnfQFdC1BeaOBpAl9JiEdzQrt8p</ns:MsgId>
         </ns:MsgHdr>
         <ns:Mod>
             <ns:PmtId>
                 <ns:LngBizId>
-                    <ns:UETR>4ef768cf-e3bd-4a73-a5a3-6bec1ee698aa</ns:UETR>
+                    <ns:UETR>e49338e6-142b-4aa0-860f-13142879e748</ns:UETR>
                     <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
                     <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
                     <ns:InstgAgt>
@@ -63,7 +63,7 @@
             </ns:PmtId>
             <ns:NewPmtValSet>
                 <ns:Prty>
-                    <ns:Prtry>XyPu41Yg4OSaF95hLxeHORT0VUf4IFjXfyc</ns:Prtry>
+                    <ns:Prtry>cuD9fXU2iv7uE3DrLk9jTtMT93JaKZoFsyD</ns:Prtry>
                 </ns:Prty>
             </ns:NewPmtValSet>
         </ns:Mod>

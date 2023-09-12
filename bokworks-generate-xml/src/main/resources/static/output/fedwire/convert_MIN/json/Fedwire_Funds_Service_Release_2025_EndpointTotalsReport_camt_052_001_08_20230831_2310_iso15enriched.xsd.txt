@@ -3,48 +3,48 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.052.001.08",
         "BkToCstmrAcctRpt": {
             "Rpt": {
-                "CreDtTm": "2023-09-12T14:59:33",
-                "Id": "IDAY",
+                "CreDtTm": "2023-09-12T15:59:01",
+                "Id": "EDAY",
                 "Acct": {"Id": {"Othr": {"Id": "00000000"}}},
                 "AddtlRptInf": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                 "TxsSummry": {
                     "TtlNtriesPerBkTxCd": [
                         {
-                            "BkTxCd": {"Prtry": {"Cd": "RJCT"}},
-                            "NbOfNtries": 26311
-                        },
-                        {
                             "BkTxCd": {"Prtry": {"Cd": "ICPT"}},
-                            "NbOfNtries": 513
+                            "NbOfNtries": 389733838172
                         },
                         {
                             "BkTxCd": {"Prtry": {"Cd": "RJCT"}},
-                            "NbOfNtries": 9
+                            "NbOfNtries": 7
                         },
                         {
-                            "BkTxCd": {"Prtry": {"Cd": "ICPT"}},
-                            "NbOfNtries": 70237
+                            "BkTxCd": {"Prtry": {"Cd": "RJCT"}},
+                            "NbOfNtries": 68502525
                         },
                         {
-                            "BkTxCd": {"Prtry": {"Cd": "INPR"}},
-                            "NbOfNtries": "07136976758118"
+                            "BkTxCd": {"Prtry": {"Cd": "RCVD"}},
+                            "NbOfNtries": 47933828198
+                        },
+                        {
+                            "BkTxCd": {"Prtry": {"Cd": "RCVD"}},
+                            "NbOfNtries": 6214724988
                         }
                     ],
                     "TtlCdtNtries": {
-                        "NbOfNtries": 44920,
-                        "Sum": 1.27606428954452E+30
+                        "NbOfNtries": 8184,
+                        "Sum": "4.4489859643040823E"
                     },
                     "TtlDbtNtries": {
-                        "NbOfNtries": 1425592093,
-                        "Sum": "1.4454803050092796E"
+                        "NbOfNtries": 5487,
+                        "Sum": 7146.862275726568
                     }
                 }
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:59:33",
+                "CreDtTm": "2023-09-12T15:59:01",
                 "MsgPgntn": {
-                    "PgNb": 6703,
-                    "LastPgInd": true
+                    "PgNb": 55,
+                    "LastPgInd": false
                 },
                 "MsgId": "ETOT"
             }
@@ -53,16 +53,16 @@
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
-        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "3MAGARRQF"}}}},
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "X0USIN2WY"}}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "FGI7L1FVX"}}}},
-        "MsgDefIdr": "z93",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "EIC1VXHS3"}}}},
+        "MsgDefIdr": "U93",
         "MktPrctc": {
             "Id": "000000000000000000",
             "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "TEST",
-        "CreDt": "2023-09-12T14:59:33"
+        "CreDt": "2023-09-12T15:59:01"
     }
 }

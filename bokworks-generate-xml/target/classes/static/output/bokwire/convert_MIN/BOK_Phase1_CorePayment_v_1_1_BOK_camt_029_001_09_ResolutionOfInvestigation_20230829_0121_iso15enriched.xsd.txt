@@ -26,7 +26,7 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.029.001.09</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:14:00</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.029.001.09" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:RsltnOfInvstgtn>
@@ -56,10 +56,10 @@
                     </ns:FinInstnId>
                 </ns:Agt>
             </ns:Assgne>
-            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:00</ns:CreDtTm>
         </ns:Assgnmt>
         <ns:Sts>
-            <ns:Conf>CNCL</ns:Conf>
+            <ns:Conf>PDCR</ns:Conf>
         </ns:Sts>
         <ns:CxlDtls>
             <ns:TxInfAndSts>
@@ -68,7 +68,7 @@
                     <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
                 </ns:OrgnlGrpInf>
                 <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
-                <ns:OrgnlUETR>0fceee2c-6fca-44cb-b630-fe22c5921fbb</ns:OrgnlUETR>
+                <ns:OrgnlUETR>243db9a4-efcc-4974-b530-00c108003eb8</ns:OrgnlUETR>
             </ns:TxInfAndSts>
         </ns:CxlDtls>
     </ns:RsltnOfInvstgtn>

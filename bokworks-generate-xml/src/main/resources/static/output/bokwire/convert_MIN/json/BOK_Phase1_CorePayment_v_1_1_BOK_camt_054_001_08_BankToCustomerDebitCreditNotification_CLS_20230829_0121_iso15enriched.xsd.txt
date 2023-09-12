@@ -5,7 +5,7 @@
             "Ntfctn": {
                 "Id": "00000000000000000000000000000000000",
                 "Acct": {
-                    "Ccy": "SXC",
+                    "Ccy": "KYW",
                     "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
                 },
                 "Ntry": {
@@ -16,11 +16,11 @@
                     },
                     "Sts": {"Cd": "BOOK"},
                     "CdtDbtInd": "CRDT",
-                    "BookgDt": {"DtTm": "2023-09-12T14:53:16"},
+                    "BookgDt": {"DtTm": "2023-09-12T15:44:35"},
                     "NtryDtls": {"TxDtls": {
-                        "RltdAgts": {"CdtrAgt": {"FinInstnId": {"BICFI": "RPTMWF6Z(3SD"}}},
+                        "RltdAgts": {"CdtrAgt": {"FinInstnId": {"BICFI": "YKK5IDOI(IRT"}}},
                         "Refs": {
-                            "UETR": "0cd6484f-3467-474a-aef9-a452070e680e",
+                            "UETR": "bc2c7ca5-0239-4b65-a205-df1a61329405",
                             "InstrId": "00000000000000000000000000000000000",
                             "EndToEndId": "00000000000000000000000000000000000",
                             "MsgId": "00000000000000000000000000000000000",
@@ -32,7 +32,7 @@
                 "RptgSrc": {"Prtry": "LVPS"}
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:53:16",
+                "CreDtTm": "2023-09-12T15:44:35",
                 "AddtlInf": "/MSGID/BKS20A030",
                 "MsgId": "00000000000000000000000000000000000"
             }
@@ -53,6 +53,6 @@
         "MsgDefIdr": "camt.054.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.cls.01",
-        "CreDt": "2023-09-12T14:53:16"
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

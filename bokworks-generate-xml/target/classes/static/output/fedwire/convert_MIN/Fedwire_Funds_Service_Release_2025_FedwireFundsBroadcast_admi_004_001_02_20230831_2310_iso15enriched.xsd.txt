@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>RBODYOXVN</ns:MmbId>
+                    <ns:MmbId>6NGBCA0RH</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,26 +12,26 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>I85GOOIHW</ns:MmbId>
+                    <ns:MmbId>TR8T7BR7Q</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>o83</ns:MsgDefIdr>
-    <ns:BizSvc>PROD</ns:BizSvc>
+    <ns:MsgDefIdr>l88</ns:MsgDefIdr>
+    <ns:BizSvc>TEST</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T14:59:33</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:46</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:SysEvtNtfctn>
         <ns:EvtInf>
-            <ns:EvtCd>ADHC</ns:EvtCd>
+            <ns:EvtCd>CLSD</ns:EvtCd>
             <ns:EvtParam>2023-09-12</ns:EvtParam>
-            <ns:EvtTm>2023-09-12T14:59:33</ns:EvtTm>
+            <ns:EvtTm>2023-09-12T16:42:46</ns:EvtTm>
         </ns:EvtInf>
     </ns:SysEvtNtfctn>
 </ns:Document>

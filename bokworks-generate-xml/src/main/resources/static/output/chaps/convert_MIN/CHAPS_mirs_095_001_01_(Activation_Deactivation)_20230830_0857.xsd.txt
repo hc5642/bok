@@ -2,26 +2,26 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>EG4WGXQC(V01</ns:BICFI>
+                <ns:BICFI>4GL2XR51(QAY</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>7IQTTQQW(T1I</ns:BICFI>
+                <ns:BICFI>SJGXVPFW(HDI)</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:58:43</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:28</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:swift:xsd:mirs.095.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:ActvtnDeactvtn>
         <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-        <ns:DtAndTm>2023-09-12T14:58:43</ns:DtAndTm>
-        <ns:ActvtnDeactvtn>ACTI</ns:ActvtnDeactvtn>
+        <ns:DtAndTm>2023-09-12T16:42:28</ns:DtAndTm>
+        <ns:ActvtnDeactvtn>DEAC</ns:ActvtnDeactvtn>
     </ns:ActvtnDeactvtn>
 </ns:Document>

@@ -4,24 +4,24 @@
         <!--(ns:MsgId , ns:CreDtTm? , ns:ReqTp)-->
               
         <ns:MsgHdr>
-            <ns:MsgId>C6wFFEYXyjDrciDb462Nz6JWFb7C0Pa2cTa</ns:MsgId>
+            <ns:MsgId>WDuWHZPhF82W4YJBQwTMAfcMkwmPq0XXXYr</ns:MsgId>
             <ns:ReqTp>
                 <ns:Prtry>
-                    <ns:Id>q6WWkWcWrcuQtSGRqspfCLKG8SHGHnKazsR</ns:Id>
+                    <ns:Id>Pxf65DHUhuy0rbXozTgRNlj8f1n2vGhcwej</ns:Id>
                 </ns:Prtry>
             </ns:ReqTp>
         </ns:MsgHdr>
         <ns:RctDtls>
             <ns:OrgnlMsgId>
-                <ns:MsgId>2NgzMxVSnwsytbVDVLFqV1Z1hvxbCUIeunN</ns:MsgId>
-                <ns:MsgNmId>9v3ZnRRW92krNVav0r4cxEAoVuM2rSTmuFA</ns:MsgNmId>
+                <ns:MsgId>zzRis2ugKVDfYkWKMKRGNTGY6B4XYYreRJh</ns:MsgId>
+                <ns:MsgNmId>HR3cuwt7DQvHaYNv5iQ9QSpgGlgukkshoM4</ns:MsgNmId>
             </ns:OrgnlMsgId>
             <ns:OrgnlPmtId>
                             
                 <!--(ns:TxId? , ns:UETR , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt)-->
                             
                 <ns:LngBizId>
-                    <ns:UETR>8137e3ec-54c4-44ae-b20b-9959aee0f5c7</ns:UETR>
+                    <ns:UETR>eb1e055e-238c-49aa-9dda-0d117bd7c6e1</ns:UETR>
                     <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
                     <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
                     <ns:InstgAgt>
@@ -43,7 +43,7 @@
                 <ns:Desc>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Desc>
             </ns:ReqHdlg>
             <ns:ReqHdlg>
-                <ns:StsCd>MODI</ns:StsCd>
+                <ns:StsCd>RJCT</ns:StsCd>
                 <ns:Desc>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Desc>
             </ns:ReqHdlg>
         </ns:RctDtls>

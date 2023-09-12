@@ -2,7 +2,7 @@
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:01</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -20,7 +20,7 @@
                      
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>74463046-0c1c-4b7a-88df-0edc226709d6</ns:UETR>
+                <ns:UETR>d48c1943-e19e-4f68-a319-bb8d0d88a13e</ns:UETR>
             </ns:PmtId>
                      
             <!--(ns:SvcLvl , ns:LclInstrm? , ns:CtgyPurp?)-->
@@ -32,6 +32,13 @@
                 <ns:SvcLvl>
                     <ns:Prtry>2</ns:Prtry>
                     <ns:Cd>0000</ns:Cd>
+                </ns:SvcLvl>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:SvcLvl>
+                    <ns:Cd>0000</ns:Cd>
+                    <ns:Prtry>3</ns:Prtry>
                 </ns:SvcLvl>
                             
                 <!--(ns:Cd | ns:Prtry)-->
@@ -74,7 +81,7 @@
                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
                             
                 <ns:FinInstnId>
-                    <ns:BICFI>14L3XI14(5KK)</ns:BICFI>
+                    <ns:BICFI>HO0HTN5E(YZ7)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:Dbtr>
             <ns:Cdtr>
@@ -82,7 +89,7 @@
                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
                             
                 <ns:FinInstnId>
-                    <ns:BICFI>YQP4PMAO(XGG</ns:BICFI>
+                    <ns:BICFI>GP11QFBH(XH4)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:Cdtr>
         </ns:CdtTrfTxInf>

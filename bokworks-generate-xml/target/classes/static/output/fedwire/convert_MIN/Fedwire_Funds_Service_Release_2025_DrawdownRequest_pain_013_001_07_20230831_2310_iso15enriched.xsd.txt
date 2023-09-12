@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>6OB56YHB1</ns:MmbId>
+                    <ns:MmbId>NULQWHNQC</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,25 +12,25 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>HYOIR5ZKF</ns:MmbId>
+                    <ns:MmbId>5X4LP2S9R</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>g80</ns:MsgDefIdr>
-    <ns:BizSvc>TEST</ns:BizSvc>
+    <ns:MsgDefIdr>y56</ns:MsgDefIdr>
+    <ns:BizSvc>PROD</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T14:59:32</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:46</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pain.013.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:CdtrPmtActvtnReq>
         <ns:GrpHdr>
             <ns:MsgId>0000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:59:32</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T16:42:46</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:InitgPty/>
         </ns:GrpHdr>
@@ -47,14 +47,14 @@
                         <ns:ClrSysId>
                             <ns:Cd>USABA</ns:Cd>
                         </ns:ClrSysId>
-                        <ns:MmbId>973096568</ns:MmbId>
+                        <ns:MmbId>480615553</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:DbtrAgt>
             <ns:CdtTrfTx>
                 <ns:PmtId>
                     <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                    <ns:UETR>bd818ddd-1f1b-4c95-b54b-5600911d44f8</ns:UETR>
+                    <ns:UETR>fc75430c-6b37-47b7-828a-8783ba3c22eb</ns:UETR>
                 </ns:PmtId>
                 <ns:PmtTpInf>
                     <ns:LclInstrm>
@@ -62,7 +62,7 @@
                     </ns:LclInstrm>
                 </ns:PmtTpInf>
                 <ns:Amt>
-                    <ns:InstdAmt Ccy="USD">1.33</ns:InstdAmt>
+                    <ns:InstdAmt Ccy="USD">4.51</ns:InstdAmt>
                 </ns:Amt>
                 <ns:ChrgBr>CRED</ns:ChrgBr>
                 <ns:CdtrAgt>
@@ -71,7 +71,7 @@
                             <ns:ClrSysId>
                                 <ns:Cd>USABA</ns:Cd>
                             </ns:ClrSysId>
-                            <ns:MmbId>727602217</ns:MmbId>
+                            <ns:MmbId>604086407</ns:MmbId>
                         </ns:ClrSysMmbId>
                     </ns:FinInstnId>
                 </ns:CdtrAgt>

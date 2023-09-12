@@ -3,36 +3,51 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08",
         "FIToFICstmrCdtTrf": {
             "CdtTrfTxInf": {
-                "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
-                    "ClrSysId": {"Cd": "USABA"},
-                    "MmbId": 254170652
-                }}},
+                "InstrForCdtrAgt": "",
                 "ChrgBr": "SHAR",
-                "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
-                    "ClrSysId": {"Cd": "USABA"},
-                    "MmbId": 573454897
-                }}},
-                "CdtrAgt": {"FinInstnId": ""},
                 "IntrBkSttlmAmt": {
                     "Ccy": "USD",
-                    "content": 1.63
+                    "content": 2.64
                 },
-                "IntrBkSttlmDt": "2023-09-12",
-                "DbtrAgt": {"FinInstnId": ""},
                 "Cdtr": "",
+                "RgltryRptg": {"Dtls": {"Inf": "00000000000000000000000000000000000"}},
                 "InstdAmt": {
                     "Ccy": "Ccy1",
-                    "content": 1.60814
+                    "content": 1.64836
                 },
+                "PmtTpInf": {
+                    "SvcLvl": {
+                        "Cd": "0000",
+                        "Prtry": "00000000000000000000000000000000000"
+                    },
+                    "LclInstrm": {"Prtry": "CTRD"}
+                },
+                "Dbtr": "",
+                "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 833586052
+                }}},
+                "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 624185129
+                }}},
+                "CdtrAgt": {"FinInstnId": ""},
+                "IntrBkSttlmDt": "2023-09-12",
+                "DbtrAgt": {"FinInstnId": ""},
                 "PmtId": {
-                    "UETR": "6f0f6ce9-c78f-40f7-ac7c-e31408c7ff6b",
+                    "UETR": "914c9cf3-76f6-410c-8ce2-d341d439eefb",
                     "EndToEndId": "00000000000000000000000000000000000"
                 },
-                "PmtTpInf": {"LclInstrm": {"Prtry": "CTRC"}},
-                "Dbtr": ""
+                "ChrgsInf": {
+                    "Amt": {
+                        "Ccy": "Ccy2",
+                        "content": 1.46246
+                    },
+                    "Agt": {"FinInstnId": ""}
+                }
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:59:32",
+                "CreDtTm": "2023-09-12T15:59:01",
                 "NbOfTxs": 1,
                 "SttlmInf": {
                     "SttlmMtd": "CLRG",
@@ -45,16 +60,16 @@
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
-        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "799QRH2AT"}}}},
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "T88IU1K2U"}}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "HS0558VO2"}}}},
-        "MsgDefIdr": "p22",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "ILN2TZVID"}}}},
+        "MsgDefIdr": "078",
         "MktPrctc": {
             "Id": "000000000000000000",
             "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "BizSvc": "TEST",
-        "CreDt": "2023-09-12T14:59:32"
+        "BizSvc": "PROD",
+        "CreDt": "2023-09-12T15:59:01"
     }
 }

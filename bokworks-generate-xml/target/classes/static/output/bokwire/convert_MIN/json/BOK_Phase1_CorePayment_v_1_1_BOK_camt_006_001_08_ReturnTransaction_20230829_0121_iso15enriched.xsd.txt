@@ -4,14 +4,15 @@
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "RtrTx": {
             "MsgHdr": {
-                "OrgnlBizQry": {"MsgId": "GPSR60cu7lisFtXrEOhBsJPsITIgcb3TBPv"},
-                "MsgId": "xfqIbtEqx9QA99gP7NKnRQFRlcjVorpMqc6",
+                "OrgnlBizQry": {"MsgId": "XnhfJHxTl9bcoceVAHZOcNAfN1NBIS0NMdK"},
+                "MsgId": "IcqUEAWdOy0Xd6vvThZXrLdp32GUKdnnvlJ",
                 "ReqTp": {"Prtry": {"Id": "IPIQ"}}
             },
             "RptOrErr": {"BizRpt": {"TxRpt": {
                 "TxOrErr": {"Tx": {"Pmt": {"Sts": {
-                    "DtTm": {"DtTm": "2023-09-12T14:53:16"},
-                    "Cd": {"Prtry": "ib2yYM0NqyqWMwXFB7OTG2PdbZdL4qFKnqo"}
+                    "DtTm": {"DtTm": "2023-09-12T15:44:35"},
+                    "Cd": {"Prtry": "FnDqeXUuOxx2vP7b9fLf6I8zEHgtWuTkb1Q"},
+                    "Rsn": {"Prtry": "DTymPH4EAvDXl11FtpU8bTwUTLSix7HaiV9"}
                 }}}},
                 "PmtId": {"PrtryId": "0000000000000000000000000000000000000000000000000000000000000000000000"}
             }}}
@@ -31,6 +32,6 @@
         "MsgDefIdr": "camt.006.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "00000000000000000000000000000000000",
-        "CreDt": "2023-09-12T14:53:16"
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

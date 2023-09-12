@@ -2,27 +2,27 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>YK31SD3Y(SIS)</ns:BICFI>
+                <ns:BICFI>YQQQSD6V(P39</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>9G2VAPN3(3P5)</ns:BICFI>
+                <ns:BICFI>AAUBZC2R(IT0</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:58:44</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:28</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:58:44</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T16:42:28</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -35,18 +35,18 @@
             <ns:PmtId>
                 <ns:InstrId>0000000000000000</ns:InstrId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>c45535fc-319a-4be7-83f1-1b8cb380d014</ns:UETR>
+                <ns:UETR>e6bdae16-879a-46c8-ab38-9fbb36c2347f</ns:UETR>
             </ns:PmtId>
-            <ns:IntrBkSttlmAmt Ccy="GBP">2.01478</ns:IntrBkSttlmAmt>
+            <ns:IntrBkSttlmAmt Ccy="GBP">1.41766</ns:IntrBkSttlmAmt>
             <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:InstgAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>3XT5DP9B(7XX</ns:BICFI>
+                    <ns:BICFI>9CT2BT2R(9TD)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstgAgt>
             <ns:InstdAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>QK8EJWZM(YZ1)</ns:BICFI>
+                    <ns:BICFI>8MOAEE19(7H6)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstdAgt>
             <ns:Dbtr>

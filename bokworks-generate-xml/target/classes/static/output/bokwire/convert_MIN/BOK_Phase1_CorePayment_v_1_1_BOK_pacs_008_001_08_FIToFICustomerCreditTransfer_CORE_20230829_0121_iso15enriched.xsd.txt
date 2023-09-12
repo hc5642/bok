@@ -26,13 +26,13 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.008.001.08</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.cdtrdsgntd.01</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:53:17</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:14:01</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:FIToFICstmrCdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:01</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -45,7 +45,7 @@
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
                 <ns:TxId>00000000000000000000000000000000000</ns:TxId>
-                <ns:UETR>9d572a94-d041-4dd9-bc47-e00017adac4b</ns:UETR>
+                <ns:UETR>ffded30a-f053-4f75-8621-5137e7764aa7</ns:UETR>
             </ns:PmtId>
             <ns:PmtTpInf>
                 <ns:InstrPrty>HIGH</ns:InstrPrty>
@@ -55,7 +55,7 @@
             </ns:PmtTpInf>
             <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
             <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
-            <ns:SttlmPrty>HIGH</ns:SttlmPrty>
+            <ns:SttlmPrty>NORM</ns:SttlmPrty>
             <ns:ChrgBr>CRED</ns:ChrgBr>
             <ns:InstgAgt>
                 <ns:FinInstnId>
@@ -89,7 +89,7 @@
                 <ns:Nm>000000000000000000000000000000</ns:Nm>
                 <ns:PstlAdr>
                     <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                    <ns:Ctry>CL</ns:Ctry>
+                    <ns:Ctry>EZ</ns:Ctry>
                 </ns:PstlAdr>
             </ns:Dbtr>
             <ns:DbtrAcct>
@@ -123,7 +123,7 @@
                 <ns:Nm>000000000000000000000000000000</ns:Nm>
                 <ns:PstlAdr>
                     <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                    <ns:Ctry>QW</ns:Ctry>
+                    <ns:Ctry>NZ</ns:Ctry>
                 </ns:PstlAdr>
             </ns:Cdtr>
             <ns:CdtrAcct>
@@ -147,12 +147,6 @@
             </ns:RgltryRptg>
             <ns:RgltryRptg>
                 <ns:Dtls>
-                    <ns:Tp>DBTRCUST</ns:Tp>
-                    <ns:Cd>0000000000</ns:Cd>
-                </ns:Dtls>
-            </ns:RgltryRptg>
-            <ns:RgltryRptg>
-                <ns:Dtls>
                     <ns:Tp>CDTRCUST</ns:Tp>
                     <ns:Cd>0000000000</ns:Cd>
                 </ns:Dtls>
@@ -160,24 +154,6 @@
             <ns:RgltryRptg>
                 <ns:Dtls>
                     <ns:Tp>DBTRCUST</ns:Tp>
-                    <ns:Cd>0000000000</ns:Cd>
-                </ns:Dtls>
-            </ns:RgltryRptg>
-            <ns:RgltryRptg>
-                <ns:Dtls>
-                    <ns:Tp>CDTRCUST</ns:Tp>
-                    <ns:Cd>0000000000</ns:Cd>
-                </ns:Dtls>
-            </ns:RgltryRptg>
-            <ns:RgltryRptg>
-                <ns:Dtls>
-                    <ns:Tp>DBTRCUST</ns:Tp>
-                    <ns:Cd>0000000000</ns:Cd>
-                </ns:Dtls>
-            </ns:RgltryRptg>
-            <ns:RgltryRptg>
-                <ns:Dtls>
-                    <ns:Tp>CDTRCUST</ns:Tp>
                     <ns:Cd>0000000000</ns:Cd>
                 </ns:Dtls>
             </ns:RgltryRptg>

@@ -5,7 +5,7 @@
     <ns:IdVrfctnRpt>
         <ns:Assgnmt>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:00</ns:CreDtTm>
             <ns:Assgnr>
                 <ns:Agt>
                                    

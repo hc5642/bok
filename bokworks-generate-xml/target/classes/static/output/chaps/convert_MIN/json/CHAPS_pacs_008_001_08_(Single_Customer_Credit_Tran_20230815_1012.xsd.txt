@@ -3,26 +3,35 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08",
         "FIToFICstmrCdtTrf": {
             "CdtTrfTxInf": {
-                "InstdAgt": {"FinInstnId": {"BICFI": "60TZUYRR(YUC)"}},
+                "InstrForCdtrAgt": "",
                 "ChrgBr": "CRED",
-                "InstgAgt": {"FinInstnId": {"BICFI": "BPKEOYNL(6NT)"}},
-                "CdtrAgt": {"FinInstnId": ""},
                 "IntrBkSttlmAmt": {
                     "Ccy": "GBP",
-                    "content": 2.74481
+                    "content": 1.40232
                 },
+                "Cdtr": "",
+                "RgltryRptg": "",
+                "Dbtr": "",
+                "InstdAgt": {"FinInstnId": {"BICFI": "X8X1HNLF(ZLD"}},
+                "InstgAgt": {"FinInstnId": {"BICFI": "Y37KYE9N(68P)"}},
+                "CdtrAgt": {"FinInstnId": ""},
                 "IntrBkSttlmDt": "2023-09-12",
                 "DbtrAgt": {"FinInstnId": ""},
-                "Cdtr": "",
                 "PmtId": {
-                    "UETR": "f7e0ac56-7753-462b-8bb8-d901d4584012",
+                    "UETR": "92defcc9-7fa9-4935-9923-6afbd40a03ca",
                     "InstrId": "0000000000000000",
                     "EndToEndId": "00000000000000000000000000000000000"
                 },
-                "Dbtr": ""
+                "ChrgsInf": {
+                    "Amt": {
+                        "Ccy": "Ccy1",
+                        "content": 1.66784
+                    },
+                    "Agt": {"FinInstnId": ""}
+                }
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:58:44",
+                "CreDtTm": "2023-09-12T16:08:39",
                 "NbOfTxs": 1,
                 "SttlmInf": {
                     "SttlmMtd": "CLRG",
@@ -35,12 +44,12 @@
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
-        "Fr": {"FIId": {"FinInstnId": {"BICFI": "EAK1VG5M(L6H"}}},
+        "Fr": {"FIId": {"FinInstnId": {"BICFI": "OJ7CFDSV(4S8)"}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"BICFI": "H948SB70(WSI)"}}},
+        "To": {"FIId": {"FinInstnId": {"BICFI": "AHNBAJ78(0SW)"}}},
         "MsgDefIdr": "00000000000000000000000000000000000",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "00000000000000000000000000000000000",
-        "CreDt": "2023-09-12T14:58:44"
+        "CreDt": "2023-09-12T16:08:39"
     }
 }

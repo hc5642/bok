@@ -4,9 +4,9 @@
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "ModfyTx": {
             "Mod": {
-                "NewPmtValSet": {"Prty": {"Prtry": "XyPu41Yg4OSaF95hLxeHORT0VUf4IFjXfyc"}},
+                "NewPmtValSet": {"Prty": {"Prtry": "diuALwSVC1hO09RpE7qQJmAIn287adAdvMC"}},
                 "PmtId": {"LngBizId": {
-                    "UETR": "4ef768cf-e3bd-4a73-a5a3-6bec1ee698aa",
+                    "UETR": "2c955c0a-11d0-4bdc-99a4-dece18ebd7b5",
                     "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": "0000000000000000000000000000"
@@ -22,7 +22,7 @@
                     "IntrBkSttlmDt": "2023-09-12"
                 }}
             },
-            "MsgHdr": {"MsgId": "fxaFUeq3WiQlQMIRjCCFoKfPTs59bl8BKAu"}
+            "MsgHdr": {"MsgId": "L1Ag9vSHeo5R7noPFhsAKKKIXp8M5ofc5dW"}
         }
     },
     "AppHdr": {
@@ -39,6 +39,14 @@
         "MsgDefIdr": "camt.007.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "00000000000000000000000000000000000",
-        "CreDt": "2023-09-12T14:53:16"
+        "Rltd": {
+            "Fr": {"FIId": {"FinInstnId": ""}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": ""}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "CreDt": "2023-09-12T15:44:35"
+        },
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

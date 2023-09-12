@@ -2,7 +2,7 @@
     <ns:FIToFIPmtStsRpt>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:01</ns:CreDtTm>
         </ns:GrpHdr>
               
         <!--(ns:StsId? , ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId , ns:OrgnlTxId? , ns:OrgnlUETR , ns:TxSts , ns:StsRsnInf+ , ns:ChrgsInf* , ns:FctvIntrBkSttlmDt? , ns:ClrSysRef , ns:InstgAgt , ns:InstdAgt , ns:OrgnlTxRef?)-->
@@ -16,8 +16,8 @@
                 <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
             </ns:OrgnlGrpInf>
             <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
-            <ns:OrgnlUETR>9d69843c-4062-44f0-b297-ca9b52b0b997</ns:OrgnlUETR>
-            <ns:TxSts>ACSP</ns:TxSts>
+            <ns:OrgnlUETR>11f1c60e-b9ba-4c71-bcd2-d1becd4dfe7d</ns:OrgnlUETR>
+            <ns:TxSts>ACCC</ns:TxSts>
                      
             <!--(ns:Rsn? , ns:AddtlInf*)-->
                      

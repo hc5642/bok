@@ -2,21 +2,21 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>Z0EOIO3C(V7N)</ns:BICFI>
+                <ns:BICFI>HA4LDSEA(TTH)</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>93XCHKDM(1SW)</ns:BICFI>
+                <ns:BICFI>KR17SVVJ(XZB)</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:58:43</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:27</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:SysEvtNtfctn>

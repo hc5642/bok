@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>NM7LKZOZQ</ns:MmbId>
+                    <ns:MmbId>EZKZWO1QR</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,28 +12,28 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>73777WPTK</ns:MmbId>
+                    <ns:MmbId>IMUNMLZSA</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>G95</ns:MsgDefIdr>
+    <ns:MsgDefIdr>L26</ns:MsgDefIdr>
     <ns:BizSvc>TEST</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T13:44:48</ns:CreDt>
-    <ns:BizPrcgDt>2023-09-12T13:44:48</ns:BizPrcgDt>
+    <ns:CreDt>2023-09-12T16:42:55</ns:CreDt>
+    <ns:BizPrcgDt>2023-09-12T16:42:55</ns:BizPrcgDt>
     <ns:CpyDplct>DUPL</ns:CpyDplct>
-    <ns:PssblDplct>true</ns:PssblDplct>
+    <ns:PssblDplct>false</ns:PssblDplct>
     <ns:Rltd>
         <ns:Fr>
             <ns:FIId>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
-                        <ns:MmbId>ZU3WWRA6D</ns:MmbId>
+                        <ns:MmbId>SHXFN5GQA</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:FIId>
@@ -42,41 +42,41 @@
             <ns:FIId>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
-                        <ns:MmbId>6S0W0A6QR</ns:MmbId>
+                        <ns:MmbId>L33FQ58RM</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:To>
         <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>v79</ns:MsgDefIdr>
+        <ns:MsgDefIdr>z41</ns:MsgDefIdr>
         <ns:BizSvc>TEST</ns:BizSvc>
         <ns:MktPrctc>
             <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
             <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
         </ns:MktPrctc>
-        <ns:CreDt>2023-09-12T13:44:48</ns:CreDt>
-        <ns:BizPrcgDt>2023-09-12T13:44:48</ns:BizPrcgDt>
-        <ns:PssblDplct>false</ns:PssblDplct>
+        <ns:CreDt>2023-09-12T16:42:55</ns:CreDt>
+        <ns:BizPrcgDt>2023-09-12T16:42:55</ns:BizPrcgDt>
+        <ns:PssblDplct>true</ns:PssblDplct>
     </ns:Rltd>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
             <ns:MsgId>ETOT</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T13:44:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T16:42:55</ns:CreDtTm>
             <ns:MsgPgntn>
-                <ns:PgNb>885</ns:PgNb>
+                <ns:PgNb>68805</ns:PgNb>
                 <ns:LastPgInd>true</ns:LastPgInd>
             </ns:MsgPgntn>
             <ns:OrgnlBizQry>
                 <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-                <ns:MsgNmId>B14</ns:MsgNmId>
-                <ns:CreDtTm>2023-09-12T13:44:48</ns:CreDtTm>
+                <ns:MsgNmId>V69</ns:MsgNmId>
+                <ns:CreDtTm>2023-09-12T16:42:55</ns:CreDtTm>
             </ns:OrgnlBizQry>
         </ns:GrpHdr>
         <ns:Rpt>
-            <ns:Id>IDAY</ns:Id>
-            <ns:CreDtTm>2023-09-12T13:44:48</ns:CreDtTm>
+            <ns:Id>EDAY</ns:Id>
+            <ns:CreDtTm>2023-09-12T16:42:55</ns:CreDtTm>
             <ns:Acct>
                 <ns:Id>
                     <ns:Othr>
@@ -86,23 +86,31 @@
             </ns:Acct>
             <ns:TxsSummry>
                 <ns:TtlCdtNtries>
-                    <ns:NbOfNtries>290726696</ns:NbOfNtries>
-                    <ns:Sum>2.5455268230660774E</ns:Sum>
+                    <ns:NbOfNtries>029964345512287</ns:NbOfNtries>
+                    <ns:Sum>3.0290246113869656E</ns:Sum>
                 </ns:TtlCdtNtries>
                 <ns:TtlDbtNtries>
-                    <ns:NbOfNtries>5233</ns:NbOfNtries>
-                    <ns:Sum>4.4605990835858096E</ns:Sum>
+                    <ns:NbOfNtries>862791370639</ns:NbOfNtries>
+                    <ns:Sum>7.178564465424704E3</ns:Sum>
                 </ns:TtlDbtNtries>
                 <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>692</ns:NbOfNtries>
+                    <ns:NbOfNtries>4961749</ns:NbOfNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
-                            <ns:Cd>RJCT</ns:Cd>
+                            <ns:Cd>RCVD</ns:Cd>
                         </ns:Prtry>
                     </ns:BkTxCd>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>80755018</ns:NbOfNtries>
+                    <ns:NbOfNtries>4641713653</ns:NbOfNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>INPR</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:NbOfNtries>370427413</ns:NbOfNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
                             <ns:Cd>SENT</ns:Cd>
@@ -110,26 +118,18 @@
                     </ns:BkTxCd>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>534971003164398</ns:NbOfNtries>
+                    <ns:NbOfNtries>883292129747010</ns:NbOfNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
-                            <ns:Cd>RJCT</ns:Cd>
+                            <ns:Cd>SENT</ns:Cd>
                         </ns:Prtry>
                     </ns:BkTxCd>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>87231534550346</ns:NbOfNtries>
+                    <ns:NbOfNtries>42357642125287</ns:NbOfNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
-                            <ns:Cd>RJCT</ns:Cd>
-                        </ns:Prtry>
-                    </ns:BkTxCd>
-                </ns:TtlNtriesPerBkTxCd>
-                <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>08145</ns:NbOfNtries>
-                    <ns:BkTxCd>
-                        <ns:Prtry>
-                            <ns:Cd>ICPT</ns:Cd>
+                            <ns:Cd>RCVD</ns:Cd>
                         </ns:Prtry>
                     </ns:BkTxCd>
                 </ns:TtlNtriesPerBkTxCd>

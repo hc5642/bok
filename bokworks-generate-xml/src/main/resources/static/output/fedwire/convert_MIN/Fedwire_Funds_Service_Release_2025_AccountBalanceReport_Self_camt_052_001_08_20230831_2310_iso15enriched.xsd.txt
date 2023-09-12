@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>XGBR33QKI</ns:MmbId>
+                    <ns:MmbId>IZ6336BVB</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,37 +12,37 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>G97XTSR2E</ns:MmbId>
+                    <ns:MmbId>CYLWGRMYA</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>D92</ns:MsgDefIdr>
-    <ns:BizSvc>PROD</ns:BizSvc>
+    <ns:MsgDefIdr>e74</ns:MsgDefIdr>
+    <ns:BizSvc>TEST</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T14:59:32</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:45</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
             <ns:MsgId>ABAR</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:59:32</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T16:42:45</ns:CreDtTm>
             <ns:MsgPgntn>
-                <ns:PgNb>6</ns:PgNb>
+                <ns:PgNb>4</ns:PgNb>
                 <ns:LastPgInd>true</ns:LastPgInd>
             </ns:MsgPgntn>
         </ns:GrpHdr>
         <ns:Rpt>
-            <ns:Id>OPEN</ns:Id>
-            <ns:CreDtTm>2023-09-12T14:59:32</ns:CreDtTm>
+            <ns:Id>ABMS</ns:Id>
+            <ns:CreDtTm>2023-09-12T16:42:45</ns:CreDtTm>
             <ns:Acct>
                 <ns:Id>
                     <ns:Othr>
-                        <ns:Id>350275473</ns:Id>
+                        <ns:Id>037435542</ns:Id>
                     </ns:Othr>
                 </ns:Id>
                 <ns:Tp>
@@ -52,20 +52,32 @@
             <ns:RltdAcct>
                 <ns:Id>
                     <ns:Othr>
-                        <ns:Id>229075253</ns:Id>
+                        <ns:Id>423758153</ns:Id>
                     </ns:Othr>
                 </ns:Id>
             </ns:RltdAcct>
             <ns:Bal>
                 <ns:Tp>
                     <ns:CdOrPrtry>
+                        <ns:Prtry>OBFL</ns:Prtry>
+                    </ns:CdOrPrtry>
+                </ns:Tp>
+                <ns:Amt Ccy="Ccy1">2.63205</ns:Amt>
+                <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
+                <ns:Dt>
+                    <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
+                </ns:Dt>
+            </ns:Bal>
+            <ns:Bal>
+                <ns:Tp>
+                    <ns:CdOrPrtry>
                         <ns:Prtry>AVLD</ns:Prtry>
                     </ns:CdOrPrtry>
                 </ns:Tp>
-                <ns:Amt Ccy="Ccy1">7.43610</ns:Amt>
+                <ns:Amt Ccy="Ccy2">8.35216</ns:Amt>
                 <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
                 <ns:Dt>
-                    <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
+                    <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
                 </ns:Dt>
             </ns:Bal>
             <ns:Bal>
@@ -74,81 +86,25 @@
                         <ns:Prtry>OBFL</ns:Prtry>
                     </ns:CdOrPrtry>
                 </ns:Tp>
-                <ns:Amt Ccy="Ccy2">6.98324</ns:Amt>
+                <ns:Amt Ccy="Ccy3">9.66250</ns:Amt>
                 <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
                 <ns:Dt>
-                    <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
-                </ns:Dt>
-            </ns:Bal>
-            <ns:Bal>
-                <ns:Tp>
-                    <ns:CdOrPrtry>
-                        <ns:Prtry>OBNL</ns:Prtry>
-                    </ns:CdOrPrtry>
-                </ns:Tp>
-                <ns:Amt Ccy="Ccy3">6.25765</ns:Amt>
-                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
-                <ns:Dt>
-                    <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
+                    <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
                 </ns:Dt>
             </ns:Bal>
             <ns:TxsSummry>
                 <ns:TtlNtriesPerBkTxCd>
                     <ns:TtlNetNtry>
-                        <ns:Amt>1.0581095574846392E</ns:Amt>
-                        <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
-                    </ns:TtlNetNtry>
-                    <ns:CdtNtries>
-                        <ns:NbOfNtries>6057063312</ns:NbOfNtries>
-                        <ns:Sum>9.995738015870564E3</ns:Sum>
-                    </ns:CdtNtries>
-                    <ns:DbtNtries>
-                        <ns:NbOfNtries>9123</ns:NbOfNtries>
-                        <ns:Sum>1.40849613438693E30</ns:Sum>
-                    </ns:DbtNtries>
-                    <ns:BkTxCd>
-                        <ns:Prtry>
-                            <ns:Cd>NSSE</ns:Cd>
-                        </ns:Prtry>
-                    </ns:BkTxCd>
-                    <ns:Dt>
-                        <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
-                    </ns:Dt>
-                </ns:TtlNtriesPerBkTxCd>
-                <ns:TtlNtriesPerBkTxCd>
-                    <ns:TtlNetNtry>
-                        <ns:Amt>1.7164577485869068E</ns:Amt>
-                        <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
-                    </ns:TtlNetNtry>
-                    <ns:CdtNtries>
-                        <ns:NbOfNtries>6</ns:NbOfNtries>
-                        <ns:Sum>4.4279080127371117E</ns:Sum>
-                    </ns:CdtNtries>
-                    <ns:DbtNtries>
-                        <ns:NbOfNtries>21831152</ns:NbOfNtries>
-                        <ns:Sum>5.197880508596535E3</ns:Sum>
-                    </ns:DbtNtries>
-                    <ns:BkTxCd>
-                        <ns:Prtry>
-                            <ns:Cd>UVOT</ns:Cd>
-                        </ns:Prtry>
-                    </ns:BkTxCd>
-                    <ns:Dt>
-                        <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
-                    </ns:Dt>
-                </ns:TtlNtriesPerBkTxCd>
-                <ns:TtlNtriesPerBkTxCd>
-                    <ns:TtlNetNtry>
-                        <ns:Amt>3.967722035267954E3</ns:Amt>
+                        <ns:Amt>2.2757133825578224E</ns:Amt>
                         <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
                     </ns:TtlNetNtry>
                     <ns:CdtNtries>
-                        <ns:NbOfNtries>7451792297</ns:NbOfNtries>
-                        <ns:Sum>1.2023083098461111E</ns:Sum>
+                        <ns:NbOfNtries>5780334</ns:NbOfNtries>
+                        <ns:Sum>4.960032520748553E3</ns:Sum>
                     </ns:CdtNtries>
                     <ns:DbtNtries>
-                        <ns:NbOfNtries>56745</ns:NbOfNtries>
-                        <ns:Sum>1.6066340745063625E</ns:Sum>
+                        <ns:NbOfNtries>33145730412775</ns:NbOfNtries>
+                        <ns:Sum>2.300261180686712E3</ns:Sum>
                     </ns:DbtNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
@@ -156,21 +112,21 @@
                         </ns:Prtry>
                     </ns:BkTxCd>
                     <ns:Dt>
-                        <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
+                        <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
                     </ns:Dt>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
                     <ns:TtlNetNtry>
-                        <ns:Amt>1.524130203475615E3</ns:Amt>
-                        <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
+                        <ns:Amt>1.4061708093758891E</ns:Amt>
+                        <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
                     </ns:TtlNetNtry>
                     <ns:CdtNtries>
-                        <ns:NbOfNtries>22438643</ns:NbOfNtries>
-                        <ns:Sum>1.7073409119773866E</ns:Sum>
+                        <ns:NbOfNtries>98551</ns:NbOfNtries>
+                        <ns:Sum>3.8658926645735527E</ns:Sum>
                     </ns:CdtNtries>
                     <ns:DbtNtries>
-                        <ns:NbOfNtries>836529553519</ns:NbOfNtries>
-                        <ns:Sum>7.084694927936412E3</ns:Sum>
+                        <ns:NbOfNtries>134</ns:NbOfNtries>
+                        <ns:Sum>9.629097769645157E3</ns:Sum>
                     </ns:DbtNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
@@ -178,43 +134,43 @@
                         </ns:Prtry>
                     </ns:BkTxCd>
                     <ns:Dt>
-                        <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
+                        <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
                     </ns:Dt>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
                     <ns:TtlNetNtry>
-                        <ns:Amt>3.4272755020977813E</ns:Amt>
+                        <ns:Amt>1.5121433264702907E</ns:Amt>
                         <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
                     </ns:TtlNetNtry>
                     <ns:CdtNtries>
-                        <ns:NbOfNtries>5364418917</ns:NbOfNtries>
-                        <ns:Sum>1.3920936802477512E</ns:Sum>
+                        <ns:NbOfNtries>0349052957238</ns:NbOfNtries>
+                        <ns:Sum>1.17818725598062E30</ns:Sum>
                     </ns:CdtNtries>
                     <ns:DbtNtries>
-                        <ns:NbOfNtries>34980561</ns:NbOfNtries>
-                        <ns:Sum>3.5255036797354637E</ns:Sum>
+                        <ns:NbOfNtries>7828922</ns:NbOfNtries>
+                        <ns:Sum>1.1375736021941302E</ns:Sum>
                     </ns:DbtNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
-                            <ns:Cd>UVOT</ns:Cd>
+                            <ns:Cd>FDWF</ns:Cd>
                         </ns:Prtry>
                     </ns:BkTxCd>
                     <ns:Dt>
-                        <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
+                        <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
                     </ns:Dt>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
                     <ns:TtlNetNtry>
-                        <ns:Amt>1.0327213993265742E</ns:Amt>
+                        <ns:Amt>1.5838534165247758E</ns:Amt>
                         <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
                     </ns:TtlNetNtry>
                     <ns:CdtNtries>
-                        <ns:NbOfNtries>09774842194</ns:NbOfNtries>
-                        <ns:Sum>8.748563664880042E3</ns:Sum>
+                        <ns:NbOfNtries>9</ns:NbOfNtries>
+                        <ns:Sum>1.4264472788371414E</ns:Sum>
                     </ns:CdtNtries>
                     <ns:DbtNtries>
-                        <ns:NbOfNtries>203387032432</ns:NbOfNtries>
-                        <ns:Sum>1.2136188157300687E</ns:Sum>
+                        <ns:NbOfNtries>7797193</ns:NbOfNtries>
+                        <ns:Sum>1.3870963200354267E</ns:Sum>
                     </ns:DbtNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
@@ -222,29 +178,73 @@
                         </ns:Prtry>
                     </ns:BkTxCd>
                     <ns:Dt>
-                        <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
+                        <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
                     </ns:Dt>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
                     <ns:TtlNetNtry>
-                        <ns:Amt>1.5743050196985896E</ns:Amt>
-                        <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
+                        <ns:Amt>1.5209452352789721E</ns:Amt>
+                        <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
                     </ns:TtlNetNtry>
                     <ns:CdtNtries>
-                        <ns:NbOfNtries>7422739391</ns:NbOfNtries>
-                        <ns:Sum>1.7458668463071387E</ns:Sum>
+                        <ns:NbOfNtries>14052425</ns:NbOfNtries>
+                        <ns:Sum>7.05010132558204E30</ns:Sum>
                     </ns:CdtNtries>
                     <ns:DbtNtries>
-                        <ns:NbOfNtries>27550453</ns:NbOfNtries>
-                        <ns:Sum>4.246198303300137E3</ns:Sum>
+                        <ns:NbOfNtries>3868</ns:NbOfNtries>
+                        <ns:Sum>2.1594393605144866E</ns:Sum>
                     </ns:DbtNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
-                            <ns:Cd>FDWS</ns:Cd>
+                            <ns:Cd>UVOT</ns:Cd>
                         </ns:Prtry>
                     </ns:BkTxCd>
                     <ns:Dt>
-                        <ns:DtTm>2023-09-12T14:59:32</ns:DtTm>
+                        <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
+                    </ns:Dt>
+                </ns:TtlNtriesPerBkTxCd>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:TtlNetNtry>
+                        <ns:Amt>3.703459313386664E3</ns:Amt>
+                        <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                    </ns:TtlNetNtry>
+                    <ns:CdtNtries>
+                        <ns:NbOfNtries>30067753</ns:NbOfNtries>
+                        <ns:Sum>8.249425846644435E3</ns:Sum>
+                    </ns:CdtNtries>
+                    <ns:DbtNtries>
+                        <ns:NbOfNtries>8679387</ns:NbOfNtries>
+                        <ns:Sum>7.720746095279204E3</ns:Sum>
+                    </ns:DbtNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>FDAP</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                    <ns:Dt>
+                        <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
+                    </ns:Dt>
+                </ns:TtlNtriesPerBkTxCd>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:TtlNetNtry>
+                        <ns:Amt>1.1335396825985724E</ns:Amt>
+                        <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
+                    </ns:TtlNetNtry>
+                    <ns:CdtNtries>
+                        <ns:NbOfNtries>037515878</ns:NbOfNtries>
+                        <ns:Sum>6.769940348237742E3</ns:Sum>
+                    </ns:CdtNtries>
+                    <ns:DbtNtries>
+                        <ns:NbOfNtries>54463508370</ns:NbOfNtries>
+                        <ns:Sum>1.4423938114849276E</ns:Sum>
+                    </ns:DbtNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>NSSE</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                    <ns:Dt>
+                        <ns:DtTm>2023-09-12T16:42:45</ns:DtTm>
                     </ns:Dt>
                 </ns:TtlNtriesPerBkTxCd>
             </ns:TxsSummry>

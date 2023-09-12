@@ -2,7 +2,7 @@
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:01</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -20,15 +20,15 @@
                      
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>376f3a66-5eec-41f0-a619-d8616f314e17</ns:UETR>
+                <ns:UETR>9cef333b-93ab-42dd-9383-725d3642269e</ns:UETR>
             </ns:PmtId>
                      
             <!--(ns:InstrPrty , ns:SvcLvl[0,3] , ns:LclInstrm , ns:CtgyPurp)-->
                      
             <ns:PmtTpInf>
-                <ns:InstrPrty>HIGH</ns:InstrPrty>
+                <ns:InstrPrty>NORM</ns:InstrPrty>
                 <ns:LclInstrm>
-                    <ns:Prtry>BKS10B031</ns:Prtry>
+                    <ns:Prtry>BKS10B011</ns:Prtry>
                 </ns:LclInstrm>
                 <ns:CtgyPurp>
                     <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
@@ -36,7 +36,7 @@
             </ns:PmtTpInf>
             <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
             <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
-            <ns:SttlmPrty>HIGH</ns:SttlmPrty>
+            <ns:SttlmPrty>NORM</ns:SttlmPrty>
             <ns:InstgAgt>
                             
                 <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->

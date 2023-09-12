@@ -2,7 +2,7 @@
     <ns:FIToFICstmrCdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:01</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -21,24 +21,10 @@
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
                 <ns:TxId>00000000000000000000000000000000000</ns:TxId>
-                <ns:UETR>c051a708-6d2d-4ca3-b43c-18262e6c2fc4</ns:UETR>
+                <ns:UETR>00432977-bd65-487b-b63c-ab19dc4ecfba</ns:UETR>
             </ns:PmtId>
             <ns:PmtTpInf>
                 <ns:InstrPrty>HIGH</ns:InstrPrty>
-                            
-                <!--(ns:Cd | ns:Prtry)-->
-                            
-                <ns:SvcLvl>
-                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
-                    <ns:Cd>0000</ns:Cd>
-                </ns:SvcLvl>
-                            
-                <!--(ns:Cd | ns:Prtry)-->
-                            
-                <ns:SvcLvl>
-                    <ns:Cd>0000</ns:Cd>
-                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
-                </ns:SvcLvl>
                             
                 <!--(ns:Cd | ns:Prtry)-->
                             
@@ -55,7 +41,7 @@
             </ns:PmtTpInf>
             <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
             <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
-            <ns:ChrgBr>DEBT</ns:ChrgBr>
+            <ns:ChrgBr>CRED</ns:ChrgBr>
             <ns:InstgAgt>
                             
                 <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
@@ -92,7 +78,7 @@
                             
                 <ns:PstlAdr>
                     <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                    <ns:Ctry>PI</ns:Ctry>
+                    <ns:Ctry>JW</ns:Ctry>
                 </ns:PstlAdr>
             </ns:Dbtr>
                      
@@ -179,7 +165,7 @@
                             
                 <ns:PstlAdr>
                     <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                    <ns:Ctry>QB</ns:Ctry>
+                    <ns:Ctry>WN</ns:Ctry>
                 </ns:PstlAdr>
             </ns:Cdtr>
                      

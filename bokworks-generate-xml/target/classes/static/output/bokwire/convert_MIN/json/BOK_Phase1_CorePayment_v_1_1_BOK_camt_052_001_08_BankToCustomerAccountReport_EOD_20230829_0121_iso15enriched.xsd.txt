@@ -5,27 +5,27 @@
             "Rpt": {
                 "Id": "00000000000000000000000000000000000",
                 "Acct": {
-                    "Ccy": "ZQT",
+                    "Ccy": "BOH",
                     "Tp": {"Prtry": "SACC_1062"},
                     "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
                 },
-                "AddtlRptInf": "4tfqXZkiVYx1D5UpPVOrtpODJD3KpG5hgOg3dcSKSzpPyeTWcPkfX9AZCCmKAtctNDxGAsilYZdPInHkUIljoIeVHH3UIcESIFETzWTtA2Eg13B7ggdO1HwDc807BNxUKI0G4dptzGW7xBWvgbsEu76a6LVvjv4akOfG6X4u0D1GGJTBR5Ub3DEJPshV6R813xyaZPNYQx3JiKGjcWersEkZLO4yE0XFM746t3R0BXIW5mb9eIhesX1dBV4TZjg13eUNIb8q8Zqh3VbTizJxrpfvsRXQner6NhRYlDujBRDv6ldU9aKTgAFPJqjr0CpTQsyUH7QCj1fnECJFQHAgn1ma7CQiu23OtbJpGYt8G1slLxcLkQCun9ExZsVUAPV2OdSR8KLopewNKq6MwsdzqVAXSjsDiYfWeJtYwerayghLzajdltRrp5gwIDFFdB8uApcrvJWOD1KhZM93m6anUay1MxrnJN15FCXuF8MX7D1USBycNvd9",
+                "AddtlRptInf": "ikwQkdp8TdSbfbdnPPEb45OzTToVHcCBAnStq8VAoLCnf5s7uN5uVWxMcL1xJhshiRkJS3IjeMTctwxkrL4RHxs0VPYNLeiwdvyRnUhBuS1qHlLIzL0g8T5MAGyKrga7qP9lLO90TmL2dPl3m79L521cPu9SVHEaOvJtBaqyKPWVFvFquA9XmjXcNoRTJkvPjwwEiETqw5I5bHMnGlEqPKlV87lcFnPmP8FOEGNZGXB5TS4iSopmw5hrrXsvQ8IyzT2dHVuoRdiEPKqz5YXLrm1wuM4qL6EtKdBiVXqBc69BhfnpxRayKBtIUrzcMtar8eEvoa2Poui6ogUVpgwRJ7RDnpAdiuctV2hwwPbzoiG78cigBjwWSeOrqwxNs7W82fGuJefNfxG8Yh7SA5M2LoRuY3fPOvfmg2ZpO83WsPogqM1y7nMblLsc2cuv5BuYMnCBYp8hgsSnlQcdLVTVI29hrms19LatMItEJGSsVFSNrmDRDrUP",
                 "TxsSummry": {"TtlNtriesPerBkTxCd": {
-                    "BkTxCd": {"Prtry": {"Cd": "DSS003"}},
+                    "BkTxCd": {"Prtry": {"Cd": "DSS008"}},
                     "CdtNtries": {
-                        "NbOfNtries": 70,
+                        "NbOfNtries": 410135,
                         "Sum": -922337203685477580
                     },
                     "DbtNtries": {
-                        "NbOfNtries": 77,
+                        "NbOfNtries": 443883850,
                         "Sum": -922337203685477580
                     }
                 }},
                 "RptgSrc": {"Prtry": "LVPS"}
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:53:16",
-                "AddtlInf": "37KNWGoAKRFA1r5AEoVjHfvTuDo4qR2XBw6kVRWB0OnozYKxvojkPQjH3XsnhX13vs5dapL92S3v4v1AT8ebwzakPBpDNetv7SZ4rvB91FhCYqI39soyq99vBtzaiOBYgYSVCNZiSHEzzSAilFn0dJB8xv96yD1zZC80vf5J4QaNpOMSMa2IrUyH85tkp4mBGs4SS6u6ICbcuP0zZiBlk2Yd1BuOvbgk54Dq5NdVVy62rQwvVQQgy20jMAkU5BjpZFboAw2FBAYlmjNz2cTmipUqVAnoZPVxwdhFPuK7lcDtOJ6Ei586L5dbRF1ZUioecAZ8wAxeZUnXxfP943D1thsc20EwsDUjQEx0Xj0raw3A6Wzo5oLzB59J4MbcGQvnG1UfPGAumfXQfX0ieHkqocr1V7d7kSjQJLU9UiPB4dhzviD4seUguqEi9EhqUCA9pbwQtTpdEAyLfS3SayGFkj1wnNdOYMTtl3CnBGza3QxWZxqRjanI",
+                "CreDtTm": "2023-09-12T15:44:35",
+                "AddtlInf": "bmtdyggnAP7e5wQkOHXFulOf8GdrkB3MD8pVeD9DjftVSFa97OstKrKhTi7EnCuzoC8lt0fT1YvjFrd6SCzgPY2OH8VglQkrnUKD1h8w7h0wgQCo7206e9roK3cRuk6LHzb7Ff1zXMw2Y1P8M4LR9IDUvp2iYDEajFq5XLE9ciNI9wruia6FlEEVMSExOsVGMEHY6kMeyPObiCesS26tq6KwloD05cya3YmjSmgrcbkeZVJHNQcQnTdSp5f21dtPrv2RW6wNYK7TubHhb748EUjlvpq91ClhvoIGMEIYnPJyo7Yw3VHZr9n9IiGdV6WfajMfu4lJT8QvrrgsOIJPATbDjFMxXCz6HwIpQKk1rIfBQieSJuUYAiU2aAyN4b13ZBqOolUPdovTIAPp6vRPeUV52b4XQhW0B5NQMrx3ol8szBtEwE3cnneNPX3YMFGemMUW0n33ja8sAUN9zZ4kg76eYT4qimoCoBDDg7F9JjKrwbepy4QB",
                 "MsgId": "00000000000000000000000000000000000"
             }
         },
@@ -45,6 +45,14 @@
         "MsgDefIdr": "camt.052.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.01",
-        "CreDt": "2023-09-12T14:53:16"
+        "Rltd": {
+            "Fr": {"FIId": {"FinInstnId": ""}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": ""}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "CreDt": "2023-09-12T15:44:35"
+        },
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

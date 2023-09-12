@@ -34,5 +34,5 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>admi.004.001.02</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.01</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:14:00</ns:CreDt>
 </ns:AppHdr>

@@ -3,35 +3,35 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>7PJDRHH4(AUI</ns:BICFI>
+                <ns:BICFI>CLA0AX1S(PPG)</ns:BICFI>
                 <ns:ClrSysMmbId>
                     <ns:ClrSysId>
                         <ns:Cd>KRBOK</ns:Cd>
                     </ns:ClrSysId>
                     <ns:MmbId>1016</ns:MmbId>
                 </ns:ClrSysMmbId>
-                <ns:LEI>CSU22VIPTZELOXI2T294</ns:LEI>
+                <ns:LEI>MOLRURI3I85H2FDISO65</ns:LEI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>JFBBHNEL(O5C)</ns:BICFI>
+                <ns:BICFI>V5HRMFFA(V9G)</ns:BICFI>
                 <ns:ClrSysMmbId>
                     <ns:ClrSysId>
                         <ns:Cd>KRBOK</ns:Cd>
                     </ns:ClrSysId>
                     <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
                 </ns:ClrSysMmbId>
-                <ns:LEI>RXJV2AOTVEW10NQBWG61</ns:LEI>
+                <ns:LEI>NKHBZLWM6TEREO5TRD61</ns:LEI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.052.001.08</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.01</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:04:01</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:12:19</ns:CreDt>
     <ns:Sgntr>
         <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
     </ns:Sgntr>
@@ -40,35 +40,35 @@
         <ns:Fr>
             <ns:FIId>
                 <ns:FinInstnId>
-                    <ns:BICFI>64W6KYF6(44Y)</ns:BICFI>
+                    <ns:BICFI>01U8MVLR(0KR</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>00000</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>J6THXWVRUJTP7FTT0D07</ns:LEI>
+                    <ns:LEI>WGFC1VF7L5NHTWD28V13</ns:LEI>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:Fr>
         <ns:To>
             <ns:FIId>
                 <ns:FinInstnId>
-                    <ns:BICFI>ND9SJGGY(GFA)</ns:BICFI>
+                    <ns:BICFI>93MJDHDE(UGZ)</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>00000</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>OXBEI5HHZ6SUI2U1DG55</ns:LEI>
+                    <ns:LEI>MNRHDLX81K4LA3NEQA83</ns:LEI>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:To>
         <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
         <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
         <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-12T14:04:01</ns:CreDt>
+        <ns:CreDt>2023-09-12T17:12:19</ns:CreDt>
         <ns:Sgntr>
             <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
         </ns:Sgntr>
@@ -77,21 +77,21 @@
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
-            <ns:MsgId>DYHh5R8CdDYu2qbXIBN9BtuirwDOZYh0Pu8</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:04:01</ns:CreDtTm>
+            <ns:MsgId>I0lmD5rkf4LGoWlzUN9P3kZ7PjG5bMMA1Qx</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T17:12:19</ns:CreDtTm>
             <ns:MsgPgntn>
                 <ns:PgNb>1</ns:PgNb>
                 <ns:LastPgInd>true</ns:LastPgInd>
             </ns:MsgPgntn>
             <ns:OrgnlBizQry>
-                <ns:MsgId>3lwFE0eSzLBkyTGvTpgJ2qsZeAZoOr7YKAt</ns:MsgId>
+                <ns:MsgId>fjp5CQbtc9pk8Le2yOwAvz1JsrhwhQIE71m</ns:MsgId>
                 <ns:MsgNmId>camt.060.001.05</ns:MsgNmId>
-                <ns:CreDtTm>2023-09-12T14:04:01</ns:CreDtTm>
+                <ns:CreDtTm>2023-09-12T17:12:19</ns:CreDtTm>
             </ns:OrgnlBizQry>
-            <ns:AddtlInf>RJDVdAQeHIoZaITnteZnS3IIwljCTECrYCnxX6NZvdGVNZXb6HvUFjXOL9JAk4cTl3OTFLfPaHQxAVfOhuybKuJlFpwJZ3gP5G2t8SUDXJRnPj1Lyt6BhNfVT3Mt2V9ejRlWAEHZdnvdWdsnN5nwAjxEN46ATFiZWtC2JTzmLDieRikjLiMqqbbBQG7Ds02wnaXT7g0FmDbS4X5Aw6CzZQXJWfhxYYCbFEq8G42gX1eJGjdmVZzSP2hVWIysCjaMvNJHy8ioF7FMkJGi1B9bW2RlW9P9EDYwWHg4hTdcFqNH8K6hcq1gPhSK7GQVhpk7FjTm0un2KINQ33JXLGTGoAhhbts3S4Vx6zeT6j3nYfZ8KUVNM6HvdCYj54tLnWGz0nIBfr00MdTlPU0Eqkf7kW5CQRRJBFmw7HSS8xaXeK9FdQf4YIVJxlBsl8xZO8th6fNfcENvRfYzm8aS1V3PbLHnjFCCA1NDr4wpZpE5vEvRilcJ2bxz</ns:AddtlInf>
+            <ns:AddtlInf>IWd1DbtP5XCYIRlWyRZOi3Czkie1sauvyEcCW4MfNoAh3lpZbzUTa0inrInK2BtbyUutkcicrnYII8Aj24Ph2bqYwTc8zErzNDMQu9JWWL4a3ULMYjBhwJDKAulzg6lqsR42M2bm5BELbxkUmAI7ZfCuAzcjibmNWIKLpkW7VrLFSYhXXYotfbC5Y69eFy6E5VovTMxnzhsBTN73GfslWKmADb0zGYpc0LlDaNWXA5bjKTXQAMAMxxBCVml4xHCCVsYdHYosrV6RWT4fMQLEIti3XujXdoOVGdzxs30iZQm4TCQgpbQxMt22TN2dAXrX4ziJC1cgN84saoj9SFLqfzhxOjy6LQT25ygCrN4BmlctksONSfYFzMYJh0CEM7pG3D0THO7EpWehbYebFmLQYaNvzFJkpgOA56aBcheh6zTNMkFbp6vymLVpHQ5Uoo1Se6eSfubw0Jr7w7ruva5vzTbCWqOwHB26tKGNAG5bfnWv78tTZzVb</ns:AddtlInf>
         </ns:GrpHdr>
         <ns:Rpt>
-            <ns:Id>5azfIoI4sFQGrfrKuODUh0WTicZOfYHLvQ3</ns:Id>
+            <ns:Id>GTjQ0binWLffKxpyhYN5YVwwCf3Jnc69hKP</ns:Id>
             <ns:RptgSrc>
                 <ns:Prtry>LVPS</ns:Prtry>
             </ns:RptgSrc>
@@ -102,9 +102,9 @@
                     </ns:Othr>
                 </ns:Id>
                 <ns:Tp>
-                    <ns:Prtry>ODFT_1062</ns:Prtry>
+                    <ns:Prtry>TNPB_1062</ns:Prtry>
                 </ns:Tp>
-                <ns:Ccy>HRG</ns:Ccy>
+                <ns:Ccy>DBG</ns:Ccy>
             </ns:Acct>
             <ns:Bal>
                 <ns:Tp>
@@ -118,7 +118,7 @@
                 <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
                 <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
                 <ns:Dt>
-                    <ns:DtTm>2023-09-12T14:04:01</ns:DtTm>
+                    <ns:DtTm>2023-09-12T17:12:19</ns:DtTm>
                 </ns:Dt>
             </ns:Bal>
         </ns:Rpt>

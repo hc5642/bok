@@ -4,31 +4,31 @@
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "AcctRptgReq": {
             "RptgReq": {
-                "Id": "ETOT",
+                "Id": "DTLR",
                 "AcctOwnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "USABA"},
-                    "MmbId": 545396095
+                    "MmbId": "057026914"
                 }}}},
-                "ReqdMsgNmId": "I83"
+                "ReqdMsgNmId": "Q27"
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:59:32",
+                "CreDtTm": "2023-09-12T15:59:01",
                 "MsgId": "00000000000000000000000000000000000"
             }
         }
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
-        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "SW2ADAF7C"}}}},
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "IV6F2EBYG"}}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "KNCPWCY91"}}}},
-        "MsgDefIdr": "U75",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "2O89SWL7I"}}}},
+        "MsgDefIdr": "V99",
         "MktPrctc": {
             "Id": "000000000000000000",
             "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "BizSvc": "TEST",
-        "CreDt": "2023-09-12T14:59:32"
+        "BizSvc": "PROD",
+        "CreDt": "2023-09-12T15:59:01"
     }
 }

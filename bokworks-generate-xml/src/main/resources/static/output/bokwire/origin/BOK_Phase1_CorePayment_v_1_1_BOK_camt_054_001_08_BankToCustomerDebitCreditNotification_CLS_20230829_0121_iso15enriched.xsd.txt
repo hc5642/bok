@@ -2,7 +2,7 @@
     <ns:BkToCstmrDbtCdtNtfctn>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:00</ns:CreDtTm>
             <ns:AddtlInf>/MSGID/BKS20A030</ns:AddtlInf>
         </ns:GrpHdr>
               
@@ -19,7 +19,7 @@
                         <ns:Id>0000000000000000000000000000000000</ns:Id>
                     </ns:Othr>
                 </ns:Id>
-                <ns:Ccy>SXC</ns:Ccy>
+                <ns:Ccy>ANA</ns:Ccy>
             </ns:Acct>
                      
             <!--(ns:NtryRef? , ns:Amt , ns:CdtDbtInd , ns:Sts , ns:BookgDt , ns:BkTxCd , ns:NtryDtls)-->
@@ -31,7 +31,7 @@
                     <ns:Cd>BOOK</ns:Cd>
                 </ns:Sts>
                 <ns:BookgDt>
-                    <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
+                    <ns:DtTm>2023-09-12T17:14:00</ns:DtTm>
                 </ns:BookgDt>
                             
                 <!--(ns:Prtry?)-->
@@ -46,7 +46,7 @@
                             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
                             <ns:InstrId>00000000000000000000000000000000000</ns:InstrId>
                             <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                            <ns:UETR>0cd6484f-3467-474a-aef9-a452070e680e</ns:UETR>
+                            <ns:UETR>cbc0cf0e-b27f-48cc-b659-7a1a7a26fd77</ns:UETR>
                             <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
                         </ns:Refs>
                                           
@@ -58,7 +58,7 @@
                                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI?)-->
                                                         
                                 <ns:FinInstnId>
-                                    <ns:BICFI>RPTMWF6Z(3SD</ns:BICFI>
+                                    <ns:BICFI>OFU3JI1H(CHS)</ns:BICFI>
                                 </ns:FinInstnId>
                             </ns:CdtrAgt>
                         </ns:RltdAgts>

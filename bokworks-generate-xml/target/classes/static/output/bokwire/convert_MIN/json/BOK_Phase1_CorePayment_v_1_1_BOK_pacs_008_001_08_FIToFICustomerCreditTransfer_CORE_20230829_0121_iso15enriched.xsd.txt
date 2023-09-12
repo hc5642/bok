@@ -11,57 +11,28 @@
                 "Cdtr": {
                     "Nm": "000000000000000000000000000000",
                     "PstlAdr": {
-                        "Ctry": "QW",
+                        "Ctry": "PD",
                         "TwnNm": "00000000000000000000000000000000000"
                     }
                 },
-                "RgltryRptg": [
-                    {"Dtls": {
-                        "Tp": "DBTRCUST",
-                        "Cd": "0000000000"
-                    }},
-                    {"Dtls": {
-                        "Tp": "CDTRCUST",
-                        "Cd": "0000000000"
-                    }},
-                    {"Dtls": {
-                        "Tp": "DBTRCUST",
-                        "Cd": "0000000000"
-                    }},
-                    {"Dtls": {
-                        "Tp": "CDTRCUST",
-                        "Cd": "0000000000"
-                    }},
-                    {"Dtls": {
-                        "Tp": "DBTRCUST",
-                        "Cd": "0000000000"
-                    }},
-                    {"Dtls": {
-                        "Tp": "CDTRCUST",
-                        "Cd": "0000000000"
-                    }},
-                    {"Dtls": {
-                        "Tp": "DBTRCUST",
-                        "Cd": "0000000000"
-                    }},
-                    {"Dtls": {
-                        "Tp": "CDTRCUST",
-                        "Cd": "0000000000"
-                    }},
-                    {"Dtls": {
-                        "Tp": "CDTRCUST",
-                        "Cd": "0000000000"
-                    }}
-                ],
+                "RgltryRptg": {"Dtls": {
+                    "Tp": "CDTRCUST",
+                    "Cd": "0000000000"
+                }},
                 "DbtrAcct": {"Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}},
                 "PmtTpInf": {
+                    "SvcLvl": {
+                        "Cd": "0000",
+                        "Prtry": "00000000000000000000000000000000000"
+                    },
                     "LclInstrm": {"Prtry": "BKS10B091"},
                     "InstrPrty": "HIGH"
                 },
                 "Dbtr": {
                     "Nm": "000000000000000000000000000000",
                     "PstlAdr": {
-                        "Ctry": "CL",
+                        "Ctry": "TL",
+                        "AdrLine": "00000000000000000000000000000000000",
                         "TwnNm": "00000000000000000000000000000000000"
                     }
                 },
@@ -97,13 +68,20 @@
                 }}},
                 "PmtId": {
                     "TxId": "00000000000000000000000000000000000",
-                    "UETR": "9d572a94-d041-4dd9-bc47-e00017adac4b",
+                    "UETR": "bfdd6dc2-f999-4c0f-b6dd-c98fb6fe8d25",
                     "EndToEndId": "00000000000000000000000000000000000"
+                },
+                "ChrgsInf": {
+                    "Amt": {
+                        "Ccy": "Ccy1",
+                        "content": 5.41738
+                    },
+                    "Agt": {"FinInstnId": ""}
                 },
                 "CdtrAcct": {"Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}}
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:53:17",
+                "CreDtTm": "2023-09-12T15:44:35",
                 "NbOfTxs": 1,
                 "SttlmInf": {
                     "SttlmMtd": "CLRG",
@@ -128,6 +106,6 @@
         "MsgDefIdr": "pacs.008.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.cdtrdsgntd.01",
-        "CreDt": "2023-09-12T14:53:17"
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

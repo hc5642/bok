@@ -6,37 +6,37 @@
             "TxInf": {
                 "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "USABA"},
-                    "MmbId": 837920613
+                    "MmbId": 116374518
                 }}},
-                "OrgnlUETR": "d0396dec-8abf-4a29-ad42-2e198d6db437",
+                "OrgnlUETR": "db8375ad-b511-45c3-8b27-48f59ce29a36",
                 "OrgnlGrpInf": {
                     "OrgnlMsgId": "0000000000000000000000",
-                    "OrgnlMsgNmId": 309,
-                    "OrgnlCreDtTm": "2023-09-12T13:45:05"
+                    "OrgnlMsgNmId": "g50",
+                    "OrgnlCreDtTm": "2023-09-12T15:59:01"
                 },
                 "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "USABA"},
-                    "MmbId": "077355699"
+                    "MmbId": 255100682
                 }}}
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T13:45:05",
+                "CreDtTm": "2023-09-12T15:59:01",
                 "MsgId": "00000000000000000000000000000000000"
             }
         }
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
-        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "5UIWSCGE1"}}}},
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "QY7TR2PUG"}}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "O5XE8G4M3"}}}},
-        "MsgDefIdr": "p53",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "402KZ8BG0"}}}},
+        "MsgDefIdr": "n68",
         "MktPrctc": {
             "Id": "000000000000000000",
             "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "BizSvc": "TEST",
-        "CreDt": "2023-09-12T13:45:05"
+        "BizSvc": "PROD",
+        "CreDt": "2023-09-12T15:59:01"
     }
 }

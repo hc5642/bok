@@ -1,18 +1,18 @@
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:BkToCstmrStmt>
         <ns:GrpHdr>
-            <ns:MsgId>jNp79MsjpJcxYPPbjZrZ7Y1hhiPJfojxTPu</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:MsgId>efAzgvFhmh5HTSpsr9mvz74THgHe7KJnKuu</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T17:14:00</ns:CreDtTm>
             <ns:MsgPgntn>
-                <ns:PgNb>96</ns:PgNb>
-                <ns:LastPgInd>false</ns:LastPgInd>
+                <ns:PgNb>04973</ns:PgNb>
+                <ns:LastPgInd>true</ns:LastPgInd>
             </ns:MsgPgntn>
         </ns:GrpHdr>
               
         <!--(ns:Id , ns:RptgSrc , ns:Acct , ns:Bal , ns:TxsSummry? , ns:Ntry*)-->
               
         <ns:Stmt>
-            <ns:Id>LzLs8LVfyPwCfbecTLRTvDuJZSvmA7Cffyw</ns:Id>
+            <ns:Id>r9q8AJkcKkBLs9mehoZzkHJ1gNzXfcQ8roX</ns:Id>
             <ns:RptgSrc>
                 <ns:Prtry>LVPS</ns:Prtry>
             </ns:RptgSrc>
@@ -23,9 +23,9 @@
                     </ns:Othr>
                 </ns:Id>
                 <ns:Tp>
-                    <ns:Prtry>SACC_1062</ns:Prtry>
+                    <ns:Prtry>CACC_1062</ns:Prtry>
                 </ns:Tp>
-                <ns:Ccy>SIT</ns:Ccy>
+                <ns:Ccy>CLV</ns:Ccy>
             </ns:Acct>
             <ns:Bal>
                             
@@ -34,75 +34,10 @@
                 <ns:Tp>
                     <ns:CdOrPrtry>
                         <ns:Cd>CLBD</ns:Cd>
-                    </ns:CdOrPrtry>
-                </ns:Tp>
-                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
-                <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
-                <ns:Dt>
-                    <ns:Dt>2023-09-12</ns:Dt>
-                </ns:Dt>
-            </ns:Bal>
-            <ns:Bal>
-                            
-                <!--(ns:CdOrPrtry , ns:SubTp?)-->
-                            
-                <ns:Tp>
-                    <ns:CdOrPrtry>
-                        <ns:Cd>CLBD</ns:Cd>
-                    </ns:CdOrPrtry>
-                </ns:Tp>
-                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
-                <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
-                <ns:Dt>
-                    <ns:Dt>2023-09-12</ns:Dt>
-                </ns:Dt>
-            </ns:Bal>
-        </ns:Stmt>
-              
-        <!--(ns:Id , ns:RptgSrc , ns:Acct , ns:Bal , ns:TxsSummry? , ns:Ntry*)-->
-              
-        <ns:Stmt>
-            <ns:Id>PQ9pY1nhXrHZ47msw5DF4yJp30X8vKgO68y</ns:Id>
-            <ns:RptgSrc>
-                <ns:Prtry>LVPS</ns:Prtry>
-            </ns:RptgSrc>
-            <ns:Acct>
-                <ns:Id>
-                    <ns:Othr>
-                        <ns:Id>0000000000000000000000000000000000</ns:Id>
-                    </ns:Othr>
-                </ns:Id>
-                <ns:Tp>
-                    <ns:Prtry>SACC_1062</ns:Prtry>
-                </ns:Tp>
-                <ns:Ccy>VDL</ns:Ccy>
-            </ns:Acct>
-            <ns:Bal>
-                            
-                <!--(ns:CdOrPrtry , ns:SubTp?)-->
-                            
-                <ns:Tp>
-                    <ns:CdOrPrtry>
-                        <ns:Cd>OPBD</ns:Cd>
                     </ns:CdOrPrtry>
                 </ns:Tp>
                 <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
                 <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
-                <ns:Dt>
-                    <ns:Dt>2023-09-12</ns:Dt>
-                </ns:Dt>
-            </ns:Bal>
-            <ns:Bal>
-                            
-                <!--(ns:CdOrPrtry , ns:SubTp?)-->
-                            
-                <ns:Tp>
-                    <ns:CdOrPrtry>
-                        <ns:Cd>OPBD</ns:Cd>
-                    </ns:CdOrPrtry>
-                </ns:Tp>
-                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
-                <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
                 <ns:Dt>
                     <ns:Dt>2023-09-12</ns:Dt>
                 </ns:Dt>

@@ -3,47 +3,47 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.052.001.08",
         "BkToCstmrAcctRpt": {
             "Rpt": {
-                "CreDtTm": "2023-09-12T13:45:05",
-                "Id": "IDAY",
+                "CreDtTm": "2023-09-12T15:59:01",
+                "Id": "EDAY",
                 "Acct": {"Id": {"Othr": {"Id": "00000000"}}},
                 "AddtlRptInf": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                 "TxsSummry": {
                     "TtlNtriesPerBkTxCd": [
                         {
-                            "BkTxCd": {"Prtry": {"Cd": "SENT"}},
-                            "NbOfNtries": "00011084285362"
-                        },
-                        {
                             "BkTxCd": {"Prtry": {"Cd": "ICPT"}},
-                            "NbOfNtries": 51139594292
-                        },
-                        {
-                            "BkTxCd": {"Prtry": {"Cd": "RCVD"}},
-                            "NbOfNtries": 627146
+                            "NbOfNtries": 389733838172
                         },
                         {
                             "BkTxCd": {"Prtry": {"Cd": "RJCT"}},
-                            "NbOfNtries": 63
+                            "NbOfNtries": 7
+                        },
+                        {
+                            "BkTxCd": {"Prtry": {"Cd": "RJCT"}},
+                            "NbOfNtries": 68502525
                         },
                         {
                             "BkTxCd": {"Prtry": {"Cd": "RCVD"}},
-                            "NbOfNtries": 570688453
+                            "NbOfNtries": 47933828198
+                        },
+                        {
+                            "BkTxCd": {"Prtry": {"Cd": "RCVD"}},
+                            "NbOfNtries": 6214724988
                         }
                     ],
                     "TtlCdtNtries": {
-                        "NbOfNtries": 380,
-                        "Sum": 5934.417557394205
+                        "NbOfNtries": 8184,
+                        "Sum": "4.4489859643040823E"
                     },
                     "TtlDbtNtries": {
-                        "NbOfNtries": 991,
-                        "Sum": "1.5435699155959943E"
+                        "NbOfNtries": 5487,
+                        "Sum": 7146.862275726568
                     }
                 }
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T13:45:05",
+                "CreDtTm": "2023-09-12T15:59:01",
                 "MsgPgntn": {
-                    "PgNb": 1763,
+                    "PgNb": 55,
                     "LastPgInd": false
                 },
                 "MsgId": "ETOT"
@@ -53,16 +53,16 @@
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
-        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "6LIY5H7TC"}}}},
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "X0USIN2WY"}}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "A4Q45YDKO"}}}},
-        "MsgDefIdr": "H42",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "EIC1VXHS3"}}}},
+        "MsgDefIdr": "U93",
         "MktPrctc": {
             "Id": "000000000000000000",
             "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "TEST",
-        "CreDt": "2023-09-12T13:45:05"
+        "CreDt": "2023-09-12T15:59:01"
     }
 }

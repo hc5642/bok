@@ -3,162 +3,153 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.052.001.08",
         "BkToCstmrAcctRpt": {
             "Rpt": {
-                "CreDtTm": "2023-09-12T14:59:32",
-                "Id": "OPEN",
+                "CreDtTm": "2023-09-12T15:59:01",
+                "Id": "PRDC",
                 "Acct": {
                     "Tp": {"Prtry": "S"},
-                    "Id": {"Othr": {"Id": 350275473}}
+                    "Id": {"Othr": {"Id": 875759606}}
                 },
-                "RltdAcct": {"Id": {"Othr": {"Id": 229075253}}},
+                "RltdAcct": {"Id": {"Othr": {"Id": 255634307}}},
                 "TxsSummry": {"TtlNtriesPerBkTxCd": [
                     {
                         "BkTxCd": {"Prtry": {"Cd": "NSSE"}},
                         "CdtNtries": {
-                            "NbOfNtries": 6057063312,
-                            "Sum": 9995.738015870564
+                            "NbOfNtries": 7052,
+                            "Sum": 4515.248364850963
                         },
                         "DbtNtries": {
-                            "NbOfNtries": 9123,
-                            "Sum": 1.40849613438693E+30
+                            "NbOfNtries": 145744879429,
+                            "Sum": 9462.117014363605
                         },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
                         "TtlNetNtry": {
-                            "Amt": "1.0581095574846392E",
-                            "CdtDbtInd": "DBIT"
-                        }
-                    },
-                    {
-                        "BkTxCd": {"Prtry": {"Cd": "UVOT"}},
-                        "CdtNtries": {
-                            "NbOfNtries": 6,
-                            "Sum": "4.4279080127371117E"
-                        },
-                        "DbtNtries": {
-                            "NbOfNtries": 21831152,
-                            "Sum": 5197.880508596535
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
-                        "TtlNetNtry": {
-                            "Amt": "1.7164577485869068E",
-                            "CdtDbtInd": "DBIT"
-                        }
-                    },
-                    {
-                        "BkTxCd": {"Prtry": {"Cd": "AVOT"}},
-                        "CdtNtries": {
-                            "NbOfNtries": 7451792297,
-                            "Sum": "1.2023083098461111E"
-                        },
-                        "DbtNtries": {
-                            "NbOfNtries": 56745,
-                            "Sum": "1.6066340745063625E"
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
-                        "TtlNetNtry": {
-                            "Amt": 3967.722035267954,
-                            "CdtDbtInd": "CRDT"
-                        }
-                    },
-                    {
-                        "BkTxCd": {"Prtry": {"Cd": "FDWF"}},
-                        "CdtNtries": {
-                            "NbOfNtries": 22438643,
-                            "Sum": "1.7073409119773866E"
-                        },
-                        "DbtNtries": {
-                            "NbOfNtries": 836529553519,
-                            "Sum": 7084.694927936412
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
-                        "TtlNetNtry": {
-                            "Amt": 1524.130203475615,
-                            "CdtDbtInd": "DBIT"
-                        }
-                    },
-                    {
-                        "BkTxCd": {"Prtry": {"Cd": "UVOT"}},
-                        "CdtNtries": {
-                            "NbOfNtries": 5364418917,
-                            "Sum": "1.3920936802477512E"
-                        },
-                        "DbtNtries": {
-                            "NbOfNtries": 34980561,
-                            "Sum": "3.5255036797354637E"
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
-                        "TtlNetNtry": {
-                            "Amt": "3.4272755020977813E",
+                            "Amt": 7350.511212924992,
                             "CdtDbtInd": "CRDT"
                         }
                     },
                     {
                         "BkTxCd": {"Prtry": {"Cd": "FDNF"}},
                         "CdtNtries": {
-                            "NbOfNtries": "09774842194",
-                            "Sum": 8748.563664880042
+                            "NbOfNtries": 7836109,
+                            "Sum": 9.49436556449278E+30
                         },
                         "DbtNtries": {
-                            "NbOfNtries": 203387032432,
-                            "Sum": "1.2136188157300687E"
+                            "NbOfNtries": 995100,
+                            "Sum": 9471.541547119829
                         },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
                         "TtlNetNtry": {
-                            "Amt": "1.0327213993265742E",
-                            "CdtDbtInd": "CRDT"
+                            "Amt": "1.3378116131404853E",
+                            "CdtDbtInd": "DBIT"
                         }
                     },
                     {
-                        "BkTxCd": {"Prtry": {"Cd": "FDWS"}},
+                        "BkTxCd": {"Prtry": {"Cd": "NSSE"}},
                         "CdtNtries": {
-                            "NbOfNtries": 7422739391,
-                            "Sum": "1.7458668463071387E"
+                            "NbOfNtries": "0800658802",
+                            "Sum": "1.1483887176459118E"
                         },
                         "DbtNtries": {
-                            "NbOfNtries": 27550453,
-                            "Sum": 4246.198303300137
+                            "NbOfNtries": 814992669894578,
+                            "Sum": "1.2360682227715411E"
                         },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
                         "TtlNetNtry": {
-                            "Amt": "1.5743050196985896E",
+                            "Amt": "3.6394963831802966E",
                             "CdtDbtInd": "DBIT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "AVOT"}},
+                        "CdtNtries": {
+                            "NbOfNtries": "097",
+                            "Sum": "1.6423571132019391E"
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 50229247163,
+                            "Sum": 7116.660705773813
+                        },
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
+                        "TtlNetNtry": {
+                            "Amt": 9068.792639028318,
+                            "CdtDbtInd": "DBIT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "FDAP"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 1813059,
+                            "Sum": 6641.923380496338
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 6,
+                            "Sum": "1.2064516469004782E"
+                        },
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
+                        "TtlNetNtry": {
+                            "Amt": 2383.054895380626,
+                            "CdtDbtInd": "DBIT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "FDWF"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 3657902765,
+                            "Sum": "1.7178270816945077E"
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 55424496,
+                            "Sum": 6529.922749704169
+                        },
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
+                        "TtlNetNtry": {
+                            "Amt": "1.4393621737504157E",
+                            "CdtDbtInd": "DBIT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "UVOT"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 358867814156,
+                            "Sum": "1.2358962550100143E"
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 89443,
+                            "Sum": 5677.953719803721
+                        },
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
+                        "TtlNetNtry": {
+                            "Amt": "2.5898872831543396E",
+                            "CdtDbtInd": "CRDT"
                         }
                     }
                 ]},
                 "Bal": [
                     {
-                        "Tp": {"CdOrPrtry": {"Prtry": "AVLD"}},
+                        "Tp": {"CdOrPrtry": {"Prtry": "OBFL"}},
                         "Amt": {
                             "Ccy": "Ccy1",
-                            "content": 7.4361
+                            "content": 2.61964
                         },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
                         "CdtDbtInd": "CRDT"
                     },
                     {
                         "Tp": {"CdOrPrtry": {"Prtry": "OBFL"}},
                         "Amt": {
                             "Ccy": "Ccy2",
-                            "content": 6.98324
+                            "content": 1.77662
                         },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
+                        "Dt": {"DtTm": "2023-09-12T15:59:01"},
                         "CdtDbtInd": "DBIT"
-                    },
-                    {
-                        "Tp": {"CdOrPrtry": {"Prtry": "OBNL"}},
-                        "Amt": {
-                            "Ccy": "Ccy3",
-                            "content": 6.25765
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:59:32"},
-                        "CdtDbtInd": "CRDT"
                     }
                 ]
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:59:32",
+                "CreDtTm": "2023-09-12T15:59:01",
                 "MsgPgntn": {
-                    "PgNb": 6,
-                    "LastPgInd": true
+                    "PgNb": 92039,
+                    "LastPgInd": false
                 },
                 "MsgId": "ABAR"
             }
@@ -167,16 +158,16 @@
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
-        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "XGBR33QKI"}}}},
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "X0JJGX5KT"}}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "G97XTSR2E"}}}},
-        "MsgDefIdr": "D92",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "S77VFLUZH"}}}},
+        "MsgDefIdr": "j09",
         "MktPrctc": {
             "Id": "000000000000000000",
             "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
-        "BizSvc": "PROD",
-        "CreDt": "2023-09-12T14:59:32"
+        "BizSvc": "TEST",
+        "CreDt": "2023-09-12T15:59:01"
     }
 }

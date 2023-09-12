@@ -2,7 +2,7 @@
     <ns:PmtRtr>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:01</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -23,7 +23,7 @@
                 <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
                 <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
             </ns:OrgnlGrpInf>
-            <ns:OrgnlUETR>645a7042-fd54-4c1c-95bc-f27154174a4c</ns:OrgnlUETR>
+            <ns:OrgnlUETR>7bd7ee0d-1dc2-49a8-a7d2-7b26ed1bc985</ns:OrgnlUETR>
             <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
             <ns:RtrdIntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:RtrdIntrBkSttlmAmt>
             <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
@@ -72,7 +72,7 @@
                                           
                         <ns:PstlAdr>
                             <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                            <ns:Ctry>IK</ns:Ctry>
+                            <ns:Ctry>HX</ns:Ctry>
                         </ns:PstlAdr>
                     </ns:Pty>
                     <ns:Agt>
@@ -97,19 +97,6 @@
                 <!--(ns:Pty | ns:Agt)-->
                             
                 <ns:Cdtr>
-                                   
-                    <!--(ns:Nm , ns:PstlAdr , ns:Id? , ns:CtryOfRes?)-->
-                                   
-                    <ns:Pty>
-                        <ns:Nm>000000000000000000000000000000</ns:Nm>
-                                          
-                        <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:PstBx? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:Ctry , ns:AdrLine[0,3])-->
-                                          
-                        <ns:PstlAdr>
-                            <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                            <ns:Ctry>TL</ns:Ctry>
-                        </ns:PstlAdr>
-                    </ns:Pty>
                     <ns:Agt>
                                           
                         <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
@@ -127,6 +114,19 @@
                             <ns:Nm>000000000000000000000000000000</ns:Nm>
                         </ns:BrnchId>
                     </ns:Agt>
+                                   
+                    <!--(ns:Nm , ns:PstlAdr , ns:Id? , ns:CtryOfRes?)-->
+                                   
+                    <ns:Pty>
+                        <ns:Nm>000000000000000000000000000000</ns:Nm>
+                                          
+                        <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:PstBx? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:Ctry , ns:AdrLine[0,3])-->
+                                          
+                        <ns:PstlAdr>
+                            <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                            <ns:Ctry>JI</ns:Ctry>
+                        </ns:PstlAdr>
+                    </ns:Pty>
                 </ns:Cdtr>
             </ns:RtrChain>
                      
@@ -136,7 +136,6 @@
                 <ns:Rsn>
                     <ns:Cd>0000</ns:Cd>
                 </ns:Rsn>
-                <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
                 <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
             </ns:RtrRsnInf>
         </ns:TxInf>

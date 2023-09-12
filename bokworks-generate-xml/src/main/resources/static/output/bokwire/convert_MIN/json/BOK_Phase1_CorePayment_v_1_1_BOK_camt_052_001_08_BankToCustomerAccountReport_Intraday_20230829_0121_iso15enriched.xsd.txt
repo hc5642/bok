@@ -2,104 +2,39 @@
     "Document": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.052.001.08",
         "BkToCstmrAcctRpt": {
-            "Rpt": [
-                {
-                    "Id": "PdSmTZCaaOI59zMYa5vMJcdSyoz575bUfED",
-                    "Acct": {
-                        "Ccy": "RKL",
-                        "Tp": {"Prtry": "ODFT_1062"},
-                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
-                    },
-                    "Bal": {
-                        "Tp": {
-                            "CdOrPrtry": {"Cd": "CLBD"},
-                            "SubTp": {"Cd": "INTM"}
-                        },
-                        "Amt": {
-                            "Ccy": "KRW",
-                            "content": -922337203685477580
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:53:16"},
-                        "CdtDbtInd": "DBIT"
-                    },
-                    "RptgSrc": {"Prtry": "LVPS"}
+            "Rpt": {
+                "Id": "nFOgAV0VbYZTPjmbUoeBIekLLvB2Fyy8ZwV",
+                "Acct": {
+                    "Ccy": "QJF",
+                    "Tp": {"Prtry": "TNPB_1062"},
+                    "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
                 },
-                {
-                    "Id": "JRIMm5DBr7PpTxfV5eDu7m2UKDCE8FUplHG",
-                    "Acct": {
-                        "Ccy": "WBV",
-                        "Tp": {"Prtry": "TNPB_1062"},
-                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
+                "Bal": {
+                    "Tp": {
+                        "CdOrPrtry": {"Cd": "CLBD"},
+                        "SubTp": {"Cd": "INTM"}
                     },
-                    "Bal": {
-                        "Tp": {
-                            "CdOrPrtry": {"Cd": "CLBD"},
-                            "SubTp": {"Cd": "INTM"}
-                        },
-                        "Amt": {
-                            "Ccy": "KRW",
-                            "content": -922337203685477580
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:53:16"},
-                        "CdtDbtInd": "CRDT"
+                    "Amt": {
+                        "Ccy": "KRW",
+                        "content": -922337203685477580
                     },
-                    "RptgSrc": {"Prtry": "LVPS"}
+                    "Dt": {"DtTm": "2023-09-12T15:44:35"},
+                    "CdtDbtInd": "CRDT"
                 },
-                {
-                    "Id": "5k3SP7Qzb3LSrVqr98bwpJyaNi8Pvv06L7q",
-                    "Acct": {
-                        "Ccy": "QTK",
-                        "Tp": {"Prtry": "TNPB_1062"},
-                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
-                    },
-                    "Bal": {
-                        "Tp": {
-                            "CdOrPrtry": {"Cd": "CLBD"},
-                            "SubTp": {"Cd": "INTM"}
-                        },
-                        "Amt": {
-                            "Ccy": "KRW",
-                            "content": -922337203685477580
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:53:16"},
-                        "CdtDbtInd": "CRDT"
-                    },
-                    "RptgSrc": {"Prtry": "LVPS"}
-                },
-                {
-                    "Id": "vFbYDqFNisVYUt7GYLVXzfKAIFLx25w86kP",
-                    "Acct": {
-                        "Ccy": "GFR",
-                        "Tp": {"Prtry": "ODFT_1062"},
-                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
-                    },
-                    "Bal": {
-                        "Tp": {
-                            "CdOrPrtry": {"Cd": "CLBD"},
-                            "SubTp": {"Cd": "INTM"}
-                        },
-                        "Amt": {
-                            "Ccy": "KRW",
-                            "content": -922337203685477580
-                        },
-                        "Dt": {"DtTm": "2023-09-12T14:53:16"},
-                        "CdtDbtInd": "CRDT"
-                    },
-                    "RptgSrc": {"Prtry": "LVPS"}
-                }
-            ],
+                "RptgSrc": {"Prtry": "LVPS"}
+            },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:53:16",
+                "CreDtTm": "2023-09-12T15:44:35",
                 "MsgPgntn": {
                     "PgNb": 1,
                     "LastPgInd": true
                 },
-                "AddtlInf": "tEoZIM82jlYWLvN6MEPx8F5Q7Myu16BoRPynWwgqAT4kYkyTHPlx87njpI8rv2kWc6PnRR868RA841x3fMKgSplY95JKiGbnwYHT5vcCiavfCpqY0OZpGIp3FyMlw6TR9fZG3LLHW1z6YezsTK7edqn4L6QtW3dOlOMZsLIwyik1vQ0hqzgC7x2BZkQyDHC7azL0NcBuOKW4RXcA5tdsHnmkeu8A9IwasycsDSH7vWLTZxIluxl8BcbQpR6IsSerlhNOO8AqIePsnMLsIr47Lz6wkIklvEsND8YS3rE6L7Y6M9u6vXsc8qixk01evOieOaR56P2FXPOwtyevKTyhONqTLkunXw3G9F8KUuSdgkvZTRt7B5PTNvjeOIwNlMmZTuinebdUSAgpD0KjQ6pNqmzYZJVViedQ8UGPHF7iG5LD4Tz76q8FadAizm7b0diblh8xNgOACE5YjLERjUPW2D0d6au8CBasSioHJbffHFNtv4GESD1f",
+                "AddtlInf": "MEgiZvYHmscdumDqOJFU0DfoAuUxLOZqfAggePEM8iBiJMTPySygUXjnAc6xBFgi9RBX4eb9gR5IsexZOV75t2pbhuDmkAoQGY02B9VUOlr4n06SAXUjUtPgIGHLdVVr76AkmfTU5NNptB1jvIcxrecBLtRZTrM07OroU9FbvM25EdGXrjGcybRMDE7dPQjgChhcE2pj7eBhfCJTH9fG2tabOszkI2u4LPJevGGZXAYKUkbXj30yJ2rvxW0w7AQHXTOBMCrgWnDUqmcCsCgFoRMwuO3fJiaAQC2v4C0njADc50bBmu28ZnggRBvUR5cyfzOOamBLQqrN0lKWok5DhWk66PQ0yw2Ag9dOjow1twJNBK5ZjhZVI2yAvUg6T1vu7afsVgIgUaktv89TLeyhpQa2O2NViMfwo7Ad9VCDpnVclc5znMUXZiv0rBJHiWN3LJxWNtSWEggi2iLOuLqrdEZp2wwhVPtPiTtbSO8dRiRAZxjlGEbQ",
                 "OrgnlBizQry": {
-                    "CreDtTm": "2023-09-12T14:53:16",
-                    "MsgId": "k4gNRzBRXEnvWHyrsS9VFcaRNB6KiQ5KEPn"
+                    "CreDtTm": "2023-09-12T15:44:35",
+                    "MsgId": "pGVGcHOqLwu2NPlaNOQzscwGKtELfJaxx3y"
                 },
-                "MsgId": "xpbLLQu0aonU0zeKoRcYtlFT4dngv4CCdG9"
+                "MsgId": "p2X2wYOXKmqI18KGiEAQb0jyHUrpo3lAbef"
             }
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
@@ -118,6 +53,6 @@
         "MsgDefIdr": "camt.052.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.01",
-        "CreDt": "2023-09-12T14:53:16"
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

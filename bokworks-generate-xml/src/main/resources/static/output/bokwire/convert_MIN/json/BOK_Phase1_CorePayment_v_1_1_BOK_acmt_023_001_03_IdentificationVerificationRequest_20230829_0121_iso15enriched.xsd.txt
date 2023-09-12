@@ -3,7 +3,7 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:acmt.023.001.03",
         "IdVrfctnReq": {
             "Assgnmt": {
-                "CreDtTm": "2023-09-12T14:53:15",
+                "CreDtTm": "2023-09-12T15:44:34",
                 "Assgnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "KRBOK"},
                     "MmbId": "00000000000000000000000000000000000"
@@ -25,7 +25,7 @@
                         }
                     }}},
                     "Pty": {"PstlAdr": {
-                        "Ctry": "VU",
+                        "Ctry": "NP",
                         "TwnNm": "00000000000000000000000000000000000"
                     }},
                     "Agt": {"FinInstnId": {"ClrSysMmbId": {
@@ -51,6 +51,6 @@
         "MsgDefIdr": "acmt.023.001.03",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.cdtrdsgntd.01",
-        "CreDt": "2023-09-12T14:53:16"
+        "CreDt": "2023-09-12T15:44:34"
     }
 }

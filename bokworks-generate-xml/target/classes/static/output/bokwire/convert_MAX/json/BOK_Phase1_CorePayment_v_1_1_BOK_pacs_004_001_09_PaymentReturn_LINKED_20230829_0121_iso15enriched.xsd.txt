@@ -4,19 +4,19 @@
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "PmtRtr": {
             "TxInf": {
-                "XchgRate": 1.099909688,
+                "XchgRate": 2.6846934075,
                 "OrgnlEndToEndId": "00000000000000000000000000000000000",
-                "ChrgBr": "DEBT",
+                "ChrgBr": "SHAR",
                 "OrgnlInstrId": "00000000000000000000000000000000000",
                 "OrgnlTxId": "00000000000000000000000000000000000",
                 "RtrChain": {
                     "CdtrAgt": {"FinInstnId": {
-                        "BICFI": "Y057DNXH(TW6",
+                        "BICFI": "SW70TTRF(X0P",
                         "ClrSysMmbId": {
                             "ClrSysId": {"Cd": "KRBOK"},
                             "MmbId": "0000000000000000000000000000"
                         },
-                        "LEI": "FI03OA4V04HRRRC3B175"
+                        "LEI": "KTM5DJP1CFI8AD51WM81"
                     }},
                     "InitgPty": {
                         "Pty": {
@@ -31,7 +31,7 @@
                                         }
                                     },
                                     "DtAndPlcOfBirth": {
-                                        "CtryOfBirth": "HJ",
+                                        "CtryOfBirth": "NB",
                                         "PrvcOfBirth": "00000000000000000000000000000000000",
                                         "CityOfBirth": "00000000000000000000000000000000000",
                                         "BirthDt": "2023-09-12"
@@ -46,13 +46,13 @@
                                             "Prtry": "00000000000000000000000000000000000"
                                         }
                                     },
-                                    "AnyBIC": "W9SXJWFR(C3A)",
-                                    "LEI": "M34O70VXQV3JTU4BAO24"
+                                    "AnyBIC": "3622VCSK(ZXS)",
+                                    "LEI": "XFGVODYK8FFKATHCW420"
                                 }
                             },
                             "Nm": "000000000000000000000000000000",
                             "PstlAdr": {
-                                "Ctry": "RF",
+                                "Ctry": "GV",
                                 "Flr": "0000000000000000000000000000000000000000000000000000000000000000000000",
                                 "Room": "0000000000000000000000000000000000000000000000000000000000000000000000",
                                 "StrtNm": "0000000000000000000000000000000000000000000000000000000000000000000000",
@@ -64,20 +64,20 @@
                                 "TwnNm": "00000000000000000000000000000000000",
                                 "BldgNb": "0000000000000000"
                             },
-                            "CtryOfRes": "HC"
+                            "CtryOfRes": "MT"
                         },
                         "Agt": {"FinInstnId": {
-                            "BICFI": "TWB1FMFA(NWU",
+                            "BICFI": "RCZSFVWH(C2M)",
                             "ClrSysMmbId": {
                                 "ClrSysId": {"Cd": "00000"},
                                 "MmbId": "0000000000000000000000000000"
                             },
-                            "LEI": "ACLTK2IA3ZIMEUNAYK77"
+                            "LEI": "55RZG44BM0Z6XNTE1V26"
                         }}
                     },
                     "DbtrAgt": {
                         "FinInstnId": {
-                            "BICFI": "B2DVVEDH(B25",
+                            "BICFI": "J106OTXY(WQ2",
                             "Othr": {
                                 "Issr": "00000000000000000000000000000000000",
                                 "Id": "00000000000000000000000000000000000",
@@ -90,7 +90,7 @@
                                 "ClrSysId": {"Cd": "KRBOK"},
                                 "MmbId": "0000000000000000000000000000"
                             },
-                            "LEI": "M7K3LF1YP6OVR2O7WF00"
+                            "LEI": "ZETQOW57Y9AUQASLL528"
                         },
                         "BrnchId": {"Id": "00000000000000000000000000000000000"}
                     },
@@ -106,7 +106,7 @@
                                     }
                                 },
                                 "DtAndPlcOfBirth": {
-                                    "CtryOfBirth": "LX",
+                                    "CtryOfBirth": "CK",
                                     "PrvcOfBirth": "00000000000000000000000000000000000",
                                     "CityOfBirth": "00000000000000000000000000000000000",
                                     "BirthDt": "2023-09-12"
@@ -121,13 +121,13 @@
                                         "Prtry": "00000000000000000000000000000000000"
                                     }
                                 },
-                                "AnyBIC": "AIY2XFNZ(88T)",
-                                "LEI": "PTIWGWHYR1SHJOSBBD04"
+                                "AnyBIC": "P2DJZA6P(EVU)",
+                                "LEI": "2NKIGZFPLY4477UFZ185"
                             }
                         },
                         "Nm": "000000000000000000000000000000",
                         "PstlAdr": {
-                            "Ctry": "KX",
+                            "Ctry": "FM",
                             "Flr": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "Room": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "StrtNm": "0000000000000000000000000000000000000000000000000000000000000000000000",
@@ -140,7 +140,7 @@
                             "TwnNm": "00000000000000000000000000000000000",
                             "BldgNb": "0000000000000000"
                         },
-                        "CtryOfRes": "CO"
+                        "CtryOfRes": "DC"
                     }},
                     "Dbtr": {"Pty": {
                         "Id": {
@@ -154,7 +154,7 @@
                                     }
                                 },
                                 "DtAndPlcOfBirth": {
-                                    "CtryOfBirth": "VR",
+                                    "CtryOfBirth": "HL",
                                     "PrvcOfBirth": "00000000000000000000000000000000000",
                                     "CityOfBirth": "00000000000000000000000000000000000",
                                     "BirthDt": "2023-09-12"
@@ -169,13 +169,13 @@
                                         "Prtry": "00000000000000000000000000000000000"
                                     }
                                 },
-                                "AnyBIC": "5Z93SEBN(AOX)",
-                                "LEI": "UG3OP8RS2U8LHAQJE391"
+                                "AnyBIC": "CQGPMBKD(56P)",
+                                "LEI": "BJBLNJ3H81QRX11CVZ95"
                             }
                         },
                         "Nm": "000000000000000000000000000000",
                         "PstlAdr": {
-                            "Ctry": "TH",
+                            "Ctry": "ED",
                             "Flr": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "Room": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "StrtNm": "0000000000000000000000000000000000000000000000000000000000000000000000",
@@ -188,7 +188,7 @@
                             "TwnNm": "00000000000000000000000000000000000",
                             "BldgNb": "0000000000000000"
                         },
-                        "CtryOfRes": "XE"
+                        "CtryOfRes": "OP"
                     }}
                 },
                 "RtrRsnInf": {
@@ -205,7 +205,7 @@
                                     }
                                 },
                                 "DtAndPlcOfBirth": {
-                                    "CtryOfBirth": "HC",
+                                    "CtryOfBirth": "WY",
                                     "PrvcOfBirth": "00000000000000000000000000000000000",
                                     "CityOfBirth": "00000000000000000000000000000000000",
                                     "BirthDt": "2023-09-12"
@@ -220,13 +220,13 @@
                                         "Prtry": "00000000000000000000000000000000000"
                                     }
                                 },
-                                "AnyBIC": "A4ZDRRHI(YWD)",
-                                "LEI": "LS3GVKVFC2TV8UNZVQ43"
+                                "AnyBIC": "ED34KV5Y(T3Z)",
+                                "LEI": "DHI17SVDEZADKH17A277"
                             }
                         },
                         "Nm": "000000000000000000000000000000",
                         "PstlAdr": {
-                            "Ctry": "CM",
+                            "Ctry": "QP",
                             "Flr": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "Room": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "StrtNm": "0000000000000000000000000000000000000000000000000000000000000000000000",
@@ -239,24 +239,24 @@
                             "TwnNm": "00000000000000000000000000000000000",
                             "BldgNb": "0000000000000000"
                         },
-                        "CtryOfRes": "WQ"
+                        "CtryOfRes": "HB"
                     },
                     "Rsn": {"Cd": "0000"}
                 },
                 "OrgnlClrSysRef": "00000000000000000000000000000000000",
                 "InstdAgt": {"FinInstnId": {
-                    "BICFI": "G7ZLPQRP(Q5A)",
+                    "BICFI": "PD52OPT6(OZH",
                     "ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": 1016
                     },
-                    "LEI": "HVG7CCRJA33CM6ZYUI17"
+                    "LEI": "YLTDSR6JD5OCOVFXY561"
                 }},
                 "RtrdInstdAmt": {
                     "Ccy": "Ccy1",
-                    "content": 2.98486
+                    "content": 1.63598
                 },
-                "OrgnlUETR": "26335762-21cc-46ec-8c14-c51119625981",
+                "OrgnlUETR": "30fdd1cb-0a3c-4829-87ef-d6811273911d",
                 "RtrdIntrBkSttlmAmt": {
                     "Ccy": "KRW",
                     "content": -922337203685477580
@@ -264,19 +264,19 @@
                 "OrgnlGrpInf": {
                     "OrgnlMsgId": "00000000000000000000000000000000000",
                     "OrgnlMsgNmId": "00000000000000000000000000000000000",
-                    "OrgnlCreDtTm": "2023-09-12T13:13:20"
+                    "OrgnlCreDtTm": "2023-09-12T15:44:42"
                 },
                 "InstgAgt": {"FinInstnId": {
-                    "BICFI": "TJX6BJ98(4EJ",
+                    "BICFI": "N4IRJRAC(2YG",
                     "ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": 8780
                     },
-                    "LEI": "KG6VE4856VKQ4ZY1NC50"
+                    "LEI": "4K91TVRR9R0BPEZGQ663"
                 }},
                 "OrgnlTxRef": {
                     "DbtrAgtAcct": {
-                        "Ccy": "FHR",
+                        "Ccy": "DLZ",
                         "Tp": {
                             "Cd": "0000",
                             "Prtry": "00000000000000000000000000000000000"
@@ -299,7 +299,7 @@
                         }
                     },
                     "CdtrAgtAcct": {
-                        "Ccy": "VPI",
+                        "Ccy": "HCU",
                         "Tp": {
                             "Cd": "0000",
                             "Prtry": "00000000000000000000000000000000000"
@@ -322,7 +322,7 @@
                         }
                     },
                     "DbtrAcct": {
-                        "Ccy": "RBP",
+                        "Ccy": "WRU",
                         "Tp": {
                             "Cd": "0000",
                             "Prtry": "00000000000000000000000000000000000"
@@ -349,7 +349,7 @@
                         "CtgyPurp": {"Prtry": "00000000000000000000000000000000000"}
                     },
                     "CdtrAcct": {
-                        "Ccy": "SUI",
+                        "Ccy": "KKQ",
                         "Tp": {
                             "Cd": "0000",
                             "Prtry": "00000000000000000000000000000000000"
@@ -377,13 +377,13 @@
                 "ChrgsInf": {
                     "Amt": {
                         "Ccy": "Ccy2",
-                        "content": 1.0723
+                        "content": 1.68267
                     },
                     "Agt": {"FinInstnId": {
-                        "BICFI": "1C04ML3X(ELI)",
+                        "BICFI": "KFIKCY60(UMB",
                         "Nm": "000000000000000000000000000000",
                         "PstlAdr": {
-                            "Ctry": "SL",
+                            "Ctry": "ZD",
                             "Flr": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "Room": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "StrtNm": "0000000000000000000000000000000000000000000000000000000000000000000000",
@@ -400,12 +400,12 @@
                             "ClrSysId": {"Cd": "00000"},
                             "MmbId": "0000000000000000000000000000"
                         },
-                        "LEI": "D2CB98QUAA07XQ249A65"
+                        "LEI": "2VQZB6II41MLCIQVLQ17"
                     }}
                 }
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T13:13:20",
+                "CreDtTm": "2023-09-12T15:44:42",
                 "NbOfTxs": 1,
                 "SttlmInf": {
                     "SttlmMtd": "CLRG",
@@ -419,21 +419,21 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
         "CharSet": "CharSet1",
         "Fr": {"FIId": {"FinInstnId": {
-            "BICFI": "QSUFTQC8(KDH)",
+            "BICFI": "IB6UUIII(F3N)",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": 8780
             },
-            "LEI": "JP3WE4VDWFIYU92MLI97"
+            "LEI": "YD7C86ESOXIU5W7D3V80"
         }}},
         "BizMsgIdr": "00000000000000000000000000000000000",
         "To": {"FIId": {"FinInstnId": {
-            "BICFI": "TFPRTXN8(7NV)",
+            "BICFI": "U6QCPN05(71P",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": 1016
             },
-            "LEI": "7MBIBTUKEUD9FWAX5552"
+            "LEI": "NKADYGFCYWR11DIVQ493"
         }}},
         "MsgDefIdr": "pacs.004.001.09",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
@@ -442,27 +442,27 @@
         "Rltd": {
             "CharSet": "CharSet2",
             "Fr": {"FIId": {"FinInstnId": {
-                "BICFI": "9RULLYPB(QBN",
+                "BICFI": "CLVPPW51(J5M)",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "TE80RDGB5G6AXIBMF437"
+                "LEI": "49PY968BVGNCWZGS7D16"
             }}},
             "BizMsgIdr": "00000000000000000000000000000000000",
             "To": {"FIId": {"FinInstnId": {
-                "BICFI": "WR2OPRMS(QB7",
+                "BICFI": "4UKPTYWU(2SK)",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "IM8N77FIJDCNIMF0GB61"
+                "LEI": "4YIRU9BKA5TZ6OU6VV73"
             }}},
             "MsgDefIdr": "00000000000000000000000000000000000",
             "BizSvc": "00000000000000000000000000000000000",
             "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
-            "CreDt": "2023-09-12T13:13:20"
+            "CreDt": "2023-09-12T15:44:42"
         },
-        "CreDt": "2023-09-12T13:13:20"
+        "CreDt": "2023-09-12T15:44:42"
     }
 }

@@ -26,13 +26,13 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>acmt.024.001.03</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.cdtrdsgntd.01</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:14:00</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:acmt.024.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:IdVrfctnRpt>
         <ns:Assgnmt>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:14:00</ns:CreDtTm>
             <ns:Assgnr>
                 <ns:Agt>
                     <ns:FinInstnId>

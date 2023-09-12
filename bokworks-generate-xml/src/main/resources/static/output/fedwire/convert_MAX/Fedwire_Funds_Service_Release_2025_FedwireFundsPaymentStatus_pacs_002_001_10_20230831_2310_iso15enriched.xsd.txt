@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>K9TK5LRSP</ns:MmbId>
+                    <ns:MmbId>T22WM9C6M</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,20 +12,20 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>W7IZJX4IZ</ns:MmbId>
+                    <ns:MmbId>3W2U7I41Y</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>I69</ns:MsgDefIdr>
+    <ns:MsgDefIdr>E64</ns:MsgDefIdr>
     <ns:BizSvc>TEST</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T13:44:48</ns:CreDt>
-    <ns:BizPrcgDt>2023-09-12T13:44:48</ns:BizPrcgDt>
+    <ns:CreDt>2023-09-12T16:42:55</ns:CreDt>
+    <ns:BizPrcgDt>2023-09-12T16:42:55</ns:BizPrcgDt>
     <ns:CpyDplct>DUPL</ns:CpyDplct>
     <ns:PssblDplct>true</ns:PssblDplct>
     <ns:Rltd>
@@ -33,7 +33,7 @@
             <ns:FIId>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
-                        <ns:MmbId>I3QCNORMW</ns:MmbId>
+                        <ns:MmbId>P8NCF7OEZ</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:FIId>
@@ -42,20 +42,20 @@
             <ns:FIId>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
-                        <ns:MmbId>A03P6GUQF</ns:MmbId>
+                        <ns:MmbId>3NBONFC68</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:To>
         <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>K18</ns:MsgDefIdr>
+        <ns:MsgDefIdr>W11</ns:MsgDefIdr>
         <ns:BizSvc>PROD</ns:BizSvc>
         <ns:MktPrctc>
             <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
             <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
         </ns:MktPrctc>
-        <ns:CreDt>2023-09-12T13:44:48</ns:CreDt>
-        <ns:BizPrcgDt>2023-09-12T13:44:48</ns:BizPrcgDt>
+        <ns:CreDt>2023-09-12T16:42:55</ns:CreDt>
+        <ns:BizPrcgDt>2023-09-12T16:42:55</ns:BizPrcgDt>
         <ns:PssblDplct>true</ns:PssblDplct>
     </ns:Rltd>
 </ns:AppHdr>
@@ -63,15 +63,15 @@
     <ns:FIToFIPmtStsRpt>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T13:44:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T16:42:55</ns:CreDtTm>
         </ns:GrpHdr>
         <ns:TxInfAndSts>
             <ns:OrgnlGrpInf>
                 <ns:OrgnlMsgId>0000000000000000000000</ns:OrgnlMsgId>
-                <ns:OrgnlMsgNmId>H95</ns:OrgnlMsgNmId>
-                <ns:OrgnlCreDtTm>2023-09-12T13:44:48</ns:OrgnlCreDtTm>
+                <ns:OrgnlMsgNmId>P64</ns:OrgnlMsgNmId>
+                <ns:OrgnlCreDtTm>2023-09-12T16:42:55</ns:OrgnlCreDtTm>
             </ns:OrgnlGrpInf>
-            <ns:OrgnlUETR>7a27830a-fa9c-4afa-9faa-02d29f902da6</ns:OrgnlUETR>
+            <ns:OrgnlUETR>816dc770-e39c-4194-b7c3-bcef0803eac2</ns:OrgnlUETR>
             <ns:TxSts>0000</ns:TxSts>
             <ns:StsRsnInf>
                 <ns:Rsn>
@@ -79,7 +79,7 @@
                 </ns:Rsn>
                 <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
             </ns:StsRsnInf>
-            <ns:AccptncDtTm>2023-09-12T13:44:48</ns:AccptncDtTm>
+            <ns:AccptncDtTm>2023-09-12T16:42:55</ns:AccptncDtTm>
             <ns:FctvIntrBkSttlmDt>
                 <ns:Dt>2023-09-12</ns:Dt>
             </ns:FctvIntrBkSttlmDt>
@@ -99,7 +99,7 @@
                         <ns:ClrSysId>
                             <ns:Cd>USABA</ns:Cd>
                         </ns:ClrSysId>
-                        <ns:MmbId>027972149</ns:MmbId>
+                        <ns:MmbId>451203176</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:InstdAgt>

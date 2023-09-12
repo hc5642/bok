@@ -9,23 +9,23 @@
                 }
             },
             "Assgnmt": {
-                "CreDtTm": "2023-09-12T13:45:05",
+                "CreDtTm": "2023-09-12T15:59:01",
                 "Assgnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "USABA"},
-                    "MmbId": 443323460
+                    "MmbId": 898198160
                 }}}},
                 "Id": "00000000000000000000000000000000000",
                 "Assgne": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "USABA"},
-                    "MmbId": 145028388
+                    "MmbId": 216087854
                 }}}}
             },
             "CxlDtls": {"TxInfAndSts": {
-                "OrgnlUETR": "1aa021f4-61f7-47f8-b015-253157942071",
+                "OrgnlUETR": "395afef5-acb9-47be-99d8-73fd1f6da549",
                 "OrgnlGrpInf": {
                     "OrgnlMsgId": "00000000000000000000000000000000000",
-                    "OrgnlMsgNmId": "X63",
-                    "OrgnlCreDtTm": "2023-09-12T13:45:05"
+                    "OrgnlMsgNmId": "n17",
+                    "OrgnlCreDtTm": "2023-09-12T15:59:01"
                 },
                 "CxlStsRsnInf": {
                     "AddtlInf": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
@@ -42,16 +42,16 @@
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
-        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "8PLSSTH8F"}}}},
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "2QGDU5WDZ"}}}},
         "BizMsgIdr": "00000000000000000000000000000000000",
-        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "5QQPANF0F"}}}},
-        "MsgDefIdr": "q73",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "0SSU6OBPD"}}}},
+        "MsgDefIdr": "p32",
         "MktPrctc": {
             "Id": "000000000000000000",
             "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "PROD",
-        "CreDt": "2023-09-12T13:45:05"
+        "CreDt": "2023-09-12T15:59:01"
     }
 }

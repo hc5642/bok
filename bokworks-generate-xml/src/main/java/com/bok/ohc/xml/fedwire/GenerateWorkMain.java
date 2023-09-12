@@ -42,7 +42,8 @@ public class GenerateWorkMain {
 	
 	final static String INPUT_PATH = "./src/main/resources/static/input/fedwire";
 	final static String OUTPUT_PATH = "./src/main/resources/static/output/fedwire";
-	final static String CONVERT_PATH = "./src/main/resources/static/output/fedwire/convert_MIN";
+//	final static String CONVERT_PATH = "./src/main/resources/static/output/fedwire/convert_MIN";
+	final static String CONVERT_PATH = "./src/main/resources/static/output/fedwire/convert_MAX";
 	
 	final static String PRE_FIX = "Fedwire_";
 	final static String POST_FIX = ".xsd";
@@ -54,15 +55,26 @@ public class GenerateWorkMain {
 	
 	public static void main(String[] args) throws TransformerConfigurationException, SAXException, IOException, ParserConfigurationException {
 		
-		INSTANCE.minimumElementsGenerated = 0; // 0
-		INSTANCE.maximumElementsGenerated = 0; // 1
-		INSTANCE.generateAllChoices = true;
-		INSTANCE.generateOptionalElements = false; // false
-		INSTANCE.minimumListItemsGenerated = 1;
-		INSTANCE.maximumRecursionDepth = 1;
-		INSTANCE.generateDefaultAttributes = true;
-		INSTANCE.generateFixedAttributes = true;
-		INSTANCE.generateOptionalAttributes = false; // false
+		if ( CONVERT_PATH.endsWith("MIN")) {
+			INSTANCE.minimumElementsGenerated 	= 0; 		// 최소 엘리먼트 생성 (MIN:0, MAX:1)
+			INSTANCE.minimumListItemsGenerated 	= 0; 		// 최소 배열 생성 (MIN:0, MAX:1)
+			INSTANCE.maximumRecursionDepth 		= 0; 		// 최대 재귀 깊이 생략
+			INSTANCE.maximumListItemsGenerated 	= 0; 		// 최대 배열 생성 고정
+			INSTANCE.maximumElementsGenerated 	= 0; 		// 최대 엘리먼트 생성 고정
+			INSTANCE.generateOptionalElements 	= false; 	// 옵셔널 엘리먼트 생성 (MIN:false, MAX:true)
+			INSTANCE.generateOptionalAttributes = false; 	// 옵셔널 애트리뷰트 생성 (MIN:false, MAX:true)
+		} else if ( CONVERT_PATH.endsWith("MAX")) {
+			INSTANCE.minimumElementsGenerated 	= 1; 		// 최소 엘리먼트 생성 (MIN:0, MAX:1)
+			INSTANCE.minimumListItemsGenerated 	= 1; 		// 최소 배열 생성 (MIN:0, MAX:1)
+			INSTANCE.maximumRecursionDepth 		= 1; 		// 최대 재귀 깊이 (MIN:0, MAX:1)
+			INSTANCE.maximumListItemsGenerated 	= 1; 		// 최대 배열 생성 고정
+			INSTANCE.maximumElementsGenerated 	= 1; 		// 최대 엘리먼트 생성 고정
+			INSTANCE.generateOptionalElements 	= true; 	// 옵셔널 엘리먼트 생성 (MIN:false, MAX:true)
+			INSTANCE.generateOptionalAttributes = true; 	// 옵셔널 애트리뷰트 생성 (MIN:false, MAX:true)
+		}
+		INSTANCE.generateAllChoices 		= true;		// 모든 선택 생성 고정
+		INSTANCE.generateDefaultAttributes 	= true;	 	// 옵셔널 디폴트 애트리뷰트 생성
+		INSTANCE.generateFixedAttributes 	= true;		// 고정 애트리뷰트 생성
 		INSTANCE.sampleValueGenerator = new SampleValueGeneratorImpl();
 		
 		generateFedWire();

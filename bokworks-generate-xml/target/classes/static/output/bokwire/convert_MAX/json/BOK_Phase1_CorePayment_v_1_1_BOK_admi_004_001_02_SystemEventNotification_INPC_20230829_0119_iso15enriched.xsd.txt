@@ -5,28 +5,28 @@
         "SysEvtNtfctn": {"EvtInf": {
             "EvtParam": "00000000000000000000000000000000000",
             "EvtCd": "INPC",
-            "EvtTm": "2023-09-12T13:13:19"
+            "EvtTm": "2023-09-12T15:44:41"
         }}
     },
     "AppHdr": {
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
         "CharSet": "CharSet1",
         "Fr": {"FIId": {"FinInstnId": {
-            "BICFI": "LQKZBNHN(O4Z",
+            "BICFI": "2WSSUED5(39C)",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": 1016
             },
-            "LEI": "Q2JJ09NI85DQX6CIC715"
+            "LEI": "J2WWUAO2DAJ50EKANJ80"
         }}},
         "BizMsgIdr": "00000000000000000000000000000000000",
         "To": {"FIId": {"FinInstnId": {
-            "BICFI": "39ODYEUB(6B9)",
+            "BICFI": "ACZZWMMU(O48",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": "00000000000000000000000000000000000"
             },
-            "LEI": "9W2X25FOR2F1DS71N599"
+            "LEI": "LIHAXTE9UPKGSCTY8856"
         }}},
         "MsgDefIdr": "admi.004.001.02",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
@@ -35,27 +35,27 @@
         "Rltd": {
             "CharSet": "CharSet2",
             "Fr": {"FIId": {"FinInstnId": {
-                "BICFI": "2ONUEOWY(OVA",
+                "BICFI": "RXIKYQAT(ML6)",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "L43TSYKEI7Y70GN66L83"
+                "LEI": "0N2KG7MOAA05JC2JR673"
             }}},
             "BizMsgIdr": "00000000000000000000000000000000000",
             "To": {"FIId": {"FinInstnId": {
-                "BICFI": "N9R0PDMQ(8EI",
+                "BICFI": "6TOPNVX0(LEQ",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "YWXPD755P3MI6PL0CF75"
+                "LEI": "XZST6GTLKOR22O12F362"
             }}},
             "MsgDefIdr": "00000000000000000000000000000000000",
             "BizSvc": "00000000000000000000000000000000000",
             "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
-            "CreDt": "2023-09-12T13:13:19"
+            "CreDt": "2023-09-12T15:44:41"
         },
-        "CreDt": "2023-09-12T13:13:19"
+        "CreDt": "2023-09-12T15:44:41"
     }
 }

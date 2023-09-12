@@ -4,31 +4,31 @@
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "GetTx": {
             "MsgHdr": {
-                "CreDtTm": "2023-09-12T13:13:19",
-                "MsgId": "CQfPbFsV9JQGUHQmFrzrUwUCXN6DuCujXlU",
-                "ReqTp": {"Prtry": {"Id": "IRPQ"}}
+                "CreDtTm": "2023-09-12T15:44:41",
+                "MsgId": "cKXi0OtCp2Tn2yhGRzftQhMSlI5piy7qeH3",
+                "ReqTp": {"Prtry": {"Id": "ICRC"}}
             },
             "TxQryDef": {"TxCrit": {"NewCrit": {"SchCrit": {
                 "PmtSch": {
                     "IntrBkSttlmDt": "2023-09-12",
                     "PmtId": {"PrtryId": "0000000000000000000000000000000000000000000000000000000000000000000000"},
-                    "MsgId": "l0F2YDIFsAsrFRMVNT4ZU7UT87kCgTp6v6r"
+                    "MsgId": "j7GzGfr2XzKttXmpAyDyvmKjd9VOIvIg7Ai"
                 },
                 "PmtTo": {"MmbId": {"FinInstnId": {
-                    "BICFI": "JNFCLK5J(ZL1)",
+                    "BICFI": "JAOYWW8T(GCS",
                     "ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": "0000000000000000000000000000"
                     },
-                    "LEI": "6JG45YU65S6OTKL42J34"
+                    "LEI": "0AC3KW8STG4KUUQ3AX11"
                 }}},
                 "PmtFr": {"MmbId": {"FinInstnId": {
-                    "BICFI": "GBXHNW1M(A05)",
+                    "BICFI": "RA49PIVN(GAW",
                     "ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": "0000000000000000000000000000"
                     },
-                    "LEI": "U53PEKOBPS4B6WMBHF14"
+                    "LEI": "OJJ8BACUJZFBH3M20M11"
                 }}}
             }}}}
         }
@@ -37,21 +37,21 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
         "CharSet": "CharSet1",
         "Fr": {"FIId": {"FinInstnId": {
-            "BICFI": "VZK9ZN7U(PEZ)",
+            "BICFI": "HTZUOHLQ(P9O",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": "00000000000000000000000000000000000"
             },
-            "LEI": "TQ3Z9AM8SV0GIK5QIB93"
+            "LEI": "G6QS9I3RLD9V9W4GYH89"
         }}},
         "BizMsgIdr": "00000000000000000000000000000000000",
         "To": {"FIId": {"FinInstnId": {
-            "BICFI": "083TFSWG(0NW",
+            "BICFI": "RVAXWJF3(G21",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": 1016
             },
-            "LEI": "1TSHRICVZN0VCS133651"
+            "LEI": "YRCN38JERBFWA6GR5H37"
         }}},
         "MsgDefIdr": "camt.005.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
@@ -60,27 +60,27 @@
         "Rltd": {
             "CharSet": "CharSet2",
             "Fr": {"FIId": {"FinInstnId": {
-                "BICFI": "NZ2VZD6C(F02",
+                "BICFI": "QFPCGZ5R(80S",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "G4A9JKX2C9HF6KRCMF24"
+                "LEI": "9O64HVF13NAYD7T44W69"
             }}},
             "BizMsgIdr": "00000000000000000000000000000000000",
             "To": {"FIId": {"FinInstnId": {
-                "BICFI": "YINCCAIV(8PP)",
+                "BICFI": "922CWWDY(KT8",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "39H37XB4LKXZBVAAGR74"
+                "LEI": "XQV9GXYE8LN7JA8MQ930"
             }}},
             "MsgDefIdr": "00000000000000000000000000000000000",
             "BizSvc": "00000000000000000000000000000000000",
             "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
-            "CreDt": "2023-09-12T13:13:20"
+            "CreDt": "2023-09-12T15:44:41"
         },
-        "CreDt": "2023-09-12T13:13:20"
+        "CreDt": "2023-09-12T15:44:41"
     }
 }

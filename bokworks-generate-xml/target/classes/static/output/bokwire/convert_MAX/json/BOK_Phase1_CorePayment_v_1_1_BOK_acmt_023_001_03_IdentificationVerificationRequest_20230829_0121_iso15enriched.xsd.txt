@@ -3,30 +3,30 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:acmt.023.001.03",
         "IdVrfctnReq": {
             "Assgnmt": {
-                "CreDtTm": "2023-09-12T13:13:19",
+                "CreDtTm": "2023-09-12T15:44:41",
                 "Assgnr": {"Agt": {"FinInstnId": {
-                    "BICFI": "7KIVBN40(6R2",
+                    "BICFI": "L1MGEAQ8(TLK)",
                     "ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": "00000000000000000000000000000000000"
                     },
-                    "LEI": "9SUKNO9432IJ2HCLTR58"
+                    "LEI": "FGRXMO4K0VRAY46ZRG22"
                 }}},
                 "MsgId": "00000000000000000000000000000000000",
                 "Assgne": {"Agt": {"FinInstnId": {
-                    "BICFI": "Z9UKTAO6(WC6)",
+                    "BICFI": "1QA9BJI4(USI)",
                     "ClrSysMmbId": {
                         "ClrSysId": {"Cd": "KRBOK"},
                         "MmbId": "00000000000000000000000000000000000"
                     },
-                    "LEI": "SSW6BTB5ING20VR4H179"
+                    "LEI": "NF2551MYOX5GZQN3XF81"
                 }}}
             },
             "Vrfctn": {
                 "Id": "00000000000000000000000000000000000",
                 "PtyAndAcctId": {
                     "Acct": {
-                        "Ccy": "TCO",
+                        "Ccy": "PBK",
                         "Tp": {
                             "Cd": "0000",
                             "Prtry": "00000000000000000000000000000000000"
@@ -60,7 +60,7 @@
                                     }
                                 },
                                 "DtAndPlcOfBirth": {
-                                    "CtryOfBirth": "LZ",
+                                    "CtryOfBirth": "BM",
                                     "PrvcOfBirth": "00000000000000000000000000000000000",
                                     "CityOfBirth": "00000000000000000000000000000000000",
                                     "BirthDt": "2023-09-12"
@@ -75,13 +75,13 @@
                                         "Prtry": "00000000000000000000000000000000000"
                                     }
                                 },
-                                "AnyBIC": "SY3ISLHH(TJE)",
-                                "LEI": "MKVGQA4AQB4TP8YN9X00"
+                                "AnyBIC": "DFZNMRLQ(0RJ",
+                                "LEI": "B3U7E1DZCHP6NO8X8323"
                             }
                         },
                         "Nm": "000000000000000000000000000000",
                         "PstlAdr": {
-                            "Ctry": "LD",
+                            "Ctry": "WL",
                             "Flr": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "Room": "0000000000000000000000000000000000000000000000000000000000000000000000",
                             "StrtNm": "0000000000000000000000000000000000000000000000000000000000000000000000",
@@ -93,16 +93,16 @@
                             "TwnNm": "00000000000000000000000000000000000",
                             "BldgNb": "0000000000000000"
                         },
-                        "CtryOfRes": "UV"
+                        "CtryOfRes": "PW"
                     },
                     "Agt": {
                         "FinInstnId": {
-                            "BICFI": "05LVIEUY(FRR",
+                            "BICFI": "WUUAGGBU(SLJ)",
                             "ClrSysMmbId": {
                                 "ClrSysId": {"Cd": "KRBOK"},
                                 "MmbId": "00000000000000000000000000000000000"
                             },
-                            "LEI": "Z2990JD3VAQKDU8I8667"
+                            "LEI": "709DJMYNXEEUB0IPX100"
                         },
                         "BrnchId": {"Nm": "000000000000000000000000000000"}
                     }
@@ -115,21 +115,21 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
         "CharSet": "CharSet1",
         "Fr": {"FIId": {"FinInstnId": {
-            "BICFI": "104GBJQU(E6E",
+            "BICFI": "RK92JNDQ(XAZ)",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": "00000000000000000000000000000000000"
             },
-            "LEI": "35BJO3C16VZ6L4LW8W68"
+            "LEI": "5O8V77NTHI8ULOMVQT41"
         }}},
         "BizMsgIdr": "00000000000000000000000000000000000",
         "To": {"FIId": {"FinInstnId": {
-            "BICFI": "9FNIQHF5(C5B",
+            "BICFI": "XEYJMSUE(3L0)",
             "ClrSysMmbId": {
                 "ClrSysId": {"Cd": "KRBOK"},
                 "MmbId": "00000000000000000000000000000000000"
             },
-            "LEI": "SWSFLMGP10YEIJRYAM81"
+            "LEI": "13AIW9XIBOPZPJKIVL83"
         }}},
         "MsgDefIdr": "acmt.023.001.03",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
@@ -138,27 +138,27 @@
         "Rltd": {
             "CharSet": "CharSet2",
             "Fr": {"FIId": {"FinInstnId": {
-                "BICFI": "Z4M6WEZF(P9Z)",
+                "BICFI": "FVZZCN3L(8CB)",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "XEUEOA7KMYUUTIYRLR98"
+                "LEI": "L3Q1Q7LEIQ6IOK63OE88"
             }}},
             "BizMsgIdr": "00000000000000000000000000000000000",
             "To": {"FIId": {"FinInstnId": {
-                "BICFI": "P5F8BB55(PX9",
+                "BICFI": "PEN1SBL7(QPI)",
                 "ClrSysMmbId": {
                     "ClrSysId": {"Cd": "00000"},
                     "MmbId": "00000000000000000000000000000000000"
                 },
-                "LEI": "UL8NVG7X2MKXMM41ZT63"
+                "LEI": "C2EKF3KKLFZDOP5UBQ93"
             }}},
             "MsgDefIdr": "00000000000000000000000000000000000",
             "BizSvc": "00000000000000000000000000000000000",
             "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
-            "CreDt": "2023-09-12T13:13:19"
+            "CreDt": "2023-09-12T15:44:41"
         },
-        "CreDt": "2023-09-12T13:13:19"
+        "CreDt": "2023-09-12T15:44:41"
     }
 }

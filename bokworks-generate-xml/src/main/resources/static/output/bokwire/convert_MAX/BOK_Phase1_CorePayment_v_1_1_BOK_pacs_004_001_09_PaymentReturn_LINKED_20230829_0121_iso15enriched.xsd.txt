@@ -3,35 +3,35 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>FI6YUKE1(FS7</ns:BICFI>
+                <ns:BICFI>N2I1TODW(ZN7)</ns:BICFI>
                 <ns:ClrSysMmbId>
                     <ns:ClrSysId>
                         <ns:Cd>KRBOK</ns:Cd>
                     </ns:ClrSysId>
                     <ns:MmbId>8780</ns:MmbId>
                 </ns:ClrSysMmbId>
-                <ns:LEI>WY0W5I4MQFKQV6PKFA00</ns:LEI>
+                <ns:LEI>X76W7UFDP2205SU5LR71</ns:LEI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>90N5FRU5(AY6)</ns:BICFI>
+                <ns:BICFI>EXT6CCFI(EP8)</ns:BICFI>
                 <ns:ClrSysMmbId>
                     <ns:ClrSysId>
                         <ns:Cd>KRBOK</ns:Cd>
                     </ns:ClrSysId>
                     <ns:MmbId>1016</ns:MmbId>
                 </ns:ClrSysMmbId>
-                <ns:LEI>AR9Z1TCHTVPDQ1QXSM58</ns:LEI>
+                <ns:LEI>YBLZP1NTN94BPHF00420</ns:LEI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.004.001.09</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.lkdsttlm.01</ns:BizSvc>
-    <ns:CreDt>2023-09-12T14:04:02</ns:CreDt>
+    <ns:CreDt>2023-09-12T17:12:19</ns:CreDt>
     <ns:Sgntr>
         <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
     </ns:Sgntr>
@@ -40,35 +40,35 @@
         <ns:Fr>
             <ns:FIId>
                 <ns:FinInstnId>
-                    <ns:BICFI>3CZVWCQR(91S)</ns:BICFI>
+                    <ns:BICFI>WLKZMGZJ(0VO</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>00000</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>P2YH38YOMCDHWUUBVC77</ns:LEI>
+                    <ns:LEI>BK4FT00LTFE8XV1IJ875</ns:LEI>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:Fr>
         <ns:To>
             <ns:FIId>
                 <ns:FinInstnId>
-                    <ns:BICFI>AQ1XEDDF(8GU)</ns:BICFI>
+                    <ns:BICFI>95YXTMKJ(D2X</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>00000</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>IDHSPQRBCISK4YU6T972</ns:LEI>
+                    <ns:LEI>RXTFZ5JFIURFRCT0T130</ns:LEI>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:To>
         <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
         <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
         <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-12T14:04:02</ns:CreDt>
+        <ns:CreDt>2023-09-12T17:12:19</ns:CreDt>
         <ns:Sgntr>
             <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
         </ns:Sgntr>
@@ -78,7 +78,7 @@
     <ns:PmtRtr>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:04:02</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T17:12:19</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -92,30 +92,30 @@
             <ns:OrgnlGrpInf>
                 <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
                 <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
-                <ns:OrgnlCreDtTm>2023-09-12T14:04:02</ns:OrgnlCreDtTm>
+                <ns:OrgnlCreDtTm>2023-09-12T17:12:19</ns:OrgnlCreDtTm>
             </ns:OrgnlGrpInf>
             <ns:OrgnlInstrId>00000000000000000000000000000000000</ns:OrgnlInstrId>
             <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
             <ns:OrgnlTxId>00000000000000000000000000000000000</ns:OrgnlTxId>
-            <ns:OrgnlUETR>e3dfc1ff-13c2-4c1b-9b3c-902b4d9d5da4</ns:OrgnlUETR>
+            <ns:OrgnlUETR>37a7f4ab-c07e-4297-80b3-472f330bef0a</ns:OrgnlUETR>
             <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
             <ns:RtrdIntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:RtrdIntrBkSttlmAmt>
             <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
-            <ns:RtrdInstdAmt Ccy="Ccy1">3.67894</ns:RtrdInstdAmt>
-            <ns:XchgRate>4.9231912140</ns:XchgRate>
+            <ns:RtrdInstdAmt Ccy="Ccy1">1.63129</ns:RtrdInstdAmt>
+            <ns:XchgRate>6.2992327833</ns:XchgRate>
             <ns:ChrgBr>SLEV</ns:ChrgBr>
             <ns:ChrgsInf>
-                <ns:Amt Ccy="Ccy2">1.07133</ns:Amt>
+                <ns:Amt Ccy="Ccy2">1.50635</ns:Amt>
                 <ns:Agt>
                     <ns:FinInstnId>
-                        <ns:BICFI>URN0RP72(V1U</ns:BICFI>
+                        <ns:BICFI>NKH4FRW8(2O1)</ns:BICFI>
                         <ns:ClrSysMmbId>
                             <ns:ClrSysId>
                                 <ns:Cd>00000</ns:Cd>
                             </ns:ClrSysId>
                             <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                         </ns:ClrSysMmbId>
-                        <ns:LEI>B77A5GIBG8AY4DZZ0O79</ns:LEI>
+                        <ns:LEI>KI1HPJGAO349333SXQ41</ns:LEI>
                         <ns:Nm>000000000000000000000000000000</ns:Nm>
                         <ns:PstlAdr>
                             <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
@@ -128,7 +128,7 @@
                             <ns:PstCd>0000000000000000</ns:PstCd>
                             <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                             <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                            <ns:Ctry>OW</ns:Ctry>
+                            <ns:Ctry>PR</ns:Ctry>
                             <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
                         </ns:PstlAdr>
                     </ns:FinInstnId>
@@ -136,26 +136,26 @@
             </ns:ChrgsInf>
             <ns:InstgAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>MHI2YZ7I(CV0</ns:BICFI>
+                    <ns:BICFI>3EQRFLB3(OQF)</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>KRBOK</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>8780</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>T1AVVE2Y0VAIJZ8D7W88</ns:LEI>
+                    <ns:LEI>EJ74YOIP1BKX4BPRD283</ns:LEI>
                 </ns:FinInstnId>
             </ns:InstgAgt>
             <ns:InstdAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>KAI3IM6R(9V8</ns:BICFI>
+                    <ns:BICFI>S5ZKLNZK(LRD</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>KRBOK</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>1016</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>PECKDM2TBY15W55Q8147</ns:LEI>
+                    <ns:LEI>231SBFAX8H4R76T0D878</ns:LEI>
                 </ns:FinInstnId>
             </ns:InstdAgt>
             <ns:RtrChain>
@@ -173,29 +173,13 @@
                             <ns:PstCd>0000000000000000</ns:PstCd>
                             <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                             <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                            <ns:Ctry>YU</ns:Ctry>
+                            <ns:Ctry>IY</ns:Ctry>
                             <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
                         </ns:PstlAdr>
                         <ns:Id>
-                            <ns:PrvtId>
-                                <ns:DtAndPlcOfBirth>
-                                    <ns:BirthDt>2023-09-12</ns:BirthDt>
-                                    <ns:PrvcOfBirth>00000000000000000000000000000000000</ns:PrvcOfBirth>
-                                    <ns:CityOfBirth>00000000000000000000000000000000000</ns:CityOfBirth>
-                                    <ns:CtryOfBirth>UC</ns:CtryOfBirth>
-                                </ns:DtAndPlcOfBirth>
-                                <ns:Othr>
-                                    <ns:Id>00000000000000000000000000000000000</ns:Id>
-                                    <ns:SchmeNm>
-                                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
-                                        <ns:Cd>0000</ns:Cd>
-                                    </ns:SchmeNm>
-                                    <ns:Issr>00000000000000000000000000000000000</ns:Issr>
-                                </ns:Othr>
-                            </ns:PrvtId>
                             <ns:OrgId>
-                                <ns:AnyBIC>PZ9RPC1Y(NQR)</ns:AnyBIC>
-                                <ns:LEI>XD776UGW4RLBAWMHGR91</ns:LEI>
+                                <ns:AnyBIC>JZ49HJNG(3XB</ns:AnyBIC>
+                                <ns:LEI>T1K840Z9SMMU93J2LJ02</ns:LEI>
                                 <ns:Othr>
                                     <ns:Id>00000000000000000000000000000000000</ns:Id>
                                     <ns:SchmeNm>
@@ -205,11 +189,39 @@
                                     <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                                 </ns:Othr>
                             </ns:OrgId>
+                            <ns:PrvtId>
+                                <ns:DtAndPlcOfBirth>
+                                    <ns:BirthDt>2023-09-12</ns:BirthDt>
+                                    <ns:PrvcOfBirth>00000000000000000000000000000000000</ns:PrvcOfBirth>
+                                    <ns:CityOfBirth>00000000000000000000000000000000000</ns:CityOfBirth>
+                                    <ns:CtryOfBirth>JH</ns:CtryOfBirth>
+                                </ns:DtAndPlcOfBirth>
+                                <ns:Othr>
+                                    <ns:Id>00000000000000000000000000000000000</ns:Id>
+                                    <ns:SchmeNm>
+                                        <ns:Cd>0000</ns:Cd>
+                                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                                    </ns:SchmeNm>
+                                    <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                                </ns:Othr>
+                            </ns:PrvtId>
                         </ns:Id>
-                        <ns:CtryOfRes>QL</ns:CtryOfRes>
+                        <ns:CtryOfRes>HF</ns:CtryOfRes>
                     </ns:Pty>
                 </ns:Dbtr>
                 <ns:InitgPty>
+                    <ns:Agt>
+                        <ns:FinInstnId>
+                            <ns:BICFI>ZU6OTE8Z(ZVG)</ns:BICFI>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>00000</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                            <ns:LEI>XWURK49QNIJJE6YSM054</ns:LEI>
+                        </ns:FinInstnId>
+                    </ns:Agt>
                     <ns:Pty>
                         <ns:Nm>000000000000000000000000000000</ns:Nm>
                         <ns:PstlAdr>
@@ -223,12 +235,12 @@
                             <ns:PstCd>0000000000000000</ns:PstCd>
                             <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                             <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                            <ns:Ctry>MO</ns:Ctry>
+                            <ns:Ctry>SH</ns:Ctry>
                         </ns:PstlAdr>
                         <ns:Id>
                             <ns:OrgId>
-                                <ns:AnyBIC>3A8ILMH8(SCH)</ns:AnyBIC>
-                                <ns:LEI>XOPI6NY9XZNCJV0GUO37</ns:LEI>
+                                <ns:AnyBIC>AKFLMPR5(NHW</ns:AnyBIC>
+                                <ns:LEI>HAPZY8V7UFQUWSVVAA54</ns:LEI>
                                 <ns:Othr>
                                     <ns:Id>00000000000000000000000000000000000</ns:Id>
                                     <ns:SchmeNm>
@@ -243,43 +255,31 @@
                                     <ns:BirthDt>2023-09-12</ns:BirthDt>
                                     <ns:PrvcOfBirth>00000000000000000000000000000000000</ns:PrvcOfBirth>
                                     <ns:CityOfBirth>00000000000000000000000000000000000</ns:CityOfBirth>
-                                    <ns:CtryOfBirth>EJ</ns:CtryOfBirth>
+                                    <ns:CtryOfBirth>IY</ns:CtryOfBirth>
                                 </ns:DtAndPlcOfBirth>
                                 <ns:Othr>
                                     <ns:Id>00000000000000000000000000000000000</ns:Id>
                                     <ns:SchmeNm>
-                                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                                         <ns:Cd>0000</ns:Cd>
+                                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                                     </ns:SchmeNm>
                                     <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                                 </ns:Othr>
                             </ns:PrvtId>
                         </ns:Id>
-                        <ns:CtryOfRes>BB</ns:CtryOfRes>
+                        <ns:CtryOfRes>WS</ns:CtryOfRes>
                     </ns:Pty>
-                    <ns:Agt>
-                        <ns:FinInstnId>
-                            <ns:BICFI>ZPWMQQPM(LO1)</ns:BICFI>
-                            <ns:ClrSysMmbId>
-                                <ns:ClrSysId>
-                                    <ns:Cd>00000</ns:Cd>
-                                </ns:ClrSysId>
-                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
-                            </ns:ClrSysMmbId>
-                            <ns:LEI>27LDKS0PZN5VDXIQ9A64</ns:LEI>
-                        </ns:FinInstnId>
-                    </ns:Agt>
                 </ns:InitgPty>
                 <ns:DbtrAgt>
                     <ns:FinInstnId>
-                        <ns:BICFI>1XD8AIL6(G5R)</ns:BICFI>
+                        <ns:BICFI>UU0DWLZ2(4B3)</ns:BICFI>
                         <ns:ClrSysMmbId>
                             <ns:ClrSysId>
                                 <ns:Cd>KRBOK</ns:Cd>
                             </ns:ClrSysId>
                             <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                         </ns:ClrSysMmbId>
-                        <ns:LEI>ONK40MJZTHN7JQYUGB00</ns:LEI>
+                        <ns:LEI>DF3AZY6WTM17GVW3WP82</ns:LEI>
                         <ns:Othr>
                             <ns:Id>00000000000000000000000000000000000</ns:Id>
                             <ns:SchmeNm>
@@ -295,14 +295,14 @@
                 </ns:DbtrAgt>
                 <ns:CdtrAgt>
                     <ns:FinInstnId>
-                        <ns:BICFI>VTT7SAPB(KGA</ns:BICFI>
+                        <ns:BICFI>8OGAJKK2(5M3)</ns:BICFI>
                         <ns:ClrSysMmbId>
                             <ns:ClrSysId>
                                 <ns:Cd>KRBOK</ns:Cd>
                             </ns:ClrSysId>
                             <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                         </ns:ClrSysMmbId>
-                        <ns:LEI>TF7W79V83YI0NREB9W34</ns:LEI>
+                        <ns:LEI>25PSF5NEV9S7RI01RP38</ns:LEI>
                     </ns:FinInstnId>
                 </ns:CdtrAgt>
                 <ns:Cdtr>
@@ -319,13 +319,29 @@
                             <ns:PstCd>0000000000000000</ns:PstCd>
                             <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                             <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                            <ns:Ctry>RO</ns:Ctry>
+                            <ns:Ctry>KU</ns:Ctry>
                             <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
                         </ns:PstlAdr>
                         <ns:Id>
+                            <ns:PrvtId>
+                                <ns:DtAndPlcOfBirth>
+                                    <ns:BirthDt>2023-09-12</ns:BirthDt>
+                                    <ns:PrvcOfBirth>00000000000000000000000000000000000</ns:PrvcOfBirth>
+                                    <ns:CityOfBirth>00000000000000000000000000000000000</ns:CityOfBirth>
+                                    <ns:CtryOfBirth>KN</ns:CtryOfBirth>
+                                </ns:DtAndPlcOfBirth>
+                                <ns:Othr>
+                                    <ns:Id>00000000000000000000000000000000000</ns:Id>
+                                    <ns:SchmeNm>
+                                        <ns:Cd>0000</ns:Cd>
+                                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                                    </ns:SchmeNm>
+                                    <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                                </ns:Othr>
+                            </ns:PrvtId>
                             <ns:OrgId>
-                                <ns:AnyBIC>SHZZPJ1U(BOI</ns:AnyBIC>
-                                <ns:LEI>JKU82CLFIDYV6HNNCJ32</ns:LEI>
+                                <ns:AnyBIC>Q676XWM2(A8T)</ns:AnyBIC>
+                                <ns:LEI>0AMHUZVRT2BRVW7VVF60</ns:LEI>
                                 <ns:Othr>
                                     <ns:Id>00000000000000000000000000000000000</ns:Id>
                                     <ns:SchmeNm>
@@ -335,24 +351,8 @@
                                     <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                                 </ns:Othr>
                             </ns:OrgId>
-                            <ns:PrvtId>
-                                <ns:DtAndPlcOfBirth>
-                                    <ns:BirthDt>2023-09-12</ns:BirthDt>
-                                    <ns:PrvcOfBirth>00000000000000000000000000000000000</ns:PrvcOfBirth>
-                                    <ns:CityOfBirth>00000000000000000000000000000000000</ns:CityOfBirth>
-                                    <ns:CtryOfBirth>JA</ns:CtryOfBirth>
-                                </ns:DtAndPlcOfBirth>
-                                <ns:Othr>
-                                    <ns:Id>00000000000000000000000000000000000</ns:Id>
-                                    <ns:SchmeNm>
-                                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
-                                        <ns:Cd>0000</ns:Cd>
-                                    </ns:SchmeNm>
-                                    <ns:Issr>00000000000000000000000000000000000</ns:Issr>
-                                </ns:Othr>
-                            </ns:PrvtId>
                         </ns:Id>
-                        <ns:CtryOfRes>UU</ns:CtryOfRes>
+                        <ns:CtryOfRes>NU</ns:CtryOfRes>
                     </ns:Pty>
                 </ns:Cdtr>
             </ns:RtrChain>
@@ -370,7 +370,7 @@
                         <ns:PstCd>0000000000000000</ns:PstCd>
                         <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                         <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                        <ns:Ctry>IY</ns:Ctry>
+                        <ns:Ctry>RO</ns:Ctry>
                         <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
                     </ns:PstlAdr>
                     <ns:Id>
@@ -379,31 +379,31 @@
                                 <ns:BirthDt>2023-09-12</ns:BirthDt>
                                 <ns:PrvcOfBirth>00000000000000000000000000000000000</ns:PrvcOfBirth>
                                 <ns:CityOfBirth>00000000000000000000000000000000000</ns:CityOfBirth>
-                                <ns:CtryOfBirth>KZ</ns:CtryOfBirth>
+                                <ns:CtryOfBirth>NS</ns:CtryOfBirth>
                             </ns:DtAndPlcOfBirth>
                             <ns:Othr>
                                 <ns:Id>00000000000000000000000000000000000</ns:Id>
                                 <ns:SchmeNm>
-                                    <ns:Cd>0000</ns:Cd>
                                     <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                                    <ns:Cd>0000</ns:Cd>
                                 </ns:SchmeNm>
                                 <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                             </ns:Othr>
                         </ns:PrvtId>
                         <ns:OrgId>
-                            <ns:AnyBIC>RZQHNEE8(7F8)</ns:AnyBIC>
-                            <ns:LEI>DNBTC6RYRZ2N5RY3QT66</ns:LEI>
+                            <ns:AnyBIC>X2AFLIRU(PI3)</ns:AnyBIC>
+                            <ns:LEI>LZGRHG7E8RKI39GJW386</ns:LEI>
                             <ns:Othr>
                                 <ns:Id>00000000000000000000000000000000000</ns:Id>
                                 <ns:SchmeNm>
-                                    <ns:Cd>0000</ns:Cd>
                                     <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                                    <ns:Cd>0000</ns:Cd>
                                 </ns:SchmeNm>
                                 <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                             </ns:Othr>
                         </ns:OrgId>
                     </ns:Id>
-                    <ns:CtryOfRes>XI</ns:CtryOfRes>
+                    <ns:CtryOfRes>NX</ns:CtryOfRes>
                 </ns:Orgtr>
                 <ns:Rsn>
                     <ns:Cd>0000</ns:Cd>
@@ -424,22 +424,22 @@
                         <ns:Othr>
                             <ns:Id>0000000000000000000000000000000000</ns:Id>
                             <ns:SchmeNm>
-                                <ns:Cd>0000</ns:Cd>
                                 <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                                <ns:Cd>0000</ns:Cd>
                             </ns:SchmeNm>
                             <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                         </ns:Othr>
                     </ns:Id>
                     <ns:Tp>
-                        <ns:Cd>0000</ns:Cd>
                         <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                        <ns:Cd>0000</ns:Cd>
                     </ns:Tp>
-                    <ns:Ccy>FHH</ns:Ccy>
+                    <ns:Ccy>AJP</ns:Ccy>
                     <ns:Nm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Nm>
                     <ns:Prxy>
                         <ns:Tp>
-                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                             <ns:Cd>0000</ns:Cd>
+                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                         </ns:Tp>
                         <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
                     </ns:Prxy>
@@ -456,10 +456,10 @@
                         </ns:Othr>
                     </ns:Id>
                     <ns:Tp>
-                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                         <ns:Cd>0000</ns:Cd>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                     </ns:Tp>
-                    <ns:Ccy>ILD</ns:Ccy>
+                    <ns:Ccy>XEN</ns:Ccy>
                     <ns:Nm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Nm>
                     <ns:Prxy>
                         <ns:Tp>
@@ -484,7 +484,7 @@
                         <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                         <ns:Cd>0000</ns:Cd>
                     </ns:Tp>
-                    <ns:Ccy>DAL</ns:Ccy>
+                    <ns:Ccy>WDU</ns:Ccy>
                     <ns:Nm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Nm>
                     <ns:Prxy>
                         <ns:Tp>
@@ -499,8 +499,8 @@
                         <ns:Othr>
                             <ns:Id>0000000000000000000000000000000000</ns:Id>
                             <ns:SchmeNm>
-                                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                                 <ns:Cd>0000</ns:Cd>
+                                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                             </ns:SchmeNm>
                             <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                         </ns:Othr>
@@ -509,12 +509,12 @@
                         <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                         <ns:Cd>0000</ns:Cd>
                     </ns:Tp>
-                    <ns:Ccy>OJK</ns:Ccy>
+                    <ns:Ccy>SJY</ns:Ccy>
                     <ns:Nm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Nm>
                     <ns:Prxy>
                         <ns:Tp>
-                            <ns:Cd>0000</ns:Cd>
                             <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                            <ns:Cd>0000</ns:Cd>
                         </ns:Tp>
                         <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
                     </ns:Prxy>

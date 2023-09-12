@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>3MAGARRQF</ns:MmbId>
+                    <ns:MmbId>K53DPWY5N</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,33 +12,33 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>FGI7L1FVX</ns:MmbId>
+                    <ns:MmbId>ZMBCT7JS2</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>z93</ns:MsgDefIdr>
+    <ns:MsgDefIdr>g60</ns:MsgDefIdr>
     <ns:BizSvc>TEST</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T14:59:33</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:46</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
             <ns:MsgId>ETOT</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T16:42:46</ns:CreDtTm>
             <ns:MsgPgntn>
-                <ns:PgNb>6703</ns:PgNb>
+                <ns:PgNb>321</ns:PgNb>
                 <ns:LastPgInd>true</ns:LastPgInd>
             </ns:MsgPgntn>
         </ns:GrpHdr>
         <ns:Rpt>
-            <ns:Id>IDAY</ns:Id>
-            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+            <ns:Id>EDAY</ns:Id>
+            <ns:CreDtTm>2023-09-12T16:42:46</ns:CreDtTm>
             <ns:Acct>
                 <ns:Id>
                     <ns:Othr>
@@ -48,15 +48,15 @@
             </ns:Acct>
             <ns:TxsSummry>
                 <ns:TtlCdtNtries>
-                    <ns:NbOfNtries>44920</ns:NbOfNtries>
-                    <ns:Sum>1.27606428954452E30</ns:Sum>
+                    <ns:NbOfNtries>1961153</ns:NbOfNtries>
+                    <ns:Sum>1.5442343099602213E</ns:Sum>
                 </ns:TtlCdtNtries>
                 <ns:TtlDbtNtries>
-                    <ns:NbOfNtries>1425592093</ns:NbOfNtries>
-                    <ns:Sum>1.4454803050092796E</ns:Sum>
+                    <ns:NbOfNtries>7342764</ns:NbOfNtries>
+                    <ns:Sum>1.5853920239783096E</ns:Sum>
                 </ns:TtlDbtNtries>
                 <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>26311</ns:NbOfNtries>
+                    <ns:NbOfNtries>5912</ns:NbOfNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
                             <ns:Cd>RJCT</ns:Cd>
@@ -64,7 +64,7 @@
                     </ns:BkTxCd>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>513</ns:NbOfNtries>
+                    <ns:NbOfNtries>052451</ns:NbOfNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
                             <ns:Cd>ICPT</ns:Cd>
@@ -72,15 +72,7 @@
                     </ns:BkTxCd>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>9</ns:NbOfNtries>
-                    <ns:BkTxCd>
-                        <ns:Prtry>
-                            <ns:Cd>RJCT</ns:Cd>
-                        </ns:Prtry>
-                    </ns:BkTxCd>
-                </ns:TtlNtriesPerBkTxCd>
-                <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>70237</ns:NbOfNtries>
+                    <ns:NbOfNtries>47929</ns:NbOfNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
                             <ns:Cd>ICPT</ns:Cd>
@@ -88,10 +80,18 @@
                     </ns:BkTxCd>
                 </ns:TtlNtriesPerBkTxCd>
                 <ns:TtlNtriesPerBkTxCd>
-                    <ns:NbOfNtries>07136976758118</ns:NbOfNtries>
+                    <ns:NbOfNtries>3</ns:NbOfNtries>
                     <ns:BkTxCd>
                         <ns:Prtry>
                             <ns:Cd>INPR</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:NbOfNtries>10649</ns:NbOfNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>SENT</ns:Cd>
                         </ns:Prtry>
                     </ns:BkTxCd>
                 </ns:TtlNtriesPerBkTxCd>

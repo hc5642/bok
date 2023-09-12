@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>1GMRO5RH9</ns:MmbId>
+                    <ns:MmbId>YRO578JHZ</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,33 +12,33 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>WTTLJF3PX</ns:MmbId>
+                    <ns:MmbId>Y00ULSWRL</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>h61</ns:MsgDefIdr>
-    <ns:BizSvc>PROD</ns:BizSvc>
+    <ns:MsgDefIdr>w36</ns:MsgDefIdr>
+    <ns:BizSvc>TEST</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T14:59:33</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:46</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
-            <ns:MsgId>DTLS</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+            <ns:MsgId>DTLR</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T16:42:46</ns:CreDtTm>
             <ns:MsgPgntn>
-                <ns:PgNb>58174</ns:PgNb>
+                <ns:PgNb>6</ns:PgNb>
                 <ns:LastPgInd>true</ns:LastPgInd>
             </ns:MsgPgntn>
             <ns:OrgnlBizQry>
                 <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-                <ns:MsgNmId>b98</ns:MsgNmId>
-                <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+                <ns:MsgNmId>g20</ns:MsgNmId>
+                <ns:CreDtTm>2023-09-12T16:42:46</ns:CreDtTm>
             </ns:OrgnlBizQry>
         </ns:GrpHdr>
         <ns:Rpt>

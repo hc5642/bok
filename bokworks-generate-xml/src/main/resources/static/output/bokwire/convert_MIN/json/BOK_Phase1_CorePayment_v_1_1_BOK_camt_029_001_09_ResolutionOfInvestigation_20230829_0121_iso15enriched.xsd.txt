@@ -2,7 +2,7 @@
     "Document": {
         "RsltnOfInvstgtn": {
             "Assgnmt": {
-                "CreDtTm": "2023-09-12T14:53:16",
+                "CreDtTm": "2023-09-12T15:44:35",
                 "Assgnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
                     "ClrSysId": {"Cd": "KRBOK"},
                     "MmbId": "0000000000000000000000000000"
@@ -14,11 +14,12 @@
                 }}}}
             },
             "CxlDtls": {"TxInfAndSts": {
-                "OrgnlUETR": "0fceee2c-6fca-44cb-b630-fe22c5921fbb",
+                "OrgnlUETR": "e0baf01b-8019-4352-b89a-ffc078512e75",
                 "OrgnlGrpInf": {
                     "OrgnlMsgId": "00000000000000000000000000000000000",
                     "OrgnlMsgNmId": "00000000000000000000000000000000000"
                 },
+                "CxlStsRsnInf": {"AddtlInf": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"},
                 "OrgnlClrSysRef": "00000000000000000000000000000000000"
             }},
             "Sts": {"Conf": "CNCL"}
@@ -40,6 +41,6 @@
         "MsgDefIdr": "camt.029.001.09",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "00000000000000000000000000000000000",
-        "CreDt": "2023-09-12T14:53:16"
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

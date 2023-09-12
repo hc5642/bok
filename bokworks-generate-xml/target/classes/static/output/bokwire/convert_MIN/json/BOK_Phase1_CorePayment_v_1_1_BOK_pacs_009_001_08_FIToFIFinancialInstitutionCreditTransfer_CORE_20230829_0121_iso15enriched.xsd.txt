@@ -11,6 +11,7 @@
                     "ClrSysId": {"Cd": "KRBOK"},
                     "MmbId": "0000000000000000000000000000"
                 }}},
+                "InstrForNxtAgt": "",
                 "IntrBkSttlmAmt": {
                     "Ccy": "KRW",
                     "content": -922337203685477580
@@ -22,12 +23,12 @@
                     "MmbId": "0000000000000000000000000000"
                 }}},
                 "PmtId": {
-                    "UETR": "376f3a66-5eec-41f0-a619-d8616f314e17",
+                    "UETR": "fb8b96d4-61d6-495f-8030-4f7943f76fe9",
                     "EndToEndId": "00000000000000000000000000000000000"
                 },
                 "PmtTpInf": {
-                    "LclInstrm": {"Prtry": "BKS10B031"},
-                    "InstrPrty": "HIGH",
+                    "LclInstrm": {"Prtry": "BKS10B021"},
+                    "InstrPrty": "NORM",
                     "CtgyPurp": {"Prtry": "00000000000000000000000000000000000"}
                 },
                 "Dbtr": {"FinInstnId": {"ClrSysMmbId": {
@@ -36,7 +37,7 @@
                 }}}
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:53:17",
+                "CreDtTm": "2023-09-12T15:44:35",
                 "NbOfTxs": 1,
                 "SttlmInf": {
                     "SttlmMtd": "CLRG",
@@ -61,6 +62,6 @@
         "MsgDefIdr": "pacs.009.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.gnlfndtrf.01",
-        "CreDt": "2023-09-12T14:53:17"
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

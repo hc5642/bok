@@ -3,7 +3,7 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08",
         "FIToFICstmrCdtTrf": {
             "CdtTrfTxInf": {
-                "ChrgBr": "DEBT",
+                "ChrgBr": "SLEV",
                 "IntrBkSttlmAmt": {
                     "Ccy": "KRW",
                     "content": -922337203685477580
@@ -11,26 +11,17 @@
                 "Cdtr": {
                     "Nm": "000000000000000000000000000000",
                     "PstlAdr": {
-                        "Ctry": "QB",
+                        "Ctry": "AC",
                         "TwnNm": "00000000000000000000000000000000000"
                     }
                 },
+                "RgltryRptg": "",
                 "DbtrAcct": {"Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}},
                 "PmtTpInf": {
-                    "SvcLvl": [
-                        {
-                            "Cd": "0000",
-                            "Prtry": "00000000000000000000000000000000000"
-                        },
-                        {
-                            "Cd": "0000",
-                            "Prtry": "00000000000000000000000000000000000"
-                        },
-                        {
-                            "Cd": "0000",
-                            "Prtry": "00000000000000000000000000000000000"
-                        }
-                    ],
+                    "SvcLvl": {
+                        "Cd": "0000",
+                        "Prtry": "00000000000000000000000000000000000"
+                    },
                     "LclInstrm": {"Prtry": "BKF101011"},
                     "InstrPrty": "HIGH",
                     "CtgyPurp": {"Prtry": "00000000000000000000000000000000000"}
@@ -38,7 +29,7 @@
                 "Dbtr": {
                     "Nm": "000000000000000000000000000000",
                     "PstlAdr": {
-                        "Ctry": "PI",
+                        "Ctry": "HS",
                         "TwnNm": "00000000000000000000000000000000000"
                     }
                 },
@@ -72,13 +63,20 @@
                 },
                 "PmtId": {
                     "TxId": "00000000000000000000000000000000000",
-                    "UETR": "c051a708-6d2d-4ca3-b43c-18262e6c2fc4",
+                    "UETR": "684c7820-0430-492e-8df7-582c76fddc4d",
                     "EndToEndId": "00000000000000000000000000000000000"
+                },
+                "ChrgsInf": {
+                    "Amt": {
+                        "Ccy": "Ccy1",
+                        "content": 1.39783
+                    },
+                    "Agt": {"FinInstnId": ""}
                 },
                 "CdtrAcct": {"Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}}
             },
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:53:17",
+                "CreDtTm": "2023-09-12T15:44:35",
                 "NbOfTxs": 1,
                 "SttlmInf": {
                     "SttlmMtd": "CLRG",
@@ -103,6 +101,6 @@
         "MsgDefIdr": "pacs.008.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.lkdsttlm.01",
-        "CreDt": "2023-09-12T14:53:17"
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

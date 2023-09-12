@@ -3,73 +3,31 @@
         "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.053.001.08",
         "BkToCstmrStmt": {
             "GrpHdr": {
-                "CreDtTm": "2023-09-12T14:53:16",
+                "CreDtTm": "2023-09-12T15:44:35",
                 "MsgPgntn": {
-                    "PgNb": 96,
-                    "LastPgInd": false
+                    "PgNb": 1467,
+                    "LastPgInd": true
                 },
-                "MsgId": "jNp79MsjpJcxYPPbjZrZ7Y1hhiPJfojxTPu"
+                "MsgId": "Mz3nSbGMSgHkbgG8m56MQxb0gCSCMn3Xx45"
             },
-            "Stmt": [
-                {
-                    "Id": "LzLs8LVfyPwCfbecTLRTvDuJZSvmA7Cffyw",
-                    "Acct": {
-                        "Ccy": "SIT",
-                        "Tp": {"Prtry": "SACC_1062"},
-                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
-                    },
-                    "Bal": [
-                        {
-                            "Tp": {"CdOrPrtry": {"Cd": "CLBD"}},
-                            "Amt": {
-                                "Ccy": "KRW",
-                                "content": -922337203685477580
-                            },
-                            "Dt": {"Dt": "2023-09-12"},
-                            "CdtDbtInd": "DBIT"
-                        },
-                        {
-                            "Tp": {"CdOrPrtry": {"Cd": "CLBD"}},
-                            "Amt": {
-                                "Ccy": "KRW",
-                                "content": -922337203685477580
-                            },
-                            "Dt": {"Dt": "2023-09-12"},
-                            "CdtDbtInd": "DBIT"
-                        }
-                    ],
-                    "RptgSrc": {"Prtry": "LVPS"}
+            "Stmt": {
+                "Id": "GfrEHX79FrWZiKJzdivo4sZRkkSUFovIoSe",
+                "Acct": {
+                    "Ccy": "PAK",
+                    "Tp": {"Prtry": "SACC_1062"},
+                    "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
                 },
-                {
-                    "Id": "PQ9pY1nhXrHZ47msw5DF4yJp30X8vKgO68y",
-                    "Acct": {
-                        "Ccy": "VDL",
-                        "Tp": {"Prtry": "SACC_1062"},
-                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
+                "Bal": {
+                    "Tp": {"CdOrPrtry": {"Cd": "OPBD"}},
+                    "Amt": {
+                        "Ccy": "KRW",
+                        "content": -922337203685477580
                     },
-                    "Bal": [
-                        {
-                            "Tp": {"CdOrPrtry": {"Cd": "OPBD"}},
-                            "Amt": {
-                                "Ccy": "KRW",
-                                "content": -922337203685477580
-                            },
-                            "Dt": {"Dt": "2023-09-12"},
-                            "CdtDbtInd": "CRDT"
-                        },
-                        {
-                            "Tp": {"CdOrPrtry": {"Cd": "OPBD"}},
-                            "Amt": {
-                                "Ccy": "KRW",
-                                "content": -922337203685477580
-                            },
-                            "Dt": {"Dt": "2023-09-12"},
-                            "CdtDbtInd": "DBIT"
-                        }
-                    ],
-                    "RptgSrc": {"Prtry": "LVPS"}
-                }
-            ]
+                    "Dt": {"Dt": "2023-09-12"},
+                    "CdtDbtInd": "DBIT"
+                },
+                "RptgSrc": {"Prtry": "LVPS"}
+            }
         },
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
     },
@@ -87,6 +45,6 @@
         "MsgDefIdr": "camt.053.001.08",
         "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
         "BizSvc": "bok.rtgs.01",
-        "CreDt": "2023-09-12T14:53:16"
+        "CreDt": "2023-09-12T15:44:35"
     }
 }

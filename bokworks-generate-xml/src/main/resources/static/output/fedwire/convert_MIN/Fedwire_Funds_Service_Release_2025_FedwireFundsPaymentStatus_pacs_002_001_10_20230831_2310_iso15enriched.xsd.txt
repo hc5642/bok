@@ -3,7 +3,7 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>3YRHICDVY</ns:MmbId>
+                    <ns:MmbId>FE0IQSUUV</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
@@ -12,33 +12,33 @@
         <ns:FIId>
             <ns:FinInstnId>
                 <ns:ClrSysMmbId>
-                    <ns:MmbId>9H6YT5FJ3</ns:MmbId>
+                    <ns:MmbId>3EJQQSUT9</ns:MmbId>
                 </ns:ClrSysMmbId>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-    <ns:MsgDefIdr>507</ns:MsgDefIdr>
+    <ns:MsgDefIdr>T85</ns:MsgDefIdr>
     <ns:BizSvc>TEST</ns:BizSvc>
     <ns:MktPrctc>
         <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
         <ns:Id>000000000000000000</ns:Id>
     </ns:MktPrctc>
-    <ns:CreDt>2023-09-12T14:59:33</ns:CreDt>
+    <ns:CreDt>2023-09-12T16:42:46</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:FIToFIPmtStsRpt>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T16:42:46</ns:CreDtTm>
         </ns:GrpHdr>
         <ns:TxInfAndSts>
             <ns:OrgnlGrpInf>
                 <ns:OrgnlMsgId>0000000000000000000000</ns:OrgnlMsgId>
-                <ns:OrgnlMsgNmId>s10</ns:OrgnlMsgNmId>
-                <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+                <ns:OrgnlMsgNmId>b57</ns:OrgnlMsgNmId>
+                <ns:OrgnlCreDtTm>2023-09-12T16:42:46</ns:OrgnlCreDtTm>
             </ns:OrgnlGrpInf>
-            <ns:OrgnlUETR>d78ccad0-eb85-436f-a0c1-f850c6d58f6f</ns:OrgnlUETR>
+            <ns:OrgnlUETR>91472ad7-0ce3-4589-b3ee-e30b1e6e14a3</ns:OrgnlUETR>
             <ns:TxSts>0000</ns:TxSts>
             <ns:InstgAgt>
                 <ns:FinInstnId>
@@ -56,7 +56,7 @@
                         <ns:ClrSysId>
                             <ns:Cd>USABA</ns:Cd>
                         </ns:ClrSysId>
-                        <ns:MmbId>368623312</ns:MmbId>
+                        <ns:MmbId>451995934</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:InstdAgt>
