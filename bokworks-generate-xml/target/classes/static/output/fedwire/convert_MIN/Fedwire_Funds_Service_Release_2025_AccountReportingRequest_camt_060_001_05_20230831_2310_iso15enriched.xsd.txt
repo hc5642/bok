@@ -1,0 +1,52 @@
+<ns:AppHdr xmlns:ns="urn:iso:std:iso:20022:tech:xsd:head.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:Fr>
+        <ns:FIId>
+            <ns:FinInstnId>
+                <ns:ClrSysMmbId>
+                    <ns:MmbId>SW2ADAF7C</ns:MmbId>
+                </ns:ClrSysMmbId>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:Fr>
+    <ns:To>
+        <ns:FIId>
+            <ns:FinInstnId>
+                <ns:ClrSysMmbId>
+                    <ns:MmbId>KNCPWCY91</ns:MmbId>
+                </ns:ClrSysMmbId>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:To>
+    <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
+    <ns:MsgDefIdr>U75</ns:MsgDefIdr>
+    <ns:BizSvc>TEST</ns:BizSvc>
+    <ns:MktPrctc>
+        <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
+        <ns:Id>000000000000000000</ns:Id>
+    </ns:MktPrctc>
+    <ns:CreDt>2023-09-12T14:59:32</ns:CreDt>
+</ns:AppHdr>
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.060.001.05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:AcctRptgReq>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:59:32</ns:CreDtTm>
+        </ns:GrpHdr>
+        <ns:RptgReq>
+            <ns:Id>ETOT</ns:Id>
+            <ns:ReqdMsgNmId>I83</ns:ReqdMsgNmId>
+            <ns:AcctOwnr>
+                <ns:Agt>
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>USABA</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>545396095</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:AcctOwnr>
+        </ns:RptgReq>
+    </ns:AcctRptgReq>
+</ns:Document>

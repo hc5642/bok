@@ -5,15 +5,15 @@
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
             <ns:MsgId>GAPR</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
             <ns:MsgPgntn>
-                <ns:PgNb>3219</ns:PgNb>
+                <ns:PgNb>2</ns:PgNb>
                 <ns:LastPgInd>true</ns:LastPgInd>
             </ns:MsgPgntn>
         </ns:GrpHdr>
         <ns:Rpt>
             <ns:Id>OMAD</ns:Id>
-            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
             <ns:Acct>
                 <ns:Id>
                     <ns:Othr>

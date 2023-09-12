@@ -1,0 +1,45 @@
+{
+    "Document": {
+        "RsltnOfInvstgtn": {
+            "Assgnmt": {
+                "CreDtTm": "2023-09-12T14:53:16",
+                "Assgnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}}},
+                "Id": "00000000000000000000000000000000000",
+                "Assgne": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}}}
+            },
+            "CxlDtls": {"TxInfAndSts": {
+                "OrgnlUETR": "0fceee2c-6fca-44cb-b630-fe22c5921fbb",
+                "OrgnlGrpInf": {
+                    "OrgnlMsgId": "00000000000000000000000000000000000",
+                    "OrgnlMsgNmId": "00000000000000000000000000000000000"
+                },
+                "OrgnlClrSysRef": "00000000000000000000000000000000000"
+            }},
+            "Sts": {"Conf": "CNCL"}
+        },
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.029.001.09",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "MsgDefIdr": "camt.029.001.09",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:53:16"
+    }
+}

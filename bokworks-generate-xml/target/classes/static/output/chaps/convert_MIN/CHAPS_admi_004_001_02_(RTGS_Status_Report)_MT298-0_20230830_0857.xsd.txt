@@ -2,28 +2,28 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>C6K3XYAV(MGU)</ns:BICFI>
+                <ns:BICFI>IEOPPNVB(3HV</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>VSA5XE8N(CBL</ns:BICFI>
+                <ns:BICFI>L817DX8V(VFC</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-11T13:31:48</ns:CreDt>
+    <ns:CreDt>2023-09-12T14:58:43</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:SysEvtNtfctn>
         <ns:EvtInf>
             <ns:EvtCd>0000</ns:EvtCd>
             <ns:EvtParam>00000000000000000000000000000000000</ns:EvtParam>
-            <ns:EvtTm>2023-09-11T13:31:48</ns:EvtTm>
+            <ns:EvtTm>2023-09-12T14:58:43</ns:EvtTm>
         </ns:EvtInf>
     </ns:SysEvtNtfctn>
 </ns:Document>

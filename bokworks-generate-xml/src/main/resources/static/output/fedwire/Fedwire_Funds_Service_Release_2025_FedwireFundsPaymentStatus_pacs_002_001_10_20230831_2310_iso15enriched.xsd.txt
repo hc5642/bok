@@ -1,0 +1,40 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:FIToFIPmtStsRpt>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+        </ns:GrpHdr>
+              
+        <!--(ns:OrgnlGrpInf , ns:OrgnlUETR , ns:TxSts , ns:StsRsnInf* , ns:AccptncDtTm? , ns:FctvIntrBkSttlmDt? , ns:InstgAgt , ns:InstdAgt)-->
+              
+        <ns:TxInfAndSts>
+            <ns:OrgnlGrpInf>
+                <ns:OrgnlMsgId>0000000000000000000000</ns:OrgnlMsgId>
+                <ns:OrgnlMsgNmId>s10</ns:OrgnlMsgNmId>
+                <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+            </ns:OrgnlGrpInf>
+            <ns:OrgnlUETR>d78ccad0-eb85-436f-a0c1-f850c6d58f6f</ns:OrgnlUETR>
+            <ns:TxSts>0000</ns:TxSts>
+            <ns:InstgAgt>
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>USABA</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>021151080</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:InstgAgt>
+            <ns:InstdAgt>
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>USABA</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>368623312</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:InstdAgt>
+        </ns:TxInfAndSts>
+    </ns:FIToFIPmtStsRpt>
+</ns:Document>

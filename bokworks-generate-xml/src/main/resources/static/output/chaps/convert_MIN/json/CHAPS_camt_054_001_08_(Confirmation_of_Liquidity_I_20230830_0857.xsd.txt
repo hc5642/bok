@@ -1,0 +1,39 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.054.001.08",
+        "BkToCstmrDbtCdtNtfctn": {
+            "Ntfctn": {
+                "Id": "0000000000000000",
+                "Acct": {"Id": {"Othr": {"Id": 35752871}}},
+                "Ntry": {
+                    "BkTxCd": {"Prtry": {"Cd": "0000"}},
+                    "NtryRef": "0000000000000000",
+                    "Amt": {
+                        "Ccy": "Ccy1",
+                        "content": 8.73072
+                    },
+                    "Sts": {"Cd": "BOOK"},
+                    "ValDt": {"Dt": "2023-09-12"},
+                    "CdtDbtInd": "CRDT",
+                    "NtryDtls": {"TxDtls": {"Refs": {"InstrId": "0000000000000000"}}}
+                },
+                "AddtlNtfctnInf": "0000000000000000"
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T14:58:43",
+                "MsgId": "00000000000000000000000000000000000"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"BICFI": "GG53YVSS(UTV)"}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"BICFI": "0READL3E(RUL)"}}},
+        "MsgDefIdr": "00000000000000000000000000000000000",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:58:43"
+    }
+}

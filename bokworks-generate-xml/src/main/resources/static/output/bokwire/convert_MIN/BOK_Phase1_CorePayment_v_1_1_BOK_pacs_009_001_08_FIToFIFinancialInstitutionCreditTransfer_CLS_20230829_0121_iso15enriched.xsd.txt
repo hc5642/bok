@@ -26,13 +26,13 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.009.001.08</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.cls.01</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:24</ns:CreDt>
+    <ns:CreDt>2023-09-12T14:53:17</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:24</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -44,16 +44,20 @@
         <ns:CdtTrfTxInf>
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>4ae271b3-3a80-4459-88b5-84f07eeee95b</ns:UETR>
+                <ns:UETR>74463046-0c1c-4b7a-88df-0edc226709d6</ns:UETR>
             </ns:PmtId>
             <ns:PmtTpInf>
                 <ns:SvcLvl>
-                    <ns:Cd>0000</ns:Cd>
                     <ns:Prtry>2</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:SvcLvl>
+                <ns:SvcLvl>
+                    <ns:Prtry>3</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
                 </ns:SvcLvl>
             </ns:PmtTpInf>
             <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:InstgAgt>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
@@ -76,12 +80,12 @@
             </ns:InstdAgt>
             <ns:Dbtr>
                 <ns:FinInstnId>
-                    <ns:BICFI>I5BHZG3V(1ZS</ns:BICFI>
+                    <ns:BICFI>14L3XI14(5KK)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:Dbtr>
             <ns:Cdtr>
                 <ns:FinInstnId>
-                    <ns:BICFI>UKJPBJRR(70G)</ns:BICFI>
+                    <ns:BICFI>YQP4PMAO(XGG</ns:BICFI>
                 </ns:FinInstnId>
             </ns:Cdtr>
         </ns:CdtTrfTxInf>

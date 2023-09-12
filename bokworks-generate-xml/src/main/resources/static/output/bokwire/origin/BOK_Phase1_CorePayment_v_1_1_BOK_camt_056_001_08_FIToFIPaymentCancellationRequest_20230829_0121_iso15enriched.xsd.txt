@@ -32,7 +32,7 @@
                     </ns:FinInstnId>
                 </ns:Agt>
             </ns:Assgne>
-            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
         </ns:Assgnmt>
         <ns:Undrlyg>
                      
@@ -46,10 +46,10 @@
                     <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
                     <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
                 </ns:OrgnlGrpInf>
-                <ns:OrgnlUETR>a9aed307-db23-4912-8b47-3bc92884b204</ns:OrgnlUETR>
+                <ns:OrgnlUETR>fb89e6c6-d43e-47fc-9d01-d87d798547c1</ns:OrgnlUETR>
                 <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
                 <ns:OrgnlIntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:OrgnlIntrBkSttlmAmt>
-                <ns:OrgnlIntrBkSttlmDt>2023-09-11</ns:OrgnlIntrBkSttlmDt>
+                <ns:OrgnlIntrBkSttlmDt>2023-09-12</ns:OrgnlIntrBkSttlmDt>
                             
                 <!--(ns:Orgtr? , ns:Rsn , ns:AddtlInf[0,2])-->
                             

@@ -1,0 +1,21 @@
+{
+    "Document": {
+        "xmlns": "urn:swift:xsd:mirs.095.001.01",
+        "ActvtnDeactvtn": {
+            "ActvtnDeactvtn": "ACTI",
+            "DtAndTm": "2023-09-12T14:58:43",
+            "MsgId": "00000000000000000000000000000000000"
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"BICFI": "EG4WGXQC(V01"}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"BICFI": "7IQTTQQW(T1I"}}},
+        "MsgDefIdr": "00000000000000000000000000000000000",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:58:43"
+    }
+}

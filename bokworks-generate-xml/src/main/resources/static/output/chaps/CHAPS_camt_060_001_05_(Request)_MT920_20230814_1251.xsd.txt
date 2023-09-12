@@ -2,7 +2,7 @@
     <ns:AcctRptgReq>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:58:43</ns:CreDtTm>
         </ns:GrpHdr>
               
         <!--(ns:Id , ns:ReqdMsgNmId , ns:Acct , ns:AcctOwnr , ns:ReqdTxTp?)-->
@@ -20,7 +20,7 @@
             <ns:AcctOwnr>
                 <ns:Agt>
                     <ns:FinInstnId>
-                        <ns:BICFI>9UPGKR67(3TM)</ns:BICFI>
+                        <ns:BICFI>5OBAXYPN(WVC</ns:BICFI>
                     </ns:FinInstnId>
                 </ns:Agt>
             </ns:AcctOwnr>

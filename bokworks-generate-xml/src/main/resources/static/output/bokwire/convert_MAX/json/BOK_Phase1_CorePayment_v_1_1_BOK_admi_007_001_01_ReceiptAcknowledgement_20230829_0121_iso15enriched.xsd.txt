@@ -1,0 +1,72 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:admi.007.001.01",
+        "RctAck": {
+            "Rpt": {
+                "ReqHdlg": {
+                    "StsCd": "0000",
+                    "Desc": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                },
+                "RltdRef": {
+                    "MsgNm": "00000000000000000000000000000000000",
+                    "Ref": "00000000000000000000000000000000000"
+                }
+            },
+            "MsgId": {
+                "CreDtTm": "2023-09-12T13:13:19",
+                "MsgId": "00000000000000000000000000000000000"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "CharSet": "CharSet1",
+        "Fr": {"FIId": {"FinInstnId": {
+            "BICFI": "LS76CI4L(VDH",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": "00000000000000000000000000000000000"
+            },
+            "LEI": "L3E62NKXQBQIK6LHJW72"
+        }}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {
+            "BICFI": "D6HQWQ05(SPE",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": "00000000000000000000000000000000000"
+            },
+            "LEI": "OZUXG1A8JWIAM7JHN096"
+        }}},
+        "MsgDefIdr": "admi.007.001.01",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "bok.rtgs.01",
+        "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+        "Rltd": {
+            "CharSet": "CharSet2",
+            "Fr": {"FIId": {"FinInstnId": {
+                "BICFI": "L78RNHZT(S3O)",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "1XLIG6E5XKDSCRNKAS96"
+            }}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": {
+                "BICFI": "R4TSYVBD(XYE",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "6QCZ4LY2II7YWKFNBF26"
+            }}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+            "CreDt": "2023-09-12T13:13:19"
+        },
+        "CreDt": "2023-09-12T13:13:19"
+    }
+}

@@ -56,7 +56,7 @@ public class GenerateWorkMain {
 	public static void main(String[] args) throws TransformerConfigurationException, SAXException, IOException, ParserConfigurationException {
 		
 		INSTANCE.minimumElementsGenerated = 0; // 0
-		INSTANCE.maximumElementsGenerated = 1; // 1
+		INSTANCE.maximumElementsGenerated = 0; // 1
 		INSTANCE.generateAllChoices = true;
 		INSTANCE.generateOptionalElements = false; // false
 		INSTANCE.minimumListItemsGenerated = 1;
@@ -102,7 +102,7 @@ public class GenerateWorkMain {
 			try {
 				INSTANCE.generate(xsModel, root, sample);
 			} catch (RuntimeException re ) {
-				System.out.println(xsd.getName());
+				System.out.println("--- 오류난 파일 : " + xsd.getName());
 				re.printStackTrace();
 			}
 			
@@ -179,7 +179,6 @@ public class GenerateWorkMain {
 				} catch ( Exception e1 ) {}
 			}
 		}
-
 	}
 	
 	public static String getNamesapce(File xsd) throws SAXException, IOException, ParserConfigurationException {
@@ -215,8 +214,10 @@ class SampleValueGeneratorImpl implements SampleValueGenerator {
 			return result.toString();
 		} else {
 			String pattern = simpleType.getLexicalPattern().toString();
+//			System.out.print("--- PATTERN " + pattern + "\t");
 			pattern = pattern.substring(1);
 			pattern = pattern.substring(0,pattern.length()-1);
+//			System.out.print(pattern + "\t");
 			if ( simpleType.getPrimitiveType().getBuiltInKind() == 2 ) {
 				if ( pattern.trim().length() > 2 ) {
 					String retValue = null;
@@ -225,11 +226,12 @@ class SampleValueGeneratorImpl implements SampleValueGenerator {
 					} catch ( Exception e ) {
 						
 						if ( pattern.contains("{1,") ) {
-							pattern = "[0-9a-zA-Z]{" + pattern.substring(pattern.indexOf("{1,") + 3);
+							pattern = "[0-9a-zA-Z]{" + pattern.substring(pattern.lastIndexOf("{1,") + 3);
 						}
-						System.out.println(element.getName() + "\t" + pattern);
+//						System.out.print(pattern + "\t");
 						retValue = new RandomStringGenerator().generateByRegex(pattern);
 					}
+//					System.out.println(retValue);
 					return retValue;
 				}
 			}

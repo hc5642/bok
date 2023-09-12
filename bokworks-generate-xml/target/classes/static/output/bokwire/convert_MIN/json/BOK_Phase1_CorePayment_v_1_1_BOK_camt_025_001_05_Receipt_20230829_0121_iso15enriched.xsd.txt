@@ -1,0 +1,54 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.025.001.05",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "Rct": {
+            "RctDtls": {
+                "ReqHdlg": [
+                    {
+                        "StsCd": "MODI",
+                        "Desc": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "StsCd": "MODI",
+                        "Desc": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                    }
+                ],
+                "OrgnlMsgId": {
+                    "MsgNmId": "9v3ZnRRW92krNVav0r4cxEAoVuM2rSTmuFA",
+                    "MsgId": "2NgzMxVSnwsytbVDVLFqV1Z1hvxbCUIeunN"
+                },
+                "OrgnlPmtId": {"LngBizId": {
+                    "UETR": "8137e3ec-54c4-44ae-b20b-9959aee0f5c7",
+                    "InstdAgt": {"FinInstnId": ""},
+                    "InstgAgt": {"FinInstnId": ""},
+                    "IntrBkSttlmAmt": {
+                        "Ccy": "KRW",
+                        "content": -922337203685477580
+                    },
+                    "IntrBkSttlmDt": "2023-09-12"
+                }}
+            },
+            "MsgHdr": {
+                "MsgId": "C6wFFEYXyjDrciDb462Nz6JWFb7C0Pa2cTa",
+                "ReqTp": {"Prtry": {"Id": "q6WWkWcWrcuQtSGRqspfCLKG8SHGHnKazsR"}}
+            }
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": 1016
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "MsgDefIdr": "camt.025.001.05",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:53:16"
+    }
+}

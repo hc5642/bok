@@ -2,7 +2,7 @@
     <ns:FIToFICstmrCdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:58:44</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -21,26 +21,17 @@
             <ns:PmtId>
                 <ns:InstrId>0000000000000000</ns:InstrId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>75c19077-d757-46fb-92ed-08e6f68fa512</ns:UETR>
+                <ns:UETR>f7e0ac56-7753-462b-8bb8-d901d4584012</ns:UETR>
             </ns:PmtId>
-            <ns:IntrBkSttlmAmt Ccy="GBP">1.07467</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
-            <ns:ChrgBr>DEBT</ns:ChrgBr>
-            <ns:ChrgsInf>
-                <ns:Amt Ccy="Ccy1">1.03892</ns:Amt>
-                <ns:Agt>
-                                   
-                    <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
-                                   
-                    <ns:FinInstnId/>
-                </ns:Agt>
-            </ns:ChrgsInf>
+            <ns:IntrBkSttlmAmt Ccy="GBP">2.74481</ns:IntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
+            <ns:ChrgBr>CRED</ns:ChrgBr>
             <ns:InstgAgt>
                             
                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
                             
                 <ns:FinInstnId>
-                    <ns:BICFI>BX1KLBDL(PM1</ns:BICFI>
+                    <ns:BICFI>BPKEOYNL(6NT)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstgAgt>
             <ns:InstdAgt>
@@ -48,7 +39,7 @@
                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
                             
                 <ns:FinInstnId>
-                    <ns:BICFI>4P6DZH7N(AX7</ns:BICFI>
+                    <ns:BICFI>60TZUYRR(YUC)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstdAgt>
                      
@@ -71,34 +62,6 @@
             <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
                      
             <ns:Cdtr/>
-                     
-            <!--(ns:Cd? , ns:InstrInf?)-->
-                     
-            <ns:InstrForCdtrAgt/>
-                     
-            <!--(ns:Cd? , ns:InstrInf?)-->
-                     
-            <ns:InstrForCdtrAgt/>
-            <ns:InstrForNxtAgt>
-                <ns:InstrInf>00000000000000000000000000000000000</ns:InstrInf>
-            </ns:InstrForNxtAgt>
-                     
-            <!--(ns:DbtCdtRptgInd? , ns:Authrty? , ns:Dtls*)-->
-                     
-            <ns:RgltryRptg>
-                            
-                <!--(ns:Tp? , ns:Dt? , ns:Ctry? , ns:Cd? , ns:Amt? , ns:Inf*)-->
-                            
-                <ns:Dtls>
-                    <ns:Inf>00000000000000000000000000000000000</ns:Inf>
-                </ns:Dtls>
-                            
-                <!--(ns:Tp? , ns:Dt? , ns:Ctry? , ns:Cd? , ns:Amt? , ns:Inf*)-->
-                            
-                <ns:Dtls>
-                    <ns:Inf>00000000000000000000000000000000000</ns:Inf>
-                </ns:Dtls>
-            </ns:RgltryRptg>
         </ns:CdtTrfTxInf>
     </ns:FIToFICstmrCdtTrf>
 </ns:Document>

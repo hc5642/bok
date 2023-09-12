@@ -1,0 +1,29 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.005.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "GetTx": {
+            "MsgHdr": {
+                "MsgId": "s6E5wxtZyCAHbcR5WEIkGfPeYNqXx4qMgni",
+                "ReqTp": {"Prtry": {"Id": "ICSC"}}
+            },
+            "TxQryDef": {"TxCrit": {"NewCrit": {"SchCrit": ""}}}
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": 1016
+        }}}},
+        "MsgDefIdr": "camt.005.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:53:16"
+    }
+}

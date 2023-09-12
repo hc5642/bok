@@ -1,0 +1,53 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08",
+        "FICdtTrf": {
+            "CdtTrfTxInf": {
+                "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 732874697
+                }}},
+                "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 381957690
+                }}},
+                "IntrBkSttlmAmt": {
+                    "Ccy": "USD",
+                    "content": 2.18
+                },
+                "IntrBkSttlmDt": "2023-09-12",
+                "Cdtr": {"FinInstnId": ""},
+                "PmtId": {
+                    "UETR": "2c5de4a1-fe4d-4e51-86aa-e32357ccfc85",
+                    "EndToEndId": "00000000000000000000000000000000000"
+                },
+                "PmtTpInf": {"LclInstrm": {"Prtry": "BTRD"}},
+                "Dbtr": {"FinInstnId": ""}
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T14:59:33",
+                "NbOfTxs": 1,
+                "SttlmInf": {
+                    "SttlmMtd": "CLRG",
+                    "ClrSys": {"Cd": "FDW"}
+                },
+                "MsgId": "0000000000000000000000"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "YKS1EK6XY"}}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "9085I1DTI"}}}},
+        "MsgDefIdr": "Y59",
+        "MktPrctc": {
+            "Id": "000000000000000000",
+            "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "PROD",
+        "CreDt": "2023-09-12T14:59:33"
+    }
+}

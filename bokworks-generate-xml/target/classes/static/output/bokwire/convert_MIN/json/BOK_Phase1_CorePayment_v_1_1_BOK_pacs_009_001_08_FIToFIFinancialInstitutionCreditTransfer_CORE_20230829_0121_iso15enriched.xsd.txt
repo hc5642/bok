@@ -1,0 +1,66 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08",
+        "FICdtTrf": {
+            "CdtTrfTxInf": {
+                "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}},
+                "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}},
+                "IntrBkSttlmAmt": {
+                    "Ccy": "KRW",
+                    "content": -922337203685477580
+                },
+                "IntrBkSttlmDt": "2023-09-12",
+                "SttlmPrty": "HIGH",
+                "Cdtr": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}},
+                "PmtId": {
+                    "UETR": "376f3a66-5eec-41f0-a619-d8616f314e17",
+                    "EndToEndId": "00000000000000000000000000000000000"
+                },
+                "PmtTpInf": {
+                    "LclInstrm": {"Prtry": "BKS10B031"},
+                    "InstrPrty": "HIGH",
+                    "CtgyPurp": {"Prtry": "00000000000000000000000000000000000"}
+                },
+                "Dbtr": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}}
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T14:53:17",
+                "NbOfTxs": 1,
+                "SttlmInf": {
+                    "SttlmMtd": "CLRG",
+                    "ClrSys": {"Cd": "BOK"}
+                },
+                "MsgId": "00000000000000000000000000000000000"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "0000000000000000000000000000"
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "0000000000000000000000000000"
+        }}}},
+        "MsgDefIdr": "pacs.009.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "bok.rtgs.gnlfndtrf.01",
+        "CreDt": "2023-09-12T14:53:17"
+    }
+}

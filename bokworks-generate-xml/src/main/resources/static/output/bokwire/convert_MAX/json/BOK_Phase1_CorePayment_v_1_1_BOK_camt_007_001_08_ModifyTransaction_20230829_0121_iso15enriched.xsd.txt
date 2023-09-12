@@ -1,0 +1,90 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.007.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "ModfyTx": {
+            "Mod": {
+                "NewPmtValSet": {"Prty": {"Prtry": "LMMXmybVejBhJrc5cYMaKNxAAm286KgyZZh"}},
+                "PmtId": {"LngBizId": {
+                    "TxId": "Rgz8g7AZ9hpiE8k79UWR2dHWvfOBh2SPBJj",
+                    "UETR": "b26e8cc8-5ad2-436f-964b-28484e5e0d99",
+                    "InstdAgt": {"FinInstnId": {
+                        "BICFI": "839HLRLH(ORQ)",
+                        "ClrSysMmbId": {
+                            "ClrSysId": {"Cd": "KRBOK"},
+                            "MmbId": "0000000000000000000000000000"
+                        },
+                        "LEI": "F50TPT8L82F2Q6N6Q558"
+                    }},
+                    "InstgAgt": {"FinInstnId": {
+                        "BICFI": "B4W2FX7Y(JJH",
+                        "ClrSysMmbId": {
+                            "ClrSysId": {"Cd": "KRBOK"},
+                            "MmbId": "0000000000000000000000000000"
+                        },
+                        "LEI": "DLQ9DZE13KTADT7YA858"
+                    }},
+                    "IntrBkSttlmAmt": {
+                        "Ccy": "KRW",
+                        "content": -922337203685477580
+                    },
+                    "IntrBkSttlmDt": "2023-09-12"
+                }}
+            },
+            "MsgHdr": {
+                "CreDtTm": "2023-09-12T13:13:20",
+                "MsgId": "CLlwZSQ5jyzCPHw8xysnaGbxg9rVHcpeRtx"
+            }
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "CharSet": "CharSet1",
+        "Fr": {"FIId": {"FinInstnId": {
+            "BICFI": "TMAXWNYT(8LG",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": "00000000000000000000000000000000000"
+            },
+            "LEI": "XYGCVNL8SES7OR1T8T51"
+        }}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {
+            "BICFI": "YU0QWBKW(LFY)",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": 1016
+            },
+            "LEI": "YHJ0T81BXTH60ZVKZG55"
+        }}},
+        "MsgDefIdr": "camt.007.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+        "Rltd": {
+            "CharSet": "CharSet2",
+            "Fr": {"FIId": {"FinInstnId": {
+                "BICFI": "V4PZXPFX(N95",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "Y1YSY8O3YK5IO3NBIZ59"
+            }}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": {
+                "BICFI": "LPYOVXKX(G0B)",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "KOKRVZUDIBHK661FAS37"
+            }}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+            "CreDt": "2023-09-12T13:13:20"
+        },
+        "CreDt": "2023-09-12T13:13:20"
+    }
+}

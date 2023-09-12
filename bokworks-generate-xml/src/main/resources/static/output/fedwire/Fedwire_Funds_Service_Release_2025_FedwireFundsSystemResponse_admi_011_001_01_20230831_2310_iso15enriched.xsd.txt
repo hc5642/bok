@@ -4,7 +4,7 @@
         <ns:AckDtls>
             <ns:EvtCd>PING</ns:EvtCd>
             <ns:EvtParam>00000000</ns:EvtParam>
-            <ns:EvtTm>2023-09-11T13:34:51</ns:EvtTm>
+            <ns:EvtTm>2023-09-12T14:59:33</ns:EvtTm>
         </ns:AckDtls>
     </ns:SysEvtAck>
 </ns:Document>

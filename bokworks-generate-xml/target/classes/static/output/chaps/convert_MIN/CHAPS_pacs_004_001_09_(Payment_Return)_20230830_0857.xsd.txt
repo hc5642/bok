@@ -2,27 +2,27 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>76ISPU2C(4HD)</ns:BICFI>
+                <ns:BICFI>74CRRCC2(KOT)</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>NRJ0IX22(C7W</ns:BICFI>
+                <ns:BICFI>JZX4EVYU(2GV</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-11T13:31:48</ns:CreDt>
+    <ns:CreDt>2023-09-12T14:58:44</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.004.001.09" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:PmtRtr>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:58:43</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -34,24 +34,18 @@
         <ns:TxInf>
             <ns:RtrId>0000000000000000</ns:RtrId>
             <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
-            <ns:OrgnlUETR>b8f365c6-d495-4c1c-8666-d1e8cdc713c8</ns:OrgnlUETR>
-            <ns:RtrdIntrBkSttlmAmt Ccy="GBP">1.02167</ns:RtrdIntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:OrgnlUETR>1ab1a855-ce09-4a07-9e5b-4599b5c8fab7</ns:OrgnlUETR>
+            <ns:RtrdIntrBkSttlmAmt Ccy="GBP">1.72876</ns:RtrdIntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:ChrgBr>CRED</ns:ChrgBr>
-            <ns:ChrgsInf>
-                <ns:Amt Ccy="Ccy1">1.01463</ns:Amt>
-                <ns:Agt>
-                    <ns:FinInstnId/>
-                </ns:Agt>
-            </ns:ChrgsInf>
             <ns:InstgAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>JFH3JNAZ(8AG)</ns:BICFI>
+                    <ns:BICFI>FVC4KBV7(MRO</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstgAgt>
             <ns:InstdAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>6Q5CLQ1H(HJG)</ns:BICFI>
+                    <ns:BICFI>2U36MEHI(42G)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstdAgt>
             <ns:RtrChain>
@@ -62,17 +56,16 @@
                     </ns:Agt>
                 </ns:Dbtr>
                 <ns:Cdtr>
+                    <ns:Pty/>
                     <ns:Agt>
                         <ns:FinInstnId/>
                     </ns:Agt>
-                    <ns:Pty/>
                 </ns:Cdtr>
             </ns:RtrChain>
             <ns:RtrRsnInf>
                 <ns:Rsn>
                     <ns:Cd>0000</ns:Cd>
                 </ns:Rsn>
-                <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
             </ns:RtrRsnInf>
         </ns:TxInf>
     </ns:PmtRtr>

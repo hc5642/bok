@@ -1,0 +1,57 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:DRAFT1camt.110.001.01",
+        "InvstgtnReq": {
+            "InvstgtnReq": {
+                "Undrlyg": {
+                    "Initn": {
+                        "OrgnlUETR": "8c67defb-f452-40bb-a323-6999cc5ccc18",
+                        "OrgnlGrpInf": {
+                            "OrgnlMsgId": "00000000000000000000000000000000000",
+                            "OrgnlMsgNmId": 400,
+                            "OrgnlCreDtTm": "2023-09-12T13:45:05"
+                        },
+                        "ReqdExctnDt": {
+                            "DtTm": "2023-09-12T13:45:05",
+                            "Dt": "2023-09-12"
+                        }
+                    },
+                    "IntrBk": {
+                        "OrgnlUETR": "903c9eba-ad2b-425c-83fa-28092b22cb25",
+                        "OrgnlGrpInf": {
+                            "OrgnlMsgId": "00000000000000000000000000000000000",
+                            "OrgnlMsgNmId": "k28",
+                            "OrgnlCreDtTm": "2023-09-12T13:45:05"
+                        }
+                    }
+                },
+                "Rqstr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 745847563
+                }}}},
+                "Rspndr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 160059415
+                }}}},
+                "MsgId": "0000000000000000000000",
+                "InvstgtnTp": {"Cd": "0000"}
+            },
+            "InvstgtnData": {"Rsn": {"Cd": "0000"}}
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "HPSFOSP1D"}}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "9EPUBCKPO"}}}},
+        "MsgDefIdr": "U09",
+        "MktPrctc": {
+            "Id": "000000000000000000",
+            "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "PROD",
+        "CreDt": "2023-09-12T13:45:05"
+    }
+}

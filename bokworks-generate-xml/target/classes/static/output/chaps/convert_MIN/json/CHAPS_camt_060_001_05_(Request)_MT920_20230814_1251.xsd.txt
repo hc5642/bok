@@ -1,0 +1,28 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.060.001.05",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "AcctRptgReq": {
+            "RptgReq": {
+                "Id": "00000000000000000000000000000000000",
+                "Acct": {"Id": {"Othr": {"Id": "00000000"}}},
+                "AcctOwnr": {"Agt": {"FinInstnId": {"BICFI": "5OBAXYPN(WVC"}}},
+                "ReqdMsgNmId": "camt.053 Statement"
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T14:58:43",
+                "MsgId": "00000000000000000000000000000000000"
+            }
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"BICFI": "T4NBNU30(PLE)"}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"BICFI": "XLINPHSZ(UOF"}}},
+        "MsgDefIdr": "00000000000000000000000000000000000",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:58:43"
+    }
+}

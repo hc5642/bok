@@ -26,35 +26,19 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.007.001.08</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    <ns:Rltd>
-        <ns:Fr>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:Fr>
-        <ns:To>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:To>
-        <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
-        <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    </ns:Rltd>
+    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.007.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:ModfyTx>
         <ns:MsgHdr>
-            <ns:MsgId>wCNuidcrHsSL87TRrK452j2nlCtnRAMxiJM</ns:MsgId>
+            <ns:MsgId>fxaFUeq3WiQlQMIRjCCFoKfPTs59bl8BKAu</ns:MsgId>
         </ns:MsgHdr>
         <ns:Mod>
             <ns:PmtId>
                 <ns:LngBizId>
-                    <ns:UETR>447bf308-1beb-4545-ae2a-477011edfde9</ns:UETR>
+                    <ns:UETR>4ef768cf-e3bd-4a73-a5a3-6bec1ee698aa</ns:UETR>
                     <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-                    <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+                    <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
                     <ns:InstgAgt>
                         <ns:FinInstnId>
                             <ns:ClrSysMmbId>
@@ -79,7 +63,7 @@
             </ns:PmtId>
             <ns:NewPmtValSet>
                 <ns:Prty>
-                    <ns:Prtry>WgAdlfNaZkC2hffpr2rgQqeWEpnYy5i3GFX</ns:Prtry>
+                    <ns:Prtry>XyPu41Yg4OSaF95hLxeHORT0VUf4IFjXfyc</ns:Prtry>
                 </ns:Prty>
             </ns:NewPmtValSet>
         </ns:Mod>

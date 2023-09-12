@@ -1,52 +1,54 @@
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.008.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
- <ns:CclTx>
-        
-  <!--(ns:MsgId , ns:CreDtTm?)-->
-        
-  <ns:MsgHdr>
-   <ns:MsgId>9y5xrSSET2Qm7W0NO1Y70EoOiHTjtyeymqz</ns:MsgId>
-  </ns:MsgHdr>
-  <ns:PmtId>
-            
-   <!--(ns:TxId? , ns:UETR , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt)-->
-            
-   <ns:LngBizId>
-    <ns:UETR>be6466dc-9df5-4d36-b73b-415b81ecbc06</ns:UETR>
-    <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-    <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
-    <ns:InstgAgt>
-                    
-     <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
-                    
-     <ns:FinInstnId>
-      <ns:ClrSysMmbId>
-       <ns:ClrSysId>
-        <ns:Cd>KRBOK</ns:Cd>
-       </ns:ClrSysId>
-       <ns:MmbId>0000000000000000000000000000</ns:MmbId>
-      </ns:ClrSysMmbId>
-     </ns:FinInstnId>
-    </ns:InstgAgt>
-    <ns:InstdAgt>
-                    
-     <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
-                    
-     <ns:FinInstnId>
-      <ns:ClrSysMmbId>
-       <ns:ClrSysId>
-        <ns:Cd>KRBOK</ns:Cd>
-       </ns:ClrSysId>
-       <ns:MmbId>0000000000000000000000000000</ns:MmbId>
-      </ns:ClrSysMmbId>
-     </ns:FinInstnId>
-    </ns:InstdAgt>
-   </ns:LngBizId>
-  </ns:PmtId>
-        
-  <!--(ns:Orgtr? , ns:Rsn? , ns:AddtlInf)-->
-        
-  <ns:CxlRsn>
-   <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
-  </ns:CxlRsn>
- </ns:CclTx>
+    <ns:CclTx>
+              
+        <!--(ns:MsgId , ns:CreDtTm?)-->
+              
+        <ns:MsgHdr>
+            <ns:MsgId>a6U35FxDqKT4NE0F6lNbyXx1f4bqgenOOz1</ns:MsgId>
+        </ns:MsgHdr>
+        <ns:PmtId>
+                     
+            <!--(ns:TxId? , ns:UETR , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt)-->
+                     
+            <ns:LngBizId>
+                <ns:UETR>958b2a8d-6933-4bda-b499-1a86cd31ffcc</ns:UETR>
+                <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
+                <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
+                <ns:InstgAgt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:InstgAgt>
+                <ns:InstdAgt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:InstdAgt>
+            </ns:LngBizId>
+        </ns:PmtId>
+              
+        <!--(ns:Orgtr? , ns:Rsn? , ns:AddtlInf)-->
+              
+        <ns:CxlRsn>
+            <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
+            <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
+            <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
+        </ns:CxlRsn>
+    </ns:CclTx>
 </ns:Document>

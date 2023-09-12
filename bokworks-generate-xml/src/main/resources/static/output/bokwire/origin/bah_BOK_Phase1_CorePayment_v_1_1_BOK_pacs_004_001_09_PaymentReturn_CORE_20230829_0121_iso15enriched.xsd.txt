@@ -34,44 +34,5 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.004.001.09</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-       
-    <!--(ns:CharSet? , ns:Fr , ns:To , ns:BizMsgIdr , ns:MsgDefIdr , ns:BizSvc , ns:CreDt , ns:Sgntr?)-->
-       
-    <ns:Rltd>
-        <ns:Fr>
-            <ns:FIId>
-                            
-                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
-                            
-                <ns:FinInstnId>
-                    <ns:ClrSysMmbId>
-                        <ns:ClrSysId>
-                            <ns:Cd>00000</ns:Cd>
-                        </ns:ClrSysId>
-                        <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
-                    </ns:ClrSysMmbId>
-                </ns:FinInstnId>
-            </ns:FIId>
-        </ns:Fr>
-        <ns:To>
-            <ns:FIId>
-                            
-                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
-                            
-                <ns:FinInstnId>
-                    <ns:ClrSysMmbId>
-                        <ns:ClrSysId>
-                            <ns:Cd>00000</ns:Cd>
-                        </ns:ClrSysId>
-                        <ns:MmbId>00000000000000000000000000000000000</ns:MmbId>
-                    </ns:ClrSysMmbId>
-                </ns:FinInstnId>
-            </ns:FIId>
-        </ns:To>
-        <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
-        <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    </ns:Rltd>
+    <ns:CreDt>2023-09-12T14:53:17</ns:CreDt>
 </ns:AppHdr>

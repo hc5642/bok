@@ -1,0 +1,123 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.052.001.08",
+        "BkToCstmrAcctRpt": {
+            "Rpt": [
+                {
+                    "Id": "PdSmTZCaaOI59zMYa5vMJcdSyoz575bUfED",
+                    "Acct": {
+                        "Ccy": "RKL",
+                        "Tp": {"Prtry": "ODFT_1062"},
+                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
+                    },
+                    "Bal": {
+                        "Tp": {
+                            "CdOrPrtry": {"Cd": "CLBD"},
+                            "SubTp": {"Cd": "INTM"}
+                        },
+                        "Amt": {
+                            "Ccy": "KRW",
+                            "content": -922337203685477580
+                        },
+                        "Dt": {"DtTm": "2023-09-12T14:53:16"},
+                        "CdtDbtInd": "DBIT"
+                    },
+                    "RptgSrc": {"Prtry": "LVPS"}
+                },
+                {
+                    "Id": "JRIMm5DBr7PpTxfV5eDu7m2UKDCE8FUplHG",
+                    "Acct": {
+                        "Ccy": "WBV",
+                        "Tp": {"Prtry": "TNPB_1062"},
+                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
+                    },
+                    "Bal": {
+                        "Tp": {
+                            "CdOrPrtry": {"Cd": "CLBD"},
+                            "SubTp": {"Cd": "INTM"}
+                        },
+                        "Amt": {
+                            "Ccy": "KRW",
+                            "content": -922337203685477580
+                        },
+                        "Dt": {"DtTm": "2023-09-12T14:53:16"},
+                        "CdtDbtInd": "CRDT"
+                    },
+                    "RptgSrc": {"Prtry": "LVPS"}
+                },
+                {
+                    "Id": "5k3SP7Qzb3LSrVqr98bwpJyaNi8Pvv06L7q",
+                    "Acct": {
+                        "Ccy": "QTK",
+                        "Tp": {"Prtry": "TNPB_1062"},
+                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
+                    },
+                    "Bal": {
+                        "Tp": {
+                            "CdOrPrtry": {"Cd": "CLBD"},
+                            "SubTp": {"Cd": "INTM"}
+                        },
+                        "Amt": {
+                            "Ccy": "KRW",
+                            "content": -922337203685477580
+                        },
+                        "Dt": {"DtTm": "2023-09-12T14:53:16"},
+                        "CdtDbtInd": "CRDT"
+                    },
+                    "RptgSrc": {"Prtry": "LVPS"}
+                },
+                {
+                    "Id": "vFbYDqFNisVYUt7GYLVXzfKAIFLx25w86kP",
+                    "Acct": {
+                        "Ccy": "GFR",
+                        "Tp": {"Prtry": "ODFT_1062"},
+                        "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
+                    },
+                    "Bal": {
+                        "Tp": {
+                            "CdOrPrtry": {"Cd": "CLBD"},
+                            "SubTp": {"Cd": "INTM"}
+                        },
+                        "Amt": {
+                            "Ccy": "KRW",
+                            "content": -922337203685477580
+                        },
+                        "Dt": {"DtTm": "2023-09-12T14:53:16"},
+                        "CdtDbtInd": "CRDT"
+                    },
+                    "RptgSrc": {"Prtry": "LVPS"}
+                }
+            ],
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T14:53:16",
+                "MsgPgntn": {
+                    "PgNb": 1,
+                    "LastPgInd": true
+                },
+                "AddtlInf": "tEoZIM82jlYWLvN6MEPx8F5Q7Myu16BoRPynWwgqAT4kYkyTHPlx87njpI8rv2kWc6PnRR868RA841x3fMKgSplY95JKiGbnwYHT5vcCiavfCpqY0OZpGIp3FyMlw6TR9fZG3LLHW1z6YezsTK7edqn4L6QtW3dOlOMZsLIwyik1vQ0hqzgC7x2BZkQyDHC7azL0NcBuOKW4RXcA5tdsHnmkeu8A9IwasycsDSH7vWLTZxIluxl8BcbQpR6IsSerlhNOO8AqIePsnMLsIr47Lz6wkIklvEsND8YS3rE6L7Y6M9u6vXsc8qixk01evOieOaR56P2FXPOwtyevKTyhONqTLkunXw3G9F8KUuSdgkvZTRt7B5PTNvjeOIwNlMmZTuinebdUSAgpD0KjQ6pNqmzYZJVViedQ8UGPHF7iG5LD4Tz76q8FadAizm7b0diblh8xNgOACE5YjLERjUPW2D0d6au8CBasSioHJbffHFNtv4GESD1f",
+                "OrgnlBizQry": {
+                    "CreDtTm": "2023-09-12T14:53:16",
+                    "MsgId": "k4gNRzBRXEnvWHyrsS9VFcaRNB6KiQ5KEPn"
+                },
+                "MsgId": "xpbLLQu0aonU0zeKoRcYtlFT4dngv4CCdG9"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": 1016
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "MsgDefIdr": "camt.052.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "bok.rtgs.01",
+        "CreDt": "2023-09-12T14:53:16"
+    }
+}

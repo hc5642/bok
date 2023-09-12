@@ -1,71 +1,71 @@
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
- <ns:BkToCstmrDbtCdtNtfctn>
-  <ns:GrpHdr>
-   <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-   <ns:CreDtTm>2023-09-11T14:41:55</ns:CreDtTm>
-   <ns:AddtlInf>/MSGID/BKS20A030</ns:AddtlInf>
-  </ns:GrpHdr>
-        
-  <!--(ns:Id , ns:CpyDplctInd? , ns:RptgSrc , ns:Acct , ns:Ntry)-->
-        
-  <ns:Ntfctn>
-   <ns:Id>00000000000000000000000000000000000</ns:Id>
-   <ns:RptgSrc>
-    <ns:Prtry>LVPS</ns:Prtry>
-   </ns:RptgSrc>
-   <ns:Acct>
-    <ns:Id>
-     <ns:Othr>
-      <ns:Id>0000000000000000000000000000000000</ns:Id>
-     </ns:Othr>
-    </ns:Id>
-    <ns:Ccy>HBA</ns:Ccy>
-   </ns:Acct>
-            
-   <!--(ns:NtryRef? , ns:Amt , ns:CdtDbtInd , ns:Sts , ns:BookgDt , ns:BkTxCd , ns:NtryDtls)-->
-            
-   <ns:Ntry>
-    <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
-    <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
-    <ns:Sts>
-     <ns:Cd>BOOK</ns:Cd>
-    </ns:Sts>
-    <ns:BookgDt>
-     <ns:DtTm>2023-09-11T14:41:55</ns:DtTm>
-    </ns:BookgDt>
-                
-    <!--(ns:Prtry?)-->
-                
-    <ns:BkTxCd/>
-    <ns:NtryDtls>
-                    
-     <!--(ns:Refs , ns:BkTxCd? , ns:RltdPties? , ns:RltdAgts , ns:AddtlTxInf)-->
-                    
-     <ns:TxDtls>
-      <ns:Refs>
-       <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-       <ns:InstrId>00000000000000000000000000000000000</ns:InstrId>
-       <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-       <ns:UETR>fafd0af9-2cfb-46d1-9420-0bdfee58a4cd</ns:UETR>
-       <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
-      </ns:Refs>
-                        
-      <!--(ns:InstgAgt? , ns:InstdAgt? , ns:DbtrAgt? , ns:CdtrAgt , ns:IntrmyAgt1?)-->
-                        
-      <ns:RltdAgts>
-       <ns:CdtrAgt>
-                                
-        <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI?)-->
-                                
-        <ns:FinInstnId>
-         <ns:BICFI>7YDFEWZ8(VUJ)</ns:BICFI>
-        </ns:FinInstnId>
-       </ns:CdtrAgt>
-      </ns:RltdAgts>
-      <ns:AddtlTxInf>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlTxInf>
-     </ns:TxDtls>
-    </ns:NtryDtls>
-   </ns:Ntry>
-  </ns:Ntfctn>
- </ns:BkToCstmrDbtCdtNtfctn>
+    <ns:BkToCstmrDbtCdtNtfctn>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:AddtlInf>/MSGID/BKS20A030</ns:AddtlInf>
+        </ns:GrpHdr>
+              
+        <!--(ns:Id , ns:CpyDplctInd? , ns:RptgSrc , ns:Acct , ns:Ntry)-->
+              
+        <ns:Ntfctn>
+            <ns:Id>00000000000000000000000000000000000</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Ccy>SXC</ns:Ccy>
+            </ns:Acct>
+                     
+            <!--(ns:NtryRef? , ns:Amt , ns:CdtDbtInd , ns:Sts , ns:BookgDt , ns:BkTxCd , ns:NtryDtls)-->
+                     
+            <ns:Ntry>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                <ns:Sts>
+                    <ns:Cd>BOOK</ns:Cd>
+                </ns:Sts>
+                <ns:BookgDt>
+                    <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
+                </ns:BookgDt>
+                            
+                <!--(ns:Prtry?)-->
+                            
+                <ns:BkTxCd/>
+                <ns:NtryDtls>
+                                   
+                    <!--(ns:Refs , ns:BkTxCd? , ns:RltdPties? , ns:RltdAgts , ns:AddtlTxInf)-->
+                                   
+                    <ns:TxDtls>
+                        <ns:Refs>
+                            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+                            <ns:InstrId>00000000000000000000000000000000000</ns:InstrId>
+                            <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
+                            <ns:UETR>0cd6484f-3467-474a-aef9-a452070e680e</ns:UETR>
+                            <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
+                        </ns:Refs>
+                                          
+                        <!--(ns:InstgAgt? , ns:InstdAgt? , ns:DbtrAgt? , ns:CdtrAgt , ns:IntrmyAgt1?)-->
+                                          
+                        <ns:RltdAgts>
+                            <ns:CdtrAgt>
+                                                        
+                                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI?)-->
+                                                        
+                                <ns:FinInstnId>
+                                    <ns:BICFI>RPTMWF6Z(3SD</ns:BICFI>
+                                </ns:FinInstnId>
+                            </ns:CdtrAgt>
+                        </ns:RltdAgts>
+                        <ns:AddtlTxInf>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlTxInf>
+                    </ns:TxDtls>
+                </ns:NtryDtls>
+            </ns:Ntry>
+        </ns:Ntfctn>
+    </ns:BkToCstmrDbtCdtNtfctn>
 </ns:Document>

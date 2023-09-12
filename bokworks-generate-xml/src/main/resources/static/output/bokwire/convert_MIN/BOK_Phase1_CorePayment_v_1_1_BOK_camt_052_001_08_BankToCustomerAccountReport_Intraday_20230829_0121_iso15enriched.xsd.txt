@@ -26,41 +26,25 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.052.001.08</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.01</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    <ns:Rltd>
-        <ns:Fr>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:Fr>
-        <ns:To>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:To>
-        <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
-        <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    </ns:Rltd>
+    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
-            <ns:MsgId>fxg3YZvHtNiDtwhOWnBOL2wfdbS6JC1ViwK</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:MsgId>xpbLLQu0aonU0zeKoRcYtlFT4dngv4CCdG9</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
             <ns:MsgPgntn>
                 <ns:PgNb>1</ns:PgNb>
                 <ns:LastPgInd>true</ns:LastPgInd>
             </ns:MsgPgntn>
             <ns:OrgnlBizQry>
-                <ns:MsgId>FMvyjfMdrEus7XqpkYlUBtcZ5P6rqXeDd8m</ns:MsgId>
-                <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+                <ns:MsgId>k4gNRzBRXEnvWHyrsS9VFcaRNB6KiQ5KEPn</ns:MsgId>
+                <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
             </ns:OrgnlBizQry>
-            <ns:AddtlInf>nzJk1tDfKukDDvb7wYRX0PIEImlnwlbTNVsON8K2z6N6RSQZMns3fxKdoNV81yHQJujMeWfwUP90eJA1mheqnh1f9VBgLXBsS5qqIavvvCtDHuDZVRjjZBAUsog99k5EMBH3MExcNGFyvHMJJAHSSM0D5PTWf67o8jH6smPpEOY4taCtzNDaFeDdhHEwGf0MehxYlyXcOKjdYW5xob48l9pvGiKAMxiDDQabReZnxd6qTRjcWjJN7k1vAUwdP2vLntldNksNLMnWyxYaq6wP8mLjhEoFokkS5Dqk62evoGfnviNwlWt6mRFbxU6B8FylpXKxj3Tek0jgvdzI5iPGs8cl8lDvuRl6ZsvgNT5uzkX42ssoAxLQQVrmycwAN9pPj0y9N6qrRvcC2zBh8dwkFwGLYtVXkTAd12ELssahCGxqHM2x5bKUZ5pw8xS8451mtfxfnjv3n0wbKJhCplv3V18PneCLNU5ivDwUlESqkYXmd5DwGDyQ</ns:AddtlInf>
+            <ns:AddtlInf>tEoZIM82jlYWLvN6MEPx8F5Q7Myu16BoRPynWwgqAT4kYkyTHPlx87njpI8rv2kWc6PnRR868RA841x3fMKgSplY95JKiGbnwYHT5vcCiavfCpqY0OZpGIp3FyMlw6TR9fZG3LLHW1z6YezsTK7edqn4L6QtW3dOlOMZsLIwyik1vQ0hqzgC7x2BZkQyDHC7azL0NcBuOKW4RXcA5tdsHnmkeu8A9IwasycsDSH7vWLTZxIluxl8BcbQpR6IsSerlhNOO8AqIePsnMLsIr47Lz6wkIklvEsND8YS3rE6L7Y6M9u6vXsc8qixk01evOieOaR56P2FXPOwtyevKTyhONqTLkunXw3G9F8KUuSdgkvZTRt7B5PTNvjeOIwNlMmZTuinebdUSAgpD0KjQ6pNqmzYZJVViedQ8UGPHF7iG5LD4Tz76q8FadAizm7b0diblh8xNgOACE5YjLERjUPW2D0d6au8CBasSioHJbffHFNtv4GESD1f</ns:AddtlInf>
         </ns:GrpHdr>
         <ns:Rpt>
-            <ns:Id>pIu0xVo6tKfj1p7K9qCmQXcOwZoN0K7BLQC</ns:Id>
+            <ns:Id>PdSmTZCaaOI59zMYa5vMJcdSyoz575bUfED</ns:Id>
             <ns:RptgSrc>
                 <ns:Prtry>LVPS</ns:Prtry>
             </ns:RptgSrc>
@@ -73,7 +57,39 @@
                 <ns:Tp>
                     <ns:Prtry>ODFT_1062</ns:Prtry>
                 </ns:Tp>
-                <ns:Ccy>EQE</ns:Ccy>
+                <ns:Ccy>RKL</ns:Ccy>
+            </ns:Acct>
+            <ns:Bal>
+                <ns:Tp>
+                    <ns:CdOrPrtry>
+                        <ns:Cd>CLBD</ns:Cd>
+                    </ns:CdOrPrtry>
+                    <ns:SubTp>
+                        <ns:Cd>INTM</ns:Cd>
+                    </ns:SubTp>
+                </ns:Tp>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
+                <ns:Dt>
+                    <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
+                </ns:Dt>
+            </ns:Bal>
+        </ns:Rpt>
+        <ns:Rpt>
+            <ns:Id>JRIMm5DBr7PpTxfV5eDu7m2UKDCE8FUplHG</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Tp>
+                    <ns:Prtry>TNPB_1062</ns:Prtry>
+                </ns:Tp>
+                <ns:Ccy>WBV</ns:Ccy>
             </ns:Acct>
             <ns:Bal>
                 <ns:Tp>
@@ -87,7 +103,71 @@
                 <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
                 <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
                 <ns:Dt>
-                    <ns:DtTm>2023-09-11T14:42:23</ns:DtTm>
+                    <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
+                </ns:Dt>
+            </ns:Bal>
+        </ns:Rpt>
+        <ns:Rpt>
+            <ns:Id>5k3SP7Qzb3LSrVqr98bwpJyaNi8Pvv06L7q</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Tp>
+                    <ns:Prtry>TNPB_1062</ns:Prtry>
+                </ns:Tp>
+                <ns:Ccy>QTK</ns:Ccy>
+            </ns:Acct>
+            <ns:Bal>
+                <ns:Tp>
+                    <ns:CdOrPrtry>
+                        <ns:Cd>CLBD</ns:Cd>
+                    </ns:CdOrPrtry>
+                    <ns:SubTp>
+                        <ns:Cd>INTM</ns:Cd>
+                    </ns:SubTp>
+                </ns:Tp>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                <ns:Dt>
+                    <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
+                </ns:Dt>
+            </ns:Bal>
+        </ns:Rpt>
+        <ns:Rpt>
+            <ns:Id>vFbYDqFNisVYUt7GYLVXzfKAIFLx25w86kP</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Tp>
+                    <ns:Prtry>ODFT_1062</ns:Prtry>
+                </ns:Tp>
+                <ns:Ccy>GFR</ns:Ccy>
+            </ns:Acct>
+            <ns:Bal>
+                <ns:Tp>
+                    <ns:CdOrPrtry>
+                        <ns:Cd>CLBD</ns:Cd>
+                    </ns:CdOrPrtry>
+                    <ns:SubTp>
+                        <ns:Cd>INTM</ns:Cd>
+                    </ns:SubTp>
+                </ns:Tp>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                <ns:Dt>
+                    <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
                 </ns:Dt>
             </ns:Bal>
         </ns:Rpt>

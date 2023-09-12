@@ -1,0 +1,17 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:admi.007.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:RctAck>
+        <ns:MsgId>
+            <ns:MsgId>8WKYIXUY7RLULEX8OAMPR8LTV2CIW6UDGJ</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+        </ns:MsgId>
+        <ns:Rpt>
+            <ns:RltdRef>
+                <ns:Ref>00000000000000000000000000000000000</ns:Ref>
+                <ns:MsgNm>k91</ns:MsgNm>
+            </ns:RltdRef>
+            <ns:ReqHdlg>
+                <ns:StsCd>TS01</ns:StsCd>
+            </ns:ReqHdlg>
+        </ns:Rpt>
+    </ns:RctAck>
+</ns:Document>

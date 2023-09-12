@@ -5,7 +5,7 @@
     <ns:IdVrfctnReq>
         <ns:Assgnmt>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:22</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:15</ns:CreDtTm>
             <ns:Assgnr>
                 <ns:Agt>
                                    
@@ -49,7 +49,7 @@
                                    
                     <ns:PstlAdr>
                         <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                        <ns:Ctry>BZ</ns:Ctry>
+                        <ns:Ctry>VU</ns:Ctry>
                     </ns:PstlAdr>
                 </ns:Pty>
                             
@@ -66,8 +66,8 @@
                             <!--(ns:Cd | ns:Prtry)-->
                                                  
                             <ns:SchmeNm>
-                                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                                 <ns:Cd>0000</ns:Cd>
+                                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                             </ns:SchmeNm>
                         </ns:Othr>
                     </ns:Id>

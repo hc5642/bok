@@ -2,7 +2,7 @@
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:24</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -20,7 +20,7 @@
                      
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>4ae271b3-3a80-4459-88b5-84f07eeee95b</ns:UETR>
+                <ns:UETR>74463046-0c1c-4b7a-88df-0edc226709d6</ns:UETR>
             </ns:PmtId>
                      
             <!--(ns:SvcLvl , ns:LclInstrm? , ns:CtgyPurp?)-->
@@ -30,12 +30,19 @@
                 <!--(ns:Cd | ns:Prtry)-->
                             
                 <ns:SvcLvl>
-                    <ns:Cd>0000</ns:Cd>
                     <ns:Prtry>2</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:SvcLvl>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:SvcLvl>
+                    <ns:Prtry>3</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
                 </ns:SvcLvl>
             </ns:PmtTpInf>
             <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:InstgAgt>
                             
                 <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
@@ -67,7 +74,7 @@
                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
                             
                 <ns:FinInstnId>
-                    <ns:BICFI>I5BHZG3V(1ZS</ns:BICFI>
+                    <ns:BICFI>14L3XI14(5KK)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:Dbtr>
             <ns:Cdtr>
@@ -75,7 +82,7 @@
                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
                             
                 <ns:FinInstnId>
-                    <ns:BICFI>UKJPBJRR(70G)</ns:BICFI>
+                    <ns:BICFI>YQP4PMAO(XGG</ns:BICFI>
                 </ns:FinInstnId>
             </ns:Cdtr>
         </ns:CdtTrfTxInf>

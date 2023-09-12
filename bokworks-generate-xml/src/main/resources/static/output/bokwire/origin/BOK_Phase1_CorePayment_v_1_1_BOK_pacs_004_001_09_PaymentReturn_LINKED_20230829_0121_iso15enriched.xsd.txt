@@ -2,7 +2,7 @@
     <ns:PmtRtr>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -25,19 +25,10 @@
             </ns:OrgnlGrpInf>
             <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
             <ns:OrgnlTxId>00000000000000000000000000000000000</ns:OrgnlTxId>
-            <ns:OrgnlUETR>39bb9d6a-3606-4691-932c-f68f70f3f388</ns:OrgnlUETR>
+            <ns:OrgnlUETR>7544ae66-dd88-45cd-939e-0400291c9d14</ns:OrgnlUETR>
             <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
             <ns:RtrdIntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:RtrdIntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
-            <ns:ChrgsInf>
-                <ns:Amt Ccy="Ccy1">1.24387</ns:Amt>
-                <ns:Agt>
-                                   
-                    <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
-                                   
-                    <ns:FinInstnId/>
-                </ns:Agt>
-            </ns:ChrgsInf>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:InstgAgt>
                             
                 <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
@@ -79,8 +70,7 @@
                                           
                         <ns:PstlAdr>
                             <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                            <ns:Ctry>GY</ns:Ctry>
-                            <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
+                            <ns:Ctry>GP</ns:Ctry>
                         </ns:PstlAdr>
                     </ns:Pty>
                 </ns:Dbtr>
@@ -108,7 +98,7 @@
                                           
                         <ns:PstlAdr>
                             <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                            <ns:Ctry>GB</ns:Ctry>
+                            <ns:Ctry>AP</ns:Ctry>
                         </ns:PstlAdr>
                     </ns:Pty>
                 </ns:Cdtr>
@@ -120,6 +110,7 @@
                 <ns:Rsn>
                     <ns:Cd>0000</ns:Cd>
                 </ns:Rsn>
+                <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
                 <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
             </ns:RtrRsnInf>
             <ns:OrgnlTxRef>
@@ -163,8 +154,8 @@
                     <!--(ns:Cd | ns:Prtry)-->
                                    
                     <ns:Tp>
-                        <ns:Cd>0000</ns:Cd>
                         <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                        <ns:Cd>0000</ns:Cd>
                     </ns:Tp>
                 </ns:DbtrAgtAcct>
                             

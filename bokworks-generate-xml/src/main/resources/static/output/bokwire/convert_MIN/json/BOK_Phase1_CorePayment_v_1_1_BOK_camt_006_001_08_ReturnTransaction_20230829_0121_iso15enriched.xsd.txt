@@ -1,0 +1,36 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.006.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "RtrTx": {
+            "MsgHdr": {
+                "OrgnlBizQry": {"MsgId": "GPSR60cu7lisFtXrEOhBsJPsITIgcb3TBPv"},
+                "MsgId": "xfqIbtEqx9QA99gP7NKnRQFRlcjVorpMqc6",
+                "ReqTp": {"Prtry": {"Id": "IPIQ"}}
+            },
+            "RptOrErr": {"BizRpt": {"TxRpt": {
+                "TxOrErr": {"Tx": {"Pmt": {"Sts": {
+                    "DtTm": {"DtTm": "2023-09-12T14:53:16"},
+                    "Cd": {"Prtry": "ib2yYM0NqyqWMwXFB7OTG2PdbZdL4qFKnqo"}
+                }}}},
+                "PmtId": {"PrtryId": "0000000000000000000000000000000000000000000000000000000000000000000000"}
+            }}}
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": 1016
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "MsgDefIdr": "camt.006.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:53:16"
+    }
+}

@@ -2,7 +2,7 @@
     <ns:FIToFIPmtStsRpt>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
         </ns:GrpHdr>
               
         <!--(ns:StsId? , ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId , ns:OrgnlTxId? , ns:OrgnlUETR , ns:TxSts , ns:StsRsnInf+ , ns:FctvIntrBkSttlmDt? , ns:ClrSysRef , ns:InstgAgt , ns:InstdAgt , ns:OrgnlTxRef?)-->
@@ -11,15 +11,16 @@
             <ns:OrgnlGrpInf>
                 <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
                 <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
-                <ns:OrgnlCreDtTm>2023-09-11T14:42:23</ns:OrgnlCreDtTm>
+                <ns:OrgnlCreDtTm>2023-09-12T14:53:16</ns:OrgnlCreDtTm>
             </ns:OrgnlGrpInf>
             <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
-            <ns:OrgnlUETR>8ed198e9-8a9a-469f-918f-25a109448ba7</ns:OrgnlUETR>
-            <ns:TxSts>PDNG</ns:TxSts>
+            <ns:OrgnlUETR>53c1033e-8116-45a6-9d64-a195e9be16d5</ns:OrgnlUETR>
+            <ns:TxSts>ACSC</ns:TxSts>
                      
             <!--(ns:Rsn? , ns:AddtlInf)-->
                      
             <ns:StsRsnInf>
+                <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
                 <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
             </ns:StsRsnInf>
             <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>

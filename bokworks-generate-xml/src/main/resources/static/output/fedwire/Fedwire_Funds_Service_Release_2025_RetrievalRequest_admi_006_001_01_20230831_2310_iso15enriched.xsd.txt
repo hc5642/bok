@@ -7,7 +7,7 @@
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
             <ns:ReqTp>
                 <ns:Prtry>
-                    <ns:Id>R</ns:Id>
+                    <ns:Id>S</ns:Id>
                 </ns:Prtry>
             </ns:ReqTp>
         </ns:MsgHdr>
@@ -15,7 +15,7 @@
         <!--(ns:BizDt , ns:SeqRg? , ns:OrgnlMsgNmId? , ns:FileRef? , ns:Rcpt)-->
               
         <ns:RsndSchCrit>
-            <ns:BizDt>2023-09-11</ns:BizDt>
+            <ns:BizDt>2023-09-12</ns:BizDt>
             <ns:Rcpt>
                 <ns:Id>
                     <ns:PrtryId>

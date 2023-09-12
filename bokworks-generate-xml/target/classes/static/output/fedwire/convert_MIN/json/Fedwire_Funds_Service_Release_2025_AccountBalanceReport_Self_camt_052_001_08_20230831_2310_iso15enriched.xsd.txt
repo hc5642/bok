@@ -1,0 +1,173 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.052.001.08",
+        "BkToCstmrAcctRpt": {
+            "Rpt": {
+                "CreDtTm": "2023-09-12T13:45:05",
+                "Id": "OPEN",
+                "Acct": {
+                    "Tp": {"Prtry": "S"},
+                    "Id": {"Othr": {"Id": 686725195}}
+                },
+                "RltdAcct": {"Id": {"Othr": {"Id": 735204730}}},
+                "TxsSummry": {"TtlNtriesPerBkTxCd": [
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "NSSE"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 4,
+                            "Sum": 5369.798743315998
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 64156595,
+                            "Sum": 1.53204698618957E+30
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "TtlNetNtry": {
+                            "Amt": "1.4613606200874555E",
+                            "CdtDbtInd": "CRDT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "UVOT"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 11622,
+                            "Sum": 5771.870693647181
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 55295,
+                            "Sum": 8437.517131193233
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "TtlNetNtry": {
+                            "Amt": 1399.379561960375,
+                            "CdtDbtInd": "CRDT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "UVOT"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 769115173081588,
+                            "Sum": 9.22008356930223E+30
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 272,
+                            "Sum": "1.6076861961687547E"
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "TtlNetNtry": {
+                            "Amt": "1.7928281496629929E",
+                            "CdtDbtInd": "CRDT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "UVOT"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 9912797,
+                            "Sum": "1.0554476237883956E"
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 3173891885074,
+                            "Sum": 5110.737405069786
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "TtlNetNtry": {
+                            "Amt": 9540.633609910107,
+                            "CdtDbtInd": "CRDT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "AVOT"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 8866152908980,
+                            "Sum": "3.3285243716976615E"
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 7454,
+                            "Sum": 8561.454814562119
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "TtlNetNtry": {
+                            "Amt": 8184.390334752855,
+                            "CdtDbtInd": "DBIT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "FDAP"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 907,
+                            "Sum": "1.3571598063868124E"
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 14160988153873,
+                            "Sum": 1334.186990815372
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "TtlNetNtry": {
+                            "Amt": 1014.758092227576,
+                            "CdtDbtInd": "DBIT"
+                        }
+                    },
+                    {
+                        "BkTxCd": {"Prtry": {"Cd": "FDAP"}},
+                        "CdtNtries": {
+                            "NbOfNtries": 4,
+                            "Sum": "1.1313422097149167E"
+                        },
+                        "DbtNtries": {
+                            "NbOfNtries": 4014939236214,
+                            "Sum": 8707.921760273954
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "TtlNetNtry": {
+                            "Amt": 8908.717872472501,
+                            "CdtDbtInd": "CRDT"
+                        }
+                    }
+                ]},
+                "Bal": [
+                    {
+                        "Tp": {"CdOrPrtry": {"Prtry": "OBFL"}},
+                        "Amt": {
+                            "Ccy": "Ccy1",
+                            "content": 1.32412
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "CdtDbtInd": "CRDT"
+                    },
+                    {
+                        "Tp": {"CdOrPrtry": {"Prtry": "OBFL"}},
+                        "Amt": {
+                            "Ccy": "Ccy2",
+                            "content": 1.7282
+                        },
+                        "Dt": {"DtTm": "2023-09-12T13:45:05"},
+                        "CdtDbtInd": "CRDT"
+                    }
+                ]
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T13:45:05",
+                "MsgPgntn": {
+                    "PgNb": 1356,
+                    "LastPgInd": true
+                },
+                "MsgId": "ABAR"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "RL9CY7660"}}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "2GPBA6UDW"}}}},
+        "MsgDefIdr": "M66",
+        "MktPrctc": {
+            "Id": "000000000000000000",
+            "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "PROD",
+        "CreDt": "2023-09-12T13:45:05"
+    }
+}

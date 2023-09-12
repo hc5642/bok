@@ -3,35 +3,35 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>A2DJTHJ3(7Y8)</ns:BICFI>
+                <ns:BICFI>ZXN7UKDH(P1W</ns:BICFI>
                 <ns:ClrSysMmbId>
                     <ns:ClrSysId>
                         <ns:Cd>KRBOK</ns:Cd>
                     </ns:ClrSysId>
                     <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                 </ns:ClrSysMmbId>
-                <ns:LEI>ZH7B7V29KG18RQ5S4H56</ns:LEI>
+                <ns:LEI>3LW2SFRP6T0F3CH0LK71</ns:LEI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>8M2JVW6O(9LW)</ns:BICFI>
+                <ns:BICFI>NH7RMO0D(TZZ</ns:BICFI>
                 <ns:ClrSysMmbId>
                     <ns:ClrSysId>
                         <ns:Cd>KRBOK</ns:Cd>
                     </ns:ClrSysId>
                     <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                 </ns:ClrSysMmbId>
-                <ns:LEI>5M0ZGBRS5MDGEWHY0M83</ns:LEI>
+                <ns:LEI>MGESGCHLBNDGOVC9TQ47</ns:LEI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.009.001.08</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.gnlfndtrf.01</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:34:32</ns:CreDt>
+    <ns:CreDt>2023-09-12T14:04:02</ns:CreDt>
     <ns:Sgntr>
         <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
     </ns:Sgntr>
@@ -40,35 +40,35 @@
         <ns:Fr>
             <ns:FIId>
                 <ns:FinInstnId>
-                    <ns:BICFI>R6QJTI67(13I</ns:BICFI>
+                    <ns:BICFI>E63TEWEU(AQR</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>00000</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>MIT2WMRFQQJMKJBTSI82</ns:LEI>
+                    <ns:LEI>PDQT1HGR8BA56B81AM26</ns:LEI>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:Fr>
         <ns:To>
             <ns:FIId>
                 <ns:FinInstnId>
-                    <ns:BICFI>C9MWUS89(2HC</ns:BICFI>
+                    <ns:BICFI>XMH4GO9O(JWX)</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>00000</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>33T5M4J7W9F1IGV3RH02</ns:LEI>
+                    <ns:LEI>6IK4Y3BU1L56M6533P70</ns:LEI>
                 </ns:FinInstnId>
             </ns:FIId>
         </ns:To>
         <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
         <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
         <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-11T14:34:32</ns:CreDt>
+        <ns:CreDt>2023-09-12T14:04:02</ns:CreDt>
         <ns:Sgntr>
             <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
         </ns:Sgntr>
@@ -78,7 +78,7 @@
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:34:32</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:04:02</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -92,65 +92,65 @@
                 <ns:InstrId>00000000000000000000000000000000000</ns:InstrId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
                 <ns:TxId>00000000000000000000000000000000000</ns:TxId>
-                <ns:UETR>6606e127-c9d6-4c48-a2c9-58aef6828aff</ns:UETR>
+                <ns:UETR>6ead80b3-614e-45b4-a100-6f4cbcfb524c</ns:UETR>
                 <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
             </ns:PmtId>
             <ns:PmtTpInf>
-                <ns:InstrPrty>NORM</ns:InstrPrty>
+                <ns:InstrPrty>HIGH</ns:InstrPrty>
                 <ns:SvcLvl>
-                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                     <ns:Cd>0000</ns:Cd>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                 </ns:SvcLvl>
                 <ns:LclInstrm>
-                    <ns:Prtry>BKS10B021</ns:Prtry>
+                    <ns:Prtry>BKS10B031</ns:Prtry>
                 </ns:LclInstrm>
                 <ns:CtgyPurp>
                     <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                 </ns:CtgyPurp>
             </ns:PmtTpInf>
             <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:SttlmPrty>NORM</ns:SttlmPrty>
             <ns:SttlmTmIndctn>
-                <ns:CdtDtTm>2023-09-11T14:34:32</ns:CdtDtTm>
+                <ns:CdtDtTm>2023-09-12T14:04:02</ns:CdtDtTm>
             </ns:SttlmTmIndctn>
             <ns:SttlmTmReq>
-                <ns:FrTm>14:34:32</ns:FrTm>
+                <ns:FrTm>14:04:02</ns:FrTm>
             </ns:SttlmTmReq>
             <ns:InstgAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>61JEXOVW(OBN)</ns:BICFI>
+                    <ns:BICFI>G0MMPC46(R15</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>KRBOK</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>59E88AFLV7ME90PL6O32</ns:LEI>
+                    <ns:LEI>WCRXRFLVIZ6MILE42348</ns:LEI>
                 </ns:FinInstnId>
             </ns:InstgAgt>
             <ns:InstdAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>9ESHWEEI(H79</ns:BICFI>
+                    <ns:BICFI>5814CB90(POE)</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>KRBOK</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>8Z9Q9547DMTZH7PGYC92</ns:LEI>
+                    <ns:LEI>AAR73HUW0SWST69GSV40</ns:LEI>
                 </ns:FinInstnId>
             </ns:InstdAgt>
             <ns:Dbtr>
                 <ns:FinInstnId>
-                    <ns:BICFI>0PX1QHR1(MGB</ns:BICFI>
+                    <ns:BICFI>4L4JAK68(4JJ)</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>KRBOK</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>LZN3EVSNJ3T1NMG3G586</ns:LEI>
+                    <ns:LEI>ZDW4C99FD37CA34TZ307</ns:LEI>
                     <ns:Nm>00000000000000000000000000000000</ns:Nm>
                     <ns:PstlAdr>
                         <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
@@ -163,7 +163,7 @@
                         <ns:PstCd>0000000000000000</ns:PstCd>
                         <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                         <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                        <ns:Ctry>UF</ns:Ctry>
+                        <ns:Ctry>CP</ns:Ctry>
                         <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
                     </ns:PstlAdr>
                 </ns:FinInstnId>
@@ -188,22 +188,22 @@
                 </ns:Tp>
                 <ns:Prxy>
                     <ns:Tp>
-                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                         <ns:Cd>0000</ns:Cd>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                     </ns:Tp>
                     <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
                 </ns:Prxy>
             </ns:DbtrAcct>
             <ns:DbtrAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>D7D1ZRF5(18A</ns:BICFI>
+                    <ns:BICFI>888ZQRUC(Q5B)</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>KRBOK</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>AQ9EVD3U0AB2SRRFL601</ns:LEI>
+                    <ns:LEI>RQ09KSK1CKQW68WOTQ48</ns:LEI>
                     <ns:Nm>00000000000000000000000000000000</ns:Nm>
                     <ns:PstlAdr>
                         <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
@@ -216,7 +216,7 @@
                         <ns:PstCd>0000000000000000</ns:PstCd>
                         <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                         <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                        <ns:Ctry>YI</ns:Ctry>
+                        <ns:Ctry>ZM</ns:Ctry>
                         <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
                     </ns:PstlAdr>
                 </ns:FinInstnId>
@@ -230,8 +230,8 @@
                     <ns:Othr>
                         <ns:Id>0000000000000000000000000000000000</ns:Id>
                         <ns:SchmeNm>
-                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                             <ns:Cd>0000</ns:Cd>
+                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                         </ns:SchmeNm>
                         <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                     </ns:Othr>
@@ -250,14 +250,14 @@
             </ns:DbtrAgtAcct>
             <ns:CdtrAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>FXXAVESN(5LC</ns:BICFI>
+                    <ns:BICFI>1GUGFC89(H20)</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>KRBOK</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>QHTEMXEEEWK6TI2JQI07</ns:LEI>
+                    <ns:LEI>TNJ8JGKL6U997HGL7X91</ns:LEI>
                     <ns:Nm>00000000000000000000000000000000</ns:Nm>
                     <ns:PstlAdr>
                         <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
@@ -270,7 +270,7 @@
                         <ns:PstCd>0000000000000000</ns:PstCd>
                         <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                         <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                        <ns:Ctry>UY</ns:Ctry>
+                        <ns:Ctry>KP</ns:Ctry>
                         <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
                     </ns:PstlAdr>
                 </ns:FinInstnId>
@@ -296,22 +296,22 @@
                 </ns:Tp>
                 <ns:Prxy>
                     <ns:Tp>
-                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                         <ns:Cd>0000</ns:Cd>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                     </ns:Tp>
                     <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
                 </ns:Prxy>
             </ns:CdtrAgtAcct>
             <ns:Cdtr>
                 <ns:FinInstnId>
-                    <ns:BICFI>A2D6CXVR(ECI)</ns:BICFI>
+                    <ns:BICFI>1W9OSM16(D6Y)</ns:BICFI>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>KRBOK</ns:Cd>
                         </ns:ClrSysId>
                         <ns:MmbId>0000000000000000000000000000</ns:MmbId>
                     </ns:ClrSysMmbId>
-                    <ns:LEI>T9EVEVAZ590ISTNGBO24</ns:LEI>
+                    <ns:LEI>PGFIXEI0GPBPPXFVL141</ns:LEI>
                     <ns:Nm>00000000000000000000000000000000</ns:Nm>
                     <ns:PstlAdr>
                         <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
@@ -324,7 +324,7 @@
                         <ns:PstCd>0000000000000000</ns:PstCd>
                         <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
                         <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
-                        <ns:Ctry>ZG</ns:Ctry>
+                        <ns:Ctry>MZ</ns:Ctry>
                         <ns:AdrLine>00000000000000000000000000000000000</ns:AdrLine>
                     </ns:PstlAdr>
                 </ns:FinInstnId>
@@ -338,20 +338,20 @@
                     <ns:Othr>
                         <ns:Id>0000000000000000000000000000000000</ns:Id>
                         <ns:SchmeNm>
-                            <ns:Cd>0000</ns:Cd>
                             <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                            <ns:Cd>0000</ns:Cd>
                         </ns:SchmeNm>
                         <ns:Issr>00000000000000000000000000000000000</ns:Issr>
                     </ns:Othr>
                 </ns:Id>
                 <ns:Tp>
-                    <ns:Cd>0000</ns:Cd>
                     <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
                 </ns:Tp>
                 <ns:Prxy>
                     <ns:Tp>
-                        <ns:Cd>0000</ns:Cd>
                         <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                        <ns:Cd>0000</ns:Cd>
                     </ns:Tp>
                     <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
                 </ns:Prxy>
@@ -364,8 +364,8 @@
                 <ns:InstrInf>00000000000000000000000000000000000</ns:InstrInf>
             </ns:InstrForNxtAgt>
             <ns:Purp>
-                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                 <ns:Cd>0000</ns:Cd>
+                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
             </ns:Purp>
             <ns:RmtInf>
                 <ns:Ustrd>000000000000000000000000000000000000000000000000000000000000</ns:Ustrd>

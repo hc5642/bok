@@ -2,7 +2,7 @@
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>0000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -20,25 +20,25 @@
                      
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>400ad2ed-d05e-4ef9-a152-94fbc791cb95</ns:UETR>
+                <ns:UETR>2c5de4a1-fe4d-4e51-86aa-e32357ccfc85</ns:UETR>
             </ns:PmtId>
                      
             <!--(ns:InstrPrty? , ns:SvcLvl[0,3] , ns:LclInstrm , ns:CtgyPurp?)-->
                      
             <ns:PmtTpInf>
                 <ns:LclInstrm>
-                    <ns:Prtry>COVS</ns:Prtry>
+                    <ns:Prtry>BTRD</ns:Prtry>
                 </ns:LclInstrm>
             </ns:PmtTpInf>
-            <ns:IntrBkSttlmAmt Ccy="USD">1.25</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:IntrBkSttlmAmt Ccy="USD">2.18</ns:IntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:InstgAgt>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>USABA</ns:Cd>
                         </ns:ClrSysId>
-                        <ns:MmbId>425499875</ns:MmbId>
+                        <ns:MmbId>381957690</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:InstgAgt>
@@ -48,7 +48,7 @@
                         <ns:ClrSysId>
                             <ns:Cd>USABA</ns:Cd>
                         </ns:ClrSysId>
-                        <ns:MmbId>427324734</ns:MmbId>
+                        <ns:MmbId>732874697</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:InstdAgt>

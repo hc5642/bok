@@ -26,13 +26,13 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.054.001.08</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
+    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:BkToCstmrDbtCdtNtfctn>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
             <ns:AddtlInf>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
         </ns:GrpHdr>
         <ns:Ntfctn>
@@ -54,7 +54,7 @@
                     <ns:Cd>BOOK</ns:Cd>
                 </ns:Sts>
                 <ns:BookgDt>
-                    <ns:DtTm>2023-09-11T14:42:23</ns:DtTm>
+                    <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
                 </ns:BookgDt>
                 <ns:BkTxCd>
                     <ns:Prtry>
@@ -66,7 +66,7 @@
                         <ns:Refs>
                             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
                             <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                            <ns:UETR>3ad099d8-ccc9-4881-9787-efb26384d048</ns:UETR>
+                            <ns:UETR>e3d0fef3-6c41-409b-9e2c-925b9c0abdee</ns:UETR>
                             <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
                         </ns:Refs>
                     </ns:TxDtls>

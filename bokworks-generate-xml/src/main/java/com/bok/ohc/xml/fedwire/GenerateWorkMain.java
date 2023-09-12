@@ -44,7 +44,26 @@ public class GenerateWorkMain {
 	final static String OUTPUT_PATH = "./src/main/resources/static/output/fedwire";
 	final static String CONVERT_PATH = "./src/main/resources/static/output/fedwire/convert_MIN";
 	
+	final static String PRE_FIX = "Fedwire_";
+	final static String POST_FIX = ".xsd";
+	final static String ROOT_ELEMENT_DUCMENT = "Document";
+	final static String ROOT_ELEMENT_APPHDR = "AppHdr";
+	
+	final static int	TAP_SPACE_SIZE = 4; 
+	public static XSInstance INSTANCE = new XSInstance();
+	
 	public static void main(String[] args) throws TransformerConfigurationException, SAXException, IOException, ParserConfigurationException {
+		
+		INSTANCE.minimumElementsGenerated = 0; // 0
+		INSTANCE.maximumElementsGenerated = 0; // 1
+		INSTANCE.generateAllChoices = true;
+		INSTANCE.generateOptionalElements = false; // false
+		INSTANCE.minimumListItemsGenerated = 1;
+		INSTANCE.maximumRecursionDepth = 1;
+		INSTANCE.generateDefaultAttributes = true;
+		INSTANCE.generateFixedAttributes = true;
+		INSTANCE.generateOptionalAttributes = false; // false
+		INSTANCE.sampleValueGenerator = new SampleValueGeneratorImpl();
 		
 		generateFedWire();
 		
@@ -65,34 +84,38 @@ public class GenerateWorkMain {
 		File [] XsdLists = inputDir.listFiles(new FileFilter() {
 			@Override
 			public boolean accept(File pathname) {
-				if ( pathname.getName().endsWith(".xsd")) {
-					if ( pathname.getName().startsWith("Fedwire_") )
+				if ( pathname.getName().endsWith(POST_FIX)) {
+					if ( pathname.getName().startsWith(PRE_FIX) )
 						return true;
 				}
 				return false;
 			}
 		});
 		
-		XSInstance instance = new XSInstance();
-		instance.minimumElementsGenerated = 0; // 0
-		instance.maximumElementsGenerated = 1; // 1
-		instance.generateAllChoices = true;
-		instance.generateOptionalElements = false; // false
-		instance.minimumListItemsGenerated = 1;
-		instance.maximumRecursionDepth = 1;
-		instance.generateDefaultAttributes = true;
-		instance.generateFixedAttributes = true;
-		instance.generateOptionalAttributes = false; // false
-		instance.sampleValueGenerator = new SampleValueGeneratorImpl();
-		
 		for ( File xsd : XsdLists ) {
-			QName root = new QName(getNamesapce(xsd),"Document");
+			
+			if ( xsd.getName().contains("BusinessApplicationHeader"))
+				continue;
+			
+			QName root = new QName(getNamesapce(xsd),ROOT_ELEMENT_DUCMENT);
 			XSModel xsModel = new XSParser().parse(xsd.getAbsolutePath());
 			XMLDocument sample = new XMLDocument(new StreamResult(new File(outputDir + "/" + xsd.getName() + ".txt")), true, 4, "utf-8");
 			try {
-				instance.generate(xsModel, root, sample);
+				INSTANCE.generate(xsModel, root, sample);
 			} catch (RuntimeException re ) {
-				System.err.println("오류파일 : " + xsd.getName());
+				System.out.println("--- 오류난 파일 : " + xsd.getName());
+				re.printStackTrace();
+			}
+			
+			// AppHdr
+			File bahXsd = new File(INPUT_PATH + "/Fedwire_Funds_Service_Release_2025_BusinessApplicationHeader_head_001_001_03_20230831_2310_iso15enriched.xsd");
+			root = new QName(getNamesapce(bahXsd),ROOT_ELEMENT_APPHDR);
+			xsModel = new XSParser().parse(bahXsd.getAbsolutePath());
+			sample = new XMLDocument(new StreamResult(new File(outputDir + "/bah_" + xsd.getName() + ".txt")), true, TAP_SPACE_SIZE, "utf-8");
+			try {
+				INSTANCE.generate(xsModel, root, sample);
+			} catch (RuntimeException re ) {
+				System.out.println(bahXsd.getName());
 				re.printStackTrace();
 			}
 		}
@@ -111,128 +134,18 @@ public class GenerateWorkMain {
 			System.out.println("--- CONVERT : " + result.getName());
 			FileReader fr = null;
 			BufferedReader br = null;
-			FileWriter fw = null;
-			BufferedWriter bw = null;
-			try {
-				fr = new FileReader(result);
-				br = new BufferedReader(fr);
-				fw = new FileWriter(new File(convertDir + "/" + result.getName()));
-				bw = new BufferedWriter(fw);
-				
-				String temp = "";
-				while ( ( temp = br.readLine() ) != null ) {
-					if ( temp.trim().length() == 0 )
-						continue;
-					if ( temp.trim().startsWith("<!--") ) 
-						continue;
-					bw.write(temp);
-					bw.newLine();
-				}
-				bw.flush();
-			} catch ( Exception e ) {
-				e.printStackTrace();
-			} finally {
-				try {
-					if ( bw != null ) bw.close();
-					if ( fw != null ) fw.close();
-					if ( fr != null ) fr.close();
-					if ( br != null ) br.close();
-				} catch ( Exception e1 ) {}
-			}
-		}
-	}
-	
-	/**
-	 * 한국은행 ISO 20022 XML 생성
-	 * @throws TransformerConfigurationException
-	 * @throws SAXException
-	 * @throws IOException
-	 * @throws ParserConfigurationException
-	 */
-	public static void generateBokWire() throws TransformerConfigurationException, SAXException, IOException, ParserConfigurationException {
-		File rootDir = null;
-		File resultDir = null;
-		File convertDir = null;
-		
-		rootDir = new File(INPUT_PATH);
-		resultDir = new File(OUTPUT_PATH);
-		convertDir = new File(CONVERT_PATH);
-		File [] XsdLists = rootDir.listFiles(new FileFilter() {
-			@Override
-			public boolean accept(File pathname) {
-				if ( pathname.getName().endsWith(".xsd")) {
-					if ( pathname.getName().startsWith("BOK_") )
-						return true;
-				}
-				return false;
-			}
-		});
-		
-		XSInstance instance = new XSInstance();
-		instance.minimumElementsGenerated = 1;
-		instance.maximumElementsGenerated = 1;
-		instance.generateAllChoices = true;
-		instance.generateOptionalElements = false;
-		instance.minimumListItemsGenerated = 1;
-		instance.maximumRecursionDepth = 1;
-		instance.generateDefaultAttributes = true;
-		instance.generateFixedAttributes = true;
-		instance.generateOptionalAttributes = false;
-		instance.sampleValueGenerator = new SampleValueGeneratorImpl();
-		
-		for ( File xsd : XsdLists ) {
-			QName root = new QName(getNamesapce(xsd),"Document");
-			XSModel xsModel = new XSParser().parse(xsd.getAbsolutePath());
-			XMLDocument sample = new XMLDocument(new StreamResult(new File(resultDir + "/" + xsd.getName() + ".txt")), true, 4, "utf-8");
-			try {
-				instance.generate(xsModel, root, sample);
-			} catch (RuntimeException re ) {
-				System.out.println(xsd.getName());
-				re.printStackTrace();
-			}
-			
-			String bah = "bah_" + xsd.getName();
-			File bahXsd = new File(rootDir + "/" + bah);
-			
-			root = new QName(getNamesapce(bahXsd),"AppHdr");
-			xsModel = new XSParser().parse(bahXsd.getAbsolutePath());
-			sample = new XMLDocument(new StreamResult(new File(resultDir + "/" + bahXsd.getName() + ".txt")), true, 4, "utf-8");
-			try {
-				instance.generate(xsModel, root, sample);
-			} catch (RuntimeException re ) {
-				System.out.println(bahXsd.getName());
-				re.printStackTrace();
-			}
-		}
-		
-		/* 결과 컨버팅 bah와 document 병합 작업임 */
-		File [] resultList = resultDir.listFiles(new FileFilter() {
-			@Override
-			public boolean accept(File pathname) {
-				if ( pathname.getName().startsWith("BOK_") )
-					return true;
-				return false;
-			}
-		});
-		for ( File result : resultList ) {
-			
-			System.out.println("--- CONVERT : " + result.getName());
-			FileReader fr = null;
-			BufferedReader br = null;
 			FileReader fr2 = null;
 			BufferedReader br2 = null;
 			FileWriter fw = null;
 			BufferedWriter bw = null;
 			try {
-				fr2 = new FileReader(resultDir.getAbsolutePath() + "/bah_" + result.getName());
+				fr2 = new FileReader(outputDir.getAbsolutePath() + "/bah_" + result.getName());
 				br2 = new BufferedReader(fr2);
 				fr = new FileReader(result);
 				br = new BufferedReader(fr);
 				fw = new FileWriter(new File(convertDir + "/" + result.getName()));
 				bw = new BufferedWriter(fw);
 				
-				//     BOK_Phase1_CorePayment_v_1_1_BOK_acmt_023_001_03_IdentificationVerificationRequest_20230829_0121_iso15enriched.xsd.txt
-				// bah_BOK_Phase1_CorePayment_v_1_1_BOK_acmt_023_001_03_IdentificationVerificationRequest_20230829_0121_iso15enriched.xsd.txt
 				String temp = "";
 				while ( ( temp = br2.readLine() ) != null ) {
 					if ( temp.trim().length() == 0 )
@@ -259,12 +172,9 @@ public class GenerateWorkMain {
 					if ( fw != null ) fw.close();
 					if ( fr != null ) fr.close();
 					if ( br != null ) br.close();
-					if ( fr2 != null ) fr2.close();
-					if ( br2 != null ) br2.close();
 				} catch ( Exception e1 ) {}
 			}
 		}
-
 	}
 	
 	public static String getNamesapce(File xsd) throws SAXException, IOException, ParserConfigurationException {
@@ -311,9 +221,9 @@ class SampleValueGeneratorImpl implements SampleValueGenerator {
 					} catch ( Exception e ) {
 						
 						if ( pattern.contains("{1,") ) {
-							pattern = "[0-9a-zA-Z]{" + pattern.substring(pattern.indexOf("{1,") + 3);
+							pattern = "[0-9a-zA-Z]{" + pattern.substring(pattern.lastIndexOf("{1,") + 3);
 						}
-						System.out.println(element.getName() + "\t" + pattern);
+//						System.out.println(element.getName() + "\t" + pattern);
 						retValue = new RandomStringGenerator().generateByRegex(pattern);
 					}
 					return retValue;

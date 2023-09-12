@@ -4,16 +4,16 @@
         <!--(ns:MsgId , ns:CreDtTm?)-->
               
         <ns:MsgHdr>
-            <ns:MsgId>woC5qJWyT5tHWlkHv3DarjfkHqrZnkqYk8d</ns:MsgId>
+            <ns:MsgId>a6U35FxDqKT4NE0F6lNbyXx1f4bqgenOOz1</ns:MsgId>
         </ns:MsgHdr>
         <ns:PmtId>
                      
             <!--(ns:TxId? , ns:UETR , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt)-->
                      
             <ns:LngBizId>
-                <ns:UETR>5213312d-a78c-4815-87f3-7cbbb104bc8a</ns:UETR>
+                <ns:UETR>958b2a8d-6933-4bda-b499-1a86cd31ffcc</ns:UETR>
                 <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-                <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+                <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
                 <ns:InstgAgt>
                                    
                     <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
@@ -46,6 +46,8 @@
         <!--(ns:Orgtr? , ns:Rsn? , ns:AddtlInf)-->
               
         <ns:CxlRsn>
+            <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
+            <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
             <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
         </ns:CxlRsn>
     </ns:CclTx>

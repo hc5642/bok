@@ -1,7 +1,7 @@
 <ns:Document xmlns:ns="urn:swift:xsd:mirs.095.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:ActvtnDeactvtn>
         <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-        <ns:DtAndTm>2023-09-11T13:31:48</ns:DtAndTm>
+        <ns:DtAndTm>2023-09-12T14:58:43</ns:DtAndTm>
         <ns:ActvtnDeactvtn>ACTI</ns:ActvtnDeactvtn>
     </ns:ActvtnDeactvtn>
 </ns:Document>

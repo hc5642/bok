@@ -1,0 +1,51 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.002.001.10",
+        "FIToFIPmtStsRpt": {
+            "TxInfAndSts": {
+                "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}},
+                "OrgnlUETR": "53c1033e-8116-45a6-9d64-a195e9be16d5",
+                "OrgnlGrpInf": {
+                    "OrgnlMsgId": "00000000000000000000000000000000000",
+                    "OrgnlMsgNmId": "00000000000000000000000000000000000",
+                    "OrgnlCreDtTm": "2023-09-12T14:53:16"
+                },
+                "OrgnlEndToEndId": "00000000000000000000000000000000000",
+                "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": 1016
+                }}},
+                "TxSts": "ACSC",
+                "ClrSysRef": "00000000000000000000000000000000000",
+                "StsRsnInf": {"AddtlInf": [
+                    "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                    "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                ]}
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T14:53:16",
+                "MsgId": "00000000000000000000000000000000000"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": 1016
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "MsgDefIdr": "pacs.002.01.10",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "bok.rtgs.cls.01",
+        "CreDt": "2023-09-12T14:53:16"
+    }
+}

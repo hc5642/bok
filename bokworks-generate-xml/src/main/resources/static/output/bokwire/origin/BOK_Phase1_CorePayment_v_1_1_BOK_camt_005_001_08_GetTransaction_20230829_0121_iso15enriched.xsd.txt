@@ -4,7 +4,7 @@
         <!--(ns:MsgId , ns:CreDtTm? , ns:ReqTp)-->
               
         <ns:MsgHdr>
-            <ns:MsgId>SDhvzvOp1w5uIGXsdeDPebwWJi6BUOeDWJ4</ns:MsgId>
+            <ns:MsgId>s6E5wxtZyCAHbcR5WEIkGfPeYNqXx4qMgni</ns:MsgId>
             <ns:ReqTp>
                 <ns:Prtry>
                     <ns:Id>ICSC</ns:Id>
@@ -17,27 +17,7 @@
                                    
                     <!--(ns:PmtTo* , ns:PmtFr* , ns:PmtSch?)-->
                                    
-                    <ns:SchCrit>
-                                          
-                        <!--(ns:MmbId?)-->
-                                          
-                        <ns:PmtTo/>
-                        <ns:PmtFr>
-                            <ns:MmbId>
-                                                        
-                                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
-                                                        
-                                <ns:FinInstnId>
-                                    <ns:ClrSysMmbId>
-                                        <ns:ClrSysId>
-                                            <ns:Cd>KRBOK</ns:Cd>
-                                        </ns:ClrSysId>
-                                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
-                                    </ns:ClrSysMmbId>
-                                </ns:FinInstnId>
-                            </ns:MmbId>
-                        </ns:PmtFr>
-                    </ns:SchCrit>
+                    <ns:SchCrit/>
                 </ns:NewCrit>
             </ns:TxCrit>
         </ns:TxQryDef>

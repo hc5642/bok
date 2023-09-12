@@ -1,0 +1,86 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.005.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "GetTx": {
+            "MsgHdr": {
+                "CreDtTm": "2023-09-12T13:13:19",
+                "MsgId": "CQfPbFsV9JQGUHQmFrzrUwUCXN6DuCujXlU",
+                "ReqTp": {"Prtry": {"Id": "IRPQ"}}
+            },
+            "TxQryDef": {"TxCrit": {"NewCrit": {"SchCrit": {
+                "PmtSch": {
+                    "IntrBkSttlmDt": "2023-09-12",
+                    "PmtId": {"PrtryId": "0000000000000000000000000000000000000000000000000000000000000000000000"},
+                    "MsgId": "l0F2YDIFsAsrFRMVNT4ZU7UT87kCgTp6v6r"
+                },
+                "PmtTo": {"MmbId": {"FinInstnId": {
+                    "BICFI": "JNFCLK5J(ZL1)",
+                    "ClrSysMmbId": {
+                        "ClrSysId": {"Cd": "KRBOK"},
+                        "MmbId": "0000000000000000000000000000"
+                    },
+                    "LEI": "6JG45YU65S6OTKL42J34"
+                }}},
+                "PmtFr": {"MmbId": {"FinInstnId": {
+                    "BICFI": "GBXHNW1M(A05)",
+                    "ClrSysMmbId": {
+                        "ClrSysId": {"Cd": "KRBOK"},
+                        "MmbId": "0000000000000000000000000000"
+                    },
+                    "LEI": "U53PEKOBPS4B6WMBHF14"
+                }}}
+            }}}}
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "CharSet": "CharSet1",
+        "Fr": {"FIId": {"FinInstnId": {
+            "BICFI": "VZK9ZN7U(PEZ)",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": "00000000000000000000000000000000000"
+            },
+            "LEI": "TQ3Z9AM8SV0GIK5QIB93"
+        }}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {
+            "BICFI": "083TFSWG(0NW",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": 1016
+            },
+            "LEI": "1TSHRICVZN0VCS133651"
+        }}},
+        "MsgDefIdr": "camt.005.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+        "Rltd": {
+            "CharSet": "CharSet2",
+            "Fr": {"FIId": {"FinInstnId": {
+                "BICFI": "NZ2VZD6C(F02",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "G4A9JKX2C9HF6KRCMF24"
+            }}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": {
+                "BICFI": "YINCCAIV(8PP)",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "39H37XB4LKXZBVAAGR74"
+            }}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+            "CreDt": "2023-09-12T13:13:20"
+        },
+        "CreDt": "2023-09-12T13:13:20"
+    }
+}

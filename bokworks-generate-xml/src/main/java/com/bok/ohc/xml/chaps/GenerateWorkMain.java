@@ -44,10 +44,29 @@ public class GenerateWorkMain {
 	final static String INPUT_PATH = "./src/main/resources/static/input/chaps";
 	final static String OUTPUT_PATH = "./src/main/resources/static/output/chaps";
 	final static String CONVERT_PATH = "./src/main/resources/static/output/chaps/convert_MIN";
+
+	final static String PRE_FIX = "CHAPS_";
+	final static String POST_FIX = ".xsd";
+	final static String ROOT_ELEMENT_DUCMENT = "Document";
+	final static String ROOT_ELEMENT_APPHDR = "AppHdr";
+	
+	final static int	TAP_SPACE_SIZE = 4; 
+	public static XSInstance INSTANCE = new XSInstance();
 	
 	public static void main(String[] args) throws TransformerConfigurationException, SAXException, IOException, ParserConfigurationException {
 		
-		generateBokWire();
+		INSTANCE.minimumElementsGenerated = 0; // 0
+		INSTANCE.maximumElementsGenerated = 0; // 1
+		INSTANCE.generateAllChoices = true;
+		INSTANCE.generateOptionalElements = false; // false
+		INSTANCE.minimumListItemsGenerated = 1;
+		INSTANCE.maximumRecursionDepth = 1;
+		INSTANCE.generateDefaultAttributes = true;
+		INSTANCE.generateFixedAttributes = true;
+		INSTANCE.generateOptionalAttributes = false; // false
+		INSTANCE.sampleValueGenerator = new SampleValueGeneratorImpl();
+		
+		generateChaps();
 		
 	}
 	
@@ -58,7 +77,7 @@ public class GenerateWorkMain {
 	 * @throws IOException
 	 * @throws ParserConfigurationException
 	 */
-	public static void generateBokWire() throws TransformerConfigurationException, SAXException, IOException, ParserConfigurationException {
+	public static void generateChaps() throws TransformerConfigurationException, SAXException, IOException, ParserConfigurationException {
 		File rootDir = null;
 		File resultDir = null;
 		File convertDir = null;
@@ -69,8 +88,8 @@ public class GenerateWorkMain {
 		File [] XsdLists = rootDir.listFiles(new FileFilter() {
 			@Override
 			public boolean accept(File pathname) {
-				if ( pathname.getName().endsWith(".xsd")) {
-					if ( pathname.getName().startsWith("CHAPS_") )
+				if ( pathname.getName().endsWith(POST_FIX)) {
+					if ( pathname.getName().startsWith(PRE_FIX) )
 						return true;
 				}
 				return false;
@@ -78,21 +97,21 @@ public class GenerateWorkMain {
 		});
 		
 		XSInstance instance = new XSInstance();
-		instance.minimumElementsGenerated = 1;
-		instance.maximumElementsGenerated = 1;
+		instance.minimumElementsGenerated = 0; // 0
+		instance.maximumElementsGenerated = 0;
 		instance.generateAllChoices = true;
-		instance.generateOptionalElements = false;
+		instance.generateOptionalElements = false; // false
 		instance.minimumListItemsGenerated = 1;
 		instance.maximumRecursionDepth = 1;
 		instance.generateDefaultAttributes = true;
 		instance.generateFixedAttributes = true;
-		instance.generateOptionalAttributes = false;
+		instance.generateOptionalAttributes = false; // false
 		instance.sampleValueGenerator = new SampleValueGeneratorImpl();
 		
 		for ( File xsd : XsdLists ) {
 			if ( xsd.getName().startsWith("CHAPS_head_001") )
 				continue;
-			QName root = new QName(getNamesapce(xsd),"Document");
+			QName root = new QName(getNamesapce(xsd),ROOT_ELEMENT_DUCMENT);
 			XSModel xsModel = new XSParser().parse(xsd.getAbsolutePath());
 			XMLDocument sample = new XMLDocument(new StreamResult(new File(resultDir + "/" + xsd.getName() + ".txt")), true, 4, "utf-8");
 			try {
@@ -105,7 +124,7 @@ public class GenerateWorkMain {
 			String bah = "bah_" + xsd.getName();
 			File bahXsd = new File(rootDir + "/" + bah);
 			
-			root = new QName(getNamesapce(bahXsd),"AppHdr");
+			root = new QName(getNamesapce(bahXsd),ROOT_ELEMENT_APPHDR);
 			xsModel = new XSParser().parse(bahXsd.getAbsolutePath());
 			sample = new XMLDocument(new StreamResult(new File(resultDir + "/" + bahXsd.getName() + ".txt")), true, 4, "utf-8");
 			try {
@@ -120,7 +139,7 @@ public class GenerateWorkMain {
 		File [] resultList = resultDir.listFiles(new FileFilter() {
 			@Override
 			public boolean accept(File pathname) {
-				if ( pathname.getName().startsWith("CHAPS_") )
+				if ( pathname.getName().startsWith(PRE_FIX) )
 					return true;
 				return false;
 			}
@@ -222,7 +241,7 @@ class SampleValueGeneratorImpl implements SampleValueGenerator {
 					} catch ( Exception e ) {
 						
 						if ( pattern.contains("{1,") ) {
-							pattern = "[0-9a-zA-Z]{" + pattern.substring(pattern.indexOf("{1,") + 3);
+							pattern = "[0-9a-zA-Z]{" + pattern.substring(pattern.lastIndexOf("{1,") + 3);
 						}
 						System.out.println(element.getName() + "\t" + pattern);
 						retValue = new RandomStringGenerator().generateByRegex(pattern);

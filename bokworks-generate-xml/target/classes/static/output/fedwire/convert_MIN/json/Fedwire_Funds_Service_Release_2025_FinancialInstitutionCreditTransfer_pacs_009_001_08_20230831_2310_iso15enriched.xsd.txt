@@ -1,0 +1,54 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08",
+        "FICdtTrf": {
+            "CdtTrfTxInf": {
+                "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 478789097
+                }}},
+                "InstrForCdtrAgt": "",
+                "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 555587232
+                }}},
+                "IntrBkSttlmAmt": {
+                    "Ccy": "USD",
+                    "content": 5.04
+                },
+                "IntrBkSttlmDt": "2023-09-12",
+                "Cdtr": {"FinInstnId": ""},
+                "PmtId": {
+                    "UETR": "7ea3180f-abe5-40c1-94bc-1632acad1ebb",
+                    "EndToEndId": "00000000000000000000000000000000000"
+                },
+                "PmtTpInf": {"LclInstrm": {"Prtry": "BTRC"}},
+                "Dbtr": {"FinInstnId": ""}
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T13:45:05",
+                "NbOfTxs": 1,
+                "SttlmInf": {
+                    "SttlmMtd": "CLRG",
+                    "ClrSys": {"Cd": "FDW"}
+                },
+                "MsgId": "0000000000000000000000"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "3N4FR0NVS"}}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "VOBCED5TV"}}}},
+        "MsgDefIdr": "n98",
+        "MktPrctc": {
+            "Id": "000000000000000000",
+            "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "TEST",
+        "CreDt": "2023-09-12T13:45:05"
+    }
+}

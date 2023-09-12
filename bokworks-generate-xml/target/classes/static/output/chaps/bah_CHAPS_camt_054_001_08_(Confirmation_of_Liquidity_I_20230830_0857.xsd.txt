@@ -7,7 +7,7 @@
             <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI?)-->
                      
             <ns:FinInstnId>
-                <ns:BICFI>Z10XBJX1(XOU</ns:BICFI>
+                <ns:BICFI>GG53YVSS(UTV)</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
@@ -17,12 +17,12 @@
             <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI?)-->
                      
             <ns:FinInstnId>
-                <ns:BICFI>SP6NKEPF(829</ns:BICFI>
+                <ns:BICFI>0READL3E(RUL)</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-11T13:31:48</ns:CreDt>
+    <ns:CreDt>2023-09-12T14:58:43</ns:CreDt>
 </ns:AppHdr>

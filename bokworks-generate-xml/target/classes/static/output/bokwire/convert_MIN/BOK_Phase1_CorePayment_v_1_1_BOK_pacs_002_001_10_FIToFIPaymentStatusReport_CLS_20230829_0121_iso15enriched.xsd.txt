@@ -26,41 +26,25 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.002.01.10</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.cls.01</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    <ns:Rltd>
-        <ns:Fr>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:Fr>
-        <ns:To>
-            <ns:OrgId/>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:To>
-        <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
-        <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    </ns:Rltd>
+    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:FIToFIPmtStsRpt>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
         </ns:GrpHdr>
         <ns:TxInfAndSts>
             <ns:OrgnlGrpInf>
                 <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
                 <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
-                <ns:OrgnlCreDtTm>2023-09-11T14:42:23</ns:OrgnlCreDtTm>
+                <ns:OrgnlCreDtTm>2023-09-12T14:53:16</ns:OrgnlCreDtTm>
             </ns:OrgnlGrpInf>
             <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
-            <ns:OrgnlUETR>8ed198e9-8a9a-469f-918f-25a109448ba7</ns:OrgnlUETR>
-            <ns:TxSts>PDNG</ns:TxSts>
+            <ns:OrgnlUETR>53c1033e-8116-45a6-9d64-a195e9be16d5</ns:OrgnlUETR>
+            <ns:TxSts>ACSC</ns:TxSts>
             <ns:StsRsnInf>
+                <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
                 <ns:AddtlInf>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
             </ns:StsRsnInf>
             <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>

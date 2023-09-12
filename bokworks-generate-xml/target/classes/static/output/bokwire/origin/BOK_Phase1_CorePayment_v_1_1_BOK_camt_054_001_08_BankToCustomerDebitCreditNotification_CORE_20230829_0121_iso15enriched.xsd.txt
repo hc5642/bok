@@ -1,59 +1,59 @@
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
- <ns:BkToCstmrDbtCdtNtfctn>
-  <ns:GrpHdr>
-   <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-   <ns:CreDtTm>2023-09-11T14:41:55</ns:CreDtTm>
-   <ns:AddtlInf>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
-  </ns:GrpHdr>
-  <ns:Ntfctn>
-   <ns:Id>00000000000000000000000000000000000</ns:Id>
-   <ns:RptgSrc>
-    <ns:Prtry>LVPS</ns:Prtry>
-   </ns:RptgSrc>
-            
-   <!--(ns:Id , ns:Tp? , ns:Ccy?)-->
-            
-   <ns:Acct>
-    <ns:Id>
-     <ns:Othr>
-      <ns:Id>0000000000000000000000000000000000</ns:Id>
-     </ns:Othr>
-    </ns:Id>
-   </ns:Acct>
-            
-   <!--(ns:NtryRef? , ns:Amt , ns:CdtDbtInd , ns:Sts , ns:BookgDt , ns:BkTxCd , ns:NtryDtls)-->
-            
-   <ns:Ntry>
-    <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
-    <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
-    <ns:Sts>
-     <ns:Cd>BOOK</ns:Cd>
-    </ns:Sts>
-    <ns:BookgDt>
-     <ns:DtTm>2023-09-11T14:41:55</ns:DtTm>
-    </ns:BookgDt>
-    <ns:BkTxCd>
-     <ns:Prtry>
-      <ns:Cd>DSR001</ns:Cd>
-     </ns:Prtry>
-    </ns:BkTxCd>
-    <ns:NtryDtls>
-                    
-     <!--(ns:Refs , ns:RltdPties? , ns:RltdAgts? , ns:RmtInf? , ns:AddtlTxInf?)-->
-                    
-     <ns:TxDtls>
-                        
-      <!--(ns:MsgId , ns:InstrId? , ns:EndToEndId , ns:UETR , ns:TxId? , ns:ClrSysRef)-->
-                        
-      <ns:Refs>
-       <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-       <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-       <ns:UETR>734f117e-1b52-4478-aba6-0d822c0b87b1</ns:UETR>
-       <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
-      </ns:Refs>
-     </ns:TxDtls>
-    </ns:NtryDtls>
-   </ns:Ntry>
-  </ns:Ntfctn>
- </ns:BkToCstmrDbtCdtNtfctn>
+    <ns:BkToCstmrDbtCdtNtfctn>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
+            <ns:AddtlInf>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlInf>
+        </ns:GrpHdr>
+        <ns:Ntfctn>
+            <ns:Id>00000000000000000000000000000000000</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+                     
+            <!--(ns:Id , ns:Tp? , ns:Ccy?)-->
+                     
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+            </ns:Acct>
+                     
+            <!--(ns:NtryRef? , ns:Amt , ns:CdtDbtInd , ns:Sts , ns:BookgDt , ns:BkTxCd , ns:NtryDtls)-->
+                     
+            <ns:Ntry>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
+                <ns:Sts>
+                    <ns:Cd>BOOK</ns:Cd>
+                </ns:Sts>
+                <ns:BookgDt>
+                    <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
+                </ns:BookgDt>
+                <ns:BkTxCd>
+                    <ns:Prtry>
+                        <ns:Cd>DSR008</ns:Cd>
+                    </ns:Prtry>
+                </ns:BkTxCd>
+                <ns:NtryDtls>
+                                   
+                    <!--(ns:Refs , ns:RltdPties? , ns:RltdAgts? , ns:RmtInf? , ns:AddtlTxInf?)-->
+                                   
+                    <ns:TxDtls>
+                                          
+                        <!--(ns:MsgId , ns:InstrId? , ns:EndToEndId , ns:UETR , ns:TxId? , ns:ClrSysRef)-->
+                                          
+                        <ns:Refs>
+                            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+                            <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
+                            <ns:UETR>e3d0fef3-6c41-409b-9e2c-925b9c0abdee</ns:UETR>
+                            <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
+                        </ns:Refs>
+                    </ns:TxDtls>
+                </ns:NtryDtls>
+            </ns:Ntry>
+        </ns:Ntfctn>
+    </ns:BkToCstmrDbtCdtNtfctn>
 </ns:Document>

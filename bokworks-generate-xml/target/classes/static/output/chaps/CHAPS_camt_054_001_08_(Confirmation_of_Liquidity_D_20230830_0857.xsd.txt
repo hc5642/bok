@@ -2,14 +2,14 @@
     <ns:BkToCstmrDbtCdtNtfctn>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:58:43</ns:CreDtTm>
         </ns:GrpHdr>
         <ns:Ntfctn>
             <ns:Id>0000000000000000</ns:Id>
             <ns:Acct>
                 <ns:Id>
                     <ns:Othr>
-                        <ns:Id>43687179</ns:Id>
+                        <ns:Id>87305344</ns:Id>
                     </ns:Othr>
                 </ns:Id>
             </ns:Acct>
@@ -18,13 +18,13 @@
                      
             <ns:Ntry>
                 <ns:NtryRef>0000000000000000</ns:NtryRef>
-                <ns:Amt Ccy="Ccy1">1.69345</ns:Amt>
+                <ns:Amt Ccy="Ccy1">1.02241</ns:Amt>
                 <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
                 <ns:Sts>
                     <ns:Cd>BOOK</ns:Cd>
                 </ns:Sts>
                 <ns:ValDt>
-                    <ns:Dt>2023-09-11</ns:Dt>
+                    <ns:Dt>2023-09-12</ns:Dt>
                 </ns:ValDt>
                 <ns:BkTxCd>
                     <ns:Prtry>

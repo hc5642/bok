@@ -1,0 +1,93 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.052.001.08",
+        "BkToCstmrAcctRpt": {
+            "Rpt": {
+                "Id": "AyW5hPjC4L1NSXFB7mX0HvQJQN34HLmrfDC",
+                "Acct": {
+                    "Ccy": "CVD",
+                    "Tp": {"Prtry": "TNPB_1062"},
+                    "Id": {"Othr": {"Id": "0000000000000000000000000000000000"}}
+                },
+                "Bal": {
+                    "Tp": {
+                        "CdOrPrtry": {"Cd": "CLBD"},
+                        "SubTp": {"Cd": "INTM"}
+                    },
+                    "Amt": {
+                        "Ccy": "KRW",
+                        "content": -922337203685477580
+                    },
+                    "Dt": {"DtTm": "2023-09-12T13:13:20"},
+                    "CdtDbtInd": "DBIT"
+                },
+                "RptgSrc": {"Prtry": "LVPS"}
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T13:13:20",
+                "MsgPgntn": {
+                    "PgNb": 1,
+                    "LastPgInd": true
+                },
+                "AddtlInf": "yax7upcwK59YCwP44UyrNT3LlIZf40w30Z6vtrlaZVwSD1ehrJ1yZqgQYyTrI7tYXRJuAm5VNCNrBbzbLkdkFP43ADubPiOeZCSKOdzbzgsKq5pTAvnp20GKZlJHtqf9UYHg2nWYuJSBTKU6O2GuIbEDzPEEZ89JDdX5RPCP48c6FVfBwRykKpKv1Fq367Yd87JBuYlGknE40MwzpWuL1rGG7SAgDM459Jl8XPjJf3Lzf2cpw3vS6U24TdtsQsfXLi4dkZm7EfDA9Togj3GalQV6UWi08WLs22BJy9HRbr8qcKaOweEjQmNh809KyzbNo8Z4X2IvYOztvhBej1BzsVdlzCBQMyzoSuBhnZZRFnJKNLIbVXgRBKwAOQfzN4x5sI6NgfGLdqGL2unOJOYmdtJj5g2SSsPl8QhChxTAK3a7VkOSc5i0sk4pmirBAcjqPmOKzsJ7KM7hlCigoHhAzuSA9udEXNW4t30aXg0WIlqrvbz99Spb",
+                "OrgnlBizQry": {
+                    "CreDtTm": "2023-09-12T13:13:20",
+                    "MsgNmId": "camt.060.001.05",
+                    "MsgId": "npIZ0jQw7OJtlQlzk3TZkI8mjpxAwwSaWnc"
+                },
+                "MsgId": "ucRUa98SmwBJlieHKu3hsDbo7ujKuf3bklq"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "CharSet": "CharSet1",
+        "Fr": {"FIId": {"FinInstnId": {
+            "BICFI": "P0AGROTB(7DE)",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": 1016
+            },
+            "LEI": "VVRDBQ8GXE76DJP2Y796"
+        }}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {
+            "BICFI": "EGCECPN1(C6G",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": "00000000000000000000000000000000000"
+            },
+            "LEI": "UYKS7D02V3B3G1BAZH74"
+        }}},
+        "MsgDefIdr": "camt.052.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "bok.rtgs.01",
+        "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+        "Rltd": {
+            "CharSet": "CharSet2",
+            "Fr": {"FIId": {"FinInstnId": {
+                "BICFI": "NGT0LD2H(6S1",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "93VTDU69LKSH5RYGVQ93"
+            }}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": {
+                "BICFI": "S0D3JPH5(C6I",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "LECTQYPH1T1O3CH81G24"
+            }}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+            "CreDt": "2023-09-12T13:13:20"
+        },
+        "CreDt": "2023-09-12T13:13:20"
+    }
+}

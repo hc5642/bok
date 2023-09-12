@@ -34,40 +34,5 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.002.01.10</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.cls.01</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-       
-    <!--(ns:CharSet? , ns:Fr , ns:To , ns:BizMsgIdr , ns:MsgDefIdr , ns:BizSvc , ns:CreDt , ns:Sgntr?)-->
-       
-    <ns:Rltd>
-        <ns:Fr>
-            <ns:FIId>
-                            
-                <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI?)-->
-                            
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:Fr>
-              
-        <!--(ns:OrgId | ns:FIId)-->
-              
-        <ns:To>
-                     
-            <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes? , ns:CtctDtls?)-->
-                     
-            <ns:OrgId/>
-                     
-            <!--(ns:FinInstnId , ns:BrnchId?)-->
-                     
-            <ns:FIId>
-                            
-                <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr? , ns:Othr?)-->
-                            
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:To>
-        <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
-        <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    </ns:Rltd>
+    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
 </ns:AppHdr>

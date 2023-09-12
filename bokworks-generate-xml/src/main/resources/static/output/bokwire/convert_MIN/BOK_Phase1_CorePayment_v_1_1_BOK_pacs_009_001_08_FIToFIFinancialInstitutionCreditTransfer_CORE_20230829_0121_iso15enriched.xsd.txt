@@ -26,13 +26,13 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.009.001.08</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.gnlfndtrf.01</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:24</ns:CreDt>
+    <ns:CreDt>2023-09-12T14:53:17</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:24</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -44,23 +44,19 @@
         <ns:CdtTrfTxInf>
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>4810136d-1cfb-41d1-a809-03515c983224</ns:UETR>
+                <ns:UETR>376f3a66-5eec-41f0-a619-d8616f314e17</ns:UETR>
             </ns:PmtId>
             <ns:PmtTpInf>
-                <ns:InstrPrty>NORM</ns:InstrPrty>
-                <ns:SvcLvl>
-                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
-                    <ns:Cd>0000</ns:Cd>
-                </ns:SvcLvl>
+                <ns:InstrPrty>HIGH</ns:InstrPrty>
                 <ns:LclInstrm>
-                    <ns:Prtry>BKS10B021</ns:Prtry>
+                    <ns:Prtry>BKS10B031</ns:Prtry>
                 </ns:LclInstrm>
                 <ns:CtgyPurp>
                     <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                 </ns:CtgyPurp>
             </ns:PmtTpInf>
             <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:SttlmPrty>HIGH</ns:SttlmPrty>
             <ns:InstgAgt>
                 <ns:FinInstnId>
@@ -102,8 +98,6 @@
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:Cdtr>
-            <ns:InstrForCdtrAgt/>
-            <ns:InstrForNxtAgt/>
         </ns:CdtTrfTxInf>
     </ns:FICdtTrf>
 </ns:Document>

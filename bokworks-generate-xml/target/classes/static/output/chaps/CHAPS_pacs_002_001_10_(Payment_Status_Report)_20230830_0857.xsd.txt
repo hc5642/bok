@@ -2,7 +2,7 @@
     <ns:FIToFIPmtStsRpt>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:58:43</ns:CreDtTm>
         </ns:GrpHdr>
               
         <!--(ns:OrgnlGrpInf , ns:OrgnlInstrId , ns:OrgnlEndToEndId , ns:OrgnlUETR , ns:TxSts , ns:StsRsnInf? , ns:FctvIntrBkSttlmDt? , ns:ClrSysRef? , ns:InstgAgt , ns:InstdAgt)-->
@@ -11,18 +11,18 @@
             <ns:OrgnlGrpInf>
                 <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
                 <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
-                <ns:OrgnlCreDtTm>2023-09-11T13:31:48</ns:OrgnlCreDtTm>
+                <ns:OrgnlCreDtTm>2023-09-12T14:58:43</ns:OrgnlCreDtTm>
             </ns:OrgnlGrpInf>
             <ns:OrgnlInstrId>00000000000000000000000000000000000</ns:OrgnlInstrId>
             <ns:OrgnlEndToEndId>00000000000000000000000000000000000</ns:OrgnlEndToEndId>
-            <ns:OrgnlUETR>e1846ac1-7fe1-4f27-95f5-65ed7923fe27</ns:OrgnlUETR>
-            <ns:TxSts>RJCT</ns:TxSts>
+            <ns:OrgnlUETR>57cd3712-2a7c-499a-bc8b-7331fd37f94a</ns:OrgnlUETR>
+            <ns:TxSts>ACSC</ns:TxSts>
             <ns:InstgAgt>
                             
                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
                             
                 <ns:FinInstnId>
-                    <ns:BICFI>VCVPTHBK(BKL</ns:BICFI>
+                    <ns:BICFI>Q4QTNC6H(7TA)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstgAgt>
             <ns:InstdAgt>
@@ -30,7 +30,7 @@
                 <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
                             
                 <ns:FinInstnId>
-                    <ns:BICFI>WQU2WVY6(DWZ</ns:BICFI>
+                    <ns:BICFI>XGGDWDFO(N3Q)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstdAgt>
         </ns:TxInfAndSts>

@@ -2,10 +2,10 @@
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
             <ns:MsgId>ACTR</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:59:32</ns:CreDtTm>
             <ns:MsgPgntn>
-                <ns:PgNb>30</ns:PgNb>
-                <ns:LastPgInd>true</ns:LastPgInd>
+                <ns:PgNb>17</ns:PgNb>
+                <ns:LastPgInd>false</ns:LastPgInd>
             </ns:MsgPgntn>
         </ns:GrpHdr>
               
@@ -13,11 +13,11 @@
               
         <ns:Rpt>
             <ns:Id>EDAY</ns:Id>
-            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:59:32</ns:CreDtTm>
             <ns:Acct>
                 <ns:Id>
                     <ns:Othr>
-                        <ns:Id>071051788</ns:Id>
+                        <ns:Id>328656812</ns:Id>
                     </ns:Othr>
                 </ns:Id>
             </ns:Acct>

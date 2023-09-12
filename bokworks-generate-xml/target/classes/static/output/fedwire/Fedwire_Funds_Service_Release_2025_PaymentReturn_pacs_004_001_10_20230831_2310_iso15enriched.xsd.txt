@@ -1,0 +1,99 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.004.001.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:PmtRtr>
+        <ns:GrpHdr>
+            <ns:MsgId>0000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+            <ns:NbOfTxs>1</ns:NbOfTxs>
+            <ns:SttlmInf>
+                <ns:SttlmMtd>CLRG</ns:SttlmMtd>
+                <ns:ClrSys>
+                    <ns:Cd>FDW</ns:Cd>
+                </ns:ClrSys>
+            </ns:SttlmInf>
+        </ns:GrpHdr>
+              
+        <!--(ns:RtrId? , ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId? , ns:OrgnlTxId? , ns:OrgnlUETR , ns:OrgnlIntrBkSttlmAmt? , ns:OrgnlIntrBkSttlmDt? , ns:RtrdIntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:RtrdInstdAmt , ns:XchgRate? , ns:CompstnAmt? , ns:ChrgBr? , ns:ChrgsInf* , ns:InstgAgt , ns:InstdAgt , ns:RtrChain , ns:RtrRsnInf , ns:OrgnlTxRef)-->
+              
+        <ns:TxInf>
+            <ns:OrgnlGrpInf>
+                <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+                <ns:OrgnlMsgNmId>N95</ns:OrgnlMsgNmId>
+                <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+            </ns:OrgnlGrpInf>
+            <ns:OrgnlUETR>6d94dc05-5ba9-47ea-b817-d523c6343ca0</ns:OrgnlUETR>
+            <ns:RtrdIntrBkSttlmAmt Ccy="USD">1.17</ns:RtrdIntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
+            <ns:RtrdInstdAmt Ccy="Ccy1">1.62601</ns:RtrdInstdAmt>
+            <ns:InstgAgt>
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>USABA</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>770086367</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:InstgAgt>
+            <ns:InstdAgt>
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>USABA</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>969964569</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:InstdAgt>
+                     
+            <!--(ns:UltmtDbtr? , ns:Dbtr , ns:DbtrAcct? , ns:InitgPty? , ns:DbtrAgt? , ns:DbtrAgtAcct? , ns:PrvsInstgAgt1? , ns:PrvsInstgAgt1Acct? , ns:PrvsInstgAgt2? , ns:PrvsInstgAgt2Acct? , ns:PrvsInstgAgt3? , ns:PrvsInstgAgt3Acct? , ns:IntrmyAgt1? , ns:IntrmyAgt1Acct? , ns:IntrmyAgt2? , ns:IntrmyAgt2Acct? , ns:IntrmyAgt3? , ns:IntrmyAgt3Acct? , ns:CdtrAgt? , ns:CdtrAgtAcct? , ns:Cdtr , ns:CdtrAcct? , ns:UltmtCdtr?)-->
+                     
+            <ns:RtrChain>
+                            
+                <!--(ns:Pty | ns:Agt)-->
+                            
+                <ns:Dbtr>
+                                   
+                    <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                                   
+                    <ns:Pty/>
+                    <ns:Agt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                                          
+                        <ns:FinInstnId/>
+                    </ns:Agt>
+                </ns:Dbtr>
+                            
+                <!--(ns:Pty | ns:Agt)-->
+                            
+                <ns:Cdtr>
+                                   
+                    <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                                   
+                    <ns:Pty/>
+                    <ns:Agt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                                          
+                        <ns:FinInstnId/>
+                    </ns:Agt>
+                </ns:Cdtr>
+            </ns:RtrChain>
+                     
+            <!--(ns:Orgtr? , ns:Rsn , ns:AddtlInf[0,2])-->
+                     
+            <ns:RtrRsnInf>
+                <ns:Rsn>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:Rsn>
+            </ns:RtrRsnInf>
+            <ns:OrgnlTxRef>
+                <ns:PmtTpInf>
+                    <ns:LclInstrm>
+                        <ns:Prtry>BTRD</ns:Prtry>
+                    </ns:LclInstrm>
+                </ns:PmtTpInf>
+            </ns:OrgnlTxRef>
+        </ns:TxInf>
+    </ns:PmtRtr>
+</ns:Document>

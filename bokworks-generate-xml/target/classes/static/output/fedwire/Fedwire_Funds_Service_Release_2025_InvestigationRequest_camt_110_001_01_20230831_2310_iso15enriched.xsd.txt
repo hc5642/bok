@@ -1,0 +1,82 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:DRAFT1camt.110.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+       
+    <!--(ns:InvstgtnReq , ns:InvstgtnData+)-->
+       
+    <ns:InvstgtnReq>
+              
+        <!--(ns:MsgId , ns:RqstrInvstgtnId? , ns:RspndrInvstgtnId? , ns:InvstgtnTp , ns:Undrlyg , ns:Rqstr , ns:Rspndr)-->
+              
+        <ns:InvstgtnReq>
+            <ns:MsgId>0000000000000000000000</ns:MsgId>
+            <ns:InvstgtnTp>
+                <ns:Cd>0000</ns:Cd>
+            </ns:InvstgtnTp>
+                     
+            <!--(ns:Initn | ns:IntrBk)-->
+                     
+            <ns:Undrlyg>
+                            
+                <!--(ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId? , ns:OrgnlTxId? , ns:OrgnlUETR , ns:OrgnlIntrBkSttlmAmt? , ns:OrgnlIntrBkSttlmDt?)-->
+                            
+                <ns:IntrBk>
+                    <ns:OrgnlGrpInf>
+                        <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+                        <ns:OrgnlMsgNmId>J63</ns:OrgnlMsgNmId>
+                        <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+                    </ns:OrgnlGrpInf>
+                    <ns:OrgnlUETR>e743ff67-6c24-4630-9238-f189d8f0097e</ns:OrgnlUETR>
+                </ns:IntrBk>
+                            
+                <!--(ns:OrgnlGrpInf , ns:OrgnlPmtInfId? , ns:OrgnlInstrId? , ns:OrgnlEndToEndId? , ns:OrgnlUETR , ns:OrgnlInstdAmt? , ns:ReqdExctnDt)-->
+                            
+                <ns:Initn>
+                    <ns:OrgnlGrpInf>
+                        <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+                        <ns:OrgnlMsgNmId>c75</ns:OrgnlMsgNmId>
+                        <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+                    </ns:OrgnlGrpInf>
+                    <ns:OrgnlUETR>391bbb5e-240a-4c3b-b96a-50c03b49dcb8</ns:OrgnlUETR>
+                                   
+                    <!--(ns:Dt | ns:DtTm)-->
+                                   
+                    <ns:ReqdExctnDt>
+                        <ns:DtTm>2023-09-12T14:59:33</ns:DtTm>
+                        <ns:Dt>2023-09-12</ns:Dt>
+                    </ns:ReqdExctnDt>
+                </ns:Initn>
+            </ns:Undrlyg>
+            <ns:Rqstr>
+                <ns:Agt>
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>USABA</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>344932875</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Rqstr>
+            <ns:Rspndr>
+                <ns:Agt>
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>USABA</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>312380964</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Rspndr>
+        </ns:InvstgtnReq>
+              
+        <!--(ns:Rsn , ns:AddtlReqData?)-->
+              
+        <ns:InvstgtnData>
+            <ns:Rsn>
+                <ns:Cd>0000</ns:Cd>
+            </ns:Rsn>
+        </ns:InvstgtnData>
+    </ns:InvstgtnReq>
+</ns:Document>

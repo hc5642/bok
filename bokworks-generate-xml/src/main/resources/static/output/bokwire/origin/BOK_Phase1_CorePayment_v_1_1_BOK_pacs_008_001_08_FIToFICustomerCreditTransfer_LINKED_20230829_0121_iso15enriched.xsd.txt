@@ -2,7 +2,7 @@
     <ns:FIToFICstmrCdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:24</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:17</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -21,10 +21,24 @@
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
                 <ns:TxId>00000000000000000000000000000000000</ns:TxId>
-                <ns:UETR>d5888741-f08e-4f8c-afa1-06381eb24355</ns:UETR>
+                <ns:UETR>c051a708-6d2d-4ca3-b43c-18262e6c2fc4</ns:UETR>
             </ns:PmtId>
             <ns:PmtTpInf>
                 <ns:InstrPrty>HIGH</ns:InstrPrty>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:SvcLvl>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:SvcLvl>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:SvcLvl>
+                    <ns:Cd>0000</ns:Cd>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                </ns:SvcLvl>
                             
                 <!--(ns:Cd | ns:Prtry)-->
                             
@@ -40,17 +54,8 @@
                 </ns:CtgyPurp>
             </ns:PmtTpInf>
             <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
-            <ns:ChrgBr>SHAR</ns:ChrgBr>
-            <ns:ChrgsInf>
-                <ns:Amt Ccy="Ccy1">6.02465</ns:Amt>
-                <ns:Agt>
-                                   
-                    <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
-                                   
-                    <ns:FinInstnId/>
-                </ns:Agt>
-            </ns:ChrgsInf>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
+            <ns:ChrgBr>DEBT</ns:ChrgBr>
             <ns:InstgAgt>
                             
                 <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
@@ -87,7 +92,7 @@
                             
                 <ns:PstlAdr>
                     <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                    <ns:Ctry>QE</ns:Ctry>
+                    <ns:Ctry>PI</ns:Ctry>
                 </ns:PstlAdr>
             </ns:Dbtr>
                      
@@ -174,7 +179,7 @@
                             
                 <ns:PstlAdr>
                     <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                    <ns:Ctry>VB</ns:Ctry>
+                    <ns:Ctry>QB</ns:Ctry>
                 </ns:PstlAdr>
             </ns:Cdtr>
                      
@@ -190,14 +195,6 @@
                     </ns:Othr>
                 </ns:Id>
             </ns:CdtrAcct>
-                     
-            <!--(ns:Cd? , ns:InstrInf?)-->
-                     
-            <ns:InstrForCdtrAgt/>
-                     
-            <!--(ns:InstrInf?)-->
-                     
-            <ns:InstrForNxtAgt/>
         </ns:CdtTrfTxInf>
     </ns:FIToFICstmrCdtTrf>
 </ns:Document>

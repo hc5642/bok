@@ -1,0 +1,66 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.029.001.09" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:RsltnOfInvstgtn>
+        <ns:Assgnmt>
+            <ns:Id>00000000000000000000000000000000000</ns:Id>
+            <ns:Assgnr>
+                <ns:Agt>
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>USABA</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>869504272</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Assgnr>
+            <ns:Assgne>
+                <ns:Agt>
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>USABA</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>459141752</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Assgne>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+        </ns:Assgnmt>
+        <ns:RslvdCase>
+            <ns:Id>00000000000000000000000000000000000</ns:Id>
+                     
+            <!--(ns:Pty | ns:Agt)-->
+                     
+            <ns:Cretr>
+                            
+                <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                            
+                <ns:Pty/>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                                   
+                    <ns:FinInstnId/>
+                </ns:Agt>
+            </ns:Cretr>
+        </ns:RslvdCase>
+        <ns:Sts>
+            <ns:Conf>0000</ns:Conf>
+        </ns:Sts>
+        <ns:CxlDtls>
+                     
+            <!--(ns:CxlStsId? , ns:OrgnlGrpInf , ns:OrgnlInstrId? , ns:OrgnlEndToEndId? , ns:OrgnlTxId? , ns:OrgnlUETR , ns:CxlStsRsnInf*)-->
+                     
+            <ns:TxInfAndSts>
+                <ns:OrgnlGrpInf>
+                    <ns:OrgnlMsgId>00000000000000000000000000000000000</ns:OrgnlMsgId>
+                    <ns:OrgnlMsgNmId>052</ns:OrgnlMsgNmId>
+                    <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+                </ns:OrgnlGrpInf>
+                <ns:OrgnlUETR>e6251776-d881-4949-abbd-7d14ad466939</ns:OrgnlUETR>
+            </ns:TxInfAndSts>
+        </ns:CxlDtls>
+    </ns:RsltnOfInvstgtn>
+</ns:Document>

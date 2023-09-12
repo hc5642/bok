@@ -2,7 +2,7 @@
     <ns:AcctRptgReq>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
         </ns:GrpHdr>
         <ns:RptgReq>
             <ns:ReqdMsgNmId>camt.052.001.08</ns:ReqdMsgNmId>
@@ -26,7 +26,7 @@
                             <ns:ClrSysId>
                                 <ns:Cd>KRBOK</ns:Cd>
                             </ns:ClrSysId>
-                            <ns:MmbId>nRTxpxaiXlPE7zicttFn7XZnPNPU</ns:MmbId>
+                            <ns:MmbId>V70WAsjPW0eUWZs8VL4fcK3fo6yR</ns:MmbId>
                         </ns:ClrSysMmbId>
                     </ns:FinInstnId>
                 </ns:Agt>

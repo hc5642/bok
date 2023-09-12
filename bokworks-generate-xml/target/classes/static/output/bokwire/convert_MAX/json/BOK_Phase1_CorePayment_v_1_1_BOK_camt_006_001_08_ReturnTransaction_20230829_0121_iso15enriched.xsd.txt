@@ -1,0 +1,106 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.006.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "RtrTx": {
+            "MsgHdr": {
+                "CreDtTm": "2023-09-12T13:13:20",
+                "MsgPgntn": {
+                    "PgNb": 1566,
+                    "LastPgInd": true
+                },
+                "OrgnlBizQry": {"MsgId": "tWlRMmzRVicPgVcXmKxuDMITDrURtMCClUn"},
+                "MsgId": "EGvZnE5Rs3XXC5BnJmDfe5SX9fZiut4XshT",
+                "ReqTp": {"Prtry": {"Id": "ICRC"}}
+            },
+            "RptOrErr": {"BizRpt": {"TxRpt": {
+                "TxOrErr": {"Tx": {
+                    "Pmt": {
+                        "TxId": "i2QoCV1z1u1KWn7UfJYaVtqxlIFT4diRTN0",
+                        "IntrBkSttlmAmt": {"AmtWthCcy": {
+                            "Ccy": "KRW",
+                            "content": -922337203685477580
+                        }},
+                        "IntrBkSttlmDt": "2023-09-12",
+                        "Sts": {
+                            "DtTm": {"DtTm": "2023-09-12T13:13:20"},
+                            "Cd": {"Prtry": "gQKSSH3k8qR626ZRY36tJKh4HIQgTfrIyfQ"},
+                            "Rsn": {"Prtry": "U9BhmUndtHejVMxbv41cJUkz7bW7NuveZ7g"}
+                        },
+                        "PmtMtd": {"XMLMsgNm": "Y25A62uJRnhrruJWqMPP0uyTXvv6wradzET"},
+                        "EndToEndId": "KxtAU9CSWHEuqDnocaPyLq5EISpxW3immZf",
+                        "MsgId": "L0qljH1TwJ6bju7IrQCXC4b2KKfpqthXtdy"
+                    },
+                    "PmtTo": {"MmbId": {"FinInstnId": {
+                        "BICFI": "HOVOZIVC(H7C",
+                        "ClrSysMmbId": {
+                            "ClrSysId": {"Cd": "KRBOK"},
+                            "MmbId": "0000000000000000000000000000"
+                        },
+                        "LEI": "69RVU2JMI9IB10AS1725"
+                    }}},
+                    "CdtDbtInd": "CRDT",
+                    "PmtFr": {"MmbId": {"FinInstnId": {
+                        "BICFI": "PSSUKRUU(06B)",
+                        "ClrSysMmbId": {
+                            "ClrSysId": {"Cd": "KRBOK"},
+                            "MmbId": "0000000000000000000000000000"
+                        },
+                        "LEI": "OWKRGXNSB6YNRW1FMK44"
+                    }}}
+                }},
+                "PmtId": {"PrtryId": "0000000000000000000000000000000000000000000000000000000000000000000000"}
+            }}}
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "CharSet": "CharSet1",
+        "Fr": {"FIId": {"FinInstnId": {
+            "BICFI": "YOXIAN56(ZQ9)",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": 1016
+            },
+            "LEI": "HWJ29VSR4XJ4MG3BR393"
+        }}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {
+            "BICFI": "Y59ZNS15(0W2",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": "00000000000000000000000000000000000"
+            },
+            "LEI": "7VP9L3B0PLBMB851D901"
+        }}},
+        "MsgDefIdr": "camt.006.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+        "Rltd": {
+            "CharSet": "CharSet2",
+            "Fr": {"FIId": {"FinInstnId": {
+                "BICFI": "NVVXTMVT(WHX)",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "T8J2F9PBKEU5JC0Y4R54"
+            }}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": {
+                "BICFI": "Z8UAON7C(Y9J)",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "B0MSTGG1KXL07GRP1O42"
+            }}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+            "CreDt": "2023-09-12T13:13:20"
+        },
+        "CreDt": "2023-09-12T13:13:20"
+    }
+}

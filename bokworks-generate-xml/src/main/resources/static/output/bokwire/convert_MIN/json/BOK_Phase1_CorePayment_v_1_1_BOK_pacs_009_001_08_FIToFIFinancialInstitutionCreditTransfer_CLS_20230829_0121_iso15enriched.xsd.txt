@@ -1,0 +1,64 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08",
+        "FICdtTrf": {
+            "CdtTrfTxInf": {
+                "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": 1016
+                }}},
+                "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}},
+                "IntrBkSttlmAmt": {
+                    "Ccy": "KRW",
+                    "content": -922337203685477580
+                },
+                "IntrBkSttlmDt": "2023-09-12",
+                "Cdtr": {"FinInstnId": {"BICFI": "YQP4PMAO(XGG"}},
+                "PmtId": {
+                    "UETR": "74463046-0c1c-4b7a-88df-0edc226709d6",
+                    "EndToEndId": "00000000000000000000000000000000000"
+                },
+                "PmtTpInf": {"SvcLvl": [
+                    {
+                        "Cd": "0000",
+                        "Prtry": 2
+                    },
+                    {
+                        "Cd": "0000",
+                        "Prtry": 3
+                    }
+                ]},
+                "Dbtr": {"FinInstnId": {"BICFI": "14L3XI14(5KK)"}}
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T14:53:17",
+                "NbOfTxs": 1,
+                "SttlmInf": {
+                    "SttlmMtd": "CLRG",
+                    "ClrSys": {"Cd": "BOK"}
+                },
+                "MsgId": "00000000000000000000000000000000000"
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "0000000000000000000000000000"
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": 1016
+        }}}},
+        "MsgDefIdr": "pacs.009.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "bok.rtgs.cls.01",
+        "CreDt": "2023-09-12T14:53:17"
+    }
+}

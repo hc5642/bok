@@ -2,7 +2,7 @@
     <ns:BkToCstmrAcctRpt>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:58:43</ns:CreDtTm>
         </ns:GrpHdr>
               
         <!--(ns:Id , ns:Acct , ns:Bal+)-->
@@ -12,7 +12,7 @@
             <ns:Acct>
                 <ns:Id>
                     <ns:Othr>
-                        <ns:Id>74100345</ns:Id>
+                        <ns:Id>44993301</ns:Id>
                     </ns:Othr>
                 </ns:Id>
             </ns:Acct>
@@ -22,22 +22,10 @@
                         <ns:Cd>0000</ns:Cd>
                     </ns:CdOrPrtry>
                 </ns:Tp>
-                <ns:Amt Ccy="GBP">5.06282</ns:Amt>
+                <ns:Amt Ccy="GBP">2.62043</ns:Amt>
                 <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
                 <ns:Dt>
-                    <ns:DtTm>2023-09-11T13:31:48</ns:DtTm>
-                </ns:Dt>
-            </ns:Bal>
-            <ns:Bal>
-                <ns:Tp>
-                    <ns:CdOrPrtry>
-                        <ns:Cd>0000</ns:Cd>
-                    </ns:CdOrPrtry>
-                </ns:Tp>
-                <ns:Amt Ccy="GBP">5.46272</ns:Amt>
-                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
-                <ns:Dt>
-                    <ns:DtTm>2023-09-11T13:31:48</ns:DtTm>
+                    <ns:DtTm>2023-09-12T14:58:43</ns:DtTm>
                 </ns:Dt>
             </ns:Bal>
         </ns:Rpt>

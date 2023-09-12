@@ -1,8 +1,36 @@
+<ns:AppHdr xmlns:ns="urn:iso:std:iso:20022:tech:xsd:head.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:Fr>
+        <ns:FIId>
+            <ns:FinInstnId>
+                <ns:ClrSysMmbId>
+                    <ns:MmbId>799QRH2AT</ns:MmbId>
+                </ns:ClrSysMmbId>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:Fr>
+    <ns:To>
+        <ns:FIId>
+            <ns:FinInstnId>
+                <ns:ClrSysMmbId>
+                    <ns:MmbId>HS0558VO2</ns:MmbId>
+                </ns:ClrSysMmbId>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:To>
+    <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
+    <ns:MsgDefIdr>p22</ns:MsgDefIdr>
+    <ns:BizSvc>TEST</ns:BizSvc>
+    <ns:MktPrctc>
+        <ns:Regy>www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service</ns:Regy>
+        <ns:Id>000000000000000000</ns:Id>
+    </ns:MktPrctc>
+    <ns:CreDt>2023-09-12T14:59:32</ns:CreDt>
+</ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:FIToFICstmrCdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>0000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:34:51</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:59:32</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -14,30 +42,24 @@
         <ns:CdtTrfTxInf>
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>b90024fa-ef42-4b18-8e1a-5c91607426ef</ns:UETR>
+                <ns:UETR>6f0f6ce9-c78f-40f7-ac7c-e31408c7ff6b</ns:UETR>
             </ns:PmtId>
             <ns:PmtTpInf>
                 <ns:LclInstrm>
-                    <ns:Prtry>CTRD</ns:Prtry>
+                    <ns:Prtry>CTRC</ns:Prtry>
                 </ns:LclInstrm>
             </ns:PmtTpInf>
-            <ns:IntrBkSttlmAmt Ccy="USD">1.09</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
-            <ns:InstdAmt Ccy="Ccy1">1.78718</ns:InstdAmt>
+            <ns:IntrBkSttlmAmt Ccy="USD">1.63</ns:IntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
+            <ns:InstdAmt Ccy="Ccy1">1.60814</ns:InstdAmt>
             <ns:ChrgBr>SHAR</ns:ChrgBr>
-            <ns:ChrgsInf>
-                <ns:Amt Ccy="Ccy2">1.77572</ns:Amt>
-                <ns:Agt>
-                    <ns:FinInstnId/>
-                </ns:Agt>
-            </ns:ChrgsInf>
             <ns:InstgAgt>
                 <ns:FinInstnId>
                     <ns:ClrSysMmbId>
                         <ns:ClrSysId>
                             <ns:Cd>USABA</ns:Cd>
                         </ns:ClrSysId>
-                        <ns:MmbId>609717518</ns:MmbId>
+                        <ns:MmbId>573454897</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:InstgAgt>
@@ -47,7 +69,7 @@
                         <ns:ClrSysId>
                             <ns:Cd>USABA</ns:Cd>
                         </ns:ClrSysId>
-                        <ns:MmbId>600947724</ns:MmbId>
+                        <ns:MmbId>254170652</ns:MmbId>
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:InstdAgt>

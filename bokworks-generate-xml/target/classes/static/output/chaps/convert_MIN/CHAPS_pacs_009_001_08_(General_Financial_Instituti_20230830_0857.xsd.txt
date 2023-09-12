@@ -2,27 +2,27 @@
     <ns:Fr>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>BN0HXKSJ(SO5</ns:BICFI>
+                <ns:BICFI>YK31SD3Y(SIS)</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:Fr>
     <ns:To>
         <ns:FIId>
             <ns:FinInstnId>
-                <ns:BICFI>KWJOOBTR(VQW</ns:BICFI>
+                <ns:BICFI>9G2VAPN3(3P5)</ns:BICFI>
             </ns:FinInstnId>
         </ns:FIId>
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-11T13:31:48</ns:CreDt>
+    <ns:CreDt>2023-09-12T14:58:44</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T13:31:48</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:58:44</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
             <ns:SttlmInf>
                 <ns:SttlmMtd>CLRG</ns:SttlmMtd>
@@ -35,18 +35,18 @@
             <ns:PmtId>
                 <ns:InstrId>0000000000000000</ns:InstrId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>9e903a72-40b9-4ce3-a0a0-33fb0eb62d4e</ns:UETR>
+                <ns:UETR>c45535fc-319a-4be7-83f1-1b8cb380d014</ns:UETR>
             </ns:PmtId>
-            <ns:IntrBkSttlmAmt Ccy="GBP">1.36357</ns:IntrBkSttlmAmt>
-            <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+            <ns:IntrBkSttlmAmt Ccy="GBP">2.01478</ns:IntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
             <ns:InstgAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>TASGGA3I(MDV</ns:BICFI>
+                    <ns:BICFI>3XT5DP9B(7XX</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstgAgt>
             <ns:InstdAgt>
                 <ns:FinInstnId>
-                    <ns:BICFI>CKOFNDH2(D4Q</ns:BICFI>
+                    <ns:BICFI>QK8EJWZM(YZ1)</ns:BICFI>
                 </ns:FinInstnId>
             </ns:InstdAgt>
             <ns:Dbtr>
@@ -55,13 +55,6 @@
             <ns:Cdtr>
                 <ns:FinInstnId/>
             </ns:Cdtr>
-            <ns:InstrForCdtrAgt/>
-            <ns:InstrForNxtAgt>
-                <ns:InstrInf>00000000000000000000000000000000000</ns:InstrInf>
-            </ns:InstrForNxtAgt>
-            <ns:InstrForNxtAgt>
-                <ns:InstrInf>00000000000000000000000000000000000</ns:InstrInf>
-            </ns:InstrForNxtAgt>
             <ns:UndrlygCstmrCdtTrf>
                 <ns:Dbtr/>
                 <ns:DbtrAgt>
@@ -71,13 +64,6 @@
                     <ns:FinInstnId/>
                 </ns:CdtrAgt>
                 <ns:Cdtr/>
-                <ns:InstrForCdtrAgt/>
-                <ns:InstrForNxtAgt>
-                    <ns:InstrInf>00000000000000000000000000000000000</ns:InstrInf>
-                </ns:InstrForNxtAgt>
-                <ns:InstrForNxtAgt>
-                    <ns:InstrInf>00000000000000000000000000000000000</ns:InstrInf>
-                </ns:InstrForNxtAgt>
             </ns:UndrlygCstmrCdtTrf>
         </ns:CdtTrfTxInf>
     </ns:FICdtTrf>

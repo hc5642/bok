@@ -1,0 +1,53 @@
+{
+    "Document": {
+        "IdVrfctnRpt": {
+            "Assgnmt": {
+                "CreDtTm": "2023-09-12T14:53:16",
+                "Assgnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "00000000000000000000000000000000000"
+                }}}},
+                "MsgId": "00000000000000000000000000000000000",
+                "Assgne": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "00000000000000000000000000000000000"
+                }}}}
+            },
+            "Rpt": {
+                "Vrfctn": true,
+                "OrgnlPtyAndAcctId": {
+                    "Acct": {"Id": {"Othr": {
+                        "Id": "0000000000000000000000000000000000",
+                        "SchmeNm": {
+                            "Cd": "0000",
+                            "Prtry": "00000000000000000000000000000000000"
+                        }
+                    }}},
+                    "Agt": {"FinInstnId": {"ClrSysMmbId": {
+                        "ClrSysId": {"Cd": "KRBOK"},
+                        "MmbId": "00000000000000000000000000000000000"
+                    }}}
+                },
+                "OrgnlId": "00000000000000000000000000000000000"
+            }
+        },
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:acmt.024.001.03",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "MsgDefIdr": "acmt.024.001.03",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "bok.rtgs.cdtrdsgntd.01",
+        "CreDt": "2023-09-12T14:53:16"
+    }
+}

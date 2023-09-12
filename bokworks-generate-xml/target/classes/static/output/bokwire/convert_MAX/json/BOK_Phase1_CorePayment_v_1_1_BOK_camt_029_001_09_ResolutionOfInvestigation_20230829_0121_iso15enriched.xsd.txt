@@ -1,0 +1,125 @@
+{
+    "Document": {
+        "RsltnOfInvstgtn": {
+            "Assgnmt": {
+                "CreDtTm": "2023-09-12T13:13:20",
+                "Assgnr": {"Agt": {"FinInstnId": {
+                    "BICFI": "IVASEHU6(IJ1",
+                    "ClrSysMmbId": {
+                        "ClrSysId": {"Cd": "KRBOK"},
+                        "MmbId": "0000000000000000000000000000"
+                    },
+                    "LEI": "I0GEJ6PBN7JP29FLXK35"
+                }}},
+                "Id": "00000000000000000000000000000000000",
+                "Assgne": {"Agt": {"FinInstnId": {
+                    "BICFI": "990XIHYR(5VU",
+                    "ClrSysMmbId": {
+                        "ClrSysId": {"Cd": "KRBOK"},
+                        "MmbId": "0000000000000000000000000000"
+                    },
+                    "LEI": "FZT6MYHODC8HPQ7RWE24"
+                }}}
+            },
+            "CxlDtls": {"TxInfAndSts": {
+                "OrgnlUETR": "285a9397-1a93-49d2-8249-249b8729b699",
+                "OrgnlGrpInf": {
+                    "OrgnlMsgId": "00000000000000000000000000000000000",
+                    "OrgnlMsgNmId": "00000000000000000000000000000000000",
+                    "OrgnlCreDtTm": "2023-09-12T13:13:20"
+                },
+                "OrgnlEndToEndId": "00000000000000000000000000000000000",
+                "CxlStsRsnInf": {
+                    "AddtlInf": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                    "Orgtr": {
+                        "Id": {"OrgId": {
+                            "Othr": {
+                                "Issr": "00000000000000000000000000000000000",
+                                "Id": "00000000000000000000000000000000000",
+                                "SchmeNm": {
+                                    "Cd": "0000",
+                                    "Prtry": "00000000000000000000000000000000000"
+                                }
+                            },
+                            "AnyBIC": "6JEXCOBA(XP7",
+                            "LEI": "M65DCMHEXFDLSCNMI770"
+                        }},
+                        "Nm": "000000000000000000000000000000",
+                        "PstlAdr": {
+                            "Ctry": "SY",
+                            "Flr": "0000000000000000000000000000000000000000000000000000000000000000000000",
+                            "Room": "0000000000000000000000000000000000000000000000000000000000000000000000",
+                            "StrtNm": "0000000000000000000000000000000000000000000000000000000000000000000000",
+                            "Dept": "0000000000000000000000000000000000000000000000000000000000000000000000",
+                            "PstBx": "0000000000000000",
+                            "BldgNm": "00000000000000000000000000000000000",
+                            "PstCd": "0000000000000000",
+                            "TwnLctnNm": "00000000000000000000000000000000000",
+                            "AdrLine": "00000000000000000000000000000000000",
+                            "TwnNm": "00000000000000000000000000000000000",
+                            "BldgNb": "0000000000000000"
+                        }
+                    },
+                    "Rsn": {"Cd": "0000"}
+                },
+                "OrgnlInstrId": "00000000000000000000000000000000000",
+                "OrgnlTxId": "00000000000000000000000000000000000",
+                "CxlStsId": "00000000000000000000000000000000000",
+                "OrgnlClrSysRef": "00000000000000000000000000000000000"
+            }},
+            "Sts": {"Conf": "PDCR"}
+        },
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.029.001.09",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "CharSet": "CharSet1",
+        "Fr": {"FIId": {"FinInstnId": {
+            "BICFI": "D59TOC8A(32K)",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": "00000000000000000000000000000000000"
+            },
+            "LEI": "ZXSU0FWG7G94P1U4ZK63"
+        }}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {
+            "BICFI": "YKUHVOLS(CU2)",
+            "ClrSysMmbId": {
+                "ClrSysId": {"Cd": "KRBOK"},
+                "MmbId": "00000000000000000000000000000000000"
+            },
+            "LEI": "LHZ85JCFWJIRK0ZG1G97"
+        }}},
+        "MsgDefIdr": "camt.029.001.09",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+        "Rltd": {
+            "CharSet": "CharSet2",
+            "Fr": {"FIId": {"FinInstnId": {
+                "BICFI": "9OAAEZBI(9WT)",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "4Z2JXVFN1P9MK1NGIP76"
+            }}},
+            "BizMsgIdr": "00000000000000000000000000000000000",
+            "To": {"FIId": {"FinInstnId": {
+                "BICFI": "IZ57LCI0(V5T)",
+                "ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "00000"},
+                    "MmbId": "00000000000000000000000000000000000"
+                },
+                "LEI": "H23K3OD1EFGIIP443J35"
+            }}},
+            "MsgDefIdr": "00000000000000000000000000000000000",
+            "BizSvc": "00000000000000000000000000000000000",
+            "Sgntr": {"ns1:anyElement": {"xmlns1": "http://www.w3.org/2000/09/xmldsig#"}},
+            "CreDt": "2023-09-12T13:13:20"
+        },
+        "CreDt": "2023-09-12T13:13:20"
+    }
+}

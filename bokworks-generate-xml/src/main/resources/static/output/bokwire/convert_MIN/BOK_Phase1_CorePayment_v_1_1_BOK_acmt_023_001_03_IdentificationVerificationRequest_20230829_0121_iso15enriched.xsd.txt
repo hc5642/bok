@@ -26,29 +26,13 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>acmt.023.001.03</ns:MsgDefIdr>
     <ns:BizSvc>bok.rtgs.cdtrdsgntd.01</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:22</ns:CreDt>
-    <ns:Rltd>
-        <ns:Fr>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:Fr>
-        <ns:To>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:To>
-        <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
-        <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-11T14:42:22</ns:CreDt>
-    </ns:Rltd>
+    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:acmt.023.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:IdVrfctnReq>
         <ns:Assgnmt>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2023-09-11T14:42:22</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:15</ns:CreDtTm>
             <ns:Assgnr>
                 <ns:Agt>
                     <ns:FinInstnId>
@@ -80,7 +64,7 @@
                 <ns:Pty>
                     <ns:PstlAdr>
                         <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
-                        <ns:Ctry>BZ</ns:Ctry>
+                        <ns:Ctry>VU</ns:Ctry>
                     </ns:PstlAdr>
                 </ns:Pty>
                 <ns:Acct>
@@ -88,8 +72,8 @@
                         <ns:Othr>
                             <ns:Id>0000000000000000000000000000000000</ns:Id>
                             <ns:SchmeNm>
-                                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                                 <ns:Cd>0000</ns:Cd>
+                                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
                             </ns:SchmeNm>
                         </ns:Othr>
                     </ns:Id>

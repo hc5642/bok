@@ -1,0 +1,47 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pain.014.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:CdtrPmtActvtnReqStsRpt>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+                     
+            <!--(ns:Nm? , ns:PstlAdr? , ns:Id? , ns:CtryOfRes?)-->
+                     
+            <ns:InitgPty/>
+            <ns:DbtrAgt>
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>USABA</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>871688677</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:DbtrAgt>
+            <ns:CdtrAgt>
+                <ns:FinInstnId>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>USABA</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>538219152</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                </ns:FinInstnId>
+            </ns:CdtrAgt>
+        </ns:GrpHdr>
+        <ns:OrgnlGrpInfAndSts>
+            <ns:OrgnlMsgId>0000000000000000000000</ns:OrgnlMsgId>
+            <ns:OrgnlMsgNmId>L81</ns:OrgnlMsgNmId>
+            <ns:OrgnlCreDtTm>2023-09-12T14:59:33</ns:OrgnlCreDtTm>
+        </ns:OrgnlGrpInfAndSts>
+        <ns:OrgnlPmtInfAndSts>
+            <ns:OrgnlPmtInfId>00000000000000000000000000000000000</ns:OrgnlPmtInfId>
+                     
+            <!--(ns:OrgnlInstrId? , ns:OrgnlEndToEndId? , ns:OrgnlUETR , ns:TxSts , ns:StsRsnInf*)-->
+                     
+            <ns:TxInfAndSts>
+                <ns:OrgnlUETR>ccdd572d-8866-4ba6-a607-7122c7f9522f</ns:OrgnlUETR>
+                <ns:TxSts>0000</ns:TxSts>
+            </ns:TxInfAndSts>
+        </ns:OrgnlPmtInfAndSts>
+    </ns:CdtrPmtActvtnReqStsRpt>
+</ns:Document>

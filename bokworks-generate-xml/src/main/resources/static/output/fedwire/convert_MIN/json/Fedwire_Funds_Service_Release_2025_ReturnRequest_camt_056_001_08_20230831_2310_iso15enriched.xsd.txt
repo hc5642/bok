@@ -1,0 +1,55 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.056.001.08",
+        "FIToFIPmtCxlReq": {
+            "Undrlyg": {"TxInf": {
+                "OrgnlUETR": "5d0c1036-f016-4275-9d35-4d2bd24dbad9",
+                "OrgnlIntrBkSttlmAmt": {
+                    "Ccy": "Ccy1",
+                    "content": 7.63249
+                },
+                "OrgnlGrpInf": {
+                    "OrgnlMsgId": "00000000000000000000000000000000000",
+                    "OrgnlMsgNmId": "b75",
+                    "OrgnlCreDtTm": "2023-09-12T14:59:33"
+                },
+                "OrgnlIntrBkSttlmDt": "2023-09-12",
+                "CxlRsnInf": {"Rsn": {"Cd": "0000"}}
+            }},
+            "Assgnmt": {
+                "CreDtTm": "2023-09-12T14:59:33",
+                "Assgnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 883094303
+                }}}},
+                "Id": "0000000000000000000000",
+                "Assgne": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 700029421
+                }}}}
+            },
+            "Case": {
+                "Id": "00000000000000000000000000000000000",
+                "Cretr": {
+                    "Pty": "",
+                    "Agt": {"FinInstnId": ""}
+                }
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "KNMI4LYY3"}}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "XJOC0OZND"}}}},
+        "MsgDefIdr": 733,
+        "MktPrctc": {
+            "Id": "000000000000000000",
+            "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "TEST",
+        "CreDt": "2023-09-12T14:59:33"
+    }
+}

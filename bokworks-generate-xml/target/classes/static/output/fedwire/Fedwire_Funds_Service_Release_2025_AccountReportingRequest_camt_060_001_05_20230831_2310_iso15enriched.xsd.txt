@@ -1,0 +1,30 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.060.001.05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:AcctRptgReq>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:59:32</ns:CreDtTm>
+        </ns:GrpHdr>
+              
+        <!--(ns:Id , ns:ReqdMsgNmId , ns:Acct? , ns:AcctOwnr , ns:RptgSeq?)-->
+              
+        <ns:RptgReq>
+            <ns:Id>ETOT</ns:Id>
+            <ns:ReqdMsgNmId>I83</ns:ReqdMsgNmId>
+            <ns:AcctOwnr>
+                <ns:Agt>
+                                   
+                    <!--(ns:ClrSysMmbId , ns:Othr?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>USABA</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>545396095</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:AcctOwnr>
+        </ns:RptgReq>
+    </ns:AcctRptgReq>
+</ns:Document>

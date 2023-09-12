@@ -1,0 +1,36 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrAcctRpt>
+        <ns:GrpHdr>
+            <ns:MsgId>DTLS</ns:MsgId>
+            <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+            <ns:MsgPgntn>
+                <ns:PgNb>58174</ns:PgNb>
+                <ns:LastPgInd>true</ns:LastPgInd>
+            </ns:MsgPgntn>
+            <ns:OrgnlBizQry>
+                <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+                <ns:MsgNmId>b98</ns:MsgNmId>
+                <ns:CreDtTm>2023-09-12T14:59:33</ns:CreDtTm>
+            </ns:OrgnlBizQry>
+        </ns:GrpHdr>
+              
+        <!--(ns:Id , ns:RptgSeq , ns:CreDtTm? , ns:Acct , ns:TxsSummry? , ns:Ntry[0,100])-->
+              
+        <ns:Rpt>
+            <ns:Id>IDAY</ns:Id>
+            <ns:RptgSeq>
+                <ns:FrToSeq>
+                    <ns:FrSeq>000000</ns:FrSeq>
+                    <ns:ToSeq>000000</ns:ToSeq>
+                </ns:FrToSeq>
+            </ns:RptgSeq>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>00000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+            </ns:Acct>
+        </ns:Rpt>
+    </ns:BkToCstmrAcctRpt>
+</ns:Document>

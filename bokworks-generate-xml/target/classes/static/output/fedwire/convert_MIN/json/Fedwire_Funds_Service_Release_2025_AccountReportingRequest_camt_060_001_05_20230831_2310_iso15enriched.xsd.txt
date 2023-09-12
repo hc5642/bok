@@ -1,0 +1,34 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.060.001.05",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "AcctRptgReq": {
+            "RptgReq": {
+                "Id": "ETOT",
+                "AcctOwnr": {"Agt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "USABA"},
+                    "MmbId": 262408039
+                }}}},
+                "ReqdMsgNmId": 258
+            },
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T13:45:05",
+                "MsgId": "00000000000000000000000000000000000"
+            }
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.03",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "XZH2EW24D"}}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {"MmbId": "QB3KHT8YO"}}}},
+        "MsgDefIdr": "L93",
+        "MktPrctc": {
+            "Id": "000000000000000000",
+            "Regy": "www2.swift.com/mystandards/#/group/Federal_Reserve_Financial_Services/Fedwire_Funds_Service"
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "PROD",
+        "CreDt": "2023-09-12T13:45:05"
+    }
+}

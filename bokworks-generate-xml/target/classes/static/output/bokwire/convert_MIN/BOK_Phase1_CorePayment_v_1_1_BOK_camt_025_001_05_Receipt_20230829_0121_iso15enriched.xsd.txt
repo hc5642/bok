@@ -26,44 +26,28 @@
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>camt.025.001.05</ns:MsgDefIdr>
     <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-    <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    <ns:Rltd>
-        <ns:Fr>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:Fr>
-        <ns:To>
-            <ns:FIId>
-                <ns:FinInstnId/>
-            </ns:FIId>
-        </ns:To>
-        <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
-        <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
-        <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
-        <ns:CreDt>2023-09-11T14:42:23</ns:CreDt>
-    </ns:Rltd>
+    <ns:CreDt>2023-09-12T14:53:16</ns:CreDt>
 </ns:AppHdr>
 <ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.025.001.05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ns:Rct>
         <ns:MsgHdr>
-            <ns:MsgId>pK3F6aMpbpNNubQlHic7Drgh0YFz06xOcbo</ns:MsgId>
+            <ns:MsgId>C6wFFEYXyjDrciDb462Nz6JWFb7C0Pa2cTa</ns:MsgId>
             <ns:ReqTp>
                 <ns:Prtry>
-                    <ns:Id>uFxgoHxAbQEm4ztympVCKzDfxPXjtPveBZJ</ns:Id>
+                    <ns:Id>q6WWkWcWrcuQtSGRqspfCLKG8SHGHnKazsR</ns:Id>
                 </ns:Prtry>
             </ns:ReqTp>
         </ns:MsgHdr>
         <ns:RctDtls>
             <ns:OrgnlMsgId>
-                <ns:MsgId>UnkvJf9BYKOFCBPScKspKrFaCR1oEXg0fhA</ns:MsgId>
-                <ns:MsgNmId>sNgq8vLezaT2sW9XYZ9MVelbFWTDGBRTBz0</ns:MsgNmId>
+                <ns:MsgId>2NgzMxVSnwsytbVDVLFqV1Z1hvxbCUIeunN</ns:MsgId>
+                <ns:MsgNmId>9v3ZnRRW92krNVav0r4cxEAoVuM2rSTmuFA</ns:MsgNmId>
             </ns:OrgnlMsgId>
             <ns:OrgnlPmtId>
                 <ns:LngBizId>
-                    <ns:UETR>679da989-54b7-4a00-b70b-82e10ef457f5</ns:UETR>
+                    <ns:UETR>8137e3ec-54c4-44ae-b20b-9959aee0f5c7</ns:UETR>
                     <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
-                    <ns:IntrBkSttlmDt>2023-09-11</ns:IntrBkSttlmDt>
+                    <ns:IntrBkSttlmDt>2023-09-12</ns:IntrBkSttlmDt>
                     <ns:InstgAgt>
                         <ns:FinInstnId/>
                     </ns:InstgAgt>
@@ -73,7 +57,11 @@
                 </ns:LngBizId>
             </ns:OrgnlPmtId>
             <ns:ReqHdlg>
-                <ns:StsCd>RJCT</ns:StsCd>
+                <ns:StsCd>MODI</ns:StsCd>
+                <ns:Desc>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Desc>
+            </ns:ReqHdlg>
+            <ns:ReqHdlg>
+                <ns:StsCd>MODI</ns:StsCd>
                 <ns:Desc>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Desc>
             </ns:ReqHdlg>
         </ns:RctDtls>

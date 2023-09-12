@@ -4,13 +4,13 @@
         <!--(ns:MsgId , ns:CreDtTm? , ns:MsgPgntn? , ns:OrgnlBizQry , ns:ReqTp)-->
               
         <ns:MsgHdr>
-            <ns:MsgId>MJynGWkUfLRswM2PKCmKYZL0U0MQCHEQlYe</ns:MsgId>
+            <ns:MsgId>xfqIbtEqx9QA99gP7NKnRQFRlcjVorpMqc6</ns:MsgId>
             <ns:OrgnlBizQry>
-                <ns:MsgId>VsuRC55knnXJf74Am4NKL8jZdBgNvTf5Nhs</ns:MsgId>
+                <ns:MsgId>GPSR60cu7lisFtXrEOhBsJPsITIgcb3TBPv</ns:MsgId>
             </ns:OrgnlBizQry>
             <ns:ReqTp>
                 <ns:Prtry>
-                    <ns:Id>IRPQ</ns:Id>
+                    <ns:Id>IPIQ</ns:Id>
                 </ns:Prtry>
             </ns:ReqTp>
         </ns:MsgHdr>
@@ -37,14 +37,11 @@
                                                         
                                 <ns:Sts>
                                     <ns:Cd>
-                                        <ns:Prtry>tuUssaVZSyD03tvVMiuXjuNTVt9Ct9Yj2uF</ns:Prtry>
+                                        <ns:Prtry>ib2yYM0NqyqWMwXFB7OTG2PdbZdL4qFKnqo</ns:Prtry>
                                     </ns:Cd>
                                     <ns:DtTm>
-                                        <ns:DtTm>2023-09-11T14:42:23</ns:DtTm>
+                                        <ns:DtTm>2023-09-12T14:53:16</ns:DtTm>
                                     </ns:DtTm>
-                                    <ns:Rsn>
-                                        <ns:Prtry>2Yv050YHJnhZCjsyn9WsTf4foecxSbfCEBj</ns:Prtry>
-                                    </ns:Rsn>
                                 </ns:Sts>
                             </ns:Pmt>
                         </ns:Tx>

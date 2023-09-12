@@ -1,0 +1,39 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.053.001.08",
+        "BkToCstmrStmt": {
+            "GrpHdr": {
+                "CreDtTm": "2023-09-12T14:58:43",
+                "MsgId": "00000000000000000000000000000000000"
+            },
+            "Stmt": {
+                "Id": "0000000000000000",
+                "Acct": {"Id": {"Othr": {"Id": 47236693}}},
+                "LglSeqNb": -922337203685477580,
+                "Bal": {
+                    "Tp": {"CdOrPrtry": {
+                        "Cd": "0000",
+                        "Prtry": "00000000000000000000000000000000000"
+                    }},
+                    "Amt": {
+                        "Ccy": "Ccy1",
+                        "content": 1.4549
+                    },
+                    "Dt": {"Dt": "2023-09-12"},
+                    "CdtDbtInd": "CRDT"
+                }
+            }
+        },
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"BICFI": "4OIBPUMR(IMO"}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"BICFI": "03FQLRWU(PTO)"}}},
+        "MsgDefIdr": "00000000000000000000000000000000000",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:58:43"
+    }
+}

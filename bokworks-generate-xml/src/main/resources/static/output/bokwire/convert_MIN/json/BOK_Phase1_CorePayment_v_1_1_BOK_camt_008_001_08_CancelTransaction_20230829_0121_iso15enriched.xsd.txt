@@ -1,0 +1,46 @@
+{
+    "Document": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:camt.008.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "CclTx": {
+            "CxlRsn": {"AddtlInf": [
+                "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            ]},
+            "MsgHdr": {"MsgId": "a6U35FxDqKT4NE0F6lNbyXx1f4bqgenOOz1"},
+            "PmtId": {"LngBizId": {
+                "UETR": "958b2a8d-6933-4bda-b499-1a86cd31ffcc",
+                "InstdAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}},
+                "InstgAgt": {"FinInstnId": {"ClrSysMmbId": {
+                    "ClrSysId": {"Cd": "KRBOK"},
+                    "MmbId": "0000000000000000000000000000"
+                }}},
+                "IntrBkSttlmAmt": {
+                    "Ccy": "KRW",
+                    "content": -922337203685477580
+                },
+                "IntrBkSttlmDt": "2023-09-12"
+            }}
+        }
+    },
+    "AppHdr": {
+        "xmlns": "urn:iso:std:iso:20022:tech:xsd:head.001.001.02",
+        "Fr": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": "00000000000000000000000000000000000"
+        }}}},
+        "BizMsgIdr": "00000000000000000000000000000000000",
+        "To": {"FIId": {"FinInstnId": {"ClrSysMmbId": {
+            "ClrSysId": {"Cd": "KRBOK"},
+            "MmbId": 1016
+        }}}},
+        "MsgDefIdr": "camt.008.001.08",
+        "xmlxsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "BizSvc": "00000000000000000000000000000000000",
+        "CreDt": "2023-09-12T14:53:16"
+    }
+}

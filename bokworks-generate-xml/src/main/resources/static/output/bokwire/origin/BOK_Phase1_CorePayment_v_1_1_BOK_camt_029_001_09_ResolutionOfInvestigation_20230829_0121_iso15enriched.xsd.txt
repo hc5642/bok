@@ -32,10 +32,10 @@
                     </ns:FinInstnId>
                 </ns:Agt>
             </ns:Assgne>
-            <ns:CreDtTm>2023-09-11T14:42:23</ns:CreDtTm>
+            <ns:CreDtTm>2023-09-12T14:53:16</ns:CreDtTm>
         </ns:Assgnmt>
         <ns:Sts>
-            <ns:Conf>RJCR</ns:Conf>
+            <ns:Conf>CNCL</ns:Conf>
         </ns:Sts>
         <ns:CxlDtls>
                      
@@ -50,7 +50,7 @@
                     <ns:OrgnlMsgNmId>00000000000000000000000000000000000</ns:OrgnlMsgNmId>
                 </ns:OrgnlGrpInf>
                 <ns:OrgnlClrSysRef>00000000000000000000000000000000000</ns:OrgnlClrSysRef>
-                <ns:OrgnlUETR>ee0728b9-73b0-4fb0-8c5b-f96b29a183c3</ns:OrgnlUETR>
+                <ns:OrgnlUETR>0fceee2c-6fca-44cb-b630-fe22c5921fbb</ns:OrgnlUETR>
             </ns:TxInfAndSts>
         </ns:CxlDtls>
     </ns:RsltnOfInvstgtn>
