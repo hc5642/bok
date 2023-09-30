@@ -1,0 +1,10 @@
+# ActiveMQ 연결 정보
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+# Activemq queue 정보
+activemq:
+  queue.name: BOKWORKS.TEST.Q
