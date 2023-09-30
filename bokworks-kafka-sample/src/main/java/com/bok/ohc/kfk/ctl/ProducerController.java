@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * (송신 커맨드) C:\Users\ohhyonchul>curl http://localhost:8080/send -d "TEST MESSAGE"
+ * @author ohhyonchul
+ *
+ */
 @RestController
 public class ProducerController {
 	
