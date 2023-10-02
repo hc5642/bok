@@ -10,12 +10,12 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
-public class ProducerController {
+public class SpringProducerController {
 	
 	@Autowired
 	public JmsTemplate jmsTemplate;
 	
-	@RequestMapping("/send")
+	@RequestMapping("/spring/send")
 	public String send(@RequestBody String body) {
 		log.info("--- 세션 트랜잭티드 설정 [{}]", jmsTemplate.isSessionTransacted());
 		jmsTemplate.convertAndSend("BOK.INBOUND.Q", body);

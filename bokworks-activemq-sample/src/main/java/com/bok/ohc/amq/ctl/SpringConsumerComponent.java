@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Component
-public class ConsumerComponent {
+public class SpringConsumerComponent {
 	
 	@JmsListener(destination="BOK.INBOUND.Q")
 	public void receive(String input) {
