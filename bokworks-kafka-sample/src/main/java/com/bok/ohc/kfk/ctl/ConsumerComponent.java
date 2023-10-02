@@ -1,9 +1,9 @@
 package com.bok.ohc.kfk.ctl;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
+
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * 수신 확인 로그
@@ -11,16 +11,13 @@ import org.springframework.stereotype.Component;
  * @author ohhyonchul
  *
  */
+@Slf4j
 @Component
 public class ConsumerComponent {
 	
-	private Logger logger = LoggerFactory.getLogger(this.getClass());
-	
 	@KafkaListener(topics = "mopil", groupId = "group-id-mopil")
 	public void receive(String input) {
-		
-		logger.info("--- CONSUMER SUBSCRIBE MESSAGE ["+input+"]");
-		
+		log.info("--- CONSUMER SUBSCRIBE MESSAGE [{}]", input);
 	}
 
 }
