@@ -17,8 +17,10 @@ import com.bok.ohc.util.CompareUGMappingUtil;
 
 public class CompareUGMappingMain {
 	
-	public static final String BASE_DIR = "C:/Users/ohhyonchul/git/bok/bokworks-generate-excel/src/main/resources/static";
-	public static final String ORIGINAL_FILE_PATH = BASE_DIR + "/input/20231004/";
+	public static final String BASE_DIR = "src/main/resources/static";
+	public static final String ORIGINAL_FILE_PATH = BASE_DIR + "/input/20231004/(붙임)한은금융망 서버접속 전문설명서_v1.3.7_표준전문개발반송부용_매핑포함.xlsx";
+	public static final String FILEMAP_FILE_PATH = BASE_DIR + "/input/20231004";
+	public static final String FILEMAP_FILE_NAME = "mapping_20230830 ver.2.xlsx";
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
@@ -31,7 +33,7 @@ public class CompareUGMappingMain {
 		try {
 			
 			/* 데이터 초기화 */
-			CompareUGMappingFileMap fileMap = new CompareUGMappingFileMap();
+			CompareUGMappingFileMap fileMap = new CompareUGMappingFileMap(FILEMAP_FILE_PATH, FILEMAP_FILE_NAME);
 			
 			/* 1번 시트 생성 */
 			XSSFSheet 목차_headerSheet = workbook.createSheet("목차");
@@ -51,9 +53,9 @@ public class CompareUGMappingMain {
 			
 			for ( String txCode : fileMap.keySet() ) {
 				
-				String ugFileName = fileMap.getFileName(txCode);
+				String ugFileName = fileMap.getReqFileName(txCode);
 				
-				CompareUGMappingOriMap originalMap = new CompareUGMappingOriMap(ORIGINAL_FILE_PATH + fileMap.getFileName(txCode), txCode);
+				CompareUGMappingOriMap originalMap = new CompareUGMappingOriMap(ORIGINAL_FILE_PATH, txCode);
 				CompareUGMappingUGMap ugMap = new CompareUGMappingUGMap(ugFileName, txCode);
 				
 				목차_headerRow = 목차_headerSheet.createRow(headerRowIndex++);
