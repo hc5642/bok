@@ -21,6 +21,7 @@ public class CompareUGMappingMain {
 	public static final String ORIGINAL_FILE_PATH = BASE_DIR + "/input/20231004/(붙임)한은금융망 서버접속 전문설명서_v1.3.7_표준전문개발반송부용_매핑포함.xlsx";
 	public static final String FILEMAP_FILE_PATH = BASE_DIR + "/input/20231004";
 	public static final String FILEMAP_FILE_NAME = "mapping_20230830 ver.2.xlsx";
+	public static final String OUTPUT_FILE_PATH = BASE_DIR + "/output/20231004";
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
@@ -36,37 +37,41 @@ public class CompareUGMappingMain {
 			CompareUGMappingFileMap fileMap = new CompareUGMappingFileMap(FILEMAP_FILE_PATH, FILEMAP_FILE_NAME);
 			
 			/* 1번 시트 생성 */
-			XSSFSheet 목차_headerSheet = workbook.createSheet("목차");
-			목차_headerSheet.setColumnWidth(0, 4000);
-			목차_headerSheet.setColumnWidth(1, 6000);
+			XSSFSheet titleHeaderSheet = workbook.createSheet("목차");
+			titleHeaderSheet.setColumnWidth(0, 4000);
+			titleHeaderSheet.setColumnWidth(1, 6000);
 			
-			XSSFRow 목차_headerRow = null;
+			XSSFRow titleHeaderRow = null;
 			int headerRowIndex = 0;
-			XSSFCell 목차_headerCell = null;
+			XSSFCell titleHeaderCell = null;
 			
-			목차_headerRow = 목차_headerSheet.createRow(headerRowIndex++);
-			목차_headerCell = 목차_headerRow.createCell(0); 목차_headerCell.setCellValue("거래구분코드"); 	목차_headerCell.setCellStyle(CompareUGMappingUtil.getTitleStyle(workbook));
-			목차_headerCell = 목차_headerRow.createCell(1); 목차_headerCell.setCellValue("UG파일명"); 		목차_headerCell.setCellStyle(CompareUGMappingUtil.getTitleStyle(workbook));
+			titleHeaderRow = titleHeaderSheet.createRow(headerRowIndex++);
+			titleHeaderCell = titleHeaderRow.createCell(0); titleHeaderCell.setCellValue("거래구분코드"); 	titleHeaderCell.setCellStyle(CompareUGMappingUtil.getTitleStyle(workbook));
+			titleHeaderCell = titleHeaderRow.createCell(1); titleHeaderCell.setCellValue("UG파일명"); 		titleHeaderCell.setCellStyle(CompareUGMappingUtil.getTitleStyle(workbook));
 			CreationHelper createHelper = workbook.getCreationHelper();
-			Hyperlink 목차_link = createHelper.createHyperlink(Hyperlink.LINK_DOCUMENT);
-			
-			
+			Hyperlink hyperlinkTx = createHelper.createHyperlink(Hyperlink.LINK_DOCUMENT);
+			CreationHelper createHelper2 = workbook.getCreationHelper();
+			Hyperlink hyperlinkHome = createHelper2.createHyperlink(Hyperlink.LINK_DOCUMENT);
+
 			for ( String txCode : fileMap.keySet() ) {
 				
 				String ugFileName = fileMap.getReqFileName(txCode);
 				
+				System.out.println("--- 진행중 ["+txCode+"]["+ugFileName+"]");
+				
 				CompareUGMappingOriMap originalMap = new CompareUGMappingOriMap(ORIGINAL_FILE_PATH, txCode);
-				CompareUGMappingUGMap ugMap = new CompareUGMappingUGMap(ugFileName, txCode);
+				CompareUGMappingUGMap ugMap = new CompareUGMappingUGMap(FILEMAP_FILE_PATH + "/" + ugFileName, txCode);
 				
-				목차_headerRow = 목차_headerSheet.createRow(headerRowIndex++);
+				titleHeaderRow = titleHeaderSheet.createRow(headerRowIndex++);
 				
-				목차_headerCell = 목차_headerRow.createCell(0); 
-								  목차_headerCell.setCellValue(txCode); //headerCell.setCellStyle(commStyle);
-								  목차_link.setAddress("'"+txCode+"'!A1");		
-								  목차_headerCell.setHyperlink(목차_link);
-				목차_headerCell = 목차_headerRow.createCell(1); 
-								  목차_headerCell.setCellValue(ugFileName); 
-								  목차_headerCell.setCellStyle(CompareUGMappingUtil.getCommStyle(workbook));
+				titleHeaderCell = titleHeaderRow.createCell(0); 
+								  titleHeaderCell.setCellStyle(CompareUGMappingUtil.getCommStyle(workbook));
+								  hyperlinkTx.setAddress("'"+txCode+"'!A1");
+								  titleHeaderCell.setHyperlink(hyperlinkTx);
+								  titleHeaderCell.setCellValue(txCode);
+				titleHeaderCell = titleHeaderRow.createCell(1);
+								  titleHeaderCell.setCellValue(ugFileName); 
+								  titleHeaderCell.setCellStyle(CompareUGMappingUtil.getCommStyle(workbook));
 				
 				/* (반복부) 거래별 시트 생성 */
 				sheet = workbook.createSheet(txCode);
@@ -78,6 +83,8 @@ public class CompareUGMappingMain {
 				/* (반복부) 거래별 시트 내 제목 행 */
 				row = sheet.createRow(0);
 				cell = row.createCell(0);	cell.setCellValue(txCode);		cell.setCellStyle(CompareUGMappingUtil.getTitleStyle(workbook));
+											hyperlinkHome.setAddress("'목차'!A1");
+											cell.setHyperlink(hyperlinkHome);
 				cell = row.createCell(1);	cell.setCellValue(ugFileName);	cell.setCellStyle(CompareUGMappingUtil.getTitleStyle(workbook));
 				
 				/* (반복부) 거래별 시트 내 테이블 헤드 행 (고정값) */
@@ -93,7 +100,7 @@ public class CompareUGMappingMain {
 				for ( String key : originalMap.keySet() ) {
 					
 					/* (반복부의 반복부) 거래별 시트 내 본문 행 */
-					if ( loopCnt == 0 ) {		// 
+					if ( loopCnt == 0 ) {
 						row = sheet.createRow(rowIndex++);
 					}
 					loopCnt = 0;
@@ -148,10 +155,11 @@ public class CompareUGMappingMain {
 					cell = row.createCell(excelColIndex++);	cell.setCellValue(temp.substring(temp.indexOf(";")+1));		cell.setCellStyle(CompareUGMappingUtil.getCommStyle(workbook));
 					cell = row.createCell(excelColIndex++); cell.setCellValue(ugMap.getAddInfoMap(path));					cell.setCellStyle(CompareUGMappingUtil.getCommStyle(workbook));
 				}
+				
 			}
 			
 			/* 작성된 결과물을 엑셀파일에 저장한다 */
-			File file = new File("files/BOK_Phase1_CorePayment_BOK_매핑현황(20230808))_"+(new Date().getTime())+".xlsx");
+			File file = new File(OUTPUT_FILE_PATH + "/BOK_Phase1_CorePayment_v_1_2_매핑현황_" + (new Date().getTime()) +".xlsx");
 			fos = new FileOutputStream(file);
 			workbook.write(fos);
 			

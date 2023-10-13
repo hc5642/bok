@@ -66,10 +66,60 @@ public class CompareUGMappingFileMap {
 			
 			/* 실제 파일명으로 변환 */
 			File [] files = new File(filePath).listFiles();
+			int exCnt = 0;
 			
+			/* 요청 */
 			for ( String txCode : this.TX_MAP_REQ.keySet() ) {
 				
+				String [] name = this.TX_MAP_REQ.get(txCode).split("\\_");
+				
+				for ( File f : files ) {
+					if ( f.getName().contains(name[0].replace(".", "_"))) {
+						if ( name[1].endsWith("2") ) {
+							if ( f.getName().contains("CLS") || f.getName().contains("LINKED") || f.getName().contains("Intra")) {
+//								System.out.println(name[0] + ":" + name[1] + " - " + f.getName());
+								this.TX_MAP_REQ.put(txCode, f.getName());
+								exCnt++;
+								break;
+							}
+						} else {
+//							System.out.println(name[0] + ":" + name[1] + " - " + f.getName());
+							this.TX_MAP_REQ.put(txCode, f.getName());
+							exCnt++;
+							break;
+						}
+					}
+				}
 			}
+			
+			System.out.println("--- 실물 파일명으로 변환 완료 (요청) " + exCnt);
+			exCnt = 0;
+			
+			/* 응답 */
+			for ( String txCode : this.TX_MAP_RES.keySet() ) {
+				
+				String [] name = this.TX_MAP_RES.get(txCode).split("\\_");
+				
+				for ( File f : files ) {
+					if ( f.getName().contains(name[0].replace(".", "_"))) {
+						if ( name[1].endsWith("2") ) {
+							if ( f.getName().contains("CLS") || f.getName().contains("LINKED") || f.getName().contains("Intra")) {
+//								System.out.println(name[0] + ":" + name[1] + " - " + f.getName());
+								this.TX_MAP_RES.put(txCode, f.getName());
+								exCnt++;
+								break;
+							}
+						} else {
+//							System.out.println(name[0] + ":" + name[1] + " - " + f.getName());
+							this.TX_MAP_RES.put(txCode, f.getName());
+							exCnt++;
+							break;
+						}
+					}
+				}
+			}
+			
+			System.out.println("--- 실물 파일명으로 변환 완료 (응답) " + exCnt);
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -102,7 +152,7 @@ public class CompareUGMappingFileMap {
 	public static void main(String [] args) {
 		CompareUGMappingFileMap map = new CompareUGMappingFileMap("src/main/resources/static/input/20231004","mapping_20230830 ver.2.xlsx");
 		for ( String key : map.keySet() ) { 
-			System.out.println(map.getReqFileName(key));
+			System.out.println(key + "/" + map.getReqFileName(key));
 		}
 	}
 

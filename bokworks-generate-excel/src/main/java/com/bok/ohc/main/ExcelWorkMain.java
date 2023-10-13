@@ -60,8 +60,7 @@ public class ExcelWorkMain {
 				PATH_MAP = new TreeMap<String, String>();	
 				ADDINFO_MAP = new TreeMap<String, String>();
 				
-				String fileName = getFileName(txCode).replaceAll("BOK_Phase1_CorePayment_", "BOK_Phase1_CorePayment_v_1_1_").replaceAll("_20230526_0443", "_20230809_0448.xlsx");
-				
+				String fileName = getFileName(txCode);
 				목차_headerRow = 목차_headerSheet.createRow(headerRowIndex++);
 				
 				목차_headerCell = 목차_headerRow.createCell(0); 

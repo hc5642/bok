@@ -1,6 +1,7 @@
 package com.bok.ohc.main;
 
 import java.io.FileInputStream;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -40,9 +41,13 @@ public class CompareUGMappingUGMap {
 		int minMandIndex = 0;
 		int pathIndex = 0;
 		FileInputStream file = null;
+		
+		this.PATH_MAP = new HashMap<String, String>();
+		this.ADDINFO_MAP = new HashMap<String, String>();
+		
 		try {
 			// 경로에 있는 파일을 읽
-			file = new FileInputStream("files/" + fileName);
+			file = new FileInputStream(fileName);
 			XSSFWorkbook workbook = new XSSFWorkbook(file);
 
 			int rowNo = 0;
