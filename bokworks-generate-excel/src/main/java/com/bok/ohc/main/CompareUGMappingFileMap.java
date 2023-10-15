@@ -75,18 +75,20 @@ public class CompareUGMappingFileMap {
 				
 				for ( File f : files ) {
 					if ( f.getName().contains(name[0].replace(".", "_"))) {
-						if ( name[1].endsWith("2") ) {
+						if ( f.getName().contains(name[0].replace(".", "_"))) {
 							if ( f.getName().contains("CLS") || f.getName().contains("LINKED") || f.getName().contains("Intra")) {
-//								System.out.println(name[0] + ":" + name[1] + " - " + f.getName());
+								if ( name[1].endsWith("2") ) {
+//									System.out.println("요청_" +  txCode + "_" + name[0] + ":" + name[1] + " - " + f.getName());
+									this.TX_MAP_REQ.put(txCode, f.getName());
+									exCnt++;
+									break;
+								}
+							} else if ( name[1].endsWith("1") ) {
+//								System.out.println("요청_" + txCode + "_" + name[0] + ":" + name[1] + " - " + f.getName());
 								this.TX_MAP_REQ.put(txCode, f.getName());
 								exCnt++;
 								break;
 							}
-						} else {
-//							System.out.println(name[0] + ":" + name[1] + " - " + f.getName());
-							this.TX_MAP_REQ.put(txCode, f.getName());
-							exCnt++;
-							break;
 						}
 					}
 				}
@@ -102,15 +104,15 @@ public class CompareUGMappingFileMap {
 				
 				for ( File f : files ) {
 					if ( f.getName().contains(name[0].replace(".", "_"))) {
-						if ( name[1].endsWith("2") ) {
-							if ( f.getName().contains("CLS") || f.getName().contains("LINKED") || f.getName().contains("Intra")) {
-//								System.out.println(name[0] + ":" + name[1] + " - " + f.getName());
+						if ( f.getName().contains("CLS") || f.getName().contains("LINKED") || f.getName().contains("Intra")) {
+							if ( name[1].endsWith("2") ) {
+//								System.out.println("응답_" +  txCode + "_" + name[0] + ":" + name[1] + " - " + f.getName());
 								this.TX_MAP_RES.put(txCode, f.getName());
 								exCnt++;
 								break;
 							}
-						} else {
-//							System.out.println(name[0] + ":" + name[1] + " - " + f.getName());
+						} else if ( name[1].endsWith("1") ) {
+//							System.out.println("응답_" + txCode + "_" + name[0] + ":" + name[1] + " - " + f.getName());
 							this.TX_MAP_RES.put(txCode, f.getName());
 							exCnt++;
 							break;
@@ -151,8 +153,12 @@ public class CompareUGMappingFileMap {
 	
 	public static void main(String [] args) {
 		CompareUGMappingFileMap map = new CompareUGMappingFileMap("src/main/resources/static/input/20231004","mapping_20230830 ver.2.xlsx");
-		for ( String key : map.keySet() ) { 
+		for ( String key : map.TX_MAP_REQ.keySet() ) { 
 			System.out.println(key + "/" + map.getReqFileName(key));
+		}
+		
+		for ( String key : map.TX_MAP_RES.keySet() ) { 
+			System.out.println(key + "/" + map.getResFileName(key));
 		}
 	}
 

@@ -1,7 +1,7 @@
 package com.bok.ohc.main;
 
 import java.io.FileInputStream;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -21,10 +21,10 @@ public class CompareUGMappingOriMap {
 	
 	private Map<String, String> ORI_COL_MAP;
 	
-	public CompareUGMappingOriMap(String filePath, String txCode) {
+	public CompareUGMappingOriMap(String filePath, String txCode, boolean isReq) {
 		
 		FileInputStream file = null;
-		ORI_COL_MAP = new HashMap<String, String>();
+		ORI_COL_MAP = new LinkedHashMap<String, String>();
 		
 		try {
 			
@@ -38,15 +38,18 @@ public class CompareUGMappingOriMap {
 				XSSFRow row = sheetTxCode.getRow(rowNo);
 				if (row != null) {
 					XSSFCell cell1 = row.getCell(1); // 셀의 값을 가져온다
-					XSSFCell cell2 = row.getCell(6); // 셀의 값을 가져온다
-					if (cell1 == null || cell2 == null)
+					XSSFCell cell5 = row.getCell(5); // 셀의 값을 가져온다
+					XSSFCell cell6 = row.getCell(6); // 셀의 값을 가져온다
+					if ( isReq == false ) 
+						cell6 = row.getCell(7); // 셀의 값을 가져온다
+					if (cell1 == null || cell6 == null)
 						continue;
 					String colName = cell1.toString().trim();
 					if (colName.length() == 0)
 						continue;
 					if (colName.equals("항목") || colName.equals("공통부"))
 						continue;
-					this.ORI_COL_MAP.put(CompareUGMappingUtil.getOnlyHangle(colName), cell2.toString());
+					this.ORI_COL_MAP.put(CompareUGMappingUtil.getOnlyHangle(colName), cell5.toString() +"_"+ cell6.toString());
 				}
 			}
 		} catch ( Exception e ) {

@@ -1,7 +1,7 @@
 package com.bok.ohc.main;
 
 import java.io.FileInputStream;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -42,8 +42,8 @@ public class CompareUGMappingUGMap {
 		int pathIndex = 0;
 		FileInputStream file = null;
 		
-		this.PATH_MAP = new HashMap<String, String>();
-		this.ADDINFO_MAP = new HashMap<String, String>();
+		this.PATH_MAP = new LinkedHashMap<String, String>();
+		this.ADDINFO_MAP = new LinkedHashMap<String, String>();
 		
 		try {
 			// 경로에 있는 파일을 읽
