@@ -27,8 +27,14 @@ public class SpringReplyConsumerComponent implements SessionAwareMessageListener
         ObjectMessage responseMessage = new ActiveMQObjectMessage();
         responseMessage.setJMSCorrelationID(message.getJMSCorrelationID());
         responseMessage.setObject("receive ok!");
+        
+        try {
+			Thread.sleep(5*1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 
-        // Message sent back to the replyTo address of the income message.
+        //  Message sent back to the replyTo address of the income message.
         MessageProducer producer = session.createProducer(message.getJMSReplyTo());
         producer.send(responseMessage);
         log.info("--- 메시지 수신 응답 송출완료. [message.getJMSReplyTo()]");
