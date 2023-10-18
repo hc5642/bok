@@ -9,6 +9,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import org.apache.poi.openxml4j.opc.OPCPackage;
+import org.apache.poi.ss.usermodel.CreationHelper;
+import org.apache.poi.ss.usermodel.Hyperlink;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -26,72 +28,69 @@ public class ReSortUsageGuideMain {
 	public static void main(String [] args) throws IOException {
 		
 		String outputFilePath = OUTPUT_FILE_PATH + "/BOK_Phase1_CorePayment_v_1_2_FullView_통합본_" + (new SimpleDateFormat("yyyyMMddHmm").format(new Date())) +".xlsx";
-		System.out.println(outputFilePath);
+		
 		FileOutputStream fos = null;
+		XSSFWorkbook outputWorkbook = new XSSFWorkbook();
+		XSSFSheet outputSheet = null;
+		
+		/* 1번 시트 생성 */
+		XSSFSheet titleHeaderSheet = outputWorkbook.createSheet("목차");
+		titleHeaderSheet.setColumnWidth(0, 4000);
+		titleHeaderSheet.setColumnWidth(1, 6000);
+		
+		XSSFRow titleHeaderRow = null;
+		int headerRowIndex = 0;
+		XSSFCell titleHeaderCell = null;
+		
+		titleHeaderRow = titleHeaderSheet.createRow(headerRowIndex++);
+		titleHeaderCell = titleHeaderRow.createCell(0); titleHeaderCell.setCellValue("거래구분코드"); 	titleHeaderCell.setCellStyle(CompareUGMappingUtil.getTitleStyle(outputWorkbook));
+		titleHeaderCell = titleHeaderRow.createCell(1); titleHeaderCell.setCellValue("UG파일명"); 		titleHeaderCell.setCellStyle(CompareUGMappingUtil.getTitleStyle(outputWorkbook));
+		CreationHelper createHelper = outputWorkbook.getCreationHelper();
+		Hyperlink hyperlinkTx, hyperlinkHome = null;
+		
 		
 		try {
 			
 			/* 파일데이터 수집*/
 			Map<String, String> fileMap = getFileList(UG_PATH);
 			
-			boolean isFirstFile = true;
 			for ( String msgCd : fileMap.keySet() ) {
 				
-				XSSFWorkbook outputWorkbook = null;
-				OPCPackage outputPkg = null;
-				/* 저장햇던 output workbook 을 다시 열어 */
-				if ( isFirstFile ) {
-					outputWorkbook = new XSSFWorkbook();
-					isFirstFile = false;
-				} else {
-					outputPkg = OPCPackage.open(new File(outputFilePath));
-					outputWorkbook = new XSSFWorkbook(outputPkg);
-				}
+				titleHeaderRow = titleHeaderSheet.createRow(headerRowIndex++);
+				
+				titleHeaderCell = titleHeaderRow.createCell(0); 
+								  titleHeaderCell.setCellStyle(CompareUGMappingUtil.getCommStyle(outputWorkbook));
+								  titleHeaderCell.setCellValue(msgCd);
+								  hyperlinkTx = createHelper.createHyperlink(Hyperlink.LINK_DOCUMENT);
+								  hyperlinkTx.setAddress("'"+msgCd+"'!A1");
+								  titleHeaderCell.setHyperlink(hyperlinkTx);
+				titleHeaderCell = titleHeaderRow.createCell(1);
+								  titleHeaderCell.setCellValue(fileMap.get(msgCd)); 
+								  titleHeaderCell.setCellStyle(CompareUGMappingUtil.getCommStyle(outputWorkbook));
+				
+				outputSheet = outputWorkbook.createSheet(msgCd);
 				System.out.println(msgCd);
-				XSSFSheet outputSheet = outputWorkbook.createSheet(msgCd);
 				
 				/* (반복부) 실제 UG 값을 가져온다 */
 				OPCPackage ugPkg = OPCPackage.open(new File(UG_PATH + fileMap.get(msgCd)));
 				XSSFWorkbook UGworkbook = new XSSFWorkbook(ugPkg);
 				XSSFSheet FullViewsheet = UGworkbook.getSheet("Full_View");
-				XSSFCell Ugcell = null;
-				String Ugvalue = null;
-				int rowNo = 0;
-				int rows = FullViewsheet.getPhysicalNumberOfRows();
 				
-				for (rowNo = 0; rowNo < rows; rowNo++) {
-					
-					XSSFRow ugRow = FullViewsheet.getRow(rowNo);
-					XSSFRow outputRow = outputSheet.createRow(rowNo);
-					
-					if (ugRow != null) {
-						
-						int cells = ugRow.getPhysicalNumberOfCells(); // 해당 Row에 입력된 셀의 수를 가져온다
-						
-						for (int cellNo = 0; cellNo < cells; cellNo++) {
-							
-							Ugcell = ugRow.getCell(cellNo); // 셀의 값을 가져온다
-							Ugvalue = CompareUGMappingUtil.getCellValue(Ugcell);
-							
-							XSSFCell outputCell = outputRow.createCell(cellNo);
-							
-							System.out.println(rowNo + "," + cellNo);
-							
-							outputCell = outputRow.createCell(cellNo);
-							outputCell.setCellValue(Ugvalue);	
-							outputCell.setCellStyle(CompareUGMappingUtil.getCommStyle(outputWorkbook));
-							
-						}
-					}
-				}
-				/* 작성된 결과물을 엑셀파일에 저장한다 (2차 저장) */
-				fos = new FileOutputStream(new File(outputFilePath));
-				outputWorkbook.write(fos); 
-				fos.close();
-				if ( outputPkg != null ) outputPkg.close();
-				ugPkg.close();
+				Util.copySheets(outputSheet, FullViewsheet,true);
+				
+				XSSFRow firstRow = outputSheet.getRow(0);
+				XSSFCell firstCell = firstRow.getCell(0);
+				hyperlinkHome = createHelper.createHyperlink(Hyperlink.LINK_DOCUMENT);
+				hyperlinkHome.setAddress("'목차'!A1");
+				firstCell.setHyperlink(hyperlinkHome);
+				
 				
 			}
+			
+			/* 작성된 결과물을 엑셀파일에 저장한다*/
+			fos = new FileOutputStream(new File(outputFilePath));
+			outputWorkbook.write(fos); 
+			fos.close();
 			
 		} catch ( Exception e ) {
 			e.printStackTrace();
