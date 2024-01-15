@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.bok.iso20022.mngr.svc.BokwireManagerSvc;
 
@@ -29,7 +28,7 @@ public class BokwireManagerCtl {
 	
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());	
 	
-	private final String calendarPath = "C:/Users/bok/git/fep-manager/fep-manager/target/calendar.";
+	private final String calendarPath = "./calendar.";
 	
 	/**
 	 * 캘린더 새로운 버전
@@ -76,6 +75,7 @@ public class BokwireManagerCtl {
 		model.addAttribute("dayInt", dayInt);
 		model.addAttribute("name", name);
 		model.addAttribute("dayTable", svc.getCalendarTable(cal, yearInt, monthInt));
+		logger.info("--- calendar path : " + calendarPath + name+"."+yearInt+".dat");
 		Map<String, String> result = svc.loadMap(calendarPath + name+"."+yearInt+".dat");
 		if ( filterKey != null && filterKey.trim().length() > 0 ) {
 	 		String temp = "";
@@ -157,7 +157,7 @@ public class BokwireManagerCtl {
 	@RequestMapping("/hello")
 	public String hello() {
 		return "index";
-	}
+	} 
 	
 
 }

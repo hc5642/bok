@@ -54,7 +54,7 @@ public class BokwireManagerSvcImpl implements BokwireManagerSvc {
 			ois = new ObjectInputStream(new FileInputStream(filePath));
 			map = (Map<String, String>) ois.readObject();
 		} catch ( Exception e ) {
-			e.printStackTrace();
+			logger.error("--- ERROR 발생 : ", e);
 		} finally {
 			try {
 				if ( ois != null ) ois.close();

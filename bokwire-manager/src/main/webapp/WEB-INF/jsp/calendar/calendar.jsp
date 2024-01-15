@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>FEP Calendar - ${name}</title>
+<title>OPEN Calendar - ${name}</title>
 <link rel="stylesheet" type="text/css" href="/css/bokwire.css" />
 <meta charset="EUC-KR" http-equiv="refresh" content="600">
 <script>
@@ -55,14 +55,7 @@ function holidayCheck() {
 	<img src="/images/kbank_logo.gif" height="30px" style="vertical-align: middle;" />
 </div>
 <h1 style="font-family: se-nanumsquare;">
-	<c:choose>
-		<c:when test="${name eq 'mkt'}" >
-		마케팅/배포 일정공유 캘린더  - ${yearInt }년 ${monthInt }월 ${dayInt }일
-		</c:when>
-		<c:otherwise>
-		FEP 오픈캘린더(${name})  - ${yearInt }년 ${monthInt }월
-		</c:otherwise>
-	</c:choose>
+	오픈캘린더(${name})  - ${yearInt }년 ${monthInt }월
 </h1>
 <ul><li>
 <a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt-1 }&key=&value=&filterKey=${filterKey}">이전달</a> |
