@@ -12,7 +12,7 @@ import org.json.XML;
 
 public class GenerateJsonMain {
 	
-	final static String INPUT_DIR = "./src/main/resources/static/output/bokwire/convert_MIN";
+	final static String INPUT_DIR = "./src/main/resources/static/output/bokwire/20231102/convert_MIN";
 	final static String OUTPUT_DIR = INPUT_DIR + "/json";
 
 	public static void main(String[] args) {

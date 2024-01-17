@@ -1,0 +1,193 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.006.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:RtrTx>
+              
+        <!--(ns:MsgId , ns:CreDtTm , ns:MsgPgntn? , ns:OrgnlBizQry , ns:ReqTp)-->
+              
+        <ns:MsgHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:35:03</ns:CreDtTm>
+            <ns:MsgPgntn>
+                <ns:PgNb>7191</ns:PgNb>
+                <ns:LastPgInd>true</ns:LastPgInd>
+            </ns:MsgPgntn>
+            <ns:OrgnlBizQry>
+                <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            </ns:OrgnlBizQry>
+            <ns:ReqTp>
+                <ns:Prtry>
+                    <ns:Id>ICSC</ns:Id>
+                </ns:Prtry>
+            </ns:ReqTp>
+        </ns:MsgHdr>
+              
+        <!--(ns:BizRpt | ns:OprlErr+)-->
+              
+        <ns:RptOrErr>
+                     
+            <!--(ns:TxRpt+)-->
+                     
+            <ns:BizRpt>
+                <ns:TxRpt>
+                                   
+                    <!--(ns:LngBizId | ns:PrtryId)-->
+                                   
+                    <ns:PmtId>
+                        <ns:PrtryId>0000000000000000000000000000000000000000000000000000000000000000000000</ns:PrtryId>
+                                          
+                        <!--(ns:TxId? , ns:UETR? , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt , ns:EndToEndId?)-->
+                                          
+                        <ns:LngBizId>
+                            <ns:TxId>00000000000000000000000000000000000</ns:TxId>
+                            <ns:UETR>d3089610-014f-4c95-82f8-a8a4ed1abec7</ns:UETR>
+                            <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
+                            <ns:IntrBkSttlmDt>2023-11-02</ns:IntrBkSttlmDt>
+                            <ns:InstgAgt>
+                                                        
+                                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                                        
+                                <ns:FinInstnId>
+                                    <ns:BICFI>VNIHIG95(W3V</ns:BICFI>
+                                    <ns:ClrSysMmbId>
+                                        <ns:ClrSysId>
+                                            <ns:Cd>KRBOK</ns:Cd>
+                                        </ns:ClrSysId>
+                                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                                    </ns:ClrSysMmbId>
+                                    <ns:LEI>23KYPCH3KY35GLKLSA26</ns:LEI>
+                                </ns:FinInstnId>
+                            </ns:InstgAgt>
+                            <ns:InstdAgt>
+                                                        
+                                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                                        
+                                <ns:FinInstnId>
+                                    <ns:BICFI>DVICFXV1(ZO3)</ns:BICFI>
+                                    <ns:ClrSysMmbId>
+                                        <ns:ClrSysId>
+                                            <ns:Cd>KRBOK</ns:Cd>
+                                        </ns:ClrSysId>
+                                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                                    </ns:ClrSysMmbId>
+                                    <ns:LEI>BEH7Z9GBWO7HD6FYGC44</ns:LEI>
+                                </ns:FinInstnId>
+                                <ns:BrnchId>
+                                    <ns:Nm>000000000000000000000000000000</ns:Nm>
+                                </ns:BrnchId>
+                            </ns:InstdAgt>
+                            <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
+                        </ns:LngBizId>
+                    </ns:PmtId>
+                    <ns:TxOrErr>
+                                          
+                        <!--(ns:PmtTo? , ns:PmtFr? , ns:CdtDbtInd? , ns:Pmt)-->
+                                          
+                        <ns:Tx>
+                            <ns:PmtTo>
+                                <ns:MmbId>
+                                                               
+                                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                                               
+                                    <ns:FinInstnId>
+                                        <ns:BICFI>1KYFDPQ4(CGV)</ns:BICFI>
+                                        <ns:ClrSysMmbId>
+                                            <ns:ClrSysId>
+                                                <ns:Cd>KRBOK</ns:Cd>
+                                            </ns:ClrSysId>
+                                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                                        </ns:ClrSysMmbId>
+                                        <ns:LEI>P3ADYGRLCO1KUNKKNN32</ns:LEI>
+                                    </ns:FinInstnId>
+                                </ns:MmbId>
+                            </ns:PmtTo>
+                            <ns:PmtFr>
+                                <ns:MmbId>
+                                                               
+                                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                                               
+                                    <ns:FinInstnId>
+                                        <ns:BICFI>5VUPNO6D(YAF)</ns:BICFI>
+                                        <ns:ClrSysMmbId>
+                                            <ns:ClrSysId>
+                                                <ns:Cd>KRBOK</ns:Cd>
+                                            </ns:ClrSysId>
+                                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                                        </ns:ClrSysMmbId>
+                                        <ns:LEI>1QYY0XPQW6BTJ1MSPI90</ns:LEI>
+                                    </ns:FinInstnId>
+                                </ns:MmbId>
+                            </ns:PmtFr>
+                            <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                                                 
+                            <!--(ns:MsgId? , ns:Sts , ns:PmtMtd? , ns:Prty? , ns:TxId? , ns:IntrBkSttlmDt? , ns:EndToEndId? , ns:Pties?)-->
+                                                 
+                            <ns:Pmt>
+                                <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+                                                        
+                                <!--(ns:Cd , ns:DtTm? , ns:Rsn*)-->
+                                                        
+                                <ns:Sts>
+                                    <ns:Cd>
+                                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                                    </ns:Cd>
+                                    <ns:DtTm>
+                                        <ns:DtTm>2023-11-02T11:35:03</ns:DtTm>
+                                    </ns:DtTm>
+                                    <ns:Rsn>
+                                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                                    </ns:Rsn>
+                                </ns:Sts>
+                                <ns:PmtMtd>
+                                    <ns:XMLMsgNm>00000000000000000000000000000000000</ns:XMLMsgNm>
+                                </ns:PmtMtd>
+                                <ns:Prty>
+                                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                                </ns:Prty>
+                                <ns:TxId>00000000000000000000000000000000000</ns:TxId>
+                                <ns:IntrBkSttlmDt>2023-11-02</ns:IntrBkSttlmDt>
+                                <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
+                                <ns:Pties>
+                                    <ns:Cdtr>
+                                        <ns:Pty>
+                                            <ns:Nm>000000000000000000000000000000</ns:Nm>
+                                                                             
+                                            <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:PstBx? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:CtrySubDvsn? , ns:Ctry , ns:AdrLine[0,2])-->
+                                                                             
+                                            <ns:PstlAdr>
+                                                <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
+                                                <ns:StrtNm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:StrtNm>
+                                                <ns:BldgNb>0000000000000000</ns:BldgNb>
+                                                <ns:BldgNm>00000000000000000000000000000000000</ns:BldgNm>
+                                                <ns:Flr>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Flr>
+                                                <ns:PstBx>0000000000000000</ns:PstBx>
+                                                <ns:Room>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Room>
+                                                <ns:PstCd>0000000000000000</ns:PstCd>
+                                                <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                                                <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
+                                                <ns:CtrySubDvsn>00000000000000000000000000000000000</ns:CtrySubDvsn>
+                                                <ns:Ctry>AB</ns:Ctry>
+                                                <ns:AdrLine>0000000000000000000000000000000000000000000000000000000000000000000000</ns:AdrLine>
+                                            </ns:PstlAdr>
+                                        </ns:Pty>
+                                    </ns:Cdtr>
+                                </ns:Pties>
+                            </ns:Pmt>
+                        </ns:Tx>
+                    </ns:TxOrErr>
+                </ns:TxRpt>
+            </ns:BizRpt>
+                     
+            <!--(ns:Err , ns:Desc?)-->
+                     
+            <ns:OprlErr>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:Err>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:Err>
+                <ns:Desc>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Desc>
+            </ns:OprlErr>
+        </ns:RptOrErr>
+    </ns:RtrTx>
+</ns:Document>

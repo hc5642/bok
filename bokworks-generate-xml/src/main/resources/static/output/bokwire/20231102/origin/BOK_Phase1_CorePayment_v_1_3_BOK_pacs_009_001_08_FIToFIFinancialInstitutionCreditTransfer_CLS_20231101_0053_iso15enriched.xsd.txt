@@ -1,0 +1,470 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:FICdtTrf>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:35:04</ns:CreDtTm>
+            <ns:NbOfTxs>1</ns:NbOfTxs>
+            <ns:SttlmInf>
+                <ns:SttlmMtd>CLRG</ns:SttlmMtd>
+                <ns:ClrSys>
+                    <ns:Cd>BOK</ns:Cd>
+                </ns:ClrSys>
+            </ns:SttlmInf>
+        </ns:GrpHdr>
+              
+        <!--(ns:PmtId , ns:PmtTpInf , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:SttlmTmReq? , ns:InstgAgt , ns:InstdAgt , ns:IntrmyAgt1? , ns:IntrmyAgt1Acct? , ns:Dbtr , ns:DbtrAcct? , ns:DbtrAgt? , ns:DbtrAgtAcct? , ns:CdtrAgt? , ns:CdtrAgtAcct? , ns:Cdtr , ns:CdtrAcct? , ns:InstrForCdtrAgt[0,2] , ns:Purp? , ns:RmtInf?)-->
+              
+        <ns:CdtTrfTxInf>
+                     
+            <!--(ns:InstrId? , ns:EndToEndId , ns:TxId? , ns:UETR)-->
+                     
+            <ns:PmtId>
+                <ns:InstrId>00000000000000000000000000000000000</ns:InstrId>
+                <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
+                <ns:TxId>00000000000000000000000000000000000</ns:TxId>
+                <ns:UETR>6bdae672-1fcd-4c80-9518-b0d561fc8c79</ns:UETR>
+            </ns:PmtId>
+                     
+            <!--(ns:SvcLvl , ns:LclInstrm? , ns:CtgyPurp?)-->
+                     
+            <ns:PmtTpInf>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:SvcLvl>
+                    <ns:Cd>0000</ns:Cd>
+                    <ns:Prtry>3</ns:Prtry>
+                </ns:SvcLvl>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:LclInstrm>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    <ns:Cd>00000000000000000000000000000000000</ns:Cd>
+                </ns:LclInstrm>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:CtgyPurp>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:CtgyPurp>
+            </ns:PmtTpInf>
+            <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
+            <ns:IntrBkSttlmDt>2023-11-02</ns:IntrBkSttlmDt>
+                     
+            <!--(ns:CLSTm?)-->
+                     
+            <ns:SttlmTmReq>
+                <ns:CLSTm>11:35:04</ns:CLSTm>
+            </ns:SttlmTmReq>
+            <ns:InstgAgt>
+                            
+                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>5LEAAYWL(VTP)</ns:BICFI>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>BQXHAKKKYAV7KYRBP167</ns:LEI>
+                </ns:FinInstnId>
+            </ns:InstgAgt>
+            <ns:InstdAgt>
+                            
+                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>GHZVCAX5(3HY</ns:BICFI>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>1016</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>GXLT86RPS3OS8CWPIH62</ns:LEI>
+                </ns:FinInstnId>
+            </ns:InstdAgt>
+            <ns:IntrmyAgt1>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>X5J9IULV(L1W)</ns:BICFI>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>00000</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>XAXQIO9VFWMGOTR6N092</ns:LEI>
+                </ns:FinInstnId>
+            </ns:IntrmyAgt1>
+                     
+            <!--(ns:Id , ns:Tp? , ns:Prxy?)-->
+                     
+            <ns:IntrmyAgt1Acct>
+                            
+                <!--(ns:IBAN | ns:Othr)-->
+                            
+                <ns:Id>
+                                   
+                    <!--(ns:Id , ns:SchmeNm? , ns:Issr?)-->
+                                   
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                                          
+                        <!--(ns:Cd | ns:Prtry)-->
+                                          
+                        <ns:SchmeNm>
+                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                            <ns:Cd>0000</ns:Cd>
+                        </ns:SchmeNm>
+                        <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                    </ns:Othr>
+                    <ns:IBAN>SR95FyjOFnwcMynvNpdJ1tU</ns:IBAN>
+                </ns:Id>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:Tp>
+                    <ns:Cd>0000</ns:Cd>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                </ns:Tp>
+                            
+                <!--(ns:Tp? , ns:Id)-->
+                            
+                <ns:Prxy>
+                    <ns:Tp>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    </ns:Tp>
+                    <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
+                </ns:Prxy>
+            </ns:IntrmyAgt1Acct>
+            <ns:Dbtr>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>PQ4NNS8U(WU9</ns:BICFI>
+                                   
+                    <!--(ns:ClrSysId? , ns:MmbId)-->
+                                   
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>0SMICQSYLVVW4FDZM727</ns:LEI>
+                    <ns:Nm>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Nm>
+                                   
+                    <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:Ctry , ns:AdrLine[0,2])-->
+                                   
+                    <ns:PstlAdr>
+                        <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
+                        <ns:StrtNm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:StrtNm>
+                        <ns:BldgNb>0000000000000000</ns:BldgNb>
+                        <ns:BldgNm>00000000000000000000000000000000000</ns:BldgNm>
+                        <ns:Flr>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Flr>
+                        <ns:Room>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Room>
+                        <ns:PstCd>0000000000000000</ns:PstCd>
+                        <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                        <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
+                        <ns:Ctry>CZ</ns:Ctry>
+                        <ns:AdrLine>0000000000000000000000000000000000000000000000000000000000000000000000</ns:AdrLine>
+                    </ns:PstlAdr>
+                </ns:FinInstnId>
+            </ns:Dbtr>
+                     
+            <!--(ns:Id , ns:Tp? , ns:Prxy?)-->
+                     
+            <ns:DbtrAcct>
+                            
+                <!--(ns:IBAN | ns:Othr)-->
+                            
+                <ns:Id>
+                                   
+                    <!--(ns:Id , ns:SchmeNm? , ns:Issr?)-->
+                                   
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                                          
+                        <!--(ns:Cd | ns:Prtry)-->
+                                          
+                        <ns:SchmeNm>
+                            <ns:Cd>0000</ns:Cd>
+                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                        </ns:SchmeNm>
+                        <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                    </ns:Othr>
+                    <ns:IBAN>YX392hWzQP8XIbwLXYzskNPZRmOVMr1Wp</ns:IBAN>
+                </ns:Id>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:Tp>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:Tp>
+                            
+                <!--(ns:Tp? , ns:Id)-->
+                            
+                <ns:Prxy>
+                    <ns:Tp>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    </ns:Tp>
+                    <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
+                </ns:Prxy>
+            </ns:DbtrAcct>
+            <ns:DbtrAgt>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>973HDYAR(I0U</ns:BICFI>
+                                   
+                    <!--(ns:ClrSysId? , ns:MmbId)-->
+                                   
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>JQ56U08Z3JLCB1C2DW93</ns:LEI>
+                    <ns:Nm>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Nm>
+                                   
+                    <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:CtrySubDvsn? , ns:Ctry , ns:AdrLine[0,2])-->
+                                   
+                    <ns:PstlAdr>
+                        <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
+                        <ns:StrtNm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:StrtNm>
+                        <ns:BldgNb>0000000000000000</ns:BldgNb>
+                        <ns:BldgNm>00000000000000000000000000000000000</ns:BldgNm>
+                        <ns:Flr>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Flr>
+                        <ns:Room>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Room>
+                        <ns:PstCd>0000000000000000</ns:PstCd>
+                        <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                        <ns:CtrySubDvsn>00000000000000000000000000000000000</ns:CtrySubDvsn>
+                        <ns:Ctry>TV</ns:Ctry>
+                        <ns:AdrLine>0000000000000000000000000000000000000000000000000000000000000000000000</ns:AdrLine>
+                    </ns:PstlAdr>
+                </ns:FinInstnId>
+            </ns:DbtrAgt>
+                     
+            <!--(ns:Id , ns:Tp? , ns:Prxy?)-->
+                     
+            <ns:DbtrAgtAcct>
+                            
+                <!--(ns:IBAN | ns:Othr)-->
+                            
+                <ns:Id>
+                                   
+                    <!--(ns:Id , ns:SchmeNm? , ns:Issr?)-->
+                                   
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                                          
+                        <!--(ns:Cd | ns:Prtry)-->
+                                          
+                        <ns:SchmeNm>
+                            <ns:Cd>0000</ns:Cd>
+                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                        </ns:SchmeNm>
+                        <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                    </ns:Othr>
+                    <ns:IBAN>UB652CkZyJrJIsIuCry2Tdof2</ns:IBAN>
+                </ns:Id>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:Tp>
+                    <ns:Cd>0000</ns:Cd>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                </ns:Tp>
+                            
+                <!--(ns:Tp? , ns:Id)-->
+                            
+                <ns:Prxy>
+                    <ns:Tp>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    </ns:Tp>
+                    <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
+                </ns:Prxy>
+            </ns:DbtrAgtAcct>
+            <ns:CdtrAgt>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>Z41ULYE2(YA0</ns:BICFI>
+                                   
+                    <!--(ns:ClrSysId? , ns:MmbId)-->
+                                   
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>EPE0WP4WNHZHZB48YP24</ns:LEI>
+                    <ns:Nm>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Nm>
+                                   
+                    <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:CtrySubDvsn? , ns:Ctry , ns:AdrLine[0,2])-->
+                                   
+                    <ns:PstlAdr>
+                        <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
+                        <ns:StrtNm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:StrtNm>
+                        <ns:BldgNb>0000000000000000</ns:BldgNb>
+                        <ns:BldgNm>00000000000000000000000000000000000</ns:BldgNm>
+                        <ns:Flr>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Flr>
+                        <ns:Room>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Room>
+                        <ns:PstCd>0000000000000000</ns:PstCd>
+                        <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                        <ns:CtrySubDvsn>00000000000000000000000000000000000</ns:CtrySubDvsn>
+                        <ns:Ctry>UI</ns:Ctry>
+                        <ns:AdrLine>0000000000000000000000000000000000000000000000000000000000000000000000</ns:AdrLine>
+                    </ns:PstlAdr>
+                </ns:FinInstnId>
+            </ns:CdtrAgt>
+                     
+            <!--(ns:Id , ns:Tp? , ns:Prxy?)-->
+                     
+            <ns:CdtrAgtAcct>
+                            
+                <!--(ns:IBAN | ns:Othr)-->
+                            
+                <ns:Id>
+                                   
+                    <!--(ns:Id , ns:SchmeNm? , ns:Issr?)-->
+                                   
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                                          
+                        <!--(ns:Cd | ns:Prtry)-->
+                                          
+                        <ns:SchmeNm>
+                            <ns:Cd>0000</ns:Cd>
+                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                        </ns:SchmeNm>
+                        <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                    </ns:Othr>
+                    <ns:IBAN>DM17Ly4MoTOdg</ns:IBAN>
+                </ns:Id>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:Tp>
+                    <ns:Cd>0000</ns:Cd>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                </ns:Tp>
+                            
+                <!--(ns:Tp? , ns:Id)-->
+                            
+                <ns:Prxy>
+                    <ns:Tp>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    </ns:Tp>
+                    <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
+                </ns:Prxy>
+            </ns:CdtrAgtAcct>
+            <ns:Cdtr>
+                            
+                <!--(ns:BICFI , ns:ClrSysMmbId? , ns:LEI? , ns:Nm? , ns:PstlAdr?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>R7N0FTIN(R48</ns:BICFI>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>CYRUC9PIHC8WQLLWJM11</ns:LEI>
+                    <ns:Nm>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Nm>
+                                   
+                    <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:Ctry , ns:AdrLine[0,2])-->
+                                   
+                    <ns:PstlAdr>
+                        <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
+                        <ns:StrtNm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:StrtNm>
+                        <ns:BldgNb>0000000000000000</ns:BldgNb>
+                        <ns:BldgNm>00000000000000000000000000000000000</ns:BldgNm>
+                        <ns:Flr>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Flr>
+                        <ns:Room>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Room>
+                        <ns:PstCd>0000000000000000</ns:PstCd>
+                        <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                        <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
+                        <ns:Ctry>HO</ns:Ctry>
+                        <ns:AdrLine>0000000000000000000000000000000000000000000000000000000000000000000000</ns:AdrLine>
+                    </ns:PstlAdr>
+                </ns:FinInstnId>
+            </ns:Cdtr>
+                     
+            <!--(ns:Id , ns:Tp? , ns:Prxy?)-->
+                     
+            <ns:CdtrAcct>
+                            
+                <!--(ns:IBAN | ns:Othr)-->
+                            
+                <ns:Id>
+                                   
+                    <!--(ns:Id , ns:SchmeNm? , ns:Issr?)-->
+                                   
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                                          
+                        <!--(ns:Cd | ns:Prtry)-->
+                                          
+                        <ns:SchmeNm>
+                            <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                            <ns:Cd>0000</ns:Cd>
+                        </ns:SchmeNm>
+                        <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                    </ns:Othr>
+                    <ns:IBAN>VN05ZjrdRFVObllg</ns:IBAN>
+                </ns:Id>
+                            
+                <!--(ns:Cd | ns:Prtry)-->
+                            
+                <ns:Tp>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
+                </ns:Tp>
+                            
+                <!--(ns:Tp? , ns:Id)-->
+                            
+                <ns:Prxy>
+                    <ns:Tp>
+                        <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    </ns:Tp>
+                    <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
+                </ns:Prxy>
+            </ns:CdtrAcct>
+                     
+            <!--(ns:Cd? , ns:InstrInf?)-->
+                     
+            <ns:InstrForCdtrAgt>
+                <ns:Cd>PHOB</ns:Cd>
+                <ns:InstrInf>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:InstrInf>
+            </ns:InstrForCdtrAgt>
+                     
+            <!--(ns:Cd | ns:Prtry)-->
+                     
+            <ns:Purp>
+                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                <ns:Cd>0000</ns:Cd>
+            </ns:Purp>
+                     
+            <!--(ns:Ustrd?)-->
+                     
+            <ns:RmtInf>
+                <ns:Ustrd>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Ustrd>
+            </ns:RmtInf>
+        </ns:CdtTrfTxInf>
+    </ns:FICdtTrf>
+</ns:Document>

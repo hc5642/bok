@@ -1,0 +1,50 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.052.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrAcctRpt>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:35:03</ns:CreDtTm>
+        </ns:GrpHdr>
+        <ns:Rpt>
+            <ns:Id>00000000000000000000000000000000000</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                                   
+                    <!--(ns:Id , ns:Issr?)-->
+                                   
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                        <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Tp>
+                    <ns:Prtry>SACC_1062</ns:Prtry>
+                </ns:Tp>
+                <ns:Ccy>OOD</ns:Ccy>
+            </ns:Acct>
+                     
+            <!--(ns:TtlNtriesPerBkTxCd+)-->
+                     
+            <ns:TxsSummry>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:CdtNtries>
+                        <ns:NbOfNtries>99992404811</ns:NbOfNtries>
+                        <ns:Sum>-922337203685477580</ns:Sum>
+                    </ns:CdtNtries>
+                    <ns:DbtNtries>
+                        <ns:NbOfNtries>4617</ns:NbOfNtries>
+                        <ns:Sum>-922337203685477580</ns:Sum>
+                    </ns:DbtNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>DSS005</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+            </ns:TxsSummry>
+            <ns:AddtlRptInf>KWqN7I9Fvf4OVPWOLZkYP3Uh9DKJfePvdUbB8vtKg4EP3OYmturGmhPN0SELIMBfVElpNDneGN5JdkkqxPmhq2P9C2svzvFfGXXnC7CNMZ2N4TZLZTp3sNi68zI49yYMHjDpasIH00ZegMR5DhqviuAPy5bY1tegdneWmq1h0eMo6Z0qW2c8hq9bnqCr43fX00ISM0yngYIa8HeeuIoFf1na0lyEfJYmLxMHeuTTXzQNZ7GYosa8pNwUTmhqvPApGBpzl6Nc8jiHwJzChjOIWeIyO2pug1j0VmnhYprQDUFd2LTA9OsMnyjOLexrkRXQc9Gw2xATCim4N8slVqQK1ABtYg8dkpwF9tT99XRMGm5EvPJLOHEVPCqjBzRTo0v10Hbaw85zEHc4lgcWk2Bpsahkoy4MvmdeVIGaH3fU4BsrQG5Tb2OzZSs5mOH83bESIqjID5Sm6M6g8aeGNMpif1JuYAjidDCIfAYqA4ZnmqYxpIZnKrk6</ns:AddtlRptInf>
+        </ns:Rpt>
+    </ns:BkToCstmrAcctRpt>
+</ns:Document>

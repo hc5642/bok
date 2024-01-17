@@ -1,0 +1,46 @@
+
+<!--(ns:CharSet , ns:Fr , ns:To , ns:BizMsgIdr , ns:MsgDefIdr , ns:BizSvc , ns:CreDt , ns:Sgntr?)-->
+<ns:AppHdr xmlns:ns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:CharSet>AC00..D7AF</ns:CharSet>
+    <ns:Fr>
+        <ns:FIId>
+                     
+            <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                     
+            <ns:FinInstnId>
+                <ns:BICFI>TMS6WYG5(JDD)</ns:BICFI>
+                <ns:ClrSysMmbId>
+                    <ns:ClrSysId>
+                        <ns:Cd>KRBOK</ns:Cd>
+                    </ns:ClrSysId>
+                    <ns:MmbId>8780</ns:MmbId>
+                </ns:ClrSysMmbId>
+                <ns:LEI>OOU33TJXF9H9RG6PFT72</ns:LEI>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:Fr>
+    <ns:To>
+        <ns:FIId>
+                     
+            <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                     
+            <ns:FinInstnId>
+                <ns:BICFI>V6A2CEPQ(GC8)</ns:BICFI>
+                <ns:ClrSysMmbId>
+                    <ns:ClrSysId>
+                        <ns:Cd>KRBOK</ns:Cd>
+                    </ns:ClrSysId>
+                    <ns:MmbId>1016</ns:MmbId>
+                </ns:ClrSysMmbId>
+                <ns:LEI>09PLWNAFP6H64USBOU09</ns:LEI>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:To>
+    <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
+    <ns:MsgDefIdr>pacs.008.001.08</ns:MsgDefIdr>
+    <ns:BizSvc>bok.rtgs.lkdsttlm.01</ns:BizSvc>
+    <ns:CreDt>2023-11-02T11:35:04</ns:CreDt>
+    <ns:Sgntr>
+        <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
+    </ns:Sgntr>
+</ns:AppHdr>

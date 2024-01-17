@@ -40,10 +40,10 @@ import net.moznion.random.string.RandomStringGenerator;
  */
 public class GenerateWorkMain {
 	
-	final static String INPUT_PATH = "./src/main/resources/static/input/bokwire";
-	final static String OUTPUT_PATH = "./src/main/resources/static/output/bokwire/origin";
-	final static String CONVERT_PATH = "./src/main/resources/static/output/bokwire/convert_MIN";
-//	final static String CONVERT_PATH = "./src/main/resources/static/output/bokwire/convert_MAX";
+	final static String INPUT_PATH = "./src/main/resources/static/input/bokwire/20231102";
+	final static String OUTPUT_PATH = "./src/main/resources/static/output/bokwire/20231102/origin";
+//	final static String CONVERT_PATH = "./src/main/resources/static/output/bokwire/20231102/convert_MIN";
+	final static String CONVERT_PATH = "./src/main/resources/static/output/bokwire/20231102/convert_MAX";
 	
 	final static String PRE_FIX = "BOK_";
 	final static String POST_FIX = ".xsd";

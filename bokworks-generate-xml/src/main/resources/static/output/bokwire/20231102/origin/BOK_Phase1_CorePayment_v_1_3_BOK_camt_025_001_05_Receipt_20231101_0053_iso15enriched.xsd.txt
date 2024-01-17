@@ -1,0 +1,67 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.025.001.05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:Rct>
+        <ns:MsgHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:35:03</ns:CreDtTm>
+            <ns:ReqTp>
+                <ns:Prtry>
+                    <ns:Id>00000000000000000000000000000000000</ns:Id>
+                </ns:Prtry>
+            </ns:ReqTp>
+        </ns:MsgHdr>
+        <ns:RctDtls>
+            <ns:OrgnlMsgId>
+                <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+                <ns:MsgNmId>00000000000000000000000000000000000</ns:MsgNmId>
+            </ns:OrgnlMsgId>
+            <ns:OrgnlPmtId>
+                            
+                <!--(ns:TxId? , ns:UETR , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt)-->
+                            
+                <ns:LngBizId>
+                    <ns:TxId>00000000000000000000000000000000000</ns:TxId>
+                    <ns:UETR>4f851552-cd88-4650-a86a-e4f932ce5a1f</ns:UETR>
+                    <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
+                    <ns:IntrBkSttlmDt>2023-11-02</ns:IntrBkSttlmDt>
+                    <ns:InstgAgt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId>
+                            <ns:BICFI>9DN6HOED(V3J</ns:BICFI>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>KRBOK</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                            <ns:LEI>NZD7UF1CMZXA8GX5MJ49</ns:LEI>
+                        </ns:FinInstnId>
+                    </ns:InstgAgt>
+                    <ns:InstdAgt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId>
+                            <ns:BICFI>220NYAZJ(6YD</ns:BICFI>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>KRBOK</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                            <ns:LEI>3ZEE5FF7DDI2LLZSI919</ns:LEI>
+                        </ns:FinInstnId>
+                    </ns:InstdAgt>
+                </ns:LngBizId>
+            </ns:OrgnlPmtId>
+                     
+            <!--(ns:StsCd , ns:Desc?)-->
+                     
+            <ns:ReqHdlg>
+                <ns:StsCd>RJCT</ns:StsCd>
+                <ns:Desc>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Desc>
+            </ns:ReqHdlg>
+        </ns:RctDtls>
+    </ns:Rct>
+</ns:Document>

@@ -1,0 +1,53 @@
+<ns:AppHdr xmlns:ns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:CharSet>AC00..D7AF</ns:CharSet>
+    <ns:Fr>
+        <ns:FIId>
+            <ns:FinInstnId>
+                <ns:ClrSysMmbId>
+                    <ns:ClrSysId>
+                        <ns:Cd>KRBOK</ns:Cd>
+                    </ns:ClrSysId>
+                    <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                </ns:ClrSysMmbId>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:Fr>
+    <ns:To>
+        <ns:FIId>
+            <ns:FinInstnId>
+                <ns:ClrSysMmbId>
+                    <ns:ClrSysId>
+                        <ns:Cd>KRBOK</ns:Cd>
+                    </ns:ClrSysId>
+                    <ns:MmbId>1016</ns:MmbId>
+                </ns:ClrSysMmbId>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:To>
+    <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
+    <ns:MsgDefIdr>camt.005.001.08</ns:MsgDefIdr>
+    <ns:BizSvc>00000000000000000000000000000000000</ns:BizSvc>
+    <ns:CreDt>2023-11-02T11:34:24</ns:CreDt>
+</ns:AppHdr>
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.005.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:GetTx>
+        <ns:MsgHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:34:24</ns:CreDtTm>
+            <ns:ReqTp>
+                <ns:Prtry>
+                    <ns:Id>IRPQ</ns:Id>
+                </ns:Prtry>
+            </ns:ReqTp>
+        </ns:MsgHdr>
+        <ns:TxQryDef>
+            <ns:TxCrit>
+                <ns:NewCrit>
+                    <ns:SchCrit>
+                        <ns:PmtSch/>
+                    </ns:SchCrit>
+                </ns:NewCrit>
+            </ns:TxCrit>
+        </ns:TxQryDef>
+    </ns:GetTx>
+</ns:Document>

@@ -1,0 +1,1306 @@
+
+<!--(ns:FedwireFundsTechnicalHeader? , ns:FedwireFundsIncomingMessage)-->
+<ns:FedwireFundsIncoming xmlns:ns="urn:fedwirefunds:incoming:v001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+       
+    <!--((ns:FedwireFundsCustomerCreditTransfer | ns:FedwireFundsFinancialInstitutionCreditTransfer | ns:FedwireFundsPaymentReturn | ns:FedwireFundsConnectionCheck | ns:FedwireFundsRetrievalRequest | ns:FedwireFundsReturnRequest | ns:FedwireFundsReturnRequestResponse | ns:FedwireFundsPaymentStatusRequest | ns:FedwireFundsDrawdownRequest | ns:FedwireFundsDrawdownResponse | ns:FedwireFundsAccountReportingRequest | ns:FedwireFundsMessageReject | ns:FedwireFundsInvestigationRequest | ns:FedwireFundsInvestigationResponse))-->
+       
+    <ns:FedwireFundsIncomingMessage>
+        <ns:FedwireFundsReturnRequest>
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns2:Document>
+                            
+                <!--(ns2:Assgnmt , ns2:Case? , ns2:CtrlData? , ns2:Undrlyg+ , ns2:SplmtryData*)-->
+                            
+                <ns2:FIToFIPmtCxlReq>
+                    <ns2:Assgnmt>
+                        <ns2:Id>00000000000000000000000000000000000</ns2:Id>
+                                          
+                        <!--(ns2:Pty | ns2:Agt)-->
+                                          
+                        <ns2:Assgnr>
+                                                 
+                            <!--(ns2:FinInstnId , ns2:BrnchId?)-->
+                                                 
+                            <ns2:Agt>
+                                                        
+                                <!--(ns2:BICFI? , ns2:ClrSysMmbId? , ns2:LEI? , ns2:Nm? , ns2:PstlAdr? , ns2:Othr?)-->
+                                                        
+                                <ns2:FinInstnId/>
+                            </ns2:Agt>
+                                                 
+                            <!--(ns2:Nm? , ns2:PstlAdr? , ns2:Id? , ns2:CtryOfRes? , ns2:CtctDtls?)-->
+                                                 
+                            <ns2:Pty/>
+                        </ns2:Assgnr>
+                                          
+                        <!--(ns2:Pty | ns2:Agt)-->
+                                          
+                        <ns2:Assgne>
+                                                 
+                            <!--(ns2:FinInstnId , ns2:BrnchId?)-->
+                                                 
+                            <ns2:Agt>
+                                                        
+                                <!--(ns2:BICFI? , ns2:ClrSysMmbId? , ns2:LEI? , ns2:Nm? , ns2:PstlAdr? , ns2:Othr?)-->
+                                                        
+                                <ns2:FinInstnId/>
+                            </ns2:Agt>
+                                                 
+                            <!--(ns2:Nm? , ns2:PstlAdr? , ns2:Id? , ns2:CtryOfRes? , ns2:CtctDtls?)-->
+                                                 
+                            <ns2:Pty/>
+                        </ns2:Assgne>
+                        <ns2:CreDtTm>2024-01-17T10:39:14</ns2:CreDtTm>
+                    </ns2:Assgnmt>
+                                   
+                    <!--(ns2:OrgnlGrpInfAndCxl? , ns2:TxInf*)-->
+                                   
+                    <ns2:Undrlyg/>
+                </ns2:FIToFIPmtCxlReq>
+            </ns2:Document>
+        </ns:FedwireFundsReturnRequest>
+        <ns:FedwireFundsReturnRequestResponse xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:camt.029.001.09">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:Assgnmt , ns3:RslvdCase? , ns3:Sts , ns3:CxlDtls* , ns3:ModDtls? , ns3:ClmNonRctDtls? , ns3:StmtDtls? , ns3:CrrctnTx? , ns3:RsltnRltdInf? , ns3:SplmtryData*)-->
+                            
+                <ns3:RsltnOfInvstgtn>
+                    <ns3:Assgnmt>
+                        <ns3:Id>00000000000000000000000000000000000</ns3:Id>
+                                          
+                        <!--(ns3:Pty | ns3:Agt)-->
+                                          
+                        <ns3:Assgnr>
+                                                 
+                            <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                 
+                            <ns3:Pty/>
+                                                 
+                            <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                 
+                            <ns3:Agt>
+                                                        
+                                <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                        
+                                <ns3:FinInstnId/>
+                            </ns3:Agt>
+                        </ns3:Assgnr>
+                                          
+                        <!--(ns3:Pty | ns3:Agt)-->
+                                          
+                        <ns3:Assgne>
+                                                 
+                            <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                 
+                            <ns3:Pty/>
+                                                 
+                            <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                 
+                            <ns3:Agt>
+                                                        
+                                <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                        
+                                <ns3:FinInstnId/>
+                            </ns3:Agt>
+                        </ns3:Assgne>
+                        <ns3:CreDtTm>2024-01-17T10:39:14</ns3:CreDtTm>
+                    </ns3:Assgnmt>
+                                   
+                    <!--(ns3:Conf | ns3:RjctdMod+ | ns3:DplctOf | ns3:AssgnmtCxlConf)-->
+                                   
+                    <ns3:Sts>
+                                          
+                        <!--(ns3:Id , ns3:Cretr , ns3:ReopCaseIndctn?)-->
+                                          
+                        <ns3:DplctOf>
+                            <ns3:Id>00000000000000000000000000000000000</ns3:Id>
+                                                 
+                            <!--(ns3:Pty | ns3:Agt)-->
+                                                 
+                            <ns3:Cretr>
+                                                        
+                                <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                        
+                                <ns3:Pty/>
+                                                        
+                                <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                        
+                                <ns3:Agt>
+                                                               
+                                    <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                               
+                                    <ns3:FinInstnId/>
+                                </ns3:Agt>
+                            </ns3:Cretr>
+                        </ns3:DplctOf>
+                                          
+                        <!--(ns3:Cd | ns3:Prtry)-->
+                                          
+                        <ns3:RjctdMod>
+                            <ns3:Prtry>00000000000000000000000000000000000</ns3:Prtry>
+                            <ns3:Cd>0000</ns3:Cd>
+                        </ns3:RjctdMod>
+                        <ns3:AssgnmtCxlConf>false</ns3:AssgnmtCxlConf>
+                        <ns3:Conf>0000</ns3:Conf>
+                    </ns3:Sts>
+                </ns3:RsltnOfInvstgtn>
+            </ns3:Document>
+        </ns:FedwireFundsReturnRequestResponse>
+        <ns:FedwireFundsDrawdownRequest xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:pain.013.001.07">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:GrpHdr , ns3:PmtInf+ , ns3:SplmtryData*)-->
+                            
+                <ns3:CdtrPmtActvtnReq>
+                                   
+                    <!--(ns3:MsgId , ns3:CreDtTm , ns3:NbOfTxs , ns3:CtrlSum? , ns3:InitgPty)-->
+                                   
+                    <ns3:GrpHdr>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                        <ns3:CreDtTm>2024-01-17T10:39:14</ns3:CreDtTm>
+                        <ns3:NbOfTxs>5011725</ns3:NbOfTxs>
+                                          
+                        <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                          
+                        <ns3:InitgPty/>
+                    </ns3:GrpHdr>
+                                   
+                    <!--(ns3:PmtInfId? , ns3:PmtMtd , ns3:PmtTpInf? , ns3:ReqdExctnDt , ns3:XpryDt? , ns3:PmtCond? , ns3:Dbtr , ns3:DbtrAcct? , ns3:DbtrAgt , ns3:UltmtDbtr? , ns3:ChrgBr? , ns3:CdtTrfTx+)-->
+                                   
+                    <ns3:PmtInf>
+                        <ns3:PmtMtd>TRF</ns3:PmtMtd>
+                                          
+                        <!--(ns3:Dt | ns3:DtTm)-->
+                                          
+                        <ns3:ReqdExctnDt>
+                            <ns3:Dt>2024-01-17</ns3:Dt>
+                            <ns3:DtTm>2024-01-17T10:39:14</ns3:DtTm>
+                        </ns3:ReqdExctnDt>
+                                          
+                        <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                          
+                        <ns3:Dbtr/>
+                                          
+                        <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                          
+                        <ns3:DbtrAgt>
+                                                 
+                            <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                 
+                            <ns3:FinInstnId/>
+                        </ns3:DbtrAgt>
+                                          
+                        <!--(ns3:PmtId , ns3:PmtTpInf? , ns3:PmtCond? , ns3:Amt , ns3:ChrgBr , ns3:ChqInstr? , ns3:UltmtDbtr? , ns3:IntrmyAgt1? , ns3:IntrmyAgt2? , ns3:IntrmyAgt3? , ns3:CdtrAgt , ns3:Cdtr , ns3:CdtrAcct? , ns3:UltmtCdtr? , ns3:InstrForCdtrAgt* , ns3:Purp? , ns3:RgltryRptg[0,10] , ns3:Tax? , ns3:RltdRmtInf[0,10] , ns3:RmtInf? , ns3:NclsdFile* , ns3:SplmtryData*)-->
+                                          
+                        <ns3:CdtTrfTx>
+                                                 
+                            <!--(ns3:InstrId? , ns3:EndToEndId , ns3:UETR?)-->
+                                                 
+                            <ns3:PmtId>
+                                <ns3:EndToEndId>00000000000000000000000000000000000</ns3:EndToEndId>
+                            </ns3:PmtId>
+                                                 
+                            <!--(ns3:InstdAmt | ns3:EqvtAmt)-->
+                                                 
+                            <ns3:Amt>
+                                <ns3:InstdAmt Ccy="Ccy1">1.79574</ns3:InstdAmt>
+                                <ns3:EqvtAmt>
+                                    <ns3:Amt Ccy="Ccy2">6.65552</ns3:Amt>
+                                    <ns3:CcyOfTrf>WEE</ns3:CcyOfTrf>
+                                </ns3:EqvtAmt>
+                            </ns3:Amt>
+                            <ns3:ChrgBr>CRED</ns3:ChrgBr>
+                                                 
+                            <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                 
+                            <ns3:CdtrAgt>
+                                                        
+                                <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                        
+                                <ns3:FinInstnId/>
+                            </ns3:CdtrAgt>
+                                                 
+                            <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                 
+                            <ns3:Cdtr/>
+                        </ns3:CdtTrfTx>
+                    </ns3:PmtInf>
+                </ns3:CdtrPmtActvtnReq>
+            </ns3:Document>
+        </ns:FedwireFundsDrawdownRequest>
+        <ns:FedwireFundsInvestigationResponse xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:camt.111.001.01">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:InvstgtnRspn , ns3:OrgnlInvstgtnReq , ns3:SplmtryData*)-->
+                            
+                <ns3:InvstgtnRspn>
+                                   
+                    <!--(ns3:MsgId , ns3:RspndrInvstgtnId? , ns3:InvstgtnSts , ns3:NxtRspndr? , ns3:InvstgtnData*)-->
+                                   
+                    <ns3:InvstgtnRspn>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                                          
+                        <!--(ns3:Sts , ns3:StsRsn?)-->
+                                          
+                        <ns3:InvstgtnSts>
+                            <ns3:Sts>0000</ns3:Sts>
+                        </ns3:InvstgtnSts>
+                    </ns3:InvstgtnRspn>
+                                   
+                    <!--(ns3:MsgId , ns3:RqstrInvstgtnId? , ns3:RspndrInvstgtnId? , ns3:EIR? , ns3:ReqActn? , ns3:InvstgtnTp , ns3:InvstgtnSubTp? , ns3:UndrlygInstrm? , ns3:Undrlyg? , ns3:Rqstr , ns3:Rspndr , ns3:ReqOrgtr? , ns3:XpctdRspndr? , ns3:SvcLvl*)-->
+                                   
+                    <ns3:OrgnlInvstgtnReq>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                                          
+                        <!--(ns3:Cd | ns3:Prtry)-->
+                                          
+                        <ns3:InvstgtnTp>
+                            <ns3:Cd>0000</ns3:Cd>
+                            <ns3:Prtry>00000000000000000000000000000000000</ns3:Prtry>
+                        </ns3:InvstgtnTp>
+                                          
+                        <!--(ns3:Pty | ns3:Agt)-->
+                                          
+                        <ns3:Rqstr>
+                                                 
+                            <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                 
+                            <ns3:Pty/>
+                                                 
+                            <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                 
+                            <ns3:Agt>
+                                                        
+                                <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                        
+                                <ns3:FinInstnId/>
+                            </ns3:Agt>
+                        </ns3:Rqstr>
+                                          
+                        <!--(ns3:Pty | ns3:Agt)-->
+                                          
+                        <ns3:Rspndr>
+                                                 
+                            <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                 
+                            <ns3:Pty/>
+                                                 
+                            <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                 
+                            <ns3:Agt>
+                                                        
+                                <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                        
+                                <ns3:FinInstnId/>
+                            </ns3:Agt>
+                        </ns3:Rspndr>
+                    </ns3:OrgnlInvstgtnReq>
+                </ns3:InvstgtnRspn>
+            </ns3:Document>
+        </ns:FedwireFundsInvestigationResponse>
+        <ns:FedwireFundsPaymentStatusRequest xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:pacs.028.001.03">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:GrpHdr , ns3:OrgnlGrpInf* , ns3:TxInf* , ns3:SplmtryData*)-->
+                            
+                <ns3:FIToFIPmtStsReq>
+                                   
+                    <!--(ns3:MsgId , ns3:CreDtTm , ns3:InstgAgt? , ns3:InstdAgt?)-->
+                                   
+                    <ns3:GrpHdr>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                        <ns3:CreDtTm>2024-01-17T10:39:14</ns3:CreDtTm>
+                    </ns3:GrpHdr>
+                </ns3:FIToFIPmtStsReq>
+            </ns3:Document>
+        </ns:FedwireFundsPaymentStatusRequest>
+        <ns:FedwireFundsFinancialInstitutionCreditTransfer xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:GrpHdr , ns3:CdtTrfTxInf+ , ns3:SplmtryData*)-->
+                            
+                <ns3:FICdtTrf>
+                                   
+                    <!--(ns3:MsgId , ns3:CreDtTm , ns3:BtchBookg? , ns3:NbOfTxs , ns3:CtrlSum? , ns3:TtlIntrBkSttlmAmt? , ns3:IntrBkSttlmDt? , ns3:SttlmInf , ns3:PmtTpInf? , ns3:InstgAgt? , ns3:InstdAgt?)-->
+                                   
+                    <ns3:GrpHdr>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                        <ns3:CreDtTm>2024-01-17T10:39:14</ns3:CreDtTm>
+                        <ns3:NbOfTxs>65245407</ns3:NbOfTxs>
+                                          
+                        <!--(ns3:SttlmMtd , ns3:SttlmAcct? , ns3:ClrSys? , ns3:InstgRmbrsmntAgt? , ns3:InstgRmbrsmntAgtAcct? , ns3:InstdRmbrsmntAgt? , ns3:InstdRmbrsmntAgtAcct? , ns3:ThrdRmbrsmntAgt? , ns3:ThrdRmbrsmntAgtAcct?)-->
+                                          
+                        <ns3:SttlmInf>
+                            <ns3:SttlmMtd>CLRG</ns3:SttlmMtd>
+                        </ns3:SttlmInf>
+                    </ns3:GrpHdr>
+                                   
+                    <!--(ns3:PmtId , ns3:PmtTpInf? , ns3:IntrBkSttlmAmt , ns3:IntrBkSttlmDt? , ns3:SttlmPrty? , ns3:SttlmTmIndctn? , ns3:SttlmTmReq? , ns3:PrvsInstgAgt1? , ns3:PrvsInstgAgt1Acct? , ns3:PrvsInstgAgt2? , ns3:PrvsInstgAgt2Acct? , ns3:PrvsInstgAgt3? , ns3:PrvsInstgAgt3Acct? , ns3:InstgAgt? , ns3:InstdAgt? , ns3:IntrmyAgt1? , ns3:IntrmyAgt1Acct? , ns3:IntrmyAgt2? , ns3:IntrmyAgt2Acct? , ns3:IntrmyAgt3? , ns3:IntrmyAgt3Acct? , ns3:UltmtDbtr? , ns3:Dbtr , ns3:DbtrAcct? , ns3:DbtrAgt? , ns3:DbtrAgtAcct? , ns3:CdtrAgt? , ns3:CdtrAgtAcct? , ns3:Cdtr , ns3:CdtrAcct? , ns3:UltmtCdtr? , ns3:InstrForCdtrAgt* , ns3:InstrForNxtAgt* , ns3:Purp? , ns3:RmtInf? , ns3:UndrlygCstmrCdtTrf? , ns3:SplmtryData*)-->
+                                   
+                    <ns3:CdtTrfTxInf>
+                                          
+                        <!--(ns3:InstrId? , ns3:EndToEndId , ns3:TxId? , ns3:UETR? , ns3:ClrSysRef?)-->
+                                          
+                        <ns3:PmtId>
+                            <ns3:EndToEndId>00000000000000000000000000000000000</ns3:EndToEndId>
+                        </ns3:PmtId>
+                        <ns3:IntrBkSttlmAmt Ccy="Ccy3">2.18493</ns3:IntrBkSttlmAmt>
+                                          
+                        <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                          
+                        <ns3:Dbtr>
+                                                 
+                            <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                 
+                            <ns3:FinInstnId/>
+                        </ns3:Dbtr>
+                                          
+                        <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                          
+                        <ns3:Cdtr>
+                                                 
+                            <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                 
+                            <ns3:FinInstnId/>
+                        </ns3:Cdtr>
+                    </ns3:CdtTrfTxInf>
+                </ns3:FICdtTrf>
+            </ns3:Document>
+        </ns:FedwireFundsFinancialInstitutionCreditTransfer>
+        <ns:FedwireFundsAccountReportingRequest xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:camt.060.001.05">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:GrpHdr , ns3:RptgReq+ , ns3:SplmtryData*)-->
+                            
+                <ns3:AcctRptgReq>
+                                   
+                    <!--(ns3:MsgId , ns3:CreDtTm , ns3:MsgSndr?)-->
+                                   
+                    <ns3:GrpHdr>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                        <ns3:CreDtTm>2024-01-17T10:39:14</ns3:CreDtTm>
+                    </ns3:GrpHdr>
+                                   
+                    <!--(ns3:Id? , ns3:ReqdMsgNmId , ns3:Acct? , ns3:AcctOwnr , ns3:AcctSvcr? , ns3:RptgPrd? , ns3:RptgSeq? , ns3:ReqdTxTp? , ns3:ReqdBalTp*)-->
+                                   
+                    <ns3:RptgReq>
+                        <ns3:ReqdMsgNmId>00000000000000000000000000000000000</ns3:ReqdMsgNmId>
+                                          
+                        <!--(ns3:Pty | ns3:Agt)-->
+                                          
+                        <ns3:AcctOwnr>
+                                                 
+                            <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                 
+                            <ns3:Agt>
+                                                        
+                                <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                        
+                                <ns3:FinInstnId/>
+                            </ns3:Agt>
+                                                 
+                            <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                 
+                            <ns3:Pty/>
+                        </ns3:AcctOwnr>
+                    </ns3:RptgReq>
+                </ns3:AcctRptgReq>
+            </ns3:Document>
+        </ns:FedwireFundsAccountReportingRequest>
+        <ns:FedwireFundsPaymentReturn xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:pacs.004.001.10">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:GrpHdr , ns3:OrgnlGrpInf? , ns3:TxInf* , ns3:SplmtryData*)-->
+                            
+                <ns3:PmtRtr>
+                                   
+                    <!--(ns3:MsgId , ns3:CreDtTm , ns3:Authstn[0,2] , ns3:BtchBookg? , ns3:NbOfTxs , ns3:CtrlSum? , ns3:GrpRtr? , ns3:TtlRtrdIntrBkSttlmAmt? , ns3:IntrBkSttlmDt? , ns3:SttlmInf , ns3:InstgAgt? , ns3:InstdAgt?)-->
+                                   
+                    <ns3:GrpHdr>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                        <ns3:CreDtTm>2024-01-17T10:39:14</ns3:CreDtTm>
+                        <ns3:NbOfTxs>35726</ns3:NbOfTxs>
+                                          
+                        <!--(ns3:SttlmMtd , ns3:SttlmAcct? , ns3:ClrSys? , ns3:InstgRmbrsmntAgt? , ns3:InstgRmbrsmntAgtAcct? , ns3:InstdRmbrsmntAgt? , ns3:InstdRmbrsmntAgtAcct? , ns3:ThrdRmbrsmntAgt? , ns3:ThrdRmbrsmntAgtAcct?)-->
+                                          
+                        <ns3:SttlmInf>
+                            <ns3:SttlmMtd>INDA</ns3:SttlmMtd>
+                        </ns3:SttlmInf>
+                    </ns3:GrpHdr>
+                </ns3:PmtRtr>
+            </ns3:Document>
+        </ns:FedwireFundsPaymentReturn>
+        <ns:FedwireFundsCustomerCreditTransfer xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:GrpHdr , ns3:CdtTrfTxInf+ , ns3:SplmtryData*)-->
+                            
+                <ns3:FIToFICstmrCdtTrf>
+                                   
+                    <!--(ns3:MsgId , ns3:CreDtTm , ns3:BtchBookg? , ns3:NbOfTxs , ns3:CtrlSum? , ns3:TtlIntrBkSttlmAmt? , ns3:IntrBkSttlmDt? , ns3:SttlmInf , ns3:PmtTpInf? , ns3:InstgAgt? , ns3:InstdAgt?)-->
+                                   
+                    <ns3:GrpHdr>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                        <ns3:CreDtTm>2024-01-17T10:39:14</ns3:CreDtTm>
+                        <ns3:NbOfTxs>4998817</ns3:NbOfTxs>
+                                          
+                        <!--(ns3:SttlmMtd , ns3:SttlmAcct? , ns3:ClrSys? , ns3:InstgRmbrsmntAgt? , ns3:InstgRmbrsmntAgtAcct? , ns3:InstdRmbrsmntAgt? , ns3:InstdRmbrsmntAgtAcct? , ns3:ThrdRmbrsmntAgt? , ns3:ThrdRmbrsmntAgtAcct?)-->
+                                          
+                        <ns3:SttlmInf>
+                            <ns3:SttlmMtd>COVE</ns3:SttlmMtd>
+                        </ns3:SttlmInf>
+                    </ns3:GrpHdr>
+                                   
+                    <!--(ns3:PmtId , ns3:PmtTpInf? , ns3:IntrBkSttlmAmt , ns3:IntrBkSttlmDt? , ns3:SttlmPrty? , ns3:SttlmTmIndctn? , ns3:SttlmTmReq? , ns3:AccptncDtTm? , ns3:PoolgAdjstmntDt? , ns3:InstdAmt? , ns3:XchgRate? , ns3:ChrgBr , ns3:ChrgsInf* , ns3:PrvsInstgAgt1? , ns3:PrvsInstgAgt1Acct? , ns3:PrvsInstgAgt2? , ns3:PrvsInstgAgt2Acct? , ns3:PrvsInstgAgt3? , ns3:PrvsInstgAgt3Acct? , ns3:InstgAgt? , ns3:InstdAgt? , ns3:IntrmyAgt1? , ns3:IntrmyAgt1Acct? , ns3:IntrmyAgt2? , ns3:IntrmyAgt2Acct? , ns3:IntrmyAgt3? , ns3:IntrmyAgt3Acct? , ns3:UltmtDbtr? , ns3:InitgPty? , ns3:Dbtr , ns3:DbtrAcct? , ns3:DbtrAgt , ns3:DbtrAgtAcct? , ns3:CdtrAgt , ns3:CdtrAgtAcct? , ns3:Cdtr , ns3:CdtrAcct? , ns3:UltmtCdtr? , ns3:InstrForCdtrAgt* , ns3:InstrForNxtAgt* , ns3:Purp? , ns3:RgltryRptg[0,10] , ns3:Tax? , ns3:RltdRmtInf[0,10] , ns3:RmtInf? , ns3:SplmtryData*)-->
+                                   
+                    <ns3:CdtTrfTxInf>
+                                          
+                        <!--(ns3:InstrId? , ns3:EndToEndId , ns3:TxId? , ns3:UETR? , ns3:ClrSysRef?)-->
+                                          
+                        <ns3:PmtId>
+                            <ns3:EndToEndId>00000000000000000000000000000000000</ns3:EndToEndId>
+                        </ns3:PmtId>
+                        <ns3:IntrBkSttlmAmt Ccy="Ccy4">1.21487</ns3:IntrBkSttlmAmt>
+                        <ns3:ChrgBr>SHAR</ns3:ChrgBr>
+                                          
+                        <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                          
+                        <ns3:Dbtr/>
+                                          
+                        <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                          
+                        <ns3:DbtrAgt>
+                                                 
+                            <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                 
+                            <ns3:FinInstnId/>
+                        </ns3:DbtrAgt>
+                                          
+                        <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                          
+                        <ns3:CdtrAgt>
+                                                 
+                            <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                 
+                            <ns3:FinInstnId/>
+                        </ns3:CdtrAgt>
+                                          
+                        <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                          
+                        <ns3:Cdtr/>
+                    </ns3:CdtTrfTxInf>
+                </ns3:FIToFICstmrCdtTrf>
+            </ns3:Document>
+        </ns:FedwireFundsCustomerCreditTransfer>
+        <ns:FedwireFundsRetrievalRequest xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:admi.006.001.01">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:MsgHdr , ns3:RsndSchCrit+ , ns3:SplmtryData*)-->
+                            
+                <ns3:RsndReq>
+                                   
+                    <!--(ns3:MsgId , ns3:CreDtTm? , ns3:ReqTp? , ns3:OrgnlBizQry? , ns3:QryNm?)-->
+                                   
+                    <ns3:MsgHdr>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                    </ns3:MsgHdr>
+                                   
+                    <!--(ns3:BizDt? , ns3:SeqNb? , ns3:SeqRg? , ns3:OrgnlMsgNmId? , ns3:FileRef? , ns3:Rcpt)-->
+                                   
+                    <ns3:RsndSchCrit>
+                                          
+                        <!--(ns3:Id , ns3:LEI?)-->
+                                          
+                        <ns3:Rcpt>
+                                                 
+                            <!--(ns3:AnyBIC | ns3:PrtryId | ns3:NmAndAdr)-->
+                                                 
+                            <ns3:Id>
+                                                        
+                                <!--(ns3:Id , ns3:Issr , ns3:SchmeNm?)-->
+                                                        
+                                <ns3:PrtryId>
+                                    <ns3:Id>00000000000000000000000000000000000</ns3:Id>
+                                    <ns3:Issr>00000000000000000000000000000000000</ns3:Issr>
+                                </ns3:PrtryId>
+                                                        
+                                <!--(ns3:Nm , ns3:Adr?)-->
+                                                        
+                                <ns3:NmAndAdr>
+                                    <ns3:Nm>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns3:Nm>
+                                </ns3:NmAndAdr>
+                                <ns3:AnyBIC>S0NAPL0L(QP0</ns3:AnyBIC>
+                            </ns3:Id>
+                        </ns3:Rcpt>
+                    </ns3:RsndSchCrit>
+                </ns3:RsndReq>
+            </ns3:Document>
+        </ns:FedwireFundsRetrievalRequest>
+        <ns:FedwireFundsConnectionCheck xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:admi.004.001.02">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                <ns3:SysEvtNtfctn>
+                                   
+                    <!--(ns3:EvtCd , ns3:EvtParam* , ns3:EvtDesc? , ns3:EvtTm?)-->
+                                   
+                    <ns3:EvtInf>
+                        <ns3:EvtCd>0000</ns3:EvtCd>
+                    </ns3:EvtInf>
+                </ns3:SysEvtNtfctn>
+            </ns3:Document>
+        </ns:FedwireFundsConnectionCheck>
+        <ns:FedwireFundsDrawdownResponse xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:pain.014.001.07">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:GrpHdr , ns3:OrgnlGrpInfAndSts , ns3:OrgnlPmtInfAndSts* , ns3:SplmtryData*)-->
+                            
+                <ns3:CdtrPmtActvtnReqStsRpt>
+                                   
+                    <!--(ns3:MsgId , ns3:CreDtTm , ns3:InitgPty , ns3:DbtrAgt? , ns3:CdtrAgt?)-->
+                                   
+                    <ns3:GrpHdr>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                        <ns3:CreDtTm>2024-01-17T10:39:14</ns3:CreDtTm>
+                                          
+                        <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                          
+                        <ns3:InitgPty/>
+                    </ns3:GrpHdr>
+                                   
+                    <!--(ns3:OrgnlMsgId , ns3:OrgnlMsgNmId , ns3:OrgnlCreDtTm? , ns3:OrgnlNbOfTxs? , ns3:OrgnlCtrlSum? , ns3:GrpSts? , ns3:StsRsnInf* , ns3:NbOfTxsPerSts*)-->
+                                   
+                    <ns3:OrgnlGrpInfAndSts>
+                        <ns3:OrgnlMsgId>00000000000000000000000000000000000</ns3:OrgnlMsgId>
+                        <ns3:OrgnlMsgNmId>00000000000000000000000000000000000</ns3:OrgnlMsgNmId>
+                    </ns3:OrgnlGrpInfAndSts>
+                </ns3:CdtrPmtActvtnReqStsRpt>
+            </ns3:Document>
+        </ns:FedwireFundsDrawdownResponse>
+        <ns:FedwireFundsMessageReject xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:admi.002.001.01">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                <ns3:admi.002.001.01>
+                    <ns3:RltdRef>
+                        <ns3:Ref>00000000000000000000000000000000000</ns3:Ref>
+                    </ns3:RltdRef>
+                                   
+                    <!--(ns3:RjctgPtyRsn , ns3:RjctnDtTm? , ns3:ErrLctn? , ns3:RsnDesc? , ns3:AddtlData?)-->
+                                   
+                    <ns3:Rsn>
+                        <ns3:RjctgPtyRsn>00000000000000000000000000000000000</ns3:RjctgPtyRsn>
+                    </ns3:Rsn>
+                </ns3:admi.002.001.01>
+            </ns3:Document>
+        </ns:FedwireFundsMessageReject>
+        <ns:FedwireFundsInvestigationRequest xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:camt.110.001.01">
+                     
+            <!--(ns1:CharSet? , ns1:Fr , ns1:To , ns1:BizMsgIdr , ns1:MsgDefIdr , ns1:BizSvc? , ns1:MktPrctc? , ns1:CreDt , ns1:BizPrcgDt? , ns1:CpyDplct? , ns1:PssblDplct? , ns1:Prty? , ns1:Sgntr? , ns1:Rltd*)-->
+                     
+            <ns1:AppHdr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:Fr>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                </ns1:Fr>
+                            
+                <!--(ns1:OrgId | ns1:FIId)-->
+                            
+                <ns1:To>
+                                   
+                    <!--(ns1:FinInstnId , ns1:BrnchId?)-->
+                                   
+                    <ns1:FIId>
+                                          
+                        <!--(ns1:BICFI? , ns1:ClrSysMmbId? , ns1:LEI? , ns1:Nm? , ns1:PstlAdr? , ns1:Othr?)-->
+                                          
+                        <ns1:FinInstnId/>
+                    </ns1:FIId>
+                                   
+                    <!--(ns1:Nm? , ns1:PstlAdr? , ns1:Id? , ns1:CtryOfRes? , ns1:CtctDtls?)-->
+                                   
+                    <ns1:OrgId/>
+                </ns1:To>
+                <ns1:BizMsgIdr>00000000000000000000000000000000000</ns1:BizMsgIdr>
+                <ns1:MsgDefIdr>00000000000000000000000000000000000</ns1:MsgDefIdr>
+                <ns1:CreDt>2024-01-17T10:39:14</ns1:CreDt>
+            </ns1:AppHdr>
+            <ns3:Document>
+                            
+                <!--(ns3:InvstgtnReq , ns3:InvstgtnData+ , ns3:SplmtryData*)-->
+                            
+                <ns3:InvstgtnReq>
+                                   
+                    <!--(ns3:MsgId , ns3:RqstrInvstgtnId? , ns3:RspndrInvstgtnId? , ns3:EIR? , ns3:ReqActn? , ns3:InvstgtnTp , ns3:InvstgtnSubTp? , ns3:UndrlygInstrm? , ns3:Undrlyg , ns3:Rqstr , ns3:Rspndr , ns3:ReqOrgtr? , ns3:XpctdRspndr? , ns3:SvcLvl*)-->
+                                   
+                    <ns3:InvstgtnReq>
+                        <ns3:MsgId>00000000000000000000000000000000000</ns3:MsgId>
+                                          
+                        <!--(ns3:Cd | ns3:Prtry)-->
+                                          
+                        <ns3:InvstgtnTp>
+                            <ns3:Cd>0000</ns3:Cd>
+                            <ns3:Prtry>00000000000000000000000000000000000</ns3:Prtry>
+                        </ns3:InvstgtnTp>
+                                          
+                        <!--(ns3:Initn | ns3:IntrBk | ns3:StmtNtry | ns3:Acct | ns3:Othr)-->
+                                          
+                        <ns3:Undrlyg>
+                                                 
+                            <!--(ns3:OrgnlAcct? , ns3:OrgnlGrpInf? , ns3:OrgnlStmtId? , ns3:OrgnlNtryRef? , ns3:OrgnlUETR? , ns3:OrgnlNtryAmt? , ns3:OrgnlNtryValDt?)-->
+                                                 
+                            <ns3:StmtNtry/>
+                                                 
+                            <!--(ns3:Id? , ns3:Tp? , ns3:Ccy? , ns3:Nm? , ns3:Prxy?)-->
+                                                 
+                            <ns3:Acct/>
+                                                 
+                            <!--(ns3:OrgnlGrpInf? , ns3:OrgnlPmtInfId? , ns3:OrgnlInstrId? , ns3:OrgnlEndToEndId? , ns3:OrgnlUETR? , ns3:OrgnlInstdAmt? , ns3:ReqdExctnDt? , ns3:ReqdColltnDt? , ns3:OrgnlTxRef? , ns3:OrgnlSvcLvl?)-->
+                                                 
+                            <ns3:Initn/>
+                                                 
+                            <!--(ns3:OrgnlGrpInf? , ns3:OrgnlInstrId? , ns3:OrgnlEndToEndId? , ns3:OrgnlTxId? , ns3:OrgnlUETR? , ns3:OrgnlIntrBkSttlmAmt? , ns3:OrgnlIntrBkSttlmDt? , ns3:OrgnlTxRef? , ns3:OrgnlSvcLvl?)-->
+                                                 
+                            <ns3:IntrBk/>
+                                                 
+                            <!--(ns3:Id , ns3:SchmeNm? , ns3:Issr?)-->
+                                                 
+                            <ns3:Othr>
+                                <ns3:Id>00000000000000000000000000000000000</ns3:Id>
+                            </ns3:Othr>
+                        </ns3:Undrlyg>
+                                          
+                        <!--(ns3:Pty | ns3:Agt)-->
+                                          
+                        <ns3:Rqstr>
+                                                 
+                            <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                 
+                            <ns3:Pty/>
+                                                 
+                            <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                 
+                            <ns3:Agt>
+                                                        
+                                <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                        
+                                <ns3:FinInstnId/>
+                            </ns3:Agt>
+                        </ns3:Rqstr>
+                                          
+                        <!--(ns3:Pty | ns3:Agt)-->
+                                          
+                        <ns3:Rspndr>
+                                                 
+                            <!--(ns3:Nm? , ns3:PstlAdr? , ns3:Id? , ns3:CtryOfRes? , ns3:CtctDtls?)-->
+                                                 
+                            <ns3:Pty/>
+                                                 
+                            <!--(ns3:FinInstnId , ns3:BrnchId?)-->
+                                                 
+                            <ns3:Agt>
+                                                        
+                                <!--(ns3:BICFI? , ns3:ClrSysMmbId? , ns3:LEI? , ns3:Nm? , ns3:PstlAdr? , ns3:Othr?)-->
+                                                        
+                                <ns3:FinInstnId/>
+                            </ns3:Agt>
+                        </ns3:Rspndr>
+                    </ns3:InvstgtnReq>
+                                   
+                    <!--(ns3:Seq? , ns3:Rsn , ns3:RsnSubTp? , ns3:AddtlReqData? , ns3:RltdInvstgtnData? , ns3:NclsdFile* , ns3:RltdFileData*)-->
+                                   
+                    <ns3:InvstgtnData>
+                                          
+                        <!--(ns3:Cd | ns3:Prtry)-->
+                                          
+                        <ns3:Rsn>
+                            <ns3:Prtry>00000000000000000000000000000000000</ns3:Prtry>
+                            <ns3:Cd>0000</ns3:Cd>
+                        </ns3:Rsn>
+                    </ns3:InvstgtnData>
+                </ns3:InvstgtnReq>
+            </ns3:Document>
+        </ns:FedwireFundsInvestigationRequest>
+    </ns:FedwireFundsIncomingMessage>
+</ns:FedwireFundsIncoming>

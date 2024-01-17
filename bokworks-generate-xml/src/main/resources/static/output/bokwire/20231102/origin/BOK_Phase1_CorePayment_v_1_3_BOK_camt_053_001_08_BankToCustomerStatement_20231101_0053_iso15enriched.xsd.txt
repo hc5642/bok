@@ -1,0 +1,104 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:BkToCstmrStmt>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:35:03</ns:CreDtTm>
+            <ns:MsgPgntn>
+                <ns:PgNb>23</ns:PgNb>
+                <ns:LastPgInd>true</ns:LastPgInd>
+            </ns:MsgPgntn>
+        </ns:GrpHdr>
+              
+        <!--(ns:Id , ns:RptgSrc , ns:Acct , ns:Bal , ns:TxsSummry? , ns:Ntry*)-->
+              
+        <ns:Stmt>
+            <ns:Id>00000000000000000000000000000000000</ns:Id>
+            <ns:RptgSrc>
+                <ns:Prtry>LVPS</ns:Prtry>
+            </ns:RptgSrc>
+            <ns:Acct>
+                <ns:Id>
+                    <ns:Othr>
+                        <ns:Id>0000000000000000000000000000000000</ns:Id>
+                    </ns:Othr>
+                </ns:Id>
+                <ns:Tp>
+                    <ns:Prtry>SACC_1062</ns:Prtry>
+                </ns:Tp>
+                <ns:Ccy>QNT</ns:Ccy>
+            </ns:Acct>
+            <ns:Bal>
+                            
+                <!--(ns:CdOrPrtry , ns:SubTp?)-->
+                            
+                <ns:Tp>
+                    <ns:CdOrPrtry>
+                        <ns:Cd>CLBD</ns:Cd>
+                    </ns:CdOrPrtry>
+                    <ns:SubTp>
+                        <ns:Cd>INTM</ns:Cd>
+                    </ns:SubTp>
+                </ns:Tp>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>DBIT</ns:CdtDbtInd>
+                <ns:Dt>
+                    <ns:Dt>2023-11-02</ns:Dt>
+                </ns:Dt>
+            </ns:Bal>
+                     
+            <!--(ns:TtlNtriesPerBkTxCd+)-->
+                     
+            <ns:TxsSummry>
+                <ns:TtlNtriesPerBkTxCd>
+                    <ns:CdtNtries>
+                        <ns:NbOfNtries>2267157005383</ns:NbOfNtries>
+                        <ns:Sum>-922337203685477580</ns:Sum>
+                    </ns:CdtNtries>
+                    <ns:DbtNtries>
+                        <ns:NbOfNtries>9065775</ns:NbOfNtries>
+                        <ns:Sum>-922337203685477580</ns:Sum>
+                    </ns:DbtNtries>
+                    <ns:BkTxCd>
+                        <ns:Prtry>
+                            <ns:Cd>DSR003</ns:Cd>
+                        </ns:Prtry>
+                    </ns:BkTxCd>
+                </ns:TtlNtriesPerBkTxCd>
+            </ns:TxsSummry>
+                     
+            <!--(ns:Amt , ns:CdtDbtInd , ns:Sts , ns:BookgDt , ns:BkTxCd , ns:NtryDtls+ , ns:AddtlNtryInf?)-->
+                     
+            <ns:Ntry>
+                <ns:Amt Ccy="KRW">-922337203685477580</ns:Amt>
+                <ns:CdtDbtInd>CRDT</ns:CdtDbtInd>
+                <ns:Sts>
+                    <ns:Cd>BOOK</ns:Cd>
+                </ns:Sts>
+                <ns:BookgDt>
+                    <ns:DtTm>2023-11-02T11:35:03</ns:DtTm>
+                </ns:BookgDt>
+                <ns:BkTxCd>
+                    <ns:Prtry>
+                        <ns:Cd>DSR003</ns:Cd>
+                    </ns:Prtry>
+                </ns:BkTxCd>
+                <ns:NtryDtls>
+                    <ns:TxDtls>
+                                          
+                        <!--(ns:MsgId , ns:InstrId? , ns:EndToEndId , ns:UETR , ns:TxId? , ns:ClrSysRef)-->
+                                          
+                        <ns:Refs>
+                            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+                            <ns:InstrId>00000000000000000000000000000000000</ns:InstrId>
+                            <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
+                            <ns:UETR>37def0b2-6a53-4a19-988a-ff3f152d122d</ns:UETR>
+                            <ns:TxId>00000000000000000000000000000000000</ns:TxId>
+                            <ns:ClrSysRef>00000000000000000000000000000000000</ns:ClrSysRef>
+                        </ns:Refs>
+                    </ns:TxDtls>
+                </ns:NtryDtls>
+                <ns:AddtlNtryInf>0000000000000000000000000000000000000000000000000000000000000000000000</ns:AddtlNtryInf>
+            </ns:Ntry>
+        </ns:Stmt>
+    </ns:BkToCstmrStmt>
+</ns:Document>

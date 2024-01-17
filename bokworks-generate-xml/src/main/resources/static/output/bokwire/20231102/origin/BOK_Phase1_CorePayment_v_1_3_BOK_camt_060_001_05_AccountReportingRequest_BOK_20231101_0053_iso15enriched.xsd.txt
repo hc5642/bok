@@ -1,0 +1,40 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.060.001.05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:AcctRptgReq>
+        <ns:GrpHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:35:03</ns:CreDtTm>
+        </ns:GrpHdr>
+        <ns:RptgReq>
+            <ns:ReqdMsgNmId>camt.052.001.08</ns:ReqdMsgNmId>
+            <ns:AcctOwnr>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:BICFI>8ML4HBJA(EAD)</ns:BICFI>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                        <ns:LEI>WOVEJ74L43E5SIRAPU45</ns:LEI>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:AcctOwnr>
+            <ns:RptgPrd>
+                <ns:FrToDt>
+                    <ns:FrDt>2023-11-02</ns:FrDt>
+                </ns:FrToDt>
+                <ns:Tp>ALLL</ns:Tp>
+            </ns:RptgPrd>
+                     
+            <!--(ns:EQSeq+)-->
+                     
+            <ns:RptgSeq>
+                <ns:EQSeq>00000000000000000000000000000000000</ns:EQSeq>
+            </ns:RptgSeq>
+        </ns:RptgReq>
+    </ns:AcctRptgReq>
+</ns:Document>

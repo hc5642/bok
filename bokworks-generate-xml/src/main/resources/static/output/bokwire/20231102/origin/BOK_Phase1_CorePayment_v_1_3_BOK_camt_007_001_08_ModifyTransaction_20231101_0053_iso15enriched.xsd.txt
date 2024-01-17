@@ -1,0 +1,56 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:camt.007.001.08" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:ModfyTx>
+        <ns:MsgHdr>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:35:03</ns:CreDtTm>
+        </ns:MsgHdr>
+        <ns:Mod>
+            <ns:PmtId>
+                            
+                <!--(ns:TxId? , ns:UETR , ns:IntrBkSttlmAmt , ns:IntrBkSttlmDt , ns:InstgAgt , ns:InstdAgt)-->
+                            
+                <ns:LngBizId>
+                    <ns:TxId>00000000000000000000000000000000000</ns:TxId>
+                    <ns:UETR>454421fc-ae3c-4d00-b9c0-99524765f46c</ns:UETR>
+                    <ns:IntrBkSttlmAmt Ccy="KRW">-922337203685477580</ns:IntrBkSttlmAmt>
+                    <ns:IntrBkSttlmDt>2023-11-02</ns:IntrBkSttlmDt>
+                    <ns:InstgAgt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId>
+                            <ns:BICFI>QKN1AGC0(L25</ns:BICFI>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>KRBOK</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                            <ns:LEI>J60XFFNQTVM0Q117U764</ns:LEI>
+                        </ns:FinInstnId>
+                    </ns:InstgAgt>
+                    <ns:InstdAgt>
+                                          
+                        <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                          
+                        <ns:FinInstnId>
+                            <ns:BICFI>0VQ3CVO0(709</ns:BICFI>
+                            <ns:ClrSysMmbId>
+                                <ns:ClrSysId>
+                                    <ns:Cd>KRBOK</ns:Cd>
+                                </ns:ClrSysId>
+                                <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                            </ns:ClrSysMmbId>
+                            <ns:LEI>2J7YIR62UG78XCBSQU20</ns:LEI>
+                        </ns:FinInstnId>
+                    </ns:InstdAgt>
+                </ns:LngBizId>
+            </ns:PmtId>
+            <ns:NewPmtValSet>
+                <ns:Prty>
+                    <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                </ns:Prty>
+            </ns:NewPmtValSet>
+        </ns:Mod>
+    </ns:ModfyTx>
+</ns:Document>

@@ -1,0 +1,158 @@
+<ns:Document xmlns:ns="urn:iso:std:iso:20022:tech:xsd:acmt.024.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+       
+    <!--(ns:Assgnmt , ns:Rpt+)-->
+       
+    <ns:IdVrfctnRpt>
+        <ns:Assgnmt>
+            <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
+            <ns:CreDtTm>2023-11-02T11:35:03</ns:CreDtTm>
+            <ns:Assgnr>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:BICFI>GLHGOA26(GHS)</ns:BICFI>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                        <ns:LEI>M99SBGALBS4434B1L932</ns:LEI>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Assgnr>
+            <ns:Assgne>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:BICFI>0SEPTMKL(KQI</ns:BICFI>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                        <ns:LEI>PZYMHBUAN2BWFIWDWF88</ns:LEI>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:Assgne>
+        </ns:Assgnmt>
+              
+        <!--(ns:OrgnlId , ns:Vrfctn , ns:Rsn? , ns:OrgnlPtyAndAcctId , ns:UpdtdPtyAndAcctId?)-->
+              
+        <ns:Rpt>
+            <ns:OrgnlId>00000000000000000000000000000000000</ns:OrgnlId>
+            <ns:Vrfctn>true</ns:Vrfctn>
+                     
+            <!--(ns:Cd | ns:Prtry)-->
+                     
+            <ns:Rsn>
+                <ns:Cd>0000</ns:Cd>
+                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+            </ns:Rsn>
+            <ns:OrgnlPtyAndAcctId>
+                            
+                <!--(ns:Nm? , ns:PstlAdr)-->
+                            
+                <ns:Pty>
+                    <ns:Nm>000000000000000000000000000000</ns:Nm>
+                                   
+                    <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:PstBx? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:CtrySubDvsn? , ns:Ctry , ns:AdrLine[0,2])-->
+                                   
+                    <ns:PstlAdr>
+                        <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
+                        <ns:StrtNm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:StrtNm>
+                        <ns:BldgNb>0000000000000000</ns:BldgNb>
+                        <ns:BldgNm>00000000000000000000000000000000000</ns:BldgNm>
+                        <ns:Flr>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Flr>
+                        <ns:PstBx>0000000000000000</ns:PstBx>
+                        <ns:Room>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Room>
+                        <ns:PstCd>0000000000000000</ns:PstCd>
+                        <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                        <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
+                        <ns:CtrySubDvsn>00000000000000000000000000000000000</ns:CtrySubDvsn>
+                        <ns:Ctry>SN</ns:Ctry>
+                        <ns:AdrLine>0000000000000000000000000000000000000000000000000000000000000000000000</ns:AdrLine>
+                    </ns:PstlAdr>
+                </ns:Pty>
+                <ns:Acct>
+                    <ns:Id>
+                                          
+                        <!--(ns:Id , ns:SchmeNm , ns:Issr?)-->
+                                          
+                        <ns:Othr>
+                            <ns:Id>0000000000000000000000000000000000</ns:Id>
+                            <ns:SchmeNm>
+                                <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                            </ns:SchmeNm>
+                            <ns:Issr>00000000000000000000000000000000000</ns:Issr>
+                        </ns:Othr>
+                    </ns:Id>
+                </ns:Acct>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:BICFI>70LNJM0N(XQA</ns:BICFI>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                        <ns:LEI>7IEX0WD91UDXN0VD3W51</ns:LEI>
+                    </ns:FinInstnId>
+                </ns:Agt>
+            </ns:OrgnlPtyAndAcctId>
+            <ns:UpdtdPtyAndAcctId>
+                            
+                <!--(ns:Nm , ns:PstlAdr?)-->
+                            
+                <ns:Pty>
+                    <ns:Nm>000000000000000000000000000000</ns:Nm>
+                                   
+                    <!--(ns:Dept? , ns:StrtNm? , ns:BldgNb? , ns:BldgNm? , ns:Flr? , ns:PstBx? , ns:Room? , ns:PstCd? , ns:TwnNm , ns:TwnLctnNm? , ns:CtrySubDvsn? , ns:Ctry , ns:AdrLine[0,2])-->
+                                   
+                    <ns:PstlAdr>
+                        <ns:Dept>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Dept>
+                        <ns:StrtNm>0000000000000000000000000000000000000000000000000000000000000000000000</ns:StrtNm>
+                        <ns:BldgNb>0000000000000000</ns:BldgNb>
+                        <ns:BldgNm>00000000000000000000000000000000000</ns:BldgNm>
+                        <ns:Flr>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Flr>
+                        <ns:PstBx>0000000000000000</ns:PstBx>
+                        <ns:Room>0000000000000000000000000000000000000000000000000000000000000000000000</ns:Room>
+                        <ns:PstCd>0000000000000000</ns:PstCd>
+                        <ns:TwnNm>00000000000000000000000000000000000</ns:TwnNm>
+                        <ns:TwnLctnNm>00000000000000000000000000000000000</ns:TwnLctnNm>
+                        <ns:CtrySubDvsn>00000000000000000000000000000000000</ns:CtrySubDvsn>
+                        <ns:Ctry>DZ</ns:Ctry>
+                        <ns:AdrLine>0000000000000000000000000000000000000000000000000000000000000000000000</ns:AdrLine>
+                    </ns:PstlAdr>
+                </ns:Pty>
+                <ns:Agt>
+                                   
+                    <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                                   
+                    <ns:FinInstnId>
+                        <ns:BICFI>IGJFAGRI(EL9</ns:BICFI>
+                        <ns:ClrSysMmbId>
+                            <ns:ClrSysId>
+                                <ns:Cd>KRBOK</ns:Cd>
+                            </ns:ClrSysId>
+                            <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                        </ns:ClrSysMmbId>
+                        <ns:LEI>HTOFY38VMJ75B5THFH68</ns:LEI>
+                    </ns:FinInstnId>
+                    <ns:BrnchId>
+                        <ns:Nm>000000000000000000000000000000</ns:Nm>
+                    </ns:BrnchId>
+                </ns:Agt>
+            </ns:UpdtdPtyAndAcctId>
+        </ns:Rpt>
+    </ns:IdVrfctnRpt>
+</ns:Document>
