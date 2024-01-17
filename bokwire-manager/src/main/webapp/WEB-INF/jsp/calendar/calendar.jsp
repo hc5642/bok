@@ -49,12 +49,12 @@ function holidayCheck() {
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 15px; padding-top:12px;">
 	<span style="color: #FFF;">
-		<b style="cursor: pointer;" onclick="location.href='/logout';">${sessionUserName }님 안녕하세요</b> | 
+		<b style="cursor: pointer;" onclick="location.href='/logout';">안녕하세요</b> | 
 		Make Money
 	</span>
-	<img src="/images/kbank_logo.gif" height="30px" style="vertical-align: middle;" />
+	<img src="/images/image02.png" height="30px" style="vertical-align: middle;" />
 </div>
-<h1 style="font-family: se-nanumsquare;">
+<h1>
 	오픈캘린더(${name})  - ${yearInt }년 ${monthInt }월
 </h1>
 <ul><li>
