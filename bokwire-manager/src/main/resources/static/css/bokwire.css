@@ -1,8 +1,21 @@
+@font-face {
+	font-family: YetHangul; font-weight: 400;
+	src: url ('/font/se-nanumsquare-regular.woff') format('woff'),
+		 url ('/font/se-nanumsquare-regular.woff2') format('woff2'),
+		 url ('/font/NANUMBARUNGOTHIC-YETHANGUL.TTF') format('ttf');
+}
+@font-face {
+	font-family: YetHangul; font-weight: 700;
+	src: url ('/font/se-nanumsquare-bold.woff') format('woff'),
+		 url ('/font/se-nanumsquare-bold.woff2') format('woff2'),
+		 url ('/font/NANUMBARUNGOTHIC-YETHANGUL.TTF') format('ttf');
+}
+
 * {
   box-sizing: border-box;
 }
 body {
-  font-family: 'NanumBarunGothic YetHangul';
+  font-family: 'YetHangul'; 
   font-size: 11pt;
   line-height: 180%;
   margin: 0px 0px;
