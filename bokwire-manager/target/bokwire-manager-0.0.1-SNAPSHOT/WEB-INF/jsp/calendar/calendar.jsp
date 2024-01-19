@@ -49,10 +49,10 @@ function holidayCheck() {
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 15px; padding-top:12px;">
 	<span style="color: #FFF;">Best Regard</span>
-	<img src="/images/image02.png" height="30px" style="vertical-align: middle;" />
+	<!-- img src="/images/image02.png" height="30px" style="vertical-align: middle;" / -->
 </div>
 <h1>
-	${name} Calendar  - ${yearInt }. ${monthInt }.
+	${name} - ${yearInt }. ${monthInt }.
 </h1>
 <ul><li>
 <a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt-1 }&key=&value=&filterKey=${filterKey}">이전달</a> |
