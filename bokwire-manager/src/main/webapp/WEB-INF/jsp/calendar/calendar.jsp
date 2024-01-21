@@ -14,7 +14,7 @@ function saveItem(key, value) {
 		alert("필터 해제 필요!");
 		return;
 	}
-	if ( window.event.keyCode == 9 || window.event.keyCode == 164 ) {
+	if ( window.event.keyCode == 9 || window.event.keyCode == 186 ) {
 		document.frm.key.value = key;	
 		document.frm.value.value = value;
 		document.frm.startDay.value = document.getElementById("startDay").value;
@@ -48,7 +48,7 @@ function holidayCheck() {
 </head>
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 15px; padding-top:12px;">
-	<img src="/images/image02.png" height="30px" />&nbsp;&nbsp;<img src="/images/image04.png" height="10px"/>
+	Best Regard 
 </div>
 <h1>
 	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #000"/>&nbsp;&nbsp;${name} - ${yearInt }. ${monthInt }.
