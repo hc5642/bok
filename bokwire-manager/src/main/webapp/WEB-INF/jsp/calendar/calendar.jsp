@@ -50,8 +50,8 @@ function holidayCheck() {
 <div style="float: right; padding-right: 15px; padding-top:12px;">
 	Best Regard 
 </div>
-<h1>
-	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #000"/>&nbsp;&nbsp;${name} - ${yearInt }. ${monthInt }.
+<h1 style="color: #004888">
+	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/>&nbsp;&nbsp;${name} - ${yearInt }. ${monthInt }.
 </h1>
 	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt-1 }&key=&value=&filterKey=${filterKey}">이전달</a> |
 	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt+1 }&key=&value=&filterKey=${filterKey}">다음달</a> | 
@@ -107,7 +107,10 @@ function holidayCheck() {
 </c:if>
 </c:forEach>
 </table>
-<p align="center"><img src="/images/image02.png" height="30px" />&nbsp;&nbsp;<img src="/images/image04.png" height="10px"/></p>
+<p align="center">
+	<img src="/images/image02.png" height="30px" />&nbsp;&nbsp;
+	<img src="/images/image04.png" height="10px"/>
+</p>
 <form name="frm" action="/manager/calendar/${name}" method="POST">
 	<input type="hidden" name="key" value="" />
 	<input type="hidden" name="value" value="" />
