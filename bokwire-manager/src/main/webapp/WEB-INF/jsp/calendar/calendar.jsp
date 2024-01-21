@@ -14,7 +14,7 @@ function saveItem(key, value) {
 		alert("필터 해제 필요!");
 		return;
 	}
-	if ( window.event.keyCode == 9 ) {
+	if ( window.event.keyCode == 9 || window.event.keyCode == 164 ) {
 		document.frm.key.value = key;	
 		document.frm.value.value = value;
 		document.frm.startDay.value = document.getElementById("startDay").value;
@@ -48,21 +48,18 @@ function holidayCheck() {
 </head>
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 15px; padding-top:12px;">
-	<span style="color: #FFF;">Best Regard</span>
-	<!-- img src="/images/image02.png" height="30px" style="vertical-align: middle;" / -->
+	<img src="/images/image02.png" height="30px" />&nbsp;&nbsp;<img src="/images/image04.png" height="10px"/>
 </div>
 <h1>
-	${name} - ${yearInt }. ${monthInt }.
+	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #000"/>&nbsp;&nbsp;${name} - ${yearInt }. ${monthInt }.
 </h1>
-<ul><li>
-<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt-1 }&key=&value=&filterKey=${filterKey}">이전달</a> |
-<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt+1 }&key=&value=&filterKey=${filterKey}">다음달</a> | 
-시작일자 : <input type="text" id="startDay" value="${startDay}" style="width: 30px;" autocomplete="off"/>
-<input type="button" value="SUBMIT" onclick="location.href='/manager/calendar/${name}?year=${yearInt }&month=${monthInt}&startDay='+document.getElementById('startDay').value;" />
-| 달력검색 : <input type="text" id="searchkey"  style="width: 150px;" autocomplete="off"/> <input type="button" value="SEARCH" onclick="openSearch('${name}', '${yearInt}');" />
-| 필터 : <input type="text" id="filterKey" style="width: 150px;" autocomplete="off" value="${filterKey}"/> 
-<input type="button" value="필터" onclick="location.href='/manager/calendar/${name}?year=${yearInt}&month=${monthInt}&filterKey='+document.getElementById('filterKey').value;" />
-</li></ul>
+	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt-1 }&key=&value=&filterKey=${filterKey}">이전달</a> |
+	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt+1 }&key=&value=&filterKey=${filterKey}">다음달</a> | 
+	시작일자 : <input type="text" id="startDay" value="${startDay}" style="width: 30px;" autocomplete="off"/>
+	<input type="button" value="SUBMIT" onclick="location.href='/manager/calendar/${name}?year=${yearInt }&month=${monthInt}&startDay='+document.getElementById('startDay').value;" />
+	| 달력검색 : <input type="text" id="searchkey"  style="width: 150px;" autocomplete="off"/> <input type="button" value="SEARCH" onclick="openSearch('${name}', '${yearInt}');" />
+	| 필터 : <input type="text" id="filterKey" style="width: 150px;" autocomplete="off" value="${filterKey}"/> 
+	<input type="button" value="필터" onclick="location.href='/manager/calendar/${name}?year=${yearInt}&month=${monthInt}&filterKey='+document.getElementById('filterKey').value;" />
 <table style="width: 100%; table-layout:fixed;" border=1 id="mainTable">
 <tr>
 	<th style="width: 10%;">일</th>
@@ -110,6 +107,7 @@ function holidayCheck() {
 </c:if>
 </c:forEach>
 </table>
+<p align="center"><img src="/images/image02.png" height="30px" />&nbsp;&nbsp;<img src="/images/image04.png" height="10px"/></p>
 <form name="frm" action="/manager/calendar/${name}" method="POST">
 	<input type="hidden" name="key" value="" />
 	<input type="hidden" name="value" value="" />
