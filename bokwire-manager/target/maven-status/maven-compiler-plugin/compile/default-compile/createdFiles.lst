@@ -1,6 +1,6 @@
-com\bok\iso20022\mngr\svc\BokwireManagerSvcImpl.class
 com\bok\iso20022\BokwireApplication.class
 com\bok\iso20022\mngr\svc\BokwireManagerSvc.class
 com\bok\iso20022\mngr\ctl\BokwireManagerCtl.class
 com\bok\iso20022\mngr\dao\BokwireManagerDao.class
 com\bok\iso20022\mngr\dao\BokwireManagerDaoImpl.class
+com\bok\iso20022\mngr\svc\BokwireManagerSvcImpl.class
