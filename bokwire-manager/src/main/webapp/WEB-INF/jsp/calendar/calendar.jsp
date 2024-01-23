@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="icon" href="/images/bok.ico">
-<title>Open Calendar - ${name}</title>
+<title>Calendar - ${name}</title>
 <link rel="stylesheet" type="text/css" href="/css/bokwire.css" />
 <meta charset="EUC-KR" http-equiv="refresh" content="600">
 <script>
@@ -49,7 +49,7 @@ function holidayCheck() {
 </head>
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 15px; padding-top:12px;">
-	BANK OF KOREA 
+	안녕하세요 
 </div>
 <h1 style="color: #004888">
 	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/>&nbsp;&nbsp;${name} - ${yearInt }. ${monthInt }.
