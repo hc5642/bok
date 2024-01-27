@@ -1,6 +1,8 @@
 
 server:
   port: 61616
+  tomcat:
+    keep-alive-timeout: 35
   
 spring:
   mvc:
