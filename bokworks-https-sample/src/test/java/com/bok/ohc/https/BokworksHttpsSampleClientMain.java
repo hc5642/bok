@@ -18,7 +18,8 @@ public class BokworksHttpsSampleClientMain {
 
 	public static void main(String[] args) throws IOException, InterruptedException, NoSuchAlgorithmException, KeyManagementException {
 
-		String httpsURL = "https://3.38.201.40:8084/hello";
+//		String httpsURL = "https://3.38.201.40:8084/hello";
+		String httpsURL = "https://127.0.0.1:8084/hello";
 
 		TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
 			public X509Certificate[] getAcceptedIssuers() {
@@ -56,7 +57,6 @@ public class BokworksHttpsSampleClientMain {
 		connection.setRequestMethod("GET");
 		connection.setRequestProperty("Host", "3.38.201.40:8084");
 		connection.setRequestProperty("Connection", "keep-alive");
-		connection.setRequestProperty("Keep-Alive", "timeout=40");
 
 		// 응답 코드 확인
 		int responseCode = connection.getResponseCode();
@@ -86,3 +86,4 @@ public class BokworksHttpsSampleClientMain {
 
 	}
 }
+
