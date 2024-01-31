@@ -161,8 +161,22 @@ public class BokwireManagerCtl {
 		model.addAttribute("dayInt", dayInt);
 		model.addAttribute("name", name);
 		model.addAttribute("dayTable", svc.getCalendarTable(cal, yearInt, monthInt));
-		model.addAttribute("contents", svc.loadMap(filePath));
+		Map<String, String> result1 = svc.loadMap(filePath);
+		model.addAttribute("contents", result1);
 		model.addAttribute("startDay", startDay);
+		int nextMonth = monthInt+1;
+		int nextYear = yearInt;
+		if ( nextMonth == 13 ) {
+			nextYear += 1;
+			nextMonth = 1;
+		}
+		model.addAttribute("dayTable2", svc.getCalendarTable(cal, nextYear, nextMonth));
+		Map<String, String> result2 = result1;
+		if ( yearInt != nextYear ) 
+			result2 = svc.loadMap(calendarPath + name+"."+nextYear+".dat");
+		model.addAttribute("contents2", result2);
+		model.addAttribute("nextYear", nextYear);
+		model.addAttribute("nextMonth", nextMonth);
 		logger.info("---------------------------------------");
 		return "calendar/calendar";
 	}
