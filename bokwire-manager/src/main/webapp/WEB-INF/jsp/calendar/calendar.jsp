@@ -107,6 +107,41 @@ function holidayCheck() {
 	</tr>
 </c:if>
 </c:forEach>
+<c:set var="isContinue" value="true"/>
+<c:forEach var="row" items="${dayTable2}" varStatus="row_status">
+<c:if test="${isContinue eq 'true'}">
+	<tr>
+		<c:forEach var="col" items="${row}" varStatus="cal_status">
+		<c:choose>
+			<c:when test="${col > 0}">
+				<c:set var="tdColor" value="#FFFFFF" />
+				<c:if test="${cal_status.first}"><c:set var="tdColor" value="#E1F6FA" /></c:if>
+				<c:if test="${cal_status.last}"><c:set var="tdColor" value="#E1F6FA" /></c:if>
+				<td valign="top" style="font-size: 10pt; line-height: 140%; background-color: ${tdColor};">
+					<b>${col}</b>
+					<c:if test="${col == dayInt}"><font color="blue"> Today</font></c:if>
+					<br/>
+					<c:if test="${col >= startDay}">
+						<div contenteditable='true' onkeydown="saveItem('CAL.${yearInt}.${monthInt}.${col}', this.innerHTML);"  >
+							<c:set var="tempKey">CAL.${yearInt}.${monthInt}.${col}</c:set>
+							${contents[tempKey]}
+						</div>
+					</c:if>
+				</td>
+			</c:when>
+			<c:otherwise>
+				<td style="background-color: #F3F3F2">
+					&nbsp;
+				</td>
+				<c:if test="${row_status.index > 1}">
+					<c:set var="isContinue" value="false"/>
+				</c:if>
+			</c:otherwise>
+		</c:choose>
+		</c:forEach>
+	</tr>
+</c:if>
+</c:forEach>
 </table>
 <!-- p align="center">
 	<img src="/images/image02.png" height="30px" />&nbsp;&nbsp;

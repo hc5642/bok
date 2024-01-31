@@ -75,6 +75,13 @@ public class BokwireManagerCtl {
 		model.addAttribute("dayInt", dayInt);
 		model.addAttribute("name", name);
 		model.addAttribute("dayTable", svc.getCalendarTable(cal, yearInt, monthInt));
+		int nextMonth = monthInt+1;
+		int nextYear = yearInt;
+		if ( nextMonth == 13 ) {
+			nextYear += 1;
+			nextMonth = 1;
+		}
+		model.addAttribute("dayTable2", svc.getCalendarTable(cal, nextYear, nextMonth));
 		logger.info("--- calendar path : " + calendarPath + name+"."+yearInt+".dat");
 		Map<String, String> result = svc.loadMap(calendarPath + name+"."+yearInt+".dat");
 		if ( filterKey != null && filterKey.trim().length() > 0 ) {
