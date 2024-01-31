@@ -122,10 +122,8 @@ function holidayCheck() {
 					<c:if test="${col == dayInt}"><font color="blue"> Today</font></c:if>
 					<br/>
 					<c:if test="${col >= startDay}">
-						<div contenteditable='true' onkeydown="saveItem('CAL.${yearInt}.${monthInt}.${col}', this.innerHTML);"  >
-							<c:set var="tempKey">CAL.${yearInt}.${monthInt}.${col}</c:set>
-							${contents[tempKey]}
-						</div>
+						<c:set var="tempKey">CAL.${nextYear}.${nextMonth}.${col}</c:set>
+						${contents2[tempKey]}
 					</c:if>
 				</td>
 			</c:when>

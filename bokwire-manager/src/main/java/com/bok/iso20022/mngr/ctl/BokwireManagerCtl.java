@@ -84,6 +84,9 @@ public class BokwireManagerCtl {
 		model.addAttribute("dayTable2", svc.getCalendarTable(cal, nextYear, nextMonth));
 		logger.info("--- calendar path : " + calendarPath + name+"."+yearInt+".dat");
 		Map<String, String> result = svc.loadMap(calendarPath + name+"."+yearInt+".dat");
+		Map<String, String> result2 = result;
+		if ( yearInt != nextYear ) 
+			result2 = svc.loadMap(calendarPath + name+"."+nextYear+".dat");
 		if ( filterKey != null && filterKey.trim().length() > 0 ) {
 	 		String temp = "";
 			String [] lines = null;
@@ -113,6 +116,9 @@ public class BokwireManagerCtl {
 			}
 		}
 		model.addAttribute("contents", result);
+		model.addAttribute("contents2", result2);
+		model.addAttribute("nextYear", nextYear);
+		model.addAttribute("nextMonth", nextMonth);
 		model.addAttribute("startDay", startDay);
 		model.addAttribute("filterKey", filterKey);
 		logger.info("---------------------------------------");
