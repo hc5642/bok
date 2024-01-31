@@ -48,8 +48,9 @@ function holidayCheck() {
 </script>
 </head>
 <body onload="holidayCheck();">
-<div style="float: right; padding-right: 15px; padding-top:12px;">
+<div style="float: right; padding-right: 0px; padding-top:0px;">
 	안녕하세요 
+	<img src="/images/image02.png" style="width: 40px"/>
 </div>
 <h1 style="color: #004888">
 	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/>&nbsp;&nbsp;${name} - ${yearInt }. ${monthInt }.
