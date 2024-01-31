@@ -50,7 +50,6 @@ function holidayCheck() {
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 0px; padding-top:0px;">
 	안녕하세요 
-	<img src="/images/image02.png" style="width: 40px"/>
 </div>
 <h1 style="color: #004888">
 	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/>&nbsp;&nbsp;${name} - ${yearInt }. ${monthInt }.
@@ -142,10 +141,10 @@ function holidayCheck() {
 </c:if>
 </c:forEach>
 </table>
-<!-- p align="center">
+<p align="center">
 	<img src="/images/image02.png" height="30px" />&nbsp;&nbsp;
 	<img src="/images/image04.png" height="10px"/>
-</p -->
+</p>
 <form name="frm" action="/manager/calendar/${name}" method="POST">
 	<input type="hidden" name="key" value="" />
 	<input type="hidden" name="value" value="" />
