@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Legal Notices
+
+SWIFT SCRL@2016. All rights reserved.
+
+This schema is a component of MyStandards, the SWIFT collaborative Web application used to manage
+standards definitions and industry usage.
+
+This is a licensed product, which may only be used and distributed in accordance with MyStandards License
+Terms as specified in MyStandards Service Description and the related Terms of Use.
+
+Unless otherwise agreed in writing with SWIFT SCRL, the user has no right to:
+ - authorise external end users to use this component for other purposes than their internal use.
+ - remove, alter, cover, obfuscate or cancel from view any copyright or other proprietary rights notices appearing in this physical medium.
+ - re-sell or authorise another party e.g. software and service providers, to re-sell this component.
+
+This component is provided 'AS IS'. SWIFT does not give and excludes any express or implied warranties
+with respect to this component such as but not limited to any guarantee as to its quality, supply or availability.
+
+Any and all rights, including title, ownership rights, copyright, trademark, patents, and any other intellectual 
+property rights of whatever nature in this component will remain the exclusive property of SWIFT or its 
+licensors.
+
+Trademarks
+SWIFT is the trade name of S.W.I.F.T. SCRL.
+The following are registered trademarks of SWIFT: the SWIFT logo, SWIFT, SWIFTNet, SWIFTReady, Accord, Sibos, 3SKey, Innotribe, the Standards Forum logo, MyStandards, and SWIFT Institute.
+Other product, service, or company names in this publication are trade names, trademarks, or registered trademarks of their respective owners.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Group: Bank of Korea (BOK)
+Collection: BOK_Phase1_CorePayment_v.1.5
+Usage Guideline: BOK_camt.025.001.05_Receipt
+Base Message: camt.025.001.05
+Date of publication: 02 February 2024
+URL: https://www2.swift.com/mystandards/#/mp/mx/_y1x44MGfEe6WAuNRfRx_Vw/_y1x458GfEe6WAuNRfRx_Vw
+Description: BOK : The Receipt message is sent by BOK to the business sender of a previously sent inbound message, which returns a positive response or provides detailed information in case of an error.
+
+The Receipt message is sent by BOK as response to ModifyTransaction(camt.007), CancelTransaction(camt.008) and Cancellation Request via Off-network process.
+It covers following BOK legacy message types.
+BKS10E070 대기거래(거액결제) 취소 신청 요구/요구 응답 KRW Fund Transfer (Hybrid) Cancellation Request
+BKS10E150 예약거래(거액결제) 취소 신청 요구/요구 응답 KRW fund transfer (Hybrid) Reserved Fund cancellation request
+BKS20E190 한국은행 대행 예약취소(거액결제) 처리결과 이체기관앞 통보/통보응답 Notification to Payer for Off-network Reservation Cancellation Request
+BKS20E090 한국은행 대행 대기취소(거액결제) 처리결과 이체기관앞 통보/통보응답 Off-network Cancellation-from-Queue request status to Payer 
+BKS10E060 지급지시유형 변경 및 대기거래순위 조정 신청 요구/요구응답 Request for Change of Payment Instruction/Queue Transaction Priority
+
+Scope
+The Receipt message is sent by the transaction administrator to a member of the system. It is sent to acknowledge the receipt of one or multiple messages sent previously.
+The Receipt message is an application receipt acknowledgement and conveys information about the processing of the original message(s).
+Usage
+The Receipt message is used when the exchange of messages takes place in an asynchronous manner.
+This may happen, for instance, when an action is requested from the transaction administrator (a deletion, modification or cancellation). The transaction administrator will first acknowledge the request (with a Receipt message) and then execute it.
+The message can contain information based on the following elements: reference of the message(s) it acknowledges, the status code (optional) and further explanation:
+- reference of the message it acknowledges
+- potentially, a status code and an explanation
+
+BOK Rules for characters set: 
+
+* All proprietary and Text fields EXCLUDING Name and Address for all actors and Related Remittance Information and Remittance are limited to the FIN-X-Character set.
+
+* All Name and Address for all actors and Related Remittance Information and Remittance Information are extended to support the following additional characters: !#$%&*=^_`{|}~";<>@[\] and the Unicode Code Block AC00..D7AF; Hangul Syllables for Korean language characters as specific text datatypes named in the form of  "BOK_Max(nnn)TextAH” and containing the pattern: “[0-9a-zA-Z/\-\?:\(\)\.,'\+ !#$%&\*=^_`\{\|\}~";<>@\[\\\]\p{IsHangulSyllables}]+”. 
+Note that "><" is escaped as follows: 
+< is replaced with &lt;
+> is replaced with &gt;
+& is replaced with &amp;
+
+* E-mail address/Proxy fields are extended to support the following additional characters: !#%&'*+-/=?^_`{|}~ "(),:;@[\]><$ 
+Generated by the MyStandards web platform [https://www.swift.com/mystandards] on 2024-04-04T06:56:10+00:00
+-->
+<!---->
+<xs:schema xmlns="urn:iso:std:iso:20022:tech:xsd:camt.025.001.05" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:iso:std:iso:20022:tech:xsd:camt.025.001.05">
+    <xs:element name="Document" type="Document"/>
+    <xs:simpleType name="BICFIDec2014Identifier">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">BICFIDec2014Identifier</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Code allocated to a financial institution by the ISO 9362 Registration Authority as described in ISO 9362: 2014 - "Banking - Banking telecommunication messages - Business identifier code (BIC)".</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z0-9]{4,4}[A-Z]{2,2}[A-Z0-9]{2,2}([A-Z0-9]{3,3}){0,1}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="BOK_ActiveCurrencyCode">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">BOK_ActiveCurrencyCode</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">A code allocated to a currency by a Maintenance Agency under an international identification scheme as described in the latest edition of the international standard ISO 4217 "Codes for the representation of currencies and funds".&#13;
+&#13;
+Only KRW is active currency code.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{3,3}"/>
+            <xs:enumeration value="KRW">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">KRW</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">KRW code, 원화 코드</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="BOK_ActiveCurrencyandAmount_SimpleType">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="0"/>
+            <xs:totalDigits value="18"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="BOK_ActiveCurrencyandAmount">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">BOK_ActiveCurrencyandAmount</xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="BOK_ActiveCurrencyandAmount_SimpleType">
+                <xs:attribute name="Ccy" type="BOK_ActiveCurrencyCode" use="required">
+                    <xs:annotation>
+                        <xs:documentation source="Name" xml:lang="EN">Currency</xs:documentation>
+                        <xs:documentation source="Definition" xml:lang="EN">Only KRW is active currency</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:simpleType name="BOK_RequestHandlingStatusCode">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">BOK_RequestHandlingStatusCode</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Specifies the status of the request with respect to the queued transaction</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:length value="4"/>
+            <xs:enumeration value="CNCL">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">CancelledAsPerRequest</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Cancelled As Per Request</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="RJCT">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Rejected</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Rejected</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="MODI">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">ModifiedAsPerRequest</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Modified As Per Request</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="BOK_RequestTypeCode">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">BOK_RequestTypeCode</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="CNQ">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Cancellation for Payments in Queue</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CNR">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Cancellation for Reserved Payments</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CQK">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Cancellation by BOK as a proxy for Payment inQueue</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="CRK">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Cancellation by BOK as a proxy for ReservedPayment</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="MOD">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Modification Request</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="BranchAndFinancialInstitutionIdentification6__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">BranchAndFinancialInstitutionIdentification6__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Unique and unambiguous identification of a financial institution or a branch of a financial institution.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="FinInstnId" type="FinancialInstitutionIdentification18__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">FinancialInstitutionIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Unique and unambiguous identification of a financial institution, as assigned under an internationally recognised or proprietary identification scheme.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ClearingSystemIdentification2Choice__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">ClearingSystemIdentification2Choice__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Choice of a clearing system identifier.</xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+            <xs:element name="Cd" type="ExternalClearingSystemIdentification1Code_fixed">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Code</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Identification of a clearing system, in a coded form as published in an external list.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="ClearingSystemMemberIdentification2__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">ClearingSystemMemberIdentification2__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Unique identification, as assigned by a clearing system, to unambiguously identify a member of the clearing system.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="ClrSysId" type="ClearingSystemIdentification2Choice__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">ClearingSystemIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Specification of a pre-agreed offering between clearing agents or the channel through which the payment instruction is processed.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="MmbId" type="HVPSPlus_RestrictedFINXMax28Text">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">MemberIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Identification of a member of a clearing system.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Document">
+        <xs:sequence>
+            <xs:element name="Rct" type="ReceiptV05"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="ExternalClearingSystemIdentification1Code_fixed">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">ExternalClearingSystemIdentification1Code_fixed</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="KRBOK">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">KRBOK</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="FinancialInstitutionIdentification18__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">FinancialInstitutionIdentification18__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Specifies the details to identify a financial institution.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element maxOccurs="1" minOccurs="0" name="BICFI" type="BICFIDec2014Identifier">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">BICFI</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Code allocated to a financial institution by the ISO 9362 Registration Authority as described in ISO 9362 "Banking - Banking telecommunication messages - Business identifier code (BIC)".</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="ClrSysMmbId" type="ClearingSystemMemberIdentification2__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">ClearingSystemMemberIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Information used to identify a member within a clearing system.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element maxOccurs="1" minOccurs="0" name="LEI" type="LEIIdentifier">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">LEI</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Legal entity identifier of the financial institution.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="GenericIdentification1__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">GenericIdentification1__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Information related to an identification, for example party identification or account identification.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="Id" type="BOK_RequestTypeCode">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Identification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Identification assigned by an institution.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="HVPSPlus_DateTime">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">HVPSPlus_DateTime</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:dateTime">
+            <xs:pattern value=".*(\+|-)((0[0-9])|(1[0-3])):[0-5][0-9]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="HVPSPlus_RestrictedFINXMax140Text">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">HVPSPlus_RestrictedFINXMax140Text</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Specifies a character string with a minimum length of 1, and a maximum length of 140 characters, and limited to character set X, that is, 0-9 a-z A-Z / - ? : ( ) . , ' + .</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9a-zA-Z/\-\?:\(\)\.,'\+ ]+"/>
+            <xs:minLength value="1"/>
+            <xs:maxLength value="140"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="HVPSPlus_RestrictedFINXMax28Text">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">HVPSPlus_RestrictedFINXMax28Text</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Specifies a character string with a minimum length of 1, and a maximum length of 28 characters, and limited to character set X, that is, 0-9 a-z A-Z / - ? : ( ) . , ' + .</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9a-zA-Z/\-\?:\(\)\.,'\+ ]+"/>
+            <xs:minLength value="1"/>
+            <xs:maxLength value="28"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="HVPSPlus_RestrictedFINXMax35Text">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">HVPSPlus_RestrictedFINXMax35Text</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Specifies a character string with a minimum length of 1, and a maximum length of 35 characters, and limited to character set X, that is, 0-9 a-z A-Z / - ? : ( ) . , ‘ + .</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9a-zA-Z/\-\?:\(\)\.,'\+ ]+"/>
+            <xs:minLength value="1"/>
+            <xs:maxLength value="35"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ISODate">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">ISODate</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">A particular point in the progression of time in a calendar year expressed in the YYYY-MM-DD format. This representation is defined in "XML Schema Part 2: Datatypes Second Edition - W3C Recommendation 28 October 2004" which is aligned with ISO 8601.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:date"/>
+    </xs:simpleType>
+    <xs:simpleType name="LEIIdentifier">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">LEIIdentifier</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Legal Entity Identifier is a code allocated to a party as described in ISO 17442 "Financial Services - Legal Entity Identifier (LEI)".</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z0-9]{18,18}[0-9]{2,2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="LongPaymentIdentification2__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">LongPaymentIdentification2__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Identifies a payment instruction by a set of characteristics (as per EBA system requirements) which provides an unambiguous identification of the instruction.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element maxOccurs="1" minOccurs="0" name="TxId" type="HVPSPlus_RestrictedFINXMax35Text">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">TransactionIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Unique identification, as assigned by the first instructing agent, to unambiguously identify the transaction that is passed on, unchanged, throughout the entire interbank chain.
+Usage: The transaction identification can be used for reconciliation, tracking or to link tasks relating to the transaction on the interbank level. The instructing agent has to make sure that the transaction identification is unique for a pre-agreed period.
+Usage: this is the former PaymentInstructionReference element.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="UETR" type="UUIDv4Identifier">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">UETR</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Universally unique identifier to provide an end-to-end reference of a payment transaction.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="IntrBkSttlmAmt" type="BOK_ActiveCurrencyandAmount">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">InterBankSettlementAmount</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Amount of money moved between the instructing agent and the instructed agent.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="IntrBkSttlmDt" type="ISODate">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">InterBankSettlementDate</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Date on which the amount of money ceases to be available to the agent that owes it and when the amount of money becomes available to the agent to which it is due.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="InstgAgt" type="BranchAndFinancialInstitutionIdentification6__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">InstructingAgent</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Agent that instructs the next party in the chain to carry out the (set of) instruction(s).</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="InstdAgt" type="BranchAndFinancialInstitutionIdentification6__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">InstructedAgent</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Agent that is instructed by the previous party in the chain to carry out the (set of) instruction(s).</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="MessageHeader9__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">MessageHeader9__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Set of characteristics, such as the identification or the creation date and time, specific to the message.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="MsgId" type="HVPSPlus_RestrictedFINXMax35Text">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">MessageIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Point to point reference, as assigned by the sender, to unambiguously identify the message.
+Usage: The sender has to make sure that MessageIdentification is unique for a pre-agreed period.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="CreDtTm" type="HVPSPlus_DateTime">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">CreationDateTime</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Date and time at which the message was created.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="ReqTp" type="RequestType4Choice__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">RequestType</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Specific actions to be executed through the request.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="OriginalMessageAndIssuer1__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">OriginalMessageAndIssuer1__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Business reference(s) to one or more relevant messages previously sent by other parties, or by the same party issuing this message.
+
+.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="MsgId" type="HVPSPlus_RestrictedFINXMax35Text">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">MessageIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Unambiguous identification of the original message to which the message refers.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="MsgNmId" type="HVPSPlus_RestrictedFINXMax35Text">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">MessageNameIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Specifies the original message name identifier to which the message refers.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="PaymentIdentification6Choice__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">PaymentIdentification6Choice__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Choice between ways of identifying a payment instruction by its references and business identification.</xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+            <xs:element name="LngBizId" type="LongPaymentIdentification2__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">LongBusinessIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Business identification of the payment instruction given by the clearing agent.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="Receipt3__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">Receipt3__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Provides details on the request.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="OrgnlMsgId" type="OriginalMessageAndIssuer1__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">OriginalMessageIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Identification of the original request message.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="OrgnlPmtId" type="PaymentIdentification6Choice__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">OriginalPaymentIdentification</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Identification of the original transaction identification, when the request for which the receipt is generated is a payment transaction.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="ReqHdlg" type="RequestHandling1__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">RequestHandling</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Gives the status of the request.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ReceiptV05">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">ReceiptV05</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Scope&#13;
+The Receipt message is sent by the transaction administrator to a member of the system. It is sent to acknowledge the receipt of one or multiple messages sent previously.&#13;
+The Receipt message is an application receipt acknowledgement and conveys information about the processing of the original message(s).&#13;
+Usage&#13;
+The Receipt message is used when the exchange of messages takes place in an asynchronous manner.&#13;
+This may happen, for instance, when an action is requested from the transaction administrator (a deletion, modification or cancellation). The transaction administrator will first acknowledge the request (with a Receipt message) and then execute it.&#13;
+The message can contain information based on the following elements: reference of the message(s) it acknowledges, the status code (optional) and further explanation:&#13;
+- reference of the message it acknowledges&#13;
+- potentially, a status code and an explanation.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="MsgHdr" type="MessageHeader9__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">MessageHeader</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Common business identification for the message.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="RctDtls" type="Receipt3__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">ReceiptDetails</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Details of the receipt.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="RequestHandling1__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">RequestHandling1__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Explains the status of the related request.</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="StsCd" type="BOK_RequestHandlingStatusCode">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">StatusCode</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Specifies the status of the request, for example the result of the schema validation or a business processing result/error.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element maxOccurs="1" minOccurs="0" name="Desc" type="HVPSPlus_RestrictedFINXMax140Text">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Description</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Description of the status, in free format text.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="RequestType4Choice__1">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">RequestType4Choice__1</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Defines the type of action to be performed in the request.</xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+            <xs:element name="Prtry" type="GenericIdentification1__1">
+                <xs:annotation>
+                    <xs:documentation source="Name" xml:lang="EN">Proprietary</xs:documentation>
+                    <xs:documentation source="Definition" xml:lang="EN">Request type is in proprietary format.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    <xs:simpleType name="UUIDv4Identifier">
+        <xs:annotation>
+            <xs:documentation source="Name" xml:lang="EN">UUIDv4Identifier</xs:documentation>
+            <xs:documentation source="Definition" xml:lang="EN">Universally Unique IDentifier (UUID) version 4, as described in IETC RFC 4122 "Universally Unique IDentifier (UUID) URN Namespace".</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
