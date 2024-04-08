@@ -1,0 +1,104 @@
+
+<!--(ns:CharSet , ns:Fr , ns:To , ns:BizMsgIdr , ns:MsgDefIdr , ns:BizSvc , ns:MktPrctc? , ns:CreDt , ns:BizPrcgDt? , ns:CpyDplct? , ns:PssblDplct? , ns:Prty? , ns:Sgntr? , ns:Rltd?)-->
+<ns:AppHdr xmlns:ns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:CharSet>AC00..D7AF</ns:CharSet>
+    <ns:Fr>
+        <ns:FIId>
+                     
+            <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                     
+            <ns:FinInstnId>
+                <ns:BICFI>7CDQAOKV(2RC)</ns:BICFI>
+                <ns:ClrSysMmbId>
+                    <ns:ClrSysId>
+                        <ns:Cd>KRBOK</ns:Cd>
+                    </ns:ClrSysId>
+                    <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                </ns:ClrSysMmbId>
+                <ns:LEI>34VZAEPIV6KMRFLSXM69</ns:LEI>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:Fr>
+    <ns:To>
+        <ns:FIId>
+                     
+            <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                     
+            <ns:FinInstnId>
+                <ns:BICFI>TTPUWV2C(EY2)</ns:BICFI>
+                <ns:ClrSysMmbId>
+                    <ns:ClrSysId>
+                        <ns:Cd>KRBOK</ns:Cd>
+                    </ns:ClrSysId>
+                    <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                </ns:ClrSysMmbId>
+                <ns:LEI>I7MHCZ2SU1QNSJMZIN30</ns:LEI>
+            </ns:FinInstnId>
+        </ns:FIId>
+    </ns:To>
+    <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
+    <ns:MsgDefIdr>pacs.008.001.08</ns:MsgDefIdr>
+    <ns:BizSvc>bok.rtgs.ctr.01</ns:BizSvc>
+    <ns:MktPrctc>
+        <ns:Regy>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Regy>
+        <ns:Id>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</ns:Id>
+    </ns:MktPrctc>
+    <ns:CreDt>2024-04-08T10:38:48</ns:CreDt>
+    <ns:BizPrcgDt>2024-04-08T10:38:48</ns:BizPrcgDt>
+    <ns:CpyDplct>CODU</ns:CpyDplct>
+    <ns:PssblDplct>true</ns:PssblDplct>
+    <ns:Prty>NORM</ns:Prty>
+    <ns:Sgntr>
+        <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
+    </ns:Sgntr>
+       
+    <!--(ns:CharSet? , ns:Fr , ns:To , ns:BizMsgIdr , ns:MsgDefIdr , ns:BizSvc , ns:CreDt , ns:CpyDplct? , ns:PssblDplct? , ns:Prty? , ns:Sgntr?)-->
+       
+    <ns:Rltd>
+        <ns:CharSet>CharSet1</ns:CharSet>
+        <ns:Fr>
+            <ns:FIId>
+                            
+                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>PXXCTQP4(MDG</ns:BICFI>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>UGHSLEAL5BEJL4H5EC38</ns:LEI>
+                </ns:FinInstnId>
+            </ns:FIId>
+        </ns:Fr>
+        <ns:To>
+            <ns:FIId>
+                            
+                <!--(ns:BICFI? , ns:ClrSysMmbId , ns:LEI?)-->
+                            
+                <ns:FinInstnId>
+                    <ns:BICFI>EQJ7UTOJ(JQC)</ns:BICFI>
+                    <ns:ClrSysMmbId>
+                        <ns:ClrSysId>
+                            <ns:Cd>KRBOK</ns:Cd>
+                        </ns:ClrSysId>
+                        <ns:MmbId>0000000000000000000000000000</ns:MmbId>
+                    </ns:ClrSysMmbId>
+                    <ns:LEI>OLGINQQL9Z5HAAMSZG98</ns:LEI>
+                </ns:FinInstnId>
+            </ns:FIId>
+        </ns:To>
+        <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
+        <ns:MsgDefIdr>00000000000000000000000000000000000</ns:MsgDefIdr>
+        <ns:BizSvc>bok.rtgs.cls.01</ns:BizSvc>
+        <ns:CreDt>2024-04-08T10:38:48</ns:CreDt>
+        <ns:CpyDplct>DUPL</ns:CpyDplct>
+        <ns:PssblDplct>false</ns:PssblDplct>
+        <ns:Prty>NORM</ns:Prty>
+        <ns:Sgntr>
+            <ns1:anyElement xmlns:ns1="http://www.w3.org/2000/09/xmldsig#"/>
+        </ns:Sgntr>
+    </ns:Rltd>
+</ns:AppHdr>
