@@ -52,7 +52,7 @@ function holidayCheck() {
 	안녕하세요<!-- img src="/images/image04.png" height="20px"/-->
 </div>
 <h1 style="color: #004888">
-	<img src="/images/image02.png" height="40px" />&nbsp;<span style="letter-spacing: 3px;">${nameOfTitle} CALENDAR ${yearInt}. ${monthInt}.</span>
+	<img src="/images/image02.png" height="40px" />&nbsp;&nbsp;<span style="letter-spacing: 3px;">${nameOfTitle} CALENDAR ${yearInt}. ${monthInt}.</span>
 	<!--img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/-->
 </h1>
 	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt-1 }&key=&value=&filterKey=${filterKey}">이전달</a> |
