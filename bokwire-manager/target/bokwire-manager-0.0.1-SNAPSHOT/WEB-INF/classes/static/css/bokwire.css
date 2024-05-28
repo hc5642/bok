@@ -1,5 +1,21 @@
+
+@font-face{font-family:se-nanumsquare;
+font-weight:400;
+src:url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.eot?iefix") format("embedded-opentype"),
+url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.woff2") format("woff2"),
+url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.woff") format("woff"),
+url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.ttf") format("truetype")}
+
+@font-face{font-family:se-nanumsquare;
+font-weight:700;
+src:
+url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.eot?iefix") format("embedded-opentype"),
+url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.woff2") format("woff2"),
+url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.woff") format("woff"),
+url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.ttf") format("truetype")}
+
 body {
-	font-family:'Malgun Gothic';
+	font-family:'se-nanumsquare';
 	font-size:9pt;
 }
 
@@ -14,7 +30,7 @@ textarea {
 }
 
 input {
-	font-family:'Malgun Gothic';
+	font-family:'se-nanumsquare';
 	font-size:9pt;
 }
 
@@ -25,7 +41,7 @@ xmp {
 
 table {
 	border-collapse:collapse;
-	border-sytle:solid;
+	border-style:solid;
 	/*width:780px; */
 	border-top:#6AB4CC 2px solid;
 	border-left:#EFEFEF 1px solid;
@@ -59,6 +75,7 @@ nobr {
 }
 
 img {vertical-align:middle}
+
 
 
 

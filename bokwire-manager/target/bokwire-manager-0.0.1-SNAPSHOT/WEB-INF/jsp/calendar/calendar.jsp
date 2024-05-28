@@ -49,11 +49,11 @@ function holidayCheck() {
 </head>
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 0px; padding-top:0px;">
-	안녕하세요<!-- img src="/images/image04.png" height="20px"/-->
+	안녕하세요&nbsp;&nbsp;
+	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/>
 </div>
-<h1 style="color: #004888">
+<h1 style="color: #004888; font-family: Corbel;">
 	<img src="/images/image02.png" height="40px" />&nbsp;&nbsp;<span style="letter-spacing: 3px;">${nameOfTitle} CALENDAR ${yearInt}. ${monthInt}.</span>
-	<!--img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/-->
 </h1>
 	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt-1 }&key=&value=&filterKey=${filterKey}">이전달</a> |
 	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt+1 }&key=&value=&filterKey=${filterKey}">다음달</a> | 
