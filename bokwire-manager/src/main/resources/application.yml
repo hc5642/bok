@@ -1,6 +1,6 @@
 
 server:
-  port: 80
+  port: 61616
   tomcat:
     keep-alive-timeout: 35
   
