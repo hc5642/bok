@@ -121,6 +121,7 @@ public class BokwireManagerCtl {
 		model.addAttribute("nextMonth", nextMonth);
 		model.addAttribute("startDay", startDay);
 		model.addAttribute("filterKey", filterKey);
+		model.addAttribute("nameOfTitle", name.toUpperCase());
 		logger.info("---------------------------------------");
 		return "calendar/calendar";
 	}
@@ -177,6 +178,7 @@ public class BokwireManagerCtl {
 		model.addAttribute("contents2", result2);
 		model.addAttribute("nextYear", nextYear);
 		model.addAttribute("nextMonth", nextMonth);
+		model.addAttribute("nameOfTitle", name.toUpperCase());
 		logger.info("---------------------------------------");
 		return "calendar/calendar";
 	}
