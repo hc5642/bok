@@ -49,7 +49,7 @@ function holidayCheck() {
 </head>
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 0px; padding-top:0px;">
-	<img src="/images/image04.png" height="50px"/>
+	안녕하세요<!-- img src="/images/image04.png" height="20px"/-->
 </div>
 <h1 style="color: #004888">
 	<img src="/images/image02.png" height="40px" />&nbsp;<span style="letter-spacing: 3px;">${nameOfTitle} CALENDAR ${yearInt}. ${monthInt}.</span>
