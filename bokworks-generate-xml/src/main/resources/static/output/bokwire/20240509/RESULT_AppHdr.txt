@@ -34,6 +34,6 @@
     </ns:To>
     <ns:BizMsgIdr>00000000000000000000000000000000000</ns:BizMsgIdr>
     <ns:MsgDefIdr>pacs.009.001.08</ns:MsgDefIdr>
-    <ns:BizSvc>bok.rtgs.gtr.01</ns:BizSvc>
-    <ns:CreDt>2024-05-09T17:07:36</ns:CreDt>
+    <ns:BizSvc>bok.rtgs.gtr.xbrdr.01</ns:BizSvc>
+    <ns:CreDt>2024-05-09T17:32:43</ns:CreDt>
 </ns:AppHdr>

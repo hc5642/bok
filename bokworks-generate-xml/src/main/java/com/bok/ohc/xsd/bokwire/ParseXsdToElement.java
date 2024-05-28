@@ -43,15 +43,15 @@ public class ParseXsdToElement {
 		// XML Document 객체 생성
 		try {
 	        XSInstance INSTANCE = new XSInstance();
-			INSTANCE.minimumElementsGenerated 	= 1; 		// 최소 엘리먼트 생성 (MIN:0, MAX:1)
-			INSTANCE.minimumListItemsGenerated 	= 1; 		// 최소 배열 생성 (MIN:0, MAX:1)
-			INSTANCE.maximumRecursionDepth 		= 1; 		// 최대 재귀 깊이 (MIN:0, MAX:1)
+			INSTANCE.minimumElementsGenerated 	= 0; 		// 최소 엘리먼트 생성 (MIN:0, MAX:1)
+			INSTANCE.minimumListItemsGenerated 	= 0; 		// 최소 배열 생성 (MIN:0, MAX:1)
+			INSTANCE.maximumRecursionDepth 		= 0; 		// 최대 재귀 깊이 (MIN:0, MAX:1)
 			INSTANCE.maximumListItemsGenerated 	= 1; 		// 최대 배열 생성 고정
 			INSTANCE.maximumElementsGenerated 	= 1; 		// 최대 엘리먼트 생성 고정
-			INSTANCE.generateOptionalElements 	= true; 	// 옵셔널 엘리먼트 생성 (MIN:false, MAX:true)
-			INSTANCE.generateOptionalAttributes = true; 	// 옵셔널 애트리뷰트 생성 (MIN:false, MAX:true)
+			INSTANCE.generateOptionalElements 	= false; 	// 옵셔널 엘리먼트 생성 (MIN:false, MAX:true)
+			INSTANCE.generateOptionalAttributes = false; 	// 옵셔널 애트리뷰트 생성 (MIN:false, MAX:true)
 			INSTANCE.generateAllChoices 		= true;		// 모든 선택 생성 고정
-			INSTANCE.generateDefaultAttributes 	= true;	 	// 옵셔널 디폴트 애트리뷰트 생성
+			INSTANCE.generateDefaultAttributes 	= false;	 // 옵셔널 디폴트 애트리뷰트 생성 (MIN:false)
 			INSTANCE.generateFixedAttributes 	= true;		// 고정 애트리뷰트 생성
 			INSTANCE.sampleValueGenerator = new SampleValueGeneratorImpl();
 			
@@ -60,7 +60,7 @@ public class ParseXsdToElement {
 			
 			XMLDocument sample = new XMLDocument(
 					new StreamResult(
-						new File("C:\\Users\\bok\\git\\bok\\bokworks-generate-xml\\src\\main\\resources\\static\\output\\bokwire\\20240404\\RESULT_"+postFix+".txt")), 
+						new File("C:\\Users\\bok\\git\\bok\\bokworks-generate-xml\\src\\main\\resources\\static\\output\\bokwire\\20240509\\RESULT_"+postFix+".txt")), 
 						true, 4, "utf-8");
 			try {
 				INSTANCE.generate(xsModel, root, sample);
@@ -104,24 +104,20 @@ class SampleValueGeneratorImpl implements SampleValueGenerator {
 			return result.toString();
 		} else {
 			String pattern = simpleType.getLexicalPattern().toString();
-//			System.out.print("--- PATTERN " + pattern + "\t");
 			pattern = pattern.substring(1);
 			pattern = pattern.substring(0,pattern.length()-1);
-//			System.out.print(pattern + "\t");
 			if ( simpleType.getPrimitiveType().getBuiltInKind() == 2 ) {
 				if ( pattern.trim().length() > 2 ) {
 					String retValue = null;
 					try {
 						retValue = new RandomStringGenerator().generateByRegex(pattern);
 					} catch ( Exception e ) {
-						
-						if ( pattern.contains("{1,") ) {
+						/*if ( pattern.contains("{1,") ) {
 							pattern = "[0-9a-zA-Z]{" + pattern.substring(pattern.lastIndexOf("{1,") + 3);
-						}
-//						System.out.print(pattern + "\t");
-						retValue = new RandomStringGenerator().generateByRegex(pattern);
+						}*/
+						//retValue = new RandomStringGenerator().generateByRegex(pattern);
+						System.err.println(e);
 					}
-//					System.out.println(retValue);
 					return retValue;
 				}
 			}

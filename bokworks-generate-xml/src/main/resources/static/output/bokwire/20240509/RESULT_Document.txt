@@ -2,7 +2,7 @@
     <ns:FICdtTrf>
         <ns:GrpHdr>
             <ns:MsgId>00000000000000000000000000000000000</ns:MsgId>
-            <ns:CreDtTm>2024-05-09T17:07:36</ns:CreDtTm>
+            <ns:CreDtTm>2024-05-09T17:32:43</ns:CreDtTm>
             <ns:NbOfTxs>1</ns:NbOfTxs>
                      
             <!--(ns:SttlmMtd , ns:ClrSys , ns:InstgRmbrsmntAgt? , ns:InstdRmbrsmntAgt?)-->
@@ -23,7 +23,7 @@
                      
             <ns:PmtId>
                 <ns:EndToEndId>00000000000000000000000000000000000</ns:EndToEndId>
-                <ns:UETR>23949fa7-6b00-4137-b37b-4ff882b937ca</ns:UETR>
+                <ns:UETR>b0a08436-1765-4138-b56d-e6cb9cde3cf3</ns:UETR>
             </ns:PmtId>
                      
             <!--(ns:InstrPrty? , ns:SvcLvl , ns:LclInstrm , ns:CtgyPurp?)-->
@@ -33,8 +33,8 @@
                 <!--(ns:Cd | ns:Prtry)-->
                             
                 <ns:SvcLvl>
-                    <ns:Cd>0000</ns:Cd>
                     <ns:Prtry>00000000000000000000000000000000000</ns:Prtry>
+                    <ns:Cd>0000</ns:Cd>
                 </ns:SvcLvl>
                 <ns:LclInstrm>
                     <ns:Prtry>GTR</ns:Prtry>
@@ -100,6 +100,14 @@
                     </ns:ClrSysMmbId>
                 </ns:FinInstnId>
             </ns:Cdtr>
+                     
+            <!--(ns:Cd? , ns:InstrInf?)-->
+                     
+            <ns:InstrForCdtrAgt/>
+                     
+            <!--(ns:InstrInf?)-->
+                     
+            <ns:InstrForNxtAgt/>
         </ns:CdtTrfTxInf>
     </ns:FICdtTrf>
 </ns:Document>
