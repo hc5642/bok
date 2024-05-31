@@ -1,21 +1,21 @@
 
-@font-face{font-family:se-nanumsquare;
+@font-face{font-family:NanumSquareNeo;
 font-weight:400;
-src:url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.eot?iefix") format("embedded-opentype"),
-url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.woff2") format("woff2"),
-url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.woff") format("woff"),
-url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.ttf") format("truetype")}
+src:url("/fonts/NanumSquareNeo-bRg.eot?iefix") format("embedded-opentype"),
+url("/fonts/NanumSquareNeo-bRg.woff2") format("woff2"),
+url("/fonts/NanumSquareNeo-bRg.woff") format("woff"),
+url("/fonts/NanumSquareNeo-bRg.ttf") format("truetype")}
 
-@font-face{font-family:se-nanumsquare;
+@font-face{font-family:NanumSquareNeo;
 font-weight:700;
 src:
-url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.eot?iefix") format("embedded-opentype"),
-url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.woff2") format("woff2"),
-url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.woff") format("woff"),
-url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.ttf") format("truetype")}
+url("/fonts/NanumSquareNeo-cBd.eot?iefix") format("embedded-opentype"),
+url("/fonts/NanumSquareNeo-cBd.woff2") format("woff2"),
+url("/fonts/NanumSquareNeo-cBd.woff") format("woff"),
+url("/fonts/NanumSquareNeo-cBd.ttf") format("truetype")}
 
 body {
-	font-family:'se-nanumsquare';
+	font-family:'NanumSquareNeo';
 	font-size:9pt;
 }
 
@@ -30,7 +30,7 @@ textarea {
 }
 
 input {
-	font-family:'se-nanumsquare';
+	font-family:'NanumSquareNeo';
 	font-size:9pt;
 }
 

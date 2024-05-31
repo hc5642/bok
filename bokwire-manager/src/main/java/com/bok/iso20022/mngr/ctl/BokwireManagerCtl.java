@@ -1,5 +1,8 @@
 package com.bok.iso20022.mngr.ctl;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.Calendar;
 import java.util.Map;
 
@@ -9,6 +12,12 @@ import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.InputStreamResource;
+import org.springframework.core.io.Resource;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -186,7 +195,29 @@ public class BokwireManagerCtl {
 	@RequestMapping("/hello")
 	public String hello() {
 		return "index";
-	} 
+	}
+	
+	@RequestMapping(value="/download")
+	public ResponseEntity<Resource> download(
+			@RequestParam(value="path") String path,
+			HttpServletRequest request, HttpServletResponse response)  throws Exception {
+		logger.info("---------------------------------------");
+		logger.info("--- URL : /manager/download (GET)");
+		logger.info("--- REQUEST PARAM [path]	=["+path+"]");
+		
+		File file = new File(path);
+		if ( file.isDirectory() == true ) {
+			return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+					.contentType(MediaType.parseMediaType("text"))
+					.body(null);
+		}
+		Resource resource = new InputStreamResource(new FileInputStream(file));
+		logger.info("---------------------------------------");
+		return ResponseEntity.ok()
+				.contentType(MediaType.parseMediaType("application/octet-stream"))
+				.header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=" + file.getName())
+				.body(resource);
+	}
 	
 
 }
