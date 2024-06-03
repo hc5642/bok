@@ -29,6 +29,10 @@ function openSearch(name, year) {
 	var key = document.getElementById("searchkey").value;
 	window.open('/manager/calfind?name=' + name + '&year=' + year + '&searchkey=' + key,'FEP CALENDER SEARCH','width=700, height=850');
 }
+function openDownload() {
+	var path = document.getElementById("downloadFile").value;
+	window.open('/manager/download?path=' + path,'DOWNLOAD','width=700, height=250');
+}
 function holidayCheck() {
 	var table = document.getElementById("mainTable");
 	var tds = table.getElementsByTagName("td");
@@ -49,11 +53,12 @@ function holidayCheck() {
 </head>
 <body onload="holidayCheck();">
 <div style="float: right; padding-right: 0px; padding-top:0px;">
-	안녕하세요&nbsp;&nbsp;
-	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/>
+	안녕하세요? 오늘은 ${yearInt }년 ${monthInt }월 ${dayInt }일 입니다.
+	<img src="/images/image02.png" height="40px" />
 </div>
-<h1 style="color: #004888; font-family: Corbel;">
-	<img src="/images/image02.png" height="40px" />&nbsp;&nbsp;<span style="letter-spacing: 3px;">${nameOfTitle} CALENDAR ${yearInt}. ${monthInt}.</span>
+<h1 style="color: #004888;">
+	<img src="/images/profile.jpg" style="width: 40px ;border-radius: 70%; overflow: hidden; border:1px solid #CCC"/>
+	&nbsp;${yearInt}년 ${monthInt}월 캘린더 (${name})
 </h1>
 	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt-1 }&key=&value=&filterKey=${filterKey}">이전달</a> |
 	<a href="/manager/calendar/${name}?year=${yearInt }&month=${monthInt+1 }&key=&value=&filterKey=${filterKey}">다음달</a> | 
@@ -62,6 +67,8 @@ function holidayCheck() {
 	| 달력검색 : <input type="text" id="searchkey"  style="width: 150px;" autocomplete="off"/> <input type="button" value="SEARCH" onclick="openSearch('${name}', '${yearInt}');" />
 	| 필터 : <input type="text" id="filterKey" style="width: 150px;" autocomplete="off" value="${filterKey}"/> 
 	<input type="button" value="필터" onclick="location.href='/manager/calendar/${name}?year=${yearInt}&month=${monthInt}&filterKey='+document.getElementById('filterKey').value;" />
+	| 다운로드 : <input type="text" id="downloadFile" style="width: 150px" value="/home/jenkins/bok-manager/calendar.ohhyonchul.2024.dat" />
+	<input type="button" value="다운로드" onclick="openDownload()" />
 <table style="width: 100%; table-layout:fixed;" border=1 id="mainTable">
 <tr>
 	<th style="width: 10%;">일</th>
@@ -142,6 +149,9 @@ function holidayCheck() {
 </c:if>
 </c:forEach>
 </table>
+<p align="center">
+	<img src="/images/image04.png" height="10px"/>
+</p>
 <form name="frm" action="/manager/calendar/${name}" method="POST">
 	<input type="hidden" name="key" value="" />
 	<input type="hidden" name="value" value="" />
