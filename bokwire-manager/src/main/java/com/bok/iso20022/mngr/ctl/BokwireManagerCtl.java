@@ -2,7 +2,6 @@ package com.bok.iso20022.mngr.ctl;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Calendar;
 import java.util.Map;
 
@@ -130,7 +129,6 @@ public class BokwireManagerCtl {
 		model.addAttribute("nextMonth", nextMonth);
 		model.addAttribute("startDay", startDay);
 		model.addAttribute("filterKey", filterKey);
-		model.addAttribute("nameOfTitle", name.toUpperCase());
 		logger.info("---------------------------------------");
 		return "calendar/calendar";
 	}
@@ -187,7 +185,6 @@ public class BokwireManagerCtl {
 		model.addAttribute("contents2", result2);
 		model.addAttribute("nextYear", nextYear);
 		model.addAttribute("nextMonth", nextMonth);
-		model.addAttribute("nameOfTitle", name.toUpperCase());
 		logger.info("---------------------------------------");
 		return "calendar/calendar";
 	}
