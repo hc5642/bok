@@ -3,7 +3,9 @@ package com.bok.iso20022.mngr.ctl;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -214,6 +216,38 @@ public class BokwireManagerCtl {
 				.contentType(MediaType.parseMediaType("application/octet-stream"))
 				.header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=" + file.getName())
 				.body(resource);
+	}
+	
+	@GetMapping("/calfind")
+	public String calfind(
+			@RequestParam(value="name", required=false) String name,
+			@RequestParam(value="year", required=false) String year,
+			@RequestParam(value="searchkey", required=false) String searchKey,
+			Model model
+			) {
+		logger.info("---------------------------------------");
+		logger.info("--- APP NAME : /calendar/" + name + "/" + year + "/" + searchKey);
+		model.addAttribute("name", name);
+		model.addAttribute("year", year);
+		model.addAttribute("searchkey", searchKey);
+		if ( name == null || year == null ) {
+			model.addAttribute("result", new HashMap<String, String>());
+			logger.info("---------------------------------------");
+			return "calendar/calfind";
+		}
+		int yearInt = Integer.parseInt(year);
+		String filePath = calendarPath+name+"."+yearInt+".dat";
+		Map<String, String> data = svc.loadMap(filePath);
+		Map<String, String> result = new TreeMap<String, String>();
+		for ( String key : data.keySet() ) {
+			if ( data.get(key).contains(searchKey) ) {
+				logger.info("--- RESULT : ["+key+"]=["+data.get(key)+"]");
+				result.put(key, data.get(key).replaceAll(searchKey, "<span style='background-color: yellow;'>" + searchKey + "</span>"));
+			}
+		}
+		model.addAttribute("result", result);
+		logger.info("---------------------------------------");
+		return "calendar/calfind";
 	}
 	
 
